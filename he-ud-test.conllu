@@ -2484,7 +2484,7 @@
 12	קשה	_	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
 13	,	_	PUNCT	PUNCT	_	5	punct	_	_
 14	עם	_	ADP	ADP	_	16	case	_	_
-15	אותה	_	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=TODO	16	det	_	_
+15	אותה	_	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	det	_	_
 16	חמישיה	_	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
 17	רוברטס	_	PROPN	PROPN	_	16	nmod	_	_
 18	,	_	PUNCT	PUNCT	_	17	punct	_	_
@@ -5705,7 +5705,7 @@
 2	ה	_	DET	DET	PronType=Art	3	det:def	_	_
 3	מפה	_	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
 4	זו	_	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
-5	אותה	_	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=TODO	6	det	_	_
+5	אותה	_	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	det	_	_
 6	פיסה	_	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 7	קטנה	_	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
 8	של	_	PART	PART	Case=Gen	9	case:gen	_	_
@@ -9702,7 +9702,7 @@
 8	גדול	_	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
 9	יותר	_	ADV	ADV	_	8	advmod	_	_
 10	בעל	_	NOUN	NOUN	Definite=Red|Gender=Masc|Number=Sing	6	acl	_	_
-11	אותה	_	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=TODO	12	det	_	_
+11	אותה	_	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	det	_	_
 12	תכונה	_	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod:smixut	_	_
 13	?	_	PUNCT	PUNCT	_	3	punct	_	_
 
@@ -9758,7 +9758,7 @@
 8	אחריות	_	NOUN	NOUN	Gender=Fem|Number=Sing	18	nsubj	_	_
 9	על	_	ADP	ADP	_	10	case	_	_
 10	שגיאות	_	NOUN	NOUN	Gender=Fem|Number=Plur	8	nmod	_	_
-11	כלשהן	_	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=TODO	10	amod	_	_
+11	כלשהן	_	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Ind	10	amod	_	_
 12-13	שיימצאו	_	_	_	_	_	_	_	_
 12	ש	_	SCONJ	SCONJ	_	13	mark	_	_
 13	יימצאו	_	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Fut	10	acl:relcl	_	_
@@ -9780,7 +9780,7 @@
 5	מתקיים	_	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|VerbForm=Part	0	root	_	_
 6	ללא	_	ADP	ADP	_	7	case	_	_
 7	תמיכה	_	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
-8	כלשהי	_	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=TODO	7	amod	_	_
+8	כלשהי	_	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Ind	7	amod	_	_
 9	.	_	PUNCT	PUNCT	_	5	punct	_	_
 
 1	דמי	_	NOUN	NOUN	Definite=Red|Gender=Masc|Number=Plur	21	subj:cop	_	_
@@ -11613,7 +11613,7 @@
 43	ממונים	_	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|VerbForm=Part	39	acl:relcl	_	_
 44	על	_	ADP	ADP	_	45	case	_	_
 45	אכיפת	_	NOUN	NOUN	Definite=Red|Gender=Fem|Number=Sing	43	iobj	_	_
-46	אותה	_	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=TODO	47	det	_	_
+46	אותה	_	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	47	det	_	_
 47	תקנה	_	NOUN	NOUN	Gender=Fem|Number=Sing	45	nmod:smixut	_	_
 48	.	_	PUNCT	PUNCT	_	20	punct	_	_
 
@@ -12541,7 +12541,7 @@
 33	עשירה	_	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
 34-35	באותה	_	_	_	_	_	_	_	_
 34	ב	_	ADP	ADP	_	37	case	_	_
-35	אותה	_	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=TODO	37	det	_	_
+35	אותה	_	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	det	_	_
 36-37	המידה	_	_	_	_	_	_	_	_
 36	ה	_	DET	DET	PronType=Art	37	det:def	_	_
 37	מידה	_	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
@@ -12650,7 +12650,7 @@
 20	ה	_	DET	DET	PronType=Art	21	det:def	_	_
 21	מפורסמת	_	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	_
 22	בעלת	_	NOUN	NOUN	Definite=Red|Gender=Fem|Number=Sing	16	acl	_	_
-23	אותו	_	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=TODO	25	det	_	_
+23	אותו	_	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	det	_	_
 24-25	השם	_	_	_	_	_	_	_	_
 24	ה	_	DET	DET	PronType=Art	25	det:def	_	_
 25	שם	_	NOUN	NOUN	Gender=Masc|Number=Sing	22	nmod:smixut	_	_
@@ -12762,7 +12762,7 @@
 33	מקרים	_	NOUN	NOUN	Gender=Masc|Number=Plur	35	nmod	_	_
 34	רבים	_	ADJ	ADJ	Gender=Masc|Number=Plur	33	amod	_	_
 35	סוג	_	NOUN	NOUN	Gender=Masc|Number=Sing	24	conj	_	_
-36	כלשהו	_	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=TODO	35	amod	_	_
+36	כלשהו	_	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Ind	35	amod	_	_
 37	של	_	PART	PART	Case=Gen	38	case:gen	_	_
 38	פסטה	_	NOUN	NOUN	Gender=Fem|Number=Sing	35	nmod	_	_
 39	.	_	PUNCT	PUNCT	_	18	punct	_	_
@@ -13644,7 +13644,7 @@
 3	פטוציני	_	PROPN	PROPN	_	1	dobj	_	_
 4	אלפרדו	_	PROPN	PROPN	_	3	name	_	_
 5	,	_	PUNCT	PUNCT	_	3	punct	_	_
-6	אותה	_	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=TODO	7	det	_	_
+6	אותה	_	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	det	_	_
 7	מנה	_	NOUN	NOUN	Gender=Fem|Number=Sing	3	appos	_	_
 8	רומאית	_	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	_
 9	קלאסית	_	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	_
