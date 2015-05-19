@@ -9,7 +9,7 @@ Hebrew Constituency Treebank (v2).
 STRUCTURE
 
 This directory contains a corpus of sentences annotated using Universal Dependencies annotation.
-The corpus comprises 115,535 tokens (158,855 words) and 6,216, taken from the `Ha'aretz` newspaper.
+The corpus comprises 115,535 tokens (158,855 words) and 6,216 sentences, taken from the `Ha'aretz` newspaper.
 The trees were manually annotated into phrase-structure trees, and then semi-automatically converted
 into Universal Dependencies.
 
