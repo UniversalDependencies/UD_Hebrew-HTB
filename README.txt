@@ -73,5 +73,5 @@ is forthcoming.
 
 Documentation status: stub
 Data source: unknown
-Data available sice: UD v1.1
+Data available since: UD v1.1
 License: CC BY-NC-SA 4.0
