@@ -458,7 +458,7 @@
 27	נבחרת	_	NOUN	NOUN	Gender=Fem|Number=Sing	25	nmod:smixut	_	_
 28	.	_	PUNCT	PUNCT	_	2	punct	_	_
 
-1	מי	_	ADV	ADV	PronType=Int	15	subj:cop	_	_
+1	מי	_	ADV	ADV	PronType=Int	15	nsubj:cop	_	_
 2-3	שיהנה	_	_	_	_	_	_	_	_
 2	ש	_	SCONJ	SCONJ	_	3	mark	_	_
 3	יהנה	_	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut	1	acl:relcl	_	_
@@ -948,7 +948,7 @@
 
 1-2	הדיעה	_	_	_	_	_	_	_	_
 1	ה	_	DET	DET	PronType=Art	2	det:def	_	_
-2	דיעה	_	NOUN	NOUN	Gender=Fem|Number=Sing	17	subj:cop	_	_
+2	דיעה	_	NOUN	NOUN	Gender=Fem|Number=Sing	17	nsubj:cop	_	_
 3-4	הרווחת	_	_	_	_	_	_	_	_
 3	ה	_	SCONJ	SCONJ	_	4	mark	_	_
 4	רווחת	_	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part	2	acl:relcl	_	_
@@ -1615,7 +1615,7 @@
 6	אמר	_	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past	0	root	_	_
 7-8	שישראל	_	_	_	_	_	_	_	_
 7	ש	_	SCONJ	SCONJ	_	10	mark	_	_
-8	ישראל	_	PROPN	PROPN	_	10	subj:cop	_	_
+8	ישראל	_	PROPN	PROPN	_	10	nsubj:cop	_	_
 9	היא	_	VERB	VERB	Gender=Fem|Negative=Pos|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	10	cop	_	_
 10	מדינה	_	NOUN	NOUN	Gender=Fem|Number=Sing	6	ccomp	_	_
 11	קטנה	_	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
@@ -2015,7 +2015,7 @@
 6	מכבי	_	PROPN	PROPN	_	0	root	_	_
 7	,	_	PUNCT	PUNCT	_	6	punct	_	_
 8	אולם	_	CONJ	CONJ	_	6	cc	_	_
-9	שחקני	_	NOUN	NOUN	Definite=Red|Gender=Masc|Number=Plur	13	subj:cop	_	_
+9	שחקני	_	NOUN	NOUN	Definite=Red|Gender=Masc|Number=Plur	13	nsubj:cop	_	_
 10	גבת	_	PROPN	PROPN	_	9	nmod:smixut	_	_
 11	הם	_	VERB	VERB	Gender=Masc|Negative=Pos|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	13	cop	_	_
 12-13	הראויים	_	_	_	_	_	_	_	_
@@ -4816,7 +4816,7 @@
 7	,	_	PUNCT	PUNCT	_	2	punct	_	_
 8	כי	_	SCONJ	SCONJ	_	13	mark	_	_
 9	"	_	PUNCT	PUNCT	_	13	punct	_	_
-10	טענת	_	NOUN	NOUN	Definite=Red|Gender=Fem|Number=Sing	13	subj:cop	_	_
+10	טענת	_	NOUN	NOUN	Definite=Red|Gender=Fem|Number=Sing	13	nsubj:cop	_	_
 11	קיזוז	_	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod:smixut	_	_
 12	היא	_	VERB	VERB	Gender=Fem|Negative=Pos|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	13	cop	_	_
 13	טענת	_	NOUN	NOUN	Definite=Red|Gender=Fem|Number=Sing	2	ccomp	_	_
@@ -5313,7 +5313,7 @@
 12	שונות	_	ADJ	ADJ	Gender=Fem|Number=Plur	11	amod	_	_
 13	.	_	PUNCT	PUNCT	_	4	punct	_	_
 
-1	בן	_	PROPN	PROPN	_	5	subj:cop	_	_
+1	בן	_	PROPN	PROPN	_	5	nsubj:cop	_	_
 2	זקן	_	PROPN	PROPN	_	1	name	_	_
 3	היא	_	VERB	VERB	Gender=Fem|Negative=Pos|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	5	cop	_	_
 4	"	_	PUNCT	PUNCT	_	5	punct	_	_
@@ -5359,7 +5359,7 @@
 12	סימפטית	_	ADJ	ADJ	Gender=Fem|Number=Sing	9	conj	_	_
 13	.	_	PUNCT	PUNCT	_	5	punct	_	_
 
-1	סרוסי	_	PROPN	PROPN	_	3	subj:cop	_	_
+1	סרוסי	_	PROPN	PROPN	_	3	nsubj:cop	_	_
 2	הוא	_	VERB	VERB	Gender=Masc|Negative=Pos|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	3	cop	_	_
 3	מלחין	_	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 4-5	שראוי	_	_	_	_	_	_	_	_
@@ -5674,7 +5674,7 @@
 15	.	_	PUNCT	PUNCT	_	3	punct	_	_
 
 1-2	שמה	_	_	_	_	_	_	_	_
-1	שמה	_	NOUN	NOUN	Gender=Masc|Number=Sing	4	subj:cop	_	_
+1	שמה	_	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj:cop	_	_
 2	היא_	_	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	_
 3	הוא	_	VERB	VERB	Gender=Masc|Negative=Pos|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	4	cop	_	_
 4	סיוט	_	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
@@ -7906,7 +7906,7 @@
 
 1-2	המועד	_	_	_	_	_	_	_	_
 1	ה	_	DET	DET	PronType=Art	2	det:def	_	_
-2	מועד	_	NOUN	NOUN	Gender=Masc|Number=Sing	9	subj:cop	_	_
+2	מועד	_	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj:cop	_	_
 3-4	המוצע	_	_	_	_	_	_	_	_
 3	ה	_	SCONJ	SCONJ	_	4	mark	_	_
 4	מוצע	_	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|VerbForm=Part	2	acl:relcl	_	_
@@ -8881,7 +8881,7 @@
 36	מוזיאון	_	NOUN	NOUN	Gender=Masc|Number=Sing	34	nmod:smixut	_	_
 37	.	_	PUNCT	PUNCT	_	3	punct	_	_
 
-1	ביצי	_	NOUN	NOUN	Definite=Red|Gender=Fem|Number=Plur	7	subj:cop	_	_
+1	ביצי	_	NOUN	NOUN	Definite=Red|Gender=Fem|Number=Plur	7	nsubj:cop	_	_
 2-3	הפסחא	_	_	_	_	_	_	_	_
 2	ה	_	DET	DET	PronType=Art	3	det:def	_	_
 3	פסחא	_	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod:smixut	_	_
@@ -8904,7 +8904,7 @@
 15	מועצות	_	NOUN	NOUN	Gender=Fem|Number=Plur	13	nmod:smixut	_	_
 16	.	_	PUNCT	PUNCT	_	7	punct	_	_
 
-1	מנהג	_	NOUN	NOUN	Gender=Masc|Number=Sing	4	subj:cop	_	_
+1	מנהג	_	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj:cop	_	_
 2	עתיק	_	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
 3	הוא	_	VERB	VERB	Gender=Masc|Negative=Pos|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	4	cop	_	_
 4	לשלוח	_	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf	0	root	_	_
@@ -9668,7 +9668,7 @@
 15	:	_	PUNCT	PUNCT	_	20	punct	_	_
 16-17	המספר	_	_	_	_	_	_	_	_
 16	ה	_	DET	DET	PronType=Art	17	det:def	_	_
-17	מספר	_	NOUN	NOUN	Gender=Masc|Number=Sing	20	subj:cop	_	_
+17	מספר	_	NOUN	NOUN	Gender=Masc|Number=Sing	20	nsubj:cop	_	_
 18	17	_	NUM	NUM	_	17	nummod	_	_
 19	הוא	_	VERB	VERB	Gender=Masc|Negative=Pos|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	20	cop	_	_
 20	מספר	_	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
@@ -9783,7 +9783,7 @@
 8	כלשהי	_	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Ind	7	amod	_	_
 9	.	_	PUNCT	PUNCT	_	5	punct	_	_
 
-1	דמי	_	NOUN	NOUN	Definite=Red|Gender=Masc|Number=Plur	21	subj:cop	_	_
+1	דמי	_	NOUN	NOUN	Definite=Red|Gender=Masc|Number=Plur	21	nsubj:cop	_	_
 2-3	המנוי	_	_	_	_	_	_	_	_
 2	ה	_	DET	DET	PronType=Art	3	det:def	_	_
 3	מנוי	_	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod:smixut	_	_
@@ -11309,7 +11309,7 @@
 57	מפוקפקים	_	ADJ	ADJ	Gender=Masc|Number=Plur	55	amod	_	_
 58	.	_	PUNCT	PUNCT	_	3	punct	_	_
 
-1	גביית	_	NOUN	NOUN	Definite=Red|Gender=Fem|Number=Sing	4	subj:cop	_	_
+1	גביית	_	NOUN	NOUN	Definite=Red|Gender=Fem|Number=Sing	4	nsubj:cop	_	_
 2	קנסות	_	NOUN	NOUN	Gender=Masc|Number=Plur	1	nmod:smixut	_	_
 3	היא	_	VERB	VERB	Gender=Fem|Negative=Pos|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	4	cop	_	_
 4	מלאכה	_	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
@@ -12263,7 +12263,7 @@
 
 1-2	המינסטרונה	_	_	_	_	_	_	_	_
 1	ה	_	DET	DET	PronType=Art	2	det:def	_	_
-2	מינסטרונה	_	PROPN	PROPN	_	18	subj:cop	_	_
+2	מינסטרונה	_	PROPN	PROPN	_	18	nsubj:cop	_	_
 3-5	והפסטה	_	_	_	_	_	_	_	_
 3	ו	_	CONJ	CONJ	_	2	cc	_	_
 4	ה	_	DET	DET	PronType=Art	5	det:def	_	_
@@ -12502,7 +12502,7 @@
 
 1-2	הטירמיסו	_	_	_	_	_	_	_	_
 1	ה	_	DET	DET	PronType=Art	2	det:def	_	_
-2	טירמיסו	_	NOUN	NOUN	Gender=Masc|Number=Sing	6	subj:cop	_	_
+2	טירמיסו	_	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj:cop	_	_
 3-4	שלה	_	_	_	_	_	_	_	_
 3	שלה	_	PART	PART	Case=Gen	4	case:gen	_	_
 4	היא_	_	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	_
@@ -13487,7 +13487,7 @@
 1	אחד	_	NUM	NUM	Definite=Red|Gender=Masc|Number=Sing	3	nummod	_	_
 2-3	הדברים	_	_	_	_	_	_	_	_
 2	ה	_	DET	DET	PronType=Art	3	det:def	_	_
-3	דברים	_	NOUN	NOUN	Gender=Masc|Number=Plur	11	subj:cop	_	_
+3	דברים	_	NOUN	NOUN	Gender=Masc|Number=Plur	11	nsubj:cop	_	_
 4-5	הראשונים	_	_	_	_	_	_	_	_
 4	ה	_	DET	DET	PronType=Art	5	det:def	_	_
 5	ראשונים	_	ADJ	ADJ	Gender=Masc|Number=Plur	3	amod	_	_
@@ -14373,7 +14373,7 @@
 25	מידה	_	NOUN	NOUN	Gender=Fem|Number=Sing	22	mwe	_	_
 26	.	_	PUNCT	PUNCT	_	3	punct	_	_
 
-1	קרפאציו	_	PROPN	PROPN	_	3	subj:cop	_	_
+1	קרפאציו	_	PROPN	PROPN	_	3	nsubj:cop	_	_
 2	הוא	_	VERB	VERB	Gender=Masc|Negative=Pos|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	3	cop	_	_
 3	מאכל	_	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 4	ונציאני	_	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
@@ -14580,7 +14580,7 @@
 
 1-2	המנה	_	_	_	_	_	_	_	_
 1	ה	_	DET	DET	PronType=Art	2	det:def	_	_
-2	מנה	_	NOUN	NOUN	Gender=Fem|Number=Sing	9	subj:cop	_	_
+2	מנה	_	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj:cop	_	_
 3-4	העיקרית	_	_	_	_	_	_	_	_
 3	ה	_	DET	DET	PronType=Art	4	det:def	_	_
 4	עיקרית	_	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
