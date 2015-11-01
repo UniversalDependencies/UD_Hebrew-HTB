@@ -15,7 +15,7 @@ into Universal Dependencies.
 
 This file is compatible with the CoNLL-U format defined for Universal Dependencies. See:
 http://universaldependencies.github.io/docs/format.html . However, at present the files do not
-include lemmas for words. These may be added in a later release.  
+include lemmas for words. These may be added in a later release.
 
 The dependency taxonomy can be found on the Universal Dependencies web site:
 
@@ -75,3 +75,4 @@ Documentation status: stub
 Data source: automatic
 Data available since: UD v1.1
 License: CC BY-NC-SA 4.0
+Contributors: Goldberg, Yoav; Tsarfaty, Reut
