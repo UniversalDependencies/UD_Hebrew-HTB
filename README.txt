@@ -75,4 +75,5 @@ Documentation status: stub
 Data source: automatic
 Data available since: UD v1.1
 License: CC BY-NC-SA 4.0
+Genre: news
 Contributors: Goldberg, Yoav; Tsarfaty, Reut
