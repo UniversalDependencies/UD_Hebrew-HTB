@@ -69,7 +69,9 @@ You are encouraged to cite these papers if you use the Hebrew Universal Dependen
 Note that these papers do not accurately reflect the current annotation in the Treebank. A more up-to-date publication
 is forthcoming.
 
-
+Changelog
+v1.2
+* Fixed a labeling bug.
 
 Documentation status: stub
 Data source: automatic
