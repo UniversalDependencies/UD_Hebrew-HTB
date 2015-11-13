@@ -115,11 +115,11 @@
     <dep name="nmod:smixut">8658</dep>
     <dep name="nmod:tmod">231</dep>
     <dep name="nsubj">8584</dep>
+    <dep name="nsubj:cop">396</dep>
     <dep name="nummod">2126</dep>
     <dep name="parataxis">452</dep>
     <dep name="punct">17418</dep>
     <dep name="root">6216</dep>
-    <dep name="subj:cop">396</dep>
     <dep name="xcomp">1747</dep>
   </deps>
 </treebank>
