@@ -9,7 +9,7 @@
   </size>
   <lemmas unique="0" /><!--  -->
   <forms unique="18368" /><!-- ה, ב, ,, ., ו, ל, ש, ה_, של, הוא_, ", מ, את, על, - -->
-  <fusions unique="15652" /><!-- לו, שהוא, בו, המשפט, המשטרה, אותו, שלו, ביום, הפועל, בבית, בכל, הממשלה, החברה, ולא, שלא -->
+  <fusions unique="15652" /><!-- לו, שהוא, בו, המשפט, המשטרה, שלו, אותו, ביום, הפועל, בבית, בכל, הממשלה, החברה, ולא, שלא -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="16">
     <tag name="ADJ">8032</tag><!-- _ -->
@@ -30,7 +30,7 @@
     <tag name="X">165</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="44">
+  <feats unique="43">
     <feat name="Case" value="Acc" upos="PART,PRON">2104</feat><!-- את, אותו, אותה, אותם, אותנו, הוא_, אותן, אותי, הם_, אותך -->
     <feat name="Case" value="Gen" upos="PART,PRON">4905</feat><!-- של, הוא_, היא_, הם_, שלו, הן_, אני_, שלהם, אנחנו_, שלה -->
     <feat name="Case" value="Tem" upos="NUM,PART">145</feat><!-- כש, 20.30, מש, 20.00, 01.00, 1.2.19, 1.6.90, 13.00, 13.11, 14.3.89 -->
@@ -49,9 +49,8 @@
     <feat name="HebSource" value="ConvUncertainHead" upos="ADJ,ADP,ADV,AUX,CONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X">1937</feat><!-- ,, ו, יותר, ., לא, -, אי, ש, בן, כן -->
     <feat name="HebSource" value="ConvUncertainLabel" upos="ADJ,ADP,ADV,CONJ,DET,NOUN,NUM,PRON,PROPN,VERB">333</feat><!-- מ, מועצות, מספר, ש"ח, מולדת, ראשון, ארצית, מן, ברית, ו -->
     <feat name="Mood" value="Imp" upos="VERB">52</feat><!-- לך, ישנו, ברור, הייה, אמור, חיו, חסר, חשוד, עסוק, קרא -->
-    <feat name="Negative" value="Neg" upos="ADV">987</feat><!-- לא -->
+    <feat name="Negative" value="Neg" upos="ADV,VERB">1303</feat><!-- לא, אינו, אינה, אינם, אינן, איננו, איננה, אינני, איני, אינך -->
     <feat name="Negative" value="Pos" upos="VERB">1495</feat><!-- היה, היו, הוא, היא, היתה, יהיה, להיות, תהיה, הם, יהיו -->
-    <feat name="Negtive" value="Neg" upos="VERB">316</feat><!-- אינו, אינה, אינם, אינן, איננו, איננה, אינני, איני, אינך, אינכם -->
     <feat name="Number" value="Dual" upos="NOUN,NUM">86</feat><!-- שנתיים, חודשיים, שבועיים, יומיים, פעמיים, שעתיים, משקפיים, אלפיים, קרניים -->
     <feat name="Number" value="Dual,Plur" upos="NOUN">6</feat><!-- שוליים, שפתיים -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,NOUN,NUM,PRON,VERB">18308</feat><!-- הם_, הם, אלה, הן_, היו, אנחנו_, שני, שנים, ידי, ימים -->

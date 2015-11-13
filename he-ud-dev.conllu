@@ -1333,7 +1333,7 @@
 13	מנזר	_	NOUN	NOUN	Definite=Red|Gender=Masc|Number=Sing	11	nmod	_	_
 14	סן	_	PROPN	PROPN	_	13	nmod:smixut	_	_
 15	סימון	_	PROPN	PROPN	_	14	name	_	_
-16	איננה	_	VERB	VERB	Gender=Fem|Negtive=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	17	advmod	_	_
+16	איננה	_	VERB	VERB	Gender=Fem|Negative=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	17	advmod	_	_
 17	מיתוס	_	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 18	.	_	PUNCT	PUNCT	_	17	punct	_	_
 
@@ -2375,7 +2375,7 @@
 11	זו	_	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	9	amod	_	_
 12-13	שאינם	_	_	_	_	_	_	_	_
 12	ש	_	SCONJ	SCONJ	_	14	mark	_	_
-13	אינם	_	VERB	VERB	Gender=Masc|Negtive=Neg|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	14	neg	_	_
+13	אינם	_	VERB	VERB	Gender=Masc|Negative=Neg|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	14	neg	_	_
 14	צריכים	_	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	6	acl:relcl	_	_
 15	לחשוש	_	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf	14	xcomp	_	_
 16-17	מתוצאות	_	_	_	_	_	_	_	_
@@ -2690,7 +2690,7 @@
 10-11	הכתובת	_	_	_	_	_	_	_	_
 10	ה	_	DET	DET	PronType=Art	11	det:def	_	_
 11	כתובת	_	NOUN	NOUN	Gender=Fem|Number=Sing	14	nsubj	_	_
-12	אינה	_	VERB	VERB	Gender=Fem|Negtive=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	14	neg	_	_
+12	אינה	_	VERB	VERB	Gender=Fem|Negative=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	14	neg	_	_
 13-14	הבנקים	_	_	_	_	_	_	_	_
 13	ה	_	DET	DET	PronType=Art	14	det:def	_	_
 14	בנקים	_	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
@@ -2835,7 +2835,7 @@
 22	.	_	PUNCT	PUNCT	_	1	punct	_	_
 
 1	פציפיזם	_	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
-2	אינו	_	VERB	VERB	Gender=Masc|Negtive=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	3	neg	_	_
+2	אינו	_	VERB	VERB	Gender=Masc|Negative=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	3	neg	_	_
 3	מוגבל	_	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|VerbForm=Part	0	root	_	_
 4-5	באיובה	_	_	_	_	_	_	_	_
 4	ב	_	ADP	ADP	_	5	case	_	_
@@ -3665,7 +3665,7 @@
 24	מחנה	_	NOUN	NOUN	Gender=Masc|Number=Sing	16	iobj	_	_
 25	גם	_	ADV	ADV	_	28	advmod	_	_
 26	אם	_	CONJ	CONJ	_	28	mark	_	_
-27	אינה	_	VERB	VERB	Gender=Fem|Negtive=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	28	neg	_	_
+27	אינה	_	VERB	VERB	Gender=Fem|Negative=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	28	neg	_	_
 28	מוסבת	_	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|VerbForm=Part	16	advcl	_	_
 29	ספציפית	_	ADV	ADV	_	28	advmod	_	_
 30	על	_	ADP	ADP	_	31	case	_	_
@@ -4075,7 +4075,7 @@
 1-2	המעסיקים	_	_	_	_	_	_	_	_
 1	ה	_	DET	DET	PronType=Art	2	det:def	_	_
 2	מעסיקים	_	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
-3	אינם	_	VERB	VERB	Gender=Masc|Negtive=Neg|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	4	neg	_	_
+3	אינם	_	VERB	VERB	Gender=Masc|Negative=Neg|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	4	neg	_	_
 4	מצפים	_	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|VerbForm=Part	0	root	_	_
 5-6	שיצליחו	_	_	_	_	_	_	_	_
 5	ש	_	SCONJ	SCONJ	_	6	mark	_	_
@@ -5105,7 +5105,7 @@
 17	ב	_	ADP	ADP	_	19	case	_	_
 18	ה_	_	DET	DET	PronType=Art	19	det:def	_	_
 19	עיתונות	_	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod	_	_
-20	אינם	_	VERB	VERB	Gender=Masc|Negtive=Neg|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	21	neg	_	_
+20	אינם	_	VERB	VERB	Gender=Masc|Negative=Neg|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	21	neg	_	_
 21	נראים	_	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|VerbForm=Part	0	root	_	_
 22	מיוחדים	_	ADJ	ADJ	Gender=Masc|HebSource=ConvUncertainLabel|Number=Plur	21	advmod	_	_
 23	כל	_	DET	DET	Definite=Red	22	advmod	_	_
@@ -5254,7 +5254,7 @@
 24	אנשים	_	NOUN	NOUN	Gender=Masc|Number=Plur	21	iobj	_	_
 25-26	שאינם	_	_	_	_	_	_	_	_
 25	ש	_	SCONJ	SCONJ	_	28	mark	_	_
-26	אינם	_	VERB	VERB	Gender=Masc|Negtive=Neg|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	28	neg	_	_
+26	אינם	_	VERB	VERB	Gender=Masc|Negative=Neg|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	28	neg	_	_
 27	בדיוק	_	ADV	ADV	_	28	advmod	_	_
 28	נאבקים	_	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|VerbForm=Part	24	acl:relcl	_	_
 29	כדי	_	ADP	ADP	_	30	case	_	_
@@ -5373,7 +5373,7 @@
 12	מחלקות	_	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Plur|Person=1,2,3|VerbForm=Part	8	acl:relcl	_	_
 13	מדי	_	ADV	ADV	_	14	det	_	_
 14	שנה	_	NOUN	NOUN	Gender=Fem|Number=Sing	12	dep	_	_
-15	אינו	_	VERB	VERB	Gender=Masc|Negtive=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	16	neg	_	_
+15	אינו	_	VERB	VERB	Gender=Masc|Negative=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	16	neg	_	_
 16	מיועד	_	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|VerbForm=Part	0	root	_	_
 17-18	ליחידים	_	_	_	_	_	_	_	_
 17	ל	_	ADP	ADP	_	18	case	_	_
@@ -6736,7 +6736,7 @@
 2	אקדמאים	_	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod	_	_
 3-4	שאינם	_	_	_	_	_	_	_	_
 3	ש	_	SCONJ	SCONJ	_	5	mark	_	_
-4	אינם	_	VERB	VERB	Gender=Masc|Negtive=Neg|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	5	neg	_	_
+4	אינם	_	VERB	VERB	Gender=Masc|Negative=Neg|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	5	neg	_	_
 5	מוזמנים	_	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|VerbForm=Part	2	acl:relcl	_	_
 6-7	לוועידות	_	_	_	_	_	_	_	_
 6	ל	_	ADP	ADP	_	7	case	_	_
@@ -7467,7 +7467,7 @@
 14	זו	_	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	13	amod	_	_
 15-16	ואינם	_	_	_	_	_	_	_	_
 15	ו	_	CONJ	CONJ	_	11	cc	_	_
-16	אינם	_	VERB	VERB	Gender=Masc|Negtive=Neg|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	17	neg	_	_
+16	אינם	_	VERB	VERB	Gender=Masc|Negative=Neg|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	17	neg	_	_
 17	סובלים	_	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part	11	conj	_	_
 18-19	משיתוק	_	_	_	_	_	_	_	_
 18	מ	_	ADP	ADP	_	19	case	_	_
@@ -7494,7 +7494,7 @@
 10-11	הגדולים	_	_	_	_	_	_	_	_
 10	ה	_	DET	DET	PronType=Art	11	det:def	_	_
 11	גדולים	_	ADJ	ADJ	Gender=Masc|Number=Plur	9	amod	_	_
-12	אינן	_	VERB	VERB	Gender=Fem|Negtive=Neg|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	14	neg	_	_
+12	אינן	_	VERB	VERB	Gender=Fem|Negative=Neg|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	14	neg	_	_
 13	בהכרח	_	ADV	ADV	_	14	advmod	_	_
 14	מעיינות	_	NOUN	NOUN	Definite=Red|Gender=Masc|Number=Plur	0	root	_	_
 15-16	החשיבה	_	_	_	_	_	_	_	_
@@ -8227,7 +8227,7 @@
 17	ש	_	SCONJ	SCONJ	_	21	mark	_	_
 18	שום	_	DET	DET	Definite=Red	19	det	_	_
 19	מדינה	_	NOUN	NOUN	Gender=Fem|Number=Sing	21	dep	_	_
-20	אינה	_	VERB	VERB	Gender=Fem|Negtive=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	21	neg	_	_
+20	אינה	_	VERB	VERB	Gender=Fem|Negative=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	21	neg	_	_
 21	יכולה	_	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	16	ccomp	_	_
 22	להיות	_	VERB	VERB	Negative=Pos|VerbForm=Inf|VerbType=Cop	21	xcomp	_	_
 23	בטוחה	_	ADJ	ADJ	Gender=Fem|Number=Sing	22	iobj	_	_
@@ -8765,7 +8765,7 @@
 1-2	וזה	_	_	_	_	_	_	_	_
 1	ו	_	CONJ	CONJ	_	4	cc	_	_
 2	זה	_	PRON	PRON	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
-3	אינו	_	VERB	VERB	Gender=Masc|Negtive=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	4	neg	_	_
+3	אינו	_	VERB	VERB	Gender=Masc|Negative=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	4	neg	_	_
 4	מבצע	_	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 5-7	מהסוג	_	_	_	_	_	_	_	_
 5	מ	_	ADP	ADP	_	7	case	_	_
@@ -8837,7 +8837,7 @@
 1-2	האשמה	_	_	_	_	_	_	_	_
 1	ה	_	DET	DET	PronType=Art	2	det:def	_	_
 2	אשמה	_	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
-3	אינה	_	VERB	VERB	Gender=Fem|Negtive=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	6	neg	_	_
+3	אינה	_	VERB	VERB	Gender=Fem|Negative=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	6	neg	_	_
 4-6	בשיטה	_	_	_	_	_	_	_	_
 4	ב	_	ADP	ADP	_	6	case	_	_
 5	ה_	_	DET	DET	PronType=Art	6	det:def	_	_
@@ -8858,7 +8858,7 @@
 18	1	_	NUM	NUM	_	22	parataxis	_	_
 19	)	_	PUNCT	PUNCT	_	18	punct	_	_
 20	אמריקאים	_	NOUN	NOUN	Gender=Masc|Number=Plur	22	nsubj	_	_
-21	אינם	_	VERB	VERB	Gender=Masc|Negtive=Neg|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	22	neg	_	_
+21	אינם	_	VERB	VERB	Gender=Masc|Negative=Neg|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	22	neg	_	_
 22	מתעניינים	_	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|VerbForm=Part	15	appos	_	_
 23	ביותר	_	ADV	ADV	_	22	advmod	_	_
 24-26	בתהליך	_	_	_	_	_	_	_	_
@@ -8881,7 +8881,7 @@
 37	היו	_	VERB	VERB	Gender=Fem,Masc|Negative=Pos|Number=Plur|Person=3|Tense=Past|VerbType=Cop	38	aux	_	_
 38	רוצים	_	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part	34	advcl	_	_
 39	להצביע	_	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf	38	xcomp	_	_
-40	אינם	_	VERB	VERB	Gender=Masc|Negtive=Neg|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	41	neg	_	_
+40	אינם	_	VERB	VERB	Gender=Masc|Negative=Neg|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	41	neg	_	_
 41	יודעים	_	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part	22	conj	_	_
 42	עד	_	ADP	ADP	_	44	case	_	_
 43-44	הרגע	_	_	_	_	_	_	_	_
@@ -8931,7 +8931,7 @@
 5	ה	_	DET	DET	PronType=Art	6	det:def	_	_
 6	קלפי	_	NOUN	NOUN	Gender=Fem|Number=Sing	4	nmod:smixut	_	_
 7	שוב	_	ADV	ADV	_	9	advmod	_	_
-8	אינה	_	VERB	VERB	Gender=Fem|Negtive=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	9	neg	_	_
+8	אינה	_	VERB	VERB	Gender=Fem|Negative=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	9	neg	_	_
 9	מקום	_	NOUN	NOUN	Definite=Red|Gender=Masc|Number=Sing	0	root	_	_
 10-11	ההצבעה	_	_	_	_	_	_	_	_
 10	ה	_	DET	DET	PronType=Art	11	det:def	_	_
@@ -10521,7 +10521,7 @@
 13	כך	_	ADV	ADV	_	12	mwe	_	_
 14	לא	_	ADV	ADV	Negative=Neg	15	advmod	_	_
 15	מרשימים	_	ADJ	ADJ	Gender=Masc|Number=Plur	11	amod	_	_
-16	אינה	_	VERB	VERB	Gender=Fem|Negtive=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	17	neg	_	_
+16	אינה	_	VERB	VERB	Gender=Fem|Negative=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	17	neg	_	_
 17	אומרת	_	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part	0	root	_	_
 18	בהכרח	_	ADV	ADV	_	17	advmod	_	_
 19-21	שסיכויו	_	_	_	_	_	_	_	_
@@ -10572,7 +10572,7 @@
 10	הם_	_	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
 11-12	שאינו	_	_	_	_	_	_	_	_
 11	ש	_	SCONJ	SCONJ	_	13	mark	_	_
-12	אינו	_	VERB	VERB	Gender=Masc|Negtive=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	13	neg	_	_
+12	אינו	_	VERB	VERB	Gender=Masc|Negative=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	13	neg	_	_
 13	רואה	_	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part	10	acl:relcl	_	_
 14	את	_	PART	PART	Case=Acc	15	case:acc	_	_
 15	עצמו	_	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	13	dobj	_	_
@@ -11751,7 +11751,7 @@
 17	ו	_	CONJ	CONJ	_	14	cc	_	_
 18	ילדיו	_	NOUN	NOUN	Gender=Masc|Number=Plur	21	nsubj	_	_
 19	הוא_	_	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nmod:poss	_	_
-20	אינם	_	VERB	VERB	Gender=Masc|Negtive=Neg|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	21	neg	_	_
+20	אינם	_	VERB	VERB	Gender=Masc|Negative=Neg|Number=Plur|Person=3|VerbForm=Part|VerbType=Cop	21	neg	_	_
 21	גדלים	_	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part	14	conj	_	_
 22-23	כיהודים	_	_	_	_	_	_	_	_
 22	כ	_	ADP	ADP	_	23	case	_	_
@@ -12921,7 +12921,7 @@
 19	אנשים	_	NOUN	NOUN	Gender=Masc|Number=Plur	17	nmod:poss	_	_
 20-21	שאינו	_	_	_	_	_	_	_	_
 20	ש	_	SCONJ	SCONJ	_	22	mark	_	_
-21	אינו	_	VERB	VERB	Gender=Masc|Negtive=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	22	neg	_	_
+21	אינו	_	VERB	VERB	Gender=Masc|Negative=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	22	neg	_	_
 22	רוצה	_	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part	17	acl:relcl	_	_
 23-24	שיכבסו	_	_	_	_	_	_	_	_
 23	ש	_	SCONJ	SCONJ	_	24	mark	_	_
@@ -12991,7 +12991,7 @@
 5-6	שהוא	_	_	_	_	_	_	_	_
 5	ש	_	SCONJ	SCONJ	_	8	mark	_	_
 6	הוא	_	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-7	אינו	_	VERB	VERB	Gender=Masc|Negtive=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	8	neg	_	_
+7	אינו	_	VERB	VERB	Gender=Masc|Negative=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	8	neg	_	_
 8	מעוניין	_	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbType=Mod	0	root	_	_
 9-11	בהעמדתם	_	_	_	_	_	_	_	_
 9	ב	_	ADP	ADP	_	10	case	_	_
@@ -13754,7 +13754,7 @@
 3	שלום	_	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
 4	,	_	PUNCT	PUNCT	_	1	punct	_	_
 5	אך	_	CONJ	CONJ	_	1	cc	_	_
-6	אינך	_	VERB	VERB	Gender=Masc|Negtive=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	7	advmod	_	_
+6	אינך	_	VERB	VERB	Gender=Masc|Negative=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	7	advmod	_	_
 7	יכול	_	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	1	conj	_	_
 8	להגיע	_	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf	7	xcomp	_	_
 9-10	לשלום	_	_	_	_	_	_	_	_
@@ -13779,7 +13779,7 @@
 6	ל	_	ADP	ADP	_	7	case	_	_
 7	רע	_	NOUN	NOUN	Gender=Masc|Number=Sing	3	conj	_	_
 8	:	_	PUNCT	PUNCT	_	3	punct	_	_
-9	אינך	_	VERB	VERB	Gender=Fem|Negtive=Neg|Number=Sing|Person=2|VerbForm=Part|VerbType=Cop	3	conj:discourse	_	_
+9	אינך	_	VERB	VERB	Gender=Fem|Negative=Neg|Number=Sing|Person=2|VerbForm=Part|VerbType=Cop	3	conj:discourse	_	_
 10	יכול	_	AUX	AUX	Gender=Masc|HebSource=ConvUncertainHead|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	9	dep	_	_
 11	להגיע	_	VERB	VERB	HebBinyan=HIFIL|HebSource=ConvUncertainHead|VerbForm=Inf	9	dep	_	_
 12-14	לטוב	_	_	_	_	_	_	_	_
