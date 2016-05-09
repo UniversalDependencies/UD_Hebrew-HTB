@@ -9,7 +9,7 @@
   </size>
   <lemmas unique="0" /><!--  -->
   <forms unique="18368" /><!-- ה, ב, ,, ., ו, ל, ש, ה_, של, הוא_, ", מ, את, על, - -->
-  <fusions unique="15652" /><!-- לו, שהוא, בו, המשפט, המשטרה, שלו, אותו, ביום, הפועל, בבית, בכל, הממשלה, החברה, ולא, שלא -->
+  <fusions unique="15652" /><!-- לו, שהוא, בו, המשפט, המשטרה, אותו, שלו, ביום, בבית, הפועל, בכל, הממשלה, החברה, ולא, שלא -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="16">
     <tag name="ADJ">8032</tag><!-- _ -->
