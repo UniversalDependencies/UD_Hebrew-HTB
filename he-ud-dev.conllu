@@ -1686,7 +1686,7 @@
 12	(	_	PUNCT	PUNCT	_	14	punct	_	_
 13	אין	_	ADV	ADV	_	14	neg	_	_
 14	יודעים	_	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part	8	appos	_	_
-15	אם	_	CONJ	CONJ	_	16	mark	_	_
+15	אם	_	SCONJ	SCONJ	_	16	mark	_	_
 16	מדובר	_	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|VerbForm=Part	14	ccomp	_	_
 17-18	בהורה	_	_	_	_	_	_	_	_
 17	ב	_	ADP	ADP	_	18	case	_	_
@@ -2042,7 +2042,7 @@
 36	"	_	PUNCT	PUNCT	_	42	punct	_	_
 37	אלי	_	PROPN	PROPN	_	42	nmod	_	_
 38	!	_	PUNCT	PUNCT	_	42	punct	_	_
-39	אם	_	CONJ	CONJ	_	40	mark	_	_
+39	אם	_	SCONJ	SCONJ	_	40	mark	_	_
 40	תשמע	_	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=2|Tense=Fut	42	advcl	_	_
 41	יריות	_	NOUN	NOUN	Gender=Fem|Number=Plur	40	dobj	_	_
 42	תתכופף	_	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=2|Tense=Fut	32	ccomp	_	_
@@ -2073,10 +2073,10 @@
 15	ירושלים	_	PROPN	PROPN	HebSource=ConvUncertainHead	13	dep	_	_
 16	,	_	PUNCT	PUNCT	HebSource=ConvUncertainHead	13	dep	_	_
 17	אפילו	_	CONJ	CONJ	_	19	advmod	_	_
-18	אם	_	CONJ	CONJ	_	19	mark	_	_
+18	אם	_	SCONJ	SCONJ	_	19	mark	_	_
 19	יורים	_	VERB	VERB	Gender=Masc|HebBinyan=PAAL|HebSource=ConvUncertainHead|Number=Plur|Person=1,2,3|VerbForm=Part	13	dep	_	_
 20	או	_	CONJ	CONJ	_	19	cc	_	_
-21	אם	_	CONJ	CONJ	_	22	mark	_	_
+21	אם	_	SCONJ	SCONJ	_	22	mark	_	_
 22	מתעופפים	_	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|VerbForm=Part	19	conj	_	_
 23	שם	_	ADV	ADV	_	22	advmod	_	_
 24	סכינים	_	NOUN	NOUN	Gender=Fem,Masc|Number=Plur	22	nsubj	_	_
@@ -2183,7 +2183,7 @@
 76	,	_	PUNCT	PUNCT	_	78	punct	_	_
 77	אל	_	ADV	ADV	_	78	advmod	_	_
 78	יופתע	_	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut	66	appos	_	_
-79	אם	_	CONJ	CONJ	_	80	mark	_	_
+79	אם	_	SCONJ	SCONJ	_	80	mark	_	_
 80	ימצא	_	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut	78	advcl	_	_
 81	עצמו	_	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	80	dobj	_	_
 82	מוכש	_	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|VerbForm=Part	80	advmod	_	_
@@ -2322,7 +2322,7 @@
 27	בכירים	_	ADJ	ADJ	Gender=Masc|Number=Plur	24	amod	_	_
 28	.	_	PUNCT	PUNCT	_	2	punct	_	_
 
-1	אם	_	CONJ	CONJ	_	5	mark	_	_
+1	אם	_	SCONJ	SCONJ	_	5	mark	_	_
 2	כל	_	DET	DET	Definite=Red	3	det	_	_
 3	נושא	_	NOUN	NOUN	Definite=Red|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	משרה	_	NOUN	NOUN	Gender=Fem|Number=Sing	3	nmod:smixut	_	_
@@ -2664,7 +2664,7 @@
 20	ה_	_	DET	DET	PronType=Art	21	det:def	_	_
 21	עולם	_	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod	_	_
 22	,	_	PUNCT	PUNCT	_	17	punct	_	_
-23	אם	_	CONJ	CONJ	_	26	case	_	_
+23	אם	_	SCONJ	SCONJ	_	26	case	_	_
 24	לא	_	ADV	ADV	Negative=Neg	23	mwe	_	_
 25-26	הנמוכה	_	_	_	_	_	_	_	_
 25	ה	_	DET	DET	PronType=Art	26	det:def	_	_
@@ -3258,7 +3258,7 @@
 39	פרסי	_	ADJ	ADJ	Gender=Masc|Number=Sing	37	amod	_	_
 40	,	_	PUNCT	PUNCT	_	31	punct	_	_
 41	"	_	PUNCT	PUNCT	_	44	punct	_	_
-42	אם	_	CONJ	CONJ	_	44	mark	_	_
+42	אם	_	SCONJ	SCONJ	_	44	mark	_	_
 43	רק	_	ADV	ADV	_	44	advmod	_	_
 44	תביא	_	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut	31	advcl	_	_
 45	את	_	PART	PART	Case=Acc	47	case:acc	_	_
@@ -3664,7 +3664,7 @@
 23	ה_	_	DET	DET	PronType=Art	24	det:def	_	_
 24	מחנה	_	NOUN	NOUN	Gender=Masc|Number=Sing	16	iobj	_	_
 25	גם	_	ADV	ADV	_	28	advmod	_	_
-26	אם	_	CONJ	CONJ	_	28	mark	_	_
+26	אם	_	SCONJ	SCONJ	_	28	mark	_	_
 27	אינה	_	VERB	VERB	Gender=Fem|Negative=Neg|Number=Sing|Person=3|VerbForm=Part|VerbType=Cop	28	neg	_	_
 28	מוסבת	_	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|VerbForm=Part	16	advcl	_	_
 29	ספציפית	_	ADV	ADV	_	28	advmod	_	_
@@ -4202,7 +4202,7 @@
 8	אתמול	_	ADV	ADV	_	7	advmod	_	_
 9	נקיטת	_	NOUN	NOUN	Definite=Red|Gender=Fem|Number=Sing	7	dobj	_	_
 10	עיצומים	_	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod:smixut	_	_
-11	אם	_	CONJ	CONJ	_	19	mark	_	_
+11	אם	_	SCONJ	SCONJ	_	19	mark	_	_
 12	עד	_	ADP	ADP	_	13	case	_	_
 13	סוף	_	NOUN	NOUN	Definite=Red|Gender=Masc|Number=Sing	19	nmod	_	_
 14-15	השבוע	_	_	_	_	_	_	_	_
@@ -4914,7 +4914,7 @@
 20	לשון	_	NOUN	NOUN	Gender=Fem|Number=Sing	16	nmod	_	_
 21	:	_	PUNCT	PUNCT	_	35	punct	_	_
 22	"	_	PUNCT	PUNCT	_	35	punct	_	_
-23	אם	_	CONJ	CONJ	_	24	mark	_	_
+23	אם	_	SCONJ	SCONJ	_	24	mark	_	_
 24	יש	_	VERB	VERB	HebExistential=True	35	advcl	_	_
 25-26	לך	_	_	_	_	_	_	_	_
 25	לך	_	ADP	ADP	_	26	case	_	_
@@ -5091,7 +5091,7 @@
 7-8	הזוכים	_	_	_	_	_	_	_	_
 7	ה	_	DET	DET	PronType=Art	8	det:def	_	_
 8	זוכים	_	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part	21	nsubj	_	_
-9	אם	_	CONJ	CONJ	_	10	case	_	_
+9	אם	_	SCONJ	SCONJ	_	10	case	_	_
 10	לשפוט	_	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf	21	parataxis	_	_
 11	על	_	ADP	ADP	_	13	case	_	_
 12	פי	_	NOUN	NOUN	Definite=Red|Gender=Masc|Number=Sing	11	mwe	_	_
@@ -5284,7 +5284,7 @@
 48	)	_	PUNCT	PUNCT	_	46	punct	_	_
 49	.	_	PUNCT	PUNCT	_	21	punct	_	_
 
-1	אם	_	CONJ	CONJ	_	6	mark	_	_
+1	אם	_	SCONJ	SCONJ	_	6	mark	_	_
 2-3	בכל	_	_	_	_	_	_	_	_
 2	ב	_	ADP	ADP	_	6	advmod	_	_
 3	כל	_	DET	DET	Definite=Red	2	mwe	_	_
@@ -5532,7 +5532,7 @@
 48	"	_	PUNCT	PUNCT	_	46	punct	_	_
 49	.	_	PUNCT	PUNCT	_	2	punct	_	_
 
-1	אם	_	CONJ	CONJ	_	3	mark	_	_
+1	אם	_	SCONJ	SCONJ	_	3	mark	_	_
 2	אתה	_	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	dep	_	_
 3	מעדיף	_	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|VerbForm=Part	10	advcl	_	_
 4	לפעול	_	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf	3	xcomp	_	_
@@ -6710,7 +6710,7 @@
 29	.	_	PUNCT	PUNCT	_	1	punct	_	_
 
 1	גם	_	ADV	ADV	_	4	advmod	_	_
-2	אם	_	CONJ	CONJ	_	4	mark	_	_
+2	אם	_	SCONJ	SCONJ	_	4	mark	_	_
 3	לא	_	ADV	ADV	Negative=Neg	4	neg	_	_
 4	ייווצר	_	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut	11	advcl	_	_
 5	קונסנסוס	_	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -7239,7 +7239,7 @@
 51	ציבור	_	NOUN	NOUN	Gender=Masc|Number=Sing	47	nmod	_	_
 52	.	_	PUNCT	PUNCT	_	3	punct	_	_
 
-1	אם	_	CONJ	CONJ	_	3	mark	_	_
+1	אם	_	SCONJ	SCONJ	_	3	mark	_	_
 2	אתה	_	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 3	משמיע	_	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|VerbForm=Part	39	advcl	_	_
 4	באוזני	_	ADP	ADP	_	6	case	_	_
@@ -8231,7 +8231,7 @@
 21	יכולה	_	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	16	ccomp	_	_
 22	להיות	_	VERB	VERB	Negative=Pos|VerbForm=Inf|VerbType=Cop	21	xcomp	_	_
 23	בטוחה	_	ADJ	ADJ	Gender=Fem|Number=Sing	22	iobj	_	_
-24	אם	_	CONJ	CONJ	_	26	mark	_	_
+24	אם	_	SCONJ	SCONJ	_	26	mark	_	_
 25	לא	_	ADV	ADV	Negative=Neg	26	neg	_	_
 26	יהיה	_	VERB	VERB	Gender=Masc|Negative=Pos|Number=Sing|Person=3|Tense=Fut|VerbType=Cop	21	advcl	_	_
 27	"	_	PUNCT	PUNCT	_	28	punct	_	_
@@ -8890,7 +8890,7 @@
 45-46	האחרון	_	_	_	_	_	_	_	_
 45	ה	_	DET	DET	PronType=Art	46	det:def	_	_
 46	אחרון	_	ADJ	ADJ	Gender=Masc|Number=Sing	44	amod	_	_
-47	אם	_	CONJ	CONJ	_	48	mark	_	_
+47	אם	_	SCONJ	SCONJ	_	48	mark	_	_
 48	יטרחו	_	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Fut	41	advcl	_	_
 49	להצביע	_	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf	48	xcomp	_	_
 50	.	_	PUNCT	PUNCT	_	6	punct	_	_
@@ -9648,7 +9648,7 @@
 11	הוא_	_	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nmod:poss	_	_
 12	.	_	PUNCT	PUNCT	_	7	punct	_	_
 
-1	אם	_	CONJ	CONJ	_	6	mark	_	_
+1	אם	_	SCONJ	SCONJ	_	6	mark	_	_
 2	על	_	ADP	ADP	_	3	case	_	_
 3	פרנקלין	_	PROPN	PROPN	_	6	nmod	_	_
 4	דלאנו	_	PROPN	PROPN	_	3	name	_	_
@@ -9748,7 +9748,7 @@
 47	טלוויזיה	_	NOUN	NOUN	Gender=Fem|Number=Sing	45	nmod	_	_
 48	צבעונית	_	ADJ	ADJ	Gender=Fem|Number=Sing	47	amod	_	_
 49	...	_	PUNCT	PUNCT	_	29	punct	_	_
-50	אם	_	CONJ	CONJ	_	53	mark	_	_
+50	אם	_	SCONJ	SCONJ	_	53	mark	_	_
 51	דיבור	_	NOUN	NOUN	Gender=Masc|Number=Sing	53	nsubj	_	_
 52	היה	_	VERB	VERB	Gender=Masc|Negative=Pos|Number=Sing|Person=3|Tense=Past|VerbType=Cop	53	aux	_	_
 53	ספורט	_	NOUN	NOUN	Gender=Masc|Number=Sing	58	advcl	_	_
@@ -9780,7 +9780,7 @@
 75	כמו	_	ADP	ADP	_	76	case	_	_
 76	צרפתית	_	PROPN	PROPN	_	74	iobj	_	_
 77	...	_	PUNCT	PUNCT	_	29	punct	_	_
-78	אם	_	CONJ	CONJ	_	79	mark	_	_
+78	אם	_	SCONJ	SCONJ	_	79	mark	_	_
 79	ייבחר	_	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut	81	advcl	_	_
 80	,	_	PUNCT	PUNCT	_	81	punct	_	_
 81	תהיה	_	VERB	VERB	Gender=Fem|HebSource=ConvUncertainHead|Negative=Pos|Number=Sing|Person=3|Tense=Fut|VerbType=Cop	29	dep	_	_
@@ -10086,7 +10086,7 @@
 14	ו	_	CONJ	CONJ	_	13	cc	_	_
 15	להיבחר	_	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf	13	conj	_	_
 16	,	_	PUNCT	PUNCT	_	11	punct	_	_
-17	אם	_	CONJ	CONJ	_	18	mark	_	_
+17	אם	_	SCONJ	SCONJ	_	18	mark	_	_
 18	רצה	_	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past	11	advcl	_	_
 19	.	_	PUNCT	PUNCT	_	11	punct	_	_
 
@@ -11305,7 +11305,7 @@
 6	,	_	PUNCT	PUNCT	_	2	punct	_	_
 7-8	שאם	_	_	_	_	_	_	_	_
 7	ש	_	SCONJ	SCONJ	_	10	mark	_	_
-8	אם	_	CONJ	CONJ	_	10	mark	_	_
+8	אם	_	SCONJ	SCONJ	_	10	mark	_	_
 9	הן	_	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
 10	נופלות	_	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part	2	ccomp	_	_
 11	קרבן	_	NOUN	NOUN	Gender=Masc|Number=Sing	10	dobj	_	_
@@ -13787,7 +13787,7 @@
 13	ה_	_	DET	DET	PronType=Art	14	det:def	_	_
 14	טוב	_	NOUN	NOUN	Gender=Masc|Number=Sing	11	iobj	_	_
 15	,	_	PUNCT	PUNCT	HebSource=ConvUncertainHead	9	dep	_	_
-16	אם	_	CONJ	CONJ	_	19	mark	_	_
+16	אם	_	SCONJ	SCONJ	_	19	mark	_	_
 17	אתה	_	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	19	nsubj	_	_
 18	לא	_	ADV	ADV	Negative=Neg	19	neg	_	_
 19	מבער	_	VERB	VERB	Gender=Masc|HebBinyan=PIEL|HebSource=ConvUncertainHead|Number=Sing|Person=1,2,3|VerbForm=Part	9	dep	_	_
