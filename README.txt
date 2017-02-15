@@ -70,6 +70,12 @@ Note that these papers do not accurately reflect the current annotation in the T
 is forthcoming.
 
 Changelog
+v1.4 -> v2.0
+- manual improvements of the annotation (e.g. SCONJ instead of CONJ)
+- automatic conversion to UDv2 guidelines using ud.Convert1to2 ud.he.FixNeg (from Udapi, http://udapi.github.io/) 
+- original texts reconstructed
+- test set omitted from the UDv2.0 official release because of CoNLL 2017 shared task.
+
 v1.2
 * Fixed a labeling bug.
 
