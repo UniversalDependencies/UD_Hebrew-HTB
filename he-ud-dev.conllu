@@ -5928,7 +5928,7 @@
 34	חסות	חסות	NOUN	NOUN	Gender=Fem|Number=Sing	32	compound:smixut	_	_
 35-36	שלך	_	_	_	_	_	_	_	_
 35	של_	_	ADP	ADP	Case=Gen	36	case:gen	_	_
-36	_אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	32	obl:poss	_	_
+36	_אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	32	compound:poss	_	_
 37	ירצה	רצה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	2	obl	_	_
 38	אחוז	אחוז	NOUN	NOUN	Gender=Masc|Number=Sing	37	obj	_	_
 39	שמן	שמן	ADJ	ADJ	Gender=Masc|Number=Sing	38	amod	_	_
@@ -7125,7 +7125,7 @@
 26	של	של	PART	PART	Case=Gen	28	case:gen	_	_
 27-28	השמאל	_	_	_	_	_	_	_	_
 27	ה	ה	DET	DET	PronType=Art	28	det:def	_	_
-28	שמאל	שמאל	NOUN	NOUN	Gender=Masc|Number=Sing	25	obl:poss	_	_
+28	שמאל	שמאל	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:poss	_	_
 29-30	ופנאטים	_	_	_	_	_	_	_	_
 29	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
 30	פנאטים	פנאטי	ADJ	ADJ	Gender=Masc|Number=Plur	25	conj	_	_
