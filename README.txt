@@ -89,4 +89,4 @@ Data available since: UD v1.1
 License: CC BY-NC-SA 4.0
 Genre: news
 Contributors: Goldberg, Yoav; Tsarfaty, Reut; More, Amir
-Contact:
+Contact: yoav.goldberg@gmail.com, reut.tsarfaty@gmail.com, habeanf@gmail.com
