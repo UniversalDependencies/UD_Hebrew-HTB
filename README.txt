@@ -1,15 +1,17 @@
-Universal Dependencies - Hebrew Dependency Treebank (v1)
+Universal Dependencies - Hebrew Dependency Treebank (v2)
 https://github.com/UniversalDependencies/UD_Hebrew
 
 A Universal Dependencies Corpus for Hebrew.
 
-The corpus was built by semi-automatic conversion of the
+V1 for the the corpus was built by semi-automatic conversion of the
 Hebrew Constituency Treebank (v2).
+V2 is converted from V1, using a combination of automatic conversion when possible,
+and manual conversion and verification in other cases.
 
 STRUCTURE
 
 This directory contains a corpus of sentences annotated using Universal Dependencies annotation.
-The corpus comprises 115,535 tokens (158,855 words) and 6,216 sentences, taken from the `Ha'aretz` newspaper.
+The corpus comprises 115,535 tokens (158,855 words) and 6,216, taken from the `Ha'aretz` newspaper.
 The trees were manually annotated into phrase-structure trees, and then semi-automatically converted
 into Universal Dependencies.
 
@@ -43,9 +45,16 @@ The Universal Dependencies Hebrew Treebank created by:
 - Yoav Goldberg
 - Reut Tsarfaty
 
+- The following people were also involved in the creation of v2:
+- Amir More (adding Lemmas, v1->v2 conversion)
+- Yuval Pinter (documentation)
+
 The Universal Dependencies Hebrew Treebank is based on the
 Hebrew Constituency Treebank (v2) developed by MILA, The Knowledge Center for Processing Hebrew.
 (http://www.mila.cs.technion.ac.il/resources_treebank.html)
+
+KNOWN ISSUES
+- Does not yet fully annotate ellipsis.
 
 
 CITATIONS
@@ -69,6 +78,7 @@ You are encouraged to cite these papers if you use the Hebrew Universal Dependen
 Note that these papers do not accurately reflect the current annotation in the Treebank. A more up-to-date publication
 is forthcoming.
 
+=======
 Changelog
 v1.2
 * Fixed a labeling bug.
@@ -78,5 +88,5 @@ Data source: automatic
 Data available since: UD v1.1
 License: CC BY-NC-SA 4.0
 Genre: news
-Contributors: Goldberg, Yoav; Tsarfaty, Reut
-Contact:
+Contributors: Goldberg, Yoav; Tsarfaty, Reut; More, Amir
+Contact: yoav.goldberg@gmail.com, reut.tsarfaty@gmail.com, habeanf@gmail.com
