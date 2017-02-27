@@ -4,7 +4,7 @@ https://github.com/UniversalDependencies/UD_Hebrew
 A Universal Dependencies Corpus for Hebrew.
 
 V1 for the the corpus was built by semi-automatic conversion of the
-Hebrew Constituency Treebank (v2).
+Hebrew Constituency Treebank (v2). 
 V2 is converted from V1, using a combination of automatic conversion when possible,
 and manual conversion and verification in other cases.
 
@@ -17,7 +17,7 @@ into Universal Dependencies.
 
 This file is compatible with the CoNLL-U format defined for Universal Dependencies. See:
 http://universaldependencies.github.io/docs/format.html . However, at present the files do not
-include lemmas for words. These may be added in a later release.
+include lemmas for words. These may be added in a later release.  
 
 The dependency taxonomy can be found on the Universal Dependencies web site:
 
@@ -46,7 +46,7 @@ The Universal Dependencies Hebrew Treebank created by:
 - Reut Tsarfaty
 
 - The following people were also involved in the creation of v2:
-- Amir More (adding Lemmas, v1->v2 conversion)
+- Amir More (adding Lemmas, detokenization, v1->v2 conversion)
 - Yuval Pinter (documentation)
 
 The Universal Dependencies Hebrew Treebank is based on the
@@ -78,15 +78,3 @@ You are encouraged to cite these papers if you use the Hebrew Universal Dependen
 Note that these papers do not accurately reflect the current annotation in the Treebank. A more up-to-date publication
 is forthcoming.
 
-=======
-Changelog
-v1.2
-* Fixed a labeling bug.
-
-Documentation status: stub
-Data source: automatic
-Data available since: UD v1.1
-License: CC BY-NC-SA 4.0
-Genre: news
-Contributors: Goldberg, Yoav; Tsarfaty, Reut; More, Amir
-Contact: yoav.goldberg@gmail.com, reut.tsarfaty@gmail.com, habeanf@gmail.com
