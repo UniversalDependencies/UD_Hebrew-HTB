@@ -14688,7 +14688,7 @@
 4	כהנא	כהנא	PROPN	PROPN	_	3	flat:name	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	2	punct	_	_
 6-8	אחיו	_	_	_	_	_	_	_	_
-6	__	_	NOUN	NOUN	Definite=Def|Number=Sing	2	appos	_	_
+6	אח_	אח	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	2	appos	_	_
 7	_של_	של	ADP	ADP	_	8	case:gen	_	_
 8	_הוא	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	_
 9	של	של	PART	PART	Case=Gen	10	case:gen	_	_
@@ -14827,7 +14827,7 @@
 3	עת	עת	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 4	להרוג	הרג	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	3	advmod:inf	_	_
 5-7	רבותי	_	_	_	_	_	_	_	SpaceAfter=No
-5	__	_	NOUN	NOUN	Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	_
+5	רבות_	רב	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	3	nmod	_	_
 6	_של_	של	ADP	ADP	_	7	case:gen	_	_
 7	_אני	הוא	PRON	PRON	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	5	nmod:poss	_	_
 8	.	.	PUNCT	PUNCT	_	3	punct	_	_

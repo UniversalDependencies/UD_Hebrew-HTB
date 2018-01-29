@@ -6763,7 +6763,7 @@
 32	מאשר	אישר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	30	acl:relcl	_	_
 33	את	את	PART	PART	Case=Acc	34	case:acc	_	_
 34-36	שובם	_	_	_	_	_	_	_	_
-34	__	_	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	32	obj	_	_
+34	שוב_	שוב	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	32	obj	_	_
 35	_של_	של	ADP	ADP	_	36	case:gen	_	_
 36	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	34	nmod:poss	_	_
 37	של	של	PART	PART	Case=Gen	39	case:gen	_	_
