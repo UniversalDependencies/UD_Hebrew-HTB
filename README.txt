@@ -67,11 +67,6 @@ The Universal Dependencies Hebrew Treebank is based on the
 Hebrew Constituency Treebank (v2) developed by MILA, The Knowledge Center for Processing Hebrew.
 (http://www.mila.cs.technion.ac.il/resources_treebank.html)
 
-
-
-
-...
-
 ## References
 
 You are encouraged to cite these papers if you use the Hebrew Universal Dependencies Treebank:
@@ -97,10 +92,12 @@ is forthcoming.
 
 # Changelog
 
-v2.0
-* Conversion to UD v2 guidelines.
-v1.2
-* Fixed a labeling bug.
+* v2.2
+  * Repository renamed from UD_Hebrew to UD_Hebrew-HTB.
+* v2.0
+  * Conversion to UD v2 guidelines.
+* v1.2
+  * Fixed a labeling bug.
 
 
 
