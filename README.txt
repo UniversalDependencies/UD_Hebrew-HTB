@@ -117,6 +117,6 @@ Features: converted from manual
 Relations: converted from manual
 Contributors: Goldberg, Yoav; Tsarfaty, Reut; More, Amir; Saddeh, Shoval
 Contributing: elsewhere
-Contact: yoav.goldberg@gmail.com, reut.tsarfaty@gmail.com, habeanf@gmail.com, shovalsa@openu.ac.il
+Contact: yoav.goldberg@gmail.com, reut.tsarfaty@gmail.com, habeanf@gmail.com, shovatz@gmail.com
 ===============================================================================
 </pre>
