@@ -19,7 +19,7 @@ and manual conversion and verification in other cases.
 # Structure
 
 This directory contains a corpus of sentences annotated using Universal Dependencies annotation.
-The corpus comprises 115,535 tokens (158,855 words) and 6,216, taken from the `Ha'aretz` newspaper.
+The corpus comprises 115,535 tokens (158,855 words) and 6,216 sentences, taken from the `Ha'aretz` newspaper.
 The trees were manually annotated into phrase-structure trees, and then semi-automatically converted
 into Universal Dependencies.
 
@@ -33,7 +33,7 @@ The dependency taxonomy can be found on the Universal Dependencies web site:
     http://universaldependencies.github.io/docs/#language-he
 
 The Train/Dev/Test split follows previous splits of the underlying Treebank, namely:
-sentences 0-483 dev, 484-5724 train, 5725-6216 test.
+sentences 1-484 dev (10,534 tokens), 485-5725 train (127,363 tokens), 5726-6216 test (11,386 tokens).
 
 Some parts of the structure are more reliable than others. In particular, words with a "morphological feature"
 entry of HebSource=ConvUncertainHead or HebSource=ConvUncertainLabel indicate that the head (label) information
@@ -47,7 +47,7 @@ To help improve the corpus, please alert us to any errors you find in it;
 contact Yoav Goldberg at yoav.goldberg@gmail.com or Reut Tsarfaty at reut.tsarfaty@gmail.com
 
 # Known issues
-- Does not yet fully annotate ellipsis.
+- Does not yet fully annotate enhanced dependencies.
 
 
 
@@ -112,7 +112,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Goldberg, Yoav; Tsarfaty, Reut; More, Amir; Saddeh, Shoval
+Contributors: Goldberg, Yoav; Tsarfaty, Reut; More, Amir; Sadde, Shoval
 Contributing: elsewhere
 Contact: yoav.goldberg@gmail.com, reut.tsarfaty@gmail.com, habeanf@gmail.com, shovatz@gmail.com
 ===============================================================================
