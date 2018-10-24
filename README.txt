@@ -62,6 +62,8 @@ The Universal Dependencies Hebrew Treebank created by:
 - The following people were also involved in the creation of v2:
 - Amir More (adding Lemmas, detokenization, v1->v2 conversion)
 - Yuval Pinter (documentation)
+- Shoval Sadde (v2 validation and conversion)
+- Victoria Basmov (v2 validation and conversion)
 
 The Universal Dependencies Hebrew Treebank is based on the
 Hebrew Constituency Treebank (v2) developed by MILA, The Knowledge Center for Processing Hebrew.
@@ -112,8 +114,8 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Goldberg, Yoav; Tsarfaty, Reut; More, Amir; Sadde, Shoval
+Contributors: Goldberg, Yoav; Tsarfaty, Reut; More, Amir; Sadde, Shoval; Basmov, Victoria
 Contributing: elsewhere
-Contact: yoav.goldberg@gmail.com, reut.tsarfaty@gmail.com, habeanf@gmail.com, shovatz@gmail.com
+Contact: yoav.goldberg@gmail.com, reut.tsarfaty@gmail.com, habeanf@gmail.com, shovatz@gmail.com, vikasaeta@gmail.com
 ===============================================================================
 </pre>
