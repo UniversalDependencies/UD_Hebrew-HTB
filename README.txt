@@ -62,7 +62,7 @@ The Universal Dependencies Hebrew Treebank created by:
 - The following people were also involved in the creation of v2:
 - Amir More (adding Lemmas, detokenization, v1->v2 conversion)
 - Yuval Pinter (documentation)
-- Shoval Sadde (v2 validation and conversion)
+- Shoval Sadde (documentation, v2 validation and conversion)
 - Victoria Basmov (v2 validation and conversion)
 
 The Universal Dependencies Hebrew Treebank is based on the
