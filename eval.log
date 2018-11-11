@@ -1,27 +1,27 @@
 Running the following version of tools/evaluate_treebank.pl:
-commit 87d374bbd458d29331d76014d05c52eaac32518d
+commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Apr 11 09:21:53 2018 +0200
+Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Hebrew-HTB:
-commit b5dec1c68e90fbad0b78e519fa49f4494ea748b9
-Merge: a1e8628 54a95b4
+commit fd02d942600b9b5bb69d87ed7ad157b50f9d23c3
+Merge: 7b34065 0cea781
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 161369 of 161369 words (nodes).
-Size: min(0, log((N/1000)**2)) = 10.1673873359907.
+Size: counted 161417 of 161417 words (nodes).
+Size: min(0, log((N/1000)**2)) = 10.1679821573318.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
 Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
-Universal POS tags: 16 out of 17 found in the corpus.
+Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 96376 out of 161369 total words have one or more features.
+Features: 96424 out of 161417 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 15106 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 161369 words.
-Genres: found 1 out of 14 known.
+Udapi: found 15312 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 161417 words.
+Genres: found 1 out of 17 known.
 validate.py --lang he --max-err=10 UD_Hebrew-HTB/he_htb-ud-dev.conllu
 *** PASSED ***
 validate.py --lang he --max-err=10 UD_Hebrew-HTB/he_htb-ud-test.conllu
@@ -30,13 +30,13 @@ validate.py --lang he --max-err=10 UD_Hebrew-HTB/he_htb-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0714285714285714) = 0.00549450549450549
+(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.73594003589896) = 0.188702573307426
+(weight=0.256410256410256) * (score{size}=0.735983090503322) = 0.18871361294957
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.0638846370740352) = 0.0196568114073955
+(weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
+(weight=0.307692307692308) * (score{udapi}=0.0514010296313276) = 0.0158157014250239
 (weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.49602746650055) * (availability=1) * (validity=1) = 0.49602746650055
+(TOTAL score=0.487607868041383) * (availability=1) * (validity=1) = 0.487607868041383
 STARS = 2.5
-UD_Hebrew-HTB	0.49602746650055	2.5
+UD_Hebrew-HTB	0.487607868041383	2.5
