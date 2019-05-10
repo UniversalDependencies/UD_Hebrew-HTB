@@ -6,8 +6,11 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>6216</sentences><tokens>115535</tokens><words>161417</words><fused>37035</fused></total>
+    <train><sentences>5241</sentences><tokens>98348</tokens><words>137721</words><fused>31680</fused></train>
+    <dev><sentences>484</sentences><tokens>8358</tokens><words>11412</words><fused>2502</fused></dev>
+    <test><sentences>491</sentences><tokens>8829</tokens><words>12284</words><fused>2853</fused></test>
   </size>
-  <lemmas unique="10400" /><!-- ה, ב, ,, ., הוא, של, ל, ו, ש, את, ", מ, על, -, לא -->
+  <lemmas unique="10381" /><!-- ה, ב, ,, ., הוא, של, ל, ו, ש, את, ", מ, על, -, לא -->
   <forms unique="17821" /><!-- ה, ב, ,, ., ו, ל, ש, ה_, _של_, של, _הוא, ", את, מ, על -->
   <fusions unique="15652" /><!-- לו, שהוא, בו, המשפט, המשטרה, אותו, שלו, ביום, בבית, הפועל, בכל, הממשלה, החברה, ולא, שלא -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -22,7 +25,7 @@
     <tag name="NOUN">38249</tag><!-- בית, _, שנה, איש, יום, חברה, דבר, משרד, מדינה, ארץ -->
     <tag name="NUM">3309</tag><!-- אחד, שני, אחת, שתי, 1, 0, מיליון, אלף, 2, שלושה -->
     <tag name="PRON">7381</tag><!-- הוא, זה, זו, כך, אלה, זאת, עצמו, אותו, _, אלו -->
-    <tag name="PROPN">7971</tag><!-- ישראל, ירושלים, כהנא, מכבי, ארה"ב, עיראק, כנסת, צה"ל, יורק, גרמניה -->
+    <tag name="PROPN">7971</tag><!-- ישראל, ירושלים, כהנא, מכבי, ארה"ב, עיראק, כנסת, צה"ל, יורק, ניו -->
     <tag name="PUNCT">18302</tag><!-- ,, ., ", -, ), (, :, ;, ?, ! -->
     <tag name="SCONJ">5524</tag><!-- ש, ה, כי, אם, כש, כאשר, אשר, משום, _, כפי -->
     <tag name="VERB">14276</tag><!-- אמר, _, יש, הגיע, אין, היה, קיבל, עשה, עלה, עבר -->
