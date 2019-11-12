@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Hebrew-HTB:
-commit f2c67d994c6f4dca9be9aa468b09c78c6e0d0a78
-Merge: 82591c9 57517f0
+commit b02cb4b169a66393048d02c173709e059f614723
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 21:19:01 2019 +0200
 Size: counted 161417 of 161417 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.1679821573318.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,12 +23,48 @@ Udapi: found 15312 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 161417 words.
 Genres: found 1 out of 17 known.
 validate.py --lang he --max-err=10 UD_Hebrew-HTB/he_htb-ud-dev.conllu
-*** PASSED ***
+[Line 503 Sent 13 Node 33]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (33:מוכנים:aux --> 32:ה:mark)
+[Line 522 Sent 14 Node 6]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (6:יש:aux --> 2:דבר_:obl)
+[Line 563 Sent 14 Node 35]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+[Line 1078 Sent 28 Node 15]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (15:יכול:aux --> 3:אלה:obl)
+[Line 1093 Sent 28 Node 15]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (15:יכול:aux --> 14:אני:nsubj)
+[Line 1120 Sent 28 Node 36]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34]
+[Line 1125 Sent 29 Node 8]: [L3 Syntax leaf-cc] 'cc' not expected to have children (8:ו:cc --> 1:ו:cc)
+[Line 1322 Sent 34 Node 34]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
+[Line 1333 Sent 35 Node 5]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'cc'
+...suppressing further errors regarding Syntax
+Syntax errors: 261
+*** FAILED *** with 261 errors
+Exit code: 1
 validate.py --lang he --max-err=10 UD_Hebrew-HTB/he_htb-ud-test.conllu
-*** PASSED ***
+[Line 111 Sent 5728 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NUM'
+[Line 117 Sent 5729 Node 10]: [L3 Syntax leaf-cc] 'cc' not expected to have children (10:ו:cc --> 1:אולם:cc)
+[Line 230 Sent 5733 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NUM'
+[Line 236 Sent 5733 Node 12]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [11]
+[Line 303 Sent 5735 Node 14]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 568 Sent 5744 Node 1]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (1:אפשר:aux --> 2:כבר:advmod)
+[Line 574 Sent 5744 Node 7]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3, 4, 5]
+[Line 656 Sent 5748 Node 2]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (2:יכולה:aux --> 1:ראשל"ץ:nsubj)
+[Line 660 Sent 5748 Node 2]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (2:יכולה:aux --> 5:עתה:advmod)
+...suppressing further errors regarding Syntax
+Syntax errors: 289
+*** FAILED *** with 289 errors
+Exit code: 1
 validate.py --lang he --max-err=10 UD_Hebrew-HTB/he_htb-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 320 Sent 497 Node 27]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [2, 3, 4, 5, 6, 7, 8, 9, 10]
+[Line 369 Sent 502 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 401 Sent 504 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 411 Sent 504 Node 8]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'cc'
+[Line 412 Sent 504 Node 9]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 479 Sent 505 Node 26]: [L3 Syntax leaf-fixed] 'fixed' not expected to have children (26:בית_:fixed --> 25:ל:case)
+[Line 482 Sent 505 Node 26]: [L3 Syntax leaf-fixed] 'fixed' not expected to have children (26:בית_:fixed --> 28:_הוא:nmod)
+[Line 484 Sent 505 Node 26]: [L3 Syntax leaf-fixed] 'fixed' not expected to have children (26:בית_:fixed --> 30:ראש:nmod)
+[Line 859 Sent 516 Node 14]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+...suppressing further errors regarding Syntax
+Syntax errors: 3766
+*** FAILED *** with 3766 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -37,6 +73,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
 (weight=0.307692307692308) * (score{udapi}=0.0514010296313276) = 0.0158157014250239
 (weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.487607868041383) * (availability=1) * (validity=1) = 0.487607868041383
-STARS = 2.5
-UD_Hebrew-HTB	0.487607868041383	2.5
+(TOTAL score=0.487607868041383) * (availability=1) * (validity=0.01) = 0.00487607868041383
+STARS = 0
+UD_Hebrew-HTB	0.00487607868041383	0
