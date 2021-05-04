@@ -83,29 +83,29 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="37">
-    <dep name="acl">614</dep>
+    <dep name="acl">613</dep>
     <dep name="acl:relcl">2981</dep>
-    <dep name="advcl">1290</dep>
+    <dep name="advcl">1289</dep>
     <dep name="advmod">5732</dep>
     <dep name="amod">6989</dep>
-    <dep name="appos">1252</dep>
+    <dep name="appos">1249</dep>
     <dep name="aux">719</dep>
     <dep name="case">19442</dep>
     <dep name="case:acc">1957</dep>
     <dep name="case:gen">4849</dep>
-    <dep name="cc">4910</dep>
-    <dep name="ccomp">940</dep>
+    <dep name="cc">4725</dep>
+    <dep name="ccomp">939</dep>
     <dep name="compound:affix">235</dep>
     <dep name="compound:smixut">8658</dep>
-    <dep name="conj">5432</dep>
+    <dep name="conj">5429</dep>
     <dep name="cop">1118</dep>
     <dep name="csubj">12</dep>
-    <dep name="dep">2751</dep>
+    <dep name="dep">2523</dep>
     <dep name="det">18635</dep>
     <dep name="discourse">2</dep>
     <dep name="dislocated">16</dep>
-    <dep name="fixed">1585</dep>
-    <dep name="flat:name">3015</dep>
+    <dep name="fixed">1467</dep>
+    <dep name="flat:name">2705</dep>
     <dep name="goeswith">3</dep>
     <dep name="mark">5311</dep>
     <dep name="mark:q">42</dep>
@@ -116,8 +116,8 @@
     <dep name="nummod">2126</dep>
     <dep name="obj">3925</dep>
     <dep name="obl">11736</dep>
-    <dep name="parataxis">312</dep>
-    <dep name="punct">17418</dep>
+    <dep name="parataxis">306</dep>
+    <dep name="punct">18274</dep>
     <dep name="root">6216</dep>
     <dep name="xcomp">1142</dep>
   </deps>
