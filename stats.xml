@@ -32,7 +32,7 @@
     <tag name="X">165</tag><!-- _, ה, ב, קפספקו, קפכות, ו, בנק, מ, 21פליון, 51פ6ארבעים -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="47">
+  <feats unique="46">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,CCONJ,NOUN,NUM,PROPN,X">998</feat><!-- ש"ח, ארה"ב, יו"ר, צה"ל, מנכ"ל, ח"כ, בריה"ם, בית"ר, ד"ר, חו"ל -->
     <feat name="Case" value="Acc" upos="ADP,PRON">2058</feat><!-- את, את_, _הוא, _הם, _היא, _הן, אתכם, _אני, _אתה, _אתם -->
     <feat name="Case" value="Gen" upos="ADP,PRON">4905</feat><!-- של, _הוא, _היא, _הם, של_, _הן, _אני, _אנחנו, _אתה, שלהם -->
@@ -79,7 +79,6 @@
     <feat name="Voice" value="Act" upos="VERB">8867</feat><!-- אמר, אומר, חולים, לעשות, כולל, יודע, רבים, הגיעו, לתת, עלה -->
     <feat name="Voice" value="Mid" upos="VERB">1480</feat><!-- נראה, נמצא, נעשה, נאמר, נקבע, נמסר, נפצעו, נבחר, ניתן, נודע -->
     <feat name="Voice" value="Pass" upos="VERB">1068</feat><!-- מדובר, הוחלט, הוגשה, הוטל, מדורגת, מוצע, סוכם, הוגש, הוגשו, הועברו -->
-    <feat name="Xtra" value="Junk" upos="X">165</feat><!-- ה, קפידבין, ב, קפספבין, ה_, קפכות, קפספקו, ו, בנקים, יחסים -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="36">
@@ -100,12 +99,12 @@
     <dep name="conj">5429</dep>
     <dep name="cop">1118</dep>
     <dep name="csubj">12</dep>
-    <dep name="dep">2523</dep>
+    <dep name="dep">2522</dep>
     <dep name="det">18635</dep>
     <dep name="discourse">2</dep>
     <dep name="dislocated">16</dep>
     <dep name="fixed">1467</dep>
-    <dep name="flat:name">2705</dep>
+    <dep name="flat:name">2699</dep>
     <dep name="mark">5311</dep>
     <dep name="mark:q">42</dep>
     <dep name="nmod">6972</dep>
@@ -115,8 +114,8 @@
     <dep name="nummod">2126</dep>
     <dep name="obj">3925</dep>
     <dep name="obl">11736</dep>
-    <dep name="parataxis">306</dep>
-    <dep name="punct">18271</dep>
+    <dep name="parataxis">305</dep>
+    <dep name="punct">18279</dep>
     <dep name="root">6216</dep>
     <dep name="xcomp">1142</dep>
   </deps>

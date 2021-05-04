@@ -2104,8 +2104,8 @@
 8	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
 9	הנהלת	הנהלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	dep	_	_
 10-11	מקבוצה	_	_	_	_	_	_	_	_
-10	מ	מ	X	X	Xtra=Junk	11	dep	_	_
-11	קבוצה	קבוצה	X	X	Xtra=Junk	4	conj	_	_
+10	מ	מ	X	X	_	11	dep	_	Xtra=Junk
+11	קבוצה	קבוצה	X	X	_	4	conj	_	Xtra=Junk
 12	לא	לא	ADV	ADV	Polarity=Neg	13	advmod	_	_
 13	הראו	הראה	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
 14	סימני	סימן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	obj	_	_
@@ -8380,9 +8380,9 @@
 
 # sent_id = 5985
 # text = קפתמונה1, 71פעל אף תוספת המשאבים לא היו בתי-משפט השלום ערוכים מבחינה מנהלית להתמודד עם הגידול הרב בתיקים, והיום צריך להמתין חודשים עד שמתחיל הדיון בתביעה המוגשת להם.
-1	קפתמונה1	_	X	X	Xtra=Junk	5	dep	_	SpaceAfter=No
+1	קפתמונה1	_	X	X	_	5	dep	_	SpaceAfter=No|Xtra=Junk
 2	,	,	PUNCT	PUNCT	_	1	punct	_	_
-3	71פעל	_	X	X	Xtra=Junk	5	dep	_	_
+3	71פעל	_	X	X	_	5	dep	_	Xtra=Junk
 4	אף	_	ADV	ADV	_	5	det	_	_
 5	תוספת	תוספת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	0	root	_	_
 6-7	המשאבים	_	_	_	_	_	_	_	_
@@ -9179,7 +9179,7 @@
 1	מוצע	הוצע	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass	0	root	_	_
 2	להעביר	העביר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	1	xcomp	_	_
 3	סמכות	סמכות	NOUN	NOUN	Gender=Fem|Number=Sing	2	obj	_	_
-4	זאתו	_	X	X	Xtra=Junk	2	dep	_	_
+4	זאתו	_	X	X	_	2	dep	_	Xtra=Junk
 5-7	לוועדה	_	_	_	_	_	_	_	_
 5	ל	ל	ADP	ADP	_	7	case	_	_
 6	ה_	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
@@ -11226,7 +11226,7 @@
 9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
 10	קודש	קודש	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
 11	,	,	PUNCT	PUNCT	_	12	punct	_	_
-12	באפסיס	_	X	X	Xtra=Junk	8	dep	_	_
+12	באפסיס	_	X	X	_	8	dep	_	Xtra=Junk
 13	בן	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	acl	_	_
 14	שלוש	שלוש	NUM	NUM	Gender=Fem|Number=Sing	15	nummod	_	_
 15	גומחות	גומחה	NOUN	NOUN	Gender=Fem|Number=Plur	13	compound:smixut	_	SpaceAfter=No

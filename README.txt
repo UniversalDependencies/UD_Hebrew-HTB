@@ -96,7 +96,7 @@ is forthcoming.
 
 * v2.8
   * Fixed validation issues with lang-spec relations and features.
-  * Attribute HebSource moved from FEATS to MISC.
+  * Attribute HebSource moved from FEATS to MISC; same for undocumented Xtra=Junk.
   * HebExistential changed from True to Yes as with other boolean features in UD.
 * v2.2
   * Repository renamed from UD_Hebrew to UD_Hebrew-HTB.
