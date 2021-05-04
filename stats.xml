@@ -5,13 +5,13 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>6216</sentences><tokens>115535</tokens><words>161417</words><fused>37035</fused></total>
-    <train><sentences>5241</sentences><tokens>98348</tokens><words>137721</words><fused>31680</fused></train>
+    <total><sentences>6216</sentences><tokens>115529</tokens><words>161411</words><fused>37035</fused></total>
+    <train><sentences>5241</sentences><tokens>98344</tokens><words>137717</words><fused>31680</fused></train>
     <dev><sentences>484</sentences><tokens>8358</tokens><words>11412</words><fused>2502</fused></dev>
-    <test><sentences>491</sentences><tokens>8829</tokens><words>12284</words><fused>2853</fused></test>
+    <test><sentences>491</sentences><tokens>8827</tokens><words>12282</words><fused>2853</fused></test>
   </size>
   <lemmas unique="10381" /><!-- ה, ב, ,, ., הוא, של, ל, ו, ש, את, ", מ, על, -, לא -->
-  <forms unique="17821" /><!-- ה, ב, ,, ., ו, ל, ש, ה_, _של_, של, _הוא, ", את, מ, על -->
+  <forms unique="17819" /><!-- ה, ב, ,, ., ו, ל, ש, ה_, _של_, של, _הוא, ", את, מ, על -->
   <fusions unique="15652" /><!-- לו, שהוא, בו, המשפט, המשטרה, אותו, שלו, ביום, בבית, הפועל, בכל, הממשלה, החברה, ולא, שלא -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
@@ -22,11 +22,11 @@
     <tag name="CCONJ">5184</tag><!-- ו, או, אבל, אך, _, אלא, אף, אולם, אילו, מאשר -->
     <tag name="DET">17424</tag><!-- ה, כול, כמה, הרבה, רוב, _, שום, מספר, אף, שאר -->
     <tag name="INTJ">3</tag><!-- בבקשה, חלילה, נא -->
-    <tag name="NOUN">38249</tag><!-- בית, _, שנה, איש, יום, חברה, דבר, משרד, מדינה, ארץ -->
+    <tag name="NOUN">38246</tag><!-- בית, _, שנה, איש, יום, חברה, דבר, משרד, מדינה, ארץ -->
     <tag name="NUM">3309</tag><!-- אחד, שני, אחת, שתי, 1, 0, מיליון, אלף, 2, שלושה -->
     <tag name="PRON">7381</tag><!-- הוא, זה, זו, כך, אלה, זאת, עצמו, אותו, _, אלו -->
     <tag name="PROPN">7971</tag><!-- ישראל, ירושלים, כהנא, מכבי, ארה"ב, עיראק, כנסת, צה"ל, יורק, ניו -->
-    <tag name="PUNCT">18302</tag><!-- ,, ., ", -, ), (, :, ;, ?, ! -->
+    <tag name="PUNCT">18299</tag><!-- ,, ., ", -, ), (, :, ;, ?, ! -->
     <tag name="SCONJ">5524</tag><!-- ש, ה, כי, אם, כש, כאשר, אשר, משום, _, כפי -->
     <tag name="VERB">14276</tag><!-- אמר, _, יש, הגיע, אין, היה, קיבל, עשה, עלה, עבר -->
     <tag name="X">165</tag><!-- _, ה, ב, קפספקו, קפכות, ו, בנק, מ, 21פליון, 51פ6ארבעים -->
@@ -82,7 +82,7 @@
     <feat name="Xtra" value="Junk" upos="X">165</feat><!-- ה, קפידבין, ב, קפספבין, ה_, קפכות, קפספקו, ו, בנקים, יחסים -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="37">
+  <deps unique="36">
     <dep name="acl">613</dep>
     <dep name="acl:relcl">2981</dep>
     <dep name="advcl">1289</dep>
@@ -106,7 +106,6 @@
     <dep name="dislocated">16</dep>
     <dep name="fixed">1467</dep>
     <dep name="flat:name">2705</dep>
-    <dep name="goeswith">3</dep>
     <dep name="mark">5311</dep>
     <dep name="mark:q">42</dep>
     <dep name="nmod">6972</dep>
@@ -117,7 +116,7 @@
     <dep name="obj">3925</dep>
     <dep name="obl">11736</dep>
     <dep name="parataxis">306</dep>
-    <dep name="punct">18274</dep>
+    <dep name="punct">18271</dep>
     <dep name="root">6216</dep>
     <dep name="xcomp">1142</dep>
   </deps>
