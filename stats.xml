@@ -32,7 +32,7 @@
     <tag name="X">165</tag><!-- _, ה, ב, קפספקו, קפכות, ו, בנק, מ, 21פליון, 51פ6ארבעים -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="49">
+  <feats unique="47">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,CCONJ,NOUN,NUM,PROPN,X">998</feat><!-- ש"ח, ארה"ב, יו"ר, צה"ל, מנכ"ל, ח"כ, בריה"ם, בית"ר, ד"ר, חו"ל -->
     <feat name="Case" value="Acc" upos="ADP,PRON">2058</feat><!-- את, את_, _הוא, _הם, _היא, _הן, אתכם, _אני, _אתה, _אתם -->
     <feat name="Case" value="Gen" upos="ADP,PRON">4905</feat><!-- של, _הוא, _היא, _הם, של_, _הן, _אני, _אנחנו, _אתה, שלהם -->
@@ -50,8 +50,6 @@
     <feat name="HebBinyan" value="PIEL" upos="VERB">2075</feat><!-- לשלם, ניצחה, לבצע, לקבל, סירב, ניצח, ניסה, קיבל, ביקשו, לאפשר -->
     <feat name="HebBinyan" value="PUAL" upos="VERB">508</feat><!-- מדובר, מדורגת, סוכם, נוצח, פורסם, שוחררו, אושרו, ממונה, מתוכנן, מזוהה -->
     <feat name="HebExistential" value="True" upos="VERB">539</feat><!-- יש, אין, היו, היה, יהיה, יהיו, היתה, תהיה, ישנם, הייה -->
-    <feat name="HebSource" value="ConvUncertainHead" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PRON,PROPN,PUNCT,SCONJ,VERB,X">1937</feat><!-- ,, ו, יותר, ., לא, -, אי, ש, בן, כן -->
-    <feat name="HebSource" value="ConvUncertainLabel" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB">333</feat><!-- מ, מועצות, מספר, ש"ח, מולדת, ראשון, ארצית, מן, ברית, ו -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">52</feat><!-- לך, ישנו, ברור, הייה, אמור, חיו, חסר, חשוד, עסוק, קרא -->
     <feat name="Number" value="Dual" upos="NOUN,NUM">86</feat><!-- שנתיים, חודשיים, שבועיים, יומיים, פעמיים, שעתיים, משקפיים, אלפיים, קרניים -->
     <feat name="Number" value="Dual,Plur" upos="NOUN">6</feat><!-- שוליים, שפתיים -->
