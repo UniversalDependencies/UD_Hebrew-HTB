@@ -49,7 +49,7 @@
     <feat name="HebBinyan" value="PAAL" upos="VERB">4232</feat><!-- אמר, אומר, חולים, לעשות, כולל, יודע, רבים, לתת, עלה, עולה -->
     <feat name="HebBinyan" value="PIEL" upos="VERB">2075</feat><!-- לשלם, ניצחה, לבצע, לקבל, סירב, ניצח, ניסה, קיבל, ביקשו, לאפשר -->
     <feat name="HebBinyan" value="PUAL" upos="VERB">508</feat><!-- מדובר, מדורגת, סוכם, נוצח, פורסם, שוחררו, אושרו, ממונה, מתוכנן, מזוהה -->
-    <feat name="HebExistential" value="True" upos="VERB">539</feat><!-- יש, אין, היו, היה, יהיה, יהיו, היתה, תהיה, ישנם, הייה -->
+    <feat name="HebExistential" value="Yes" upos="VERB">539</feat><!-- יש, אין, היו, היה, יהיה, יהיו, היתה, תהיה, ישנם, הייה -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">52</feat><!-- לך, ישנו, ברור, הייה, אמור, חיו, חסר, חשוד, עסוק, קרא -->
     <feat name="Number" value="Dual" upos="NOUN,NUM">86</feat><!-- שנתיים, חודשיים, שבועיים, יומיים, פעמיים, שעתיים, משקפיים, אלפיים, קרניים -->
     <feat name="Number" value="Dual,Plur" upos="NOUN">6</feat><!-- שוליים, שפתיים -->

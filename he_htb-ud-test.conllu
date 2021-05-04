@@ -210,7 +210,7 @@
 28	,	,	PUNCT	PUNCT	_	31	punct	_	_
 29	כי	כי	SCONJ	SCONJ	_	31	mark	_	_
 30	לא	לא	ADV	ADV	Polarity=Neg	31	advmod	_	_
-31	היה	_	VERB	VERB	Gender=Masc|HebExistential=True|Number=Sing|Person=3|Polarity=Pos|Tense=Past	22	ccomp	_	_
+31	היה	_	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	22	ccomp	_	_
 32-33	בבית"ר	_	_	_	_	_	_	_	_
 32	ב	ב	ADP	ADP	_	33	case	_	_
 33	בית"ר	בית"ר	PROPN	PROPN	Abbr=Yes	31	obl	_	_
@@ -579,7 +579,7 @@
 2	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	9	obl	_	_
 3-4	שהיה	_	_	_	_	_	_	_	_
 3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
-4	היה	_	VERB	VERB	Gender=Masc|HebExistential=True|Number=Sing|Person=3|Polarity=Pos|Tense=Past	2	acl:relcl	_	_
+4	היה	_	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	2	acl:relcl	_	_
 5-6	להם	_	_	_	_	_	_	_	_
 5	ל_	ל	ADP	ADP	_	6	case	_	_
 6	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obl	_	_
@@ -1516,7 +1516,7 @@
 15-16	הישראלי	_	_	_	_	_	_	_	_
 15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
 16	ישראלי	ישראלי	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	_
-17	יש	יש	VERB	VERB	HebExistential=True	6	conj	_	_
+17	יש	יש	VERB	VERB	HebExistential=Yes	6	conj	_	_
 18	בעיות	בעיה	NOUN	NOUN	Gender=Fem|Number=Plur	17	nsubj	_	_
 19	כלליות	כללי	ADJ	ADJ	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
 20	.	.	PUNCT	PUNCT	_	6	punct	_	_
@@ -1767,7 +1767,7 @@
 11	קטנה	קטן	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	14	punct	_	_
 13	אך	אך	CCONJ	CCONJ	_	14	cc	_	_
-14	יש	יש	VERB	VERB	HebExistential=True	10	conj	_	_
+14	יש	יש	VERB	VERB	HebExistential=Yes	10	conj	_	_
 15-16	לה	_	_	_	_	_	_	_	_
 15	ל_	ל	ADP	ADP	_	16	case	_	_
 16	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
@@ -1779,7 +1779,7 @@
 # sent_id = 5793
 # text = "יש לנו 32 אלף כדורגלנים לעומת ארבעה מיליון בגרמניה.
 1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
-2	יש	יש	VERB	VERB	HebExistential=True	0	root	_	_
+2	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
 3-4	לנו	_	_	_	_	_	_	_	_
 3	ל_	ל	ADP	ADP	_	4	case	_	_
 4	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	2	obl	_	_
@@ -1939,7 +1939,7 @@
 9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
 10	בא	בא	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
 11	לא	לא	ADV	ADV	Polarity=Neg	12	advmod	_	_
-12	יהיו	_	VERB	VERB	Gender=Fem,Masc|HebExistential=True|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	3	ccomp	_	_
+12	יהיו	_	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	3	ccomp	_	_
 13	מישחקים	משחק	NOUN	NOUN	Gender=Masc|Number=Plur	12	nsubj	_	_
 14-15	ביום	_	_	_	_	_	_	_	_
 14	ב	ב	ADP	ADP	_	15	case	_	_
@@ -2017,7 +2017,7 @@
 4-5	הדקות	_	_	_	_	_	_	_	_
 4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
 5	דקות	דקה	NOUN	NOUN	Gender=Fem|Number=Plur	2	compound:smixut	_	_
-6	היה	_	VERB	VERB	Gender=Masc|HebExistential=True|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+6	היה	_	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 7	שיויוון	_	NOUN	NOUN	Definite=Cons	6	nsubj	_	_
 8	85	85	NUM	NUM	_	7	compound:smixut	_	_
 9	85	85	NUM	NUM	_	8	nummod	_	_
@@ -3052,7 +3052,7 @@
 2	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
 3	שאן	שאן	PROPN	PROPN	_	2	flat:name	_	_
 4	לא	לא	ADV	ADV	Polarity=Neg	5	advmod	_	_
-5	היה	_	VERB	VERB	Gender=Masc|HebExistential=True|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+5	היה	_	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 6-7	בשבת	_	_	_	_	_	_	_	_
 6	ב	ב	ADP	ADP	_	7	case	_	_
 7	שבת	שבת	PROPN	PROPN	_	5	obl	_	_
@@ -3469,7 +3469,7 @@
 4	ה	ה	DET	DET	Definite=Def|PronType=Art	6	dep	_	SpaceAfter=No
 5	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
 6	7	7	NUM	NUM	_	3	amod	_	_
-7	היה	_	VERB	VERB	Gender=Masc|HebExistential=True|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+7	היה	_	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 8	שיוויון	שוויון	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
 9	14	14	NUM	NUM	_	8	nmod	_	HebSource=ConvUncertainLabel
 10	14	14	NUM	NUM	_	9	nummod	_	SpaceAfter=No
@@ -5181,7 +5181,7 @@
 7	שופט	שופט	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
 8	לוין	לוין	PROPN	PROPN	_	7	flat:name	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	5	punct	_	_
-10	יש	יש	VERB	VERB	HebExistential=True	0	root	_	_
+10	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
 11-12	בפי	_	_	_	_	_	_	_	_
 11	ב	ב	ADP	ADP	_	14	case	_	_
 12	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	fixed	_	_
@@ -5967,7 +5967,7 @@
 6	תולדה	תולדה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 7-8	שיש	_	_	_	_	_	_	_	_
 7	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
-8	יש	יש	VERB	VERB	HebExistential=True	6	acl:relcl	_	_
+8	יש	יש	VERB	VERB	HebExistential=Yes	6	acl:relcl	_	_
 9-10	בה	_	_	_	_	_	_	_	_
 9	ב_	ב	ADP	ADP	_	10	case	_	_
 10	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
@@ -6051,7 +6051,7 @@
 # text = כך גם היה ביצועה בידי הנגנים, המנצח טלגם והזמרת וייזל-קפסוטו.
 1	כך	כך	ADV	ADV	_	3	advmod	_	_
 2	גם	גם	ADV	ADV	_	3	advmod	_	_
-3	היה	_	VERB	VERB	Gender=Masc|HebExistential=True|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+3	היה	_	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 4-6	ביצועה	_	_	_	_	_	_	_	_
 4	ביצוע_	ביצוע	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	_
 5	_של_	של	ADP	ADP	_	6	case:gen	_	_
@@ -6080,7 +6080,7 @@
 2	יודעים	ידע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
 3-4	שיש	_	_	_	_	_	_	_	_
 3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
-4	יש	יש	VERB	VERB	HebExistential=True	2	ccomp	_	_
+4	יש	יש	VERB	VERB	HebExistential=Yes	2	ccomp	_	_
 5	שלוש	שלוש	NUM	NUM	Gender=Fem|Number=Sing	6	nummod	_	_
 6	מדינות	מדינה	NOUN	NOUN	Gender=Fem|Number=Plur	4	dep	_	_
 7	בלטיות	_	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
@@ -7314,7 +7314,7 @@
 4	עצמאית	עצמאי	ADJ	ADJ	Gender=Fem|Number=Sing	7	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	4	punct	_	_
 6	לא	לא	ADV	ADV	Polarity=Neg	7	advmod	_	_
-7	יהיה	_	VERB	VERB	Gender=Masc|HebExistential=True|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+7	יהיה	_	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
 8-10	לרפובליקה	_	_	_	_	_	_	_	_
 8	ל	ל	ADP	ADP	_	10	case	_	_
 9	ה_	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
@@ -7930,7 +7930,7 @@
 3-4	שעברה	_	_	_	_	_	_	_	_
 3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
 4	עברה	עבר	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	2	acl:relcl	_	_
-5	היו	_	VERB	VERB	Gender=Fem,Masc|HebExistential=True|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+5	היו	_	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 6-7	בבית	_	_	_	_	_	_	_	SpaceAfter=No
 6	ב	ב	ADP	ADP	_	10	case	_	_
 7	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	nmod	_	_
@@ -8067,7 +8067,7 @@
 26	,	,	PUNCT	PUNCT	_	20	punct	_	_
 27-28	ויש	_	_	_	_	_	_	_	_
 27	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
-28	יש	יש	VERB	VERB	HebExistential=True	12	conj	_	_
+28	יש	יש	VERB	VERB	HebExistential=Yes	12	conj	_	_
 29	גם	גם	ADV	ADV	_	32	det	_	_
 30-32	כאלה	_	_	_	_	_	_	_	_
 30	כ	כ	ADP	ADP	_	32	case	_	_
@@ -8340,7 +8340,7 @@
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_
 7-8	ויש	_	_	_	_	_	_	_	_
 7	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
-8	יש	יש	VERB	VERB	HebExistential=True	5	conj	_	_
+8	יש	יש	VERB	VERB	HebExistential=Yes	5	conj	_	_
 9	משפטנים	משפטן	NOUN	NOUN	Gender=Masc|Number=Plur	8	nsubj	_	_
 10-11	הטוענים	_	_	_	_	_	_	_	SpaceAfter=No
 10	ה	ה	SCONJ	SCONJ	_	11	mark	_	_
@@ -8759,7 +8759,7 @@
 9-10	הראשונה	_	_	_	_	_	_	_	_
 9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
 10	ראשונה	_	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
-11	יהיו	_	VERB	VERB	Gender=Fem,Masc|HebExistential=True|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+11	יהיו	_	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
 12	נשיא	נשיא	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	_
 13-14	וסגן	_	_	_	_	_	_	_	_
 13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
@@ -8795,7 +8795,7 @@
 # text = כמו כן תהיה בכל בית-משפט כזה מחלקת ערעורים, שתדון בערעורים על החלטות של בית-המשפט לתביעות קטנות, של בית-המשפט לעניינים מקומיים, של שופטי תעבורה ושל ראש ההוצאה לפועל.
 1	כמו	כמו	ADP	ADP	_	2	case	_	_
 2	כן	כן	PRON	PRON	Person=3|PronType=Dem	3	obl	_	_
-3	תהיה	_	VERB	VERB	Gender=Fem|HebExistential=True|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+3	תהיה	_	VERB	VERB	Gender=Fem|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
 4-5	בכל	_	_	_	_	_	_	_	_
 4	ב	ב	ADP	ADP	_	8	case	_	_
 5	כל	כול	DET	DET	Definite=Cons	8	det	_	_
@@ -9702,7 +9702,7 @@
 
 # sent_id = 6019
 # text = היו ביצים קטנות בגודל של ביצת יונה והיו גם ביצים בגודל של ביצת בת-יענה.
-1	היו	_	VERB	VERB	Gender=Fem,Masc|HebExistential=True|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+1	היו	_	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 2	ביצים	ביצה	NOUN	NOUN	Gender=Fem|Number=Plur	1	nsubj	_	_
 3	קטנות	קטן	ADJ	ADJ	Gender=Fem|Number=Plur	2	amod	_	_
 4-5	בגודל	_	_	_	_	_	_	_	_
@@ -9713,7 +9713,7 @@
 8	יונה	יון	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound:smixut	_	_
 9-10	והיו	_	_	_	_	_	_	_	_
 9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
-10	היו	_	VERB	VERB	Gender=Fem,Masc|HebExistential=True|Number=Plur|Person=3|Polarity=Pos|Tense=Past	1	conj	_	_
+10	היו	_	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Past	1	conj	_	_
 11	גם	גם	ADV	ADV	_	12	det	_	_
 12	ביצים	ביצה	NOUN	NOUN	Gender=Fem|Number=Plur	10	nsubj	_	_
 13-14	בגודל	_	_	_	_	_	_	_	_
@@ -11663,7 +11663,7 @@
 2	מחולל_	מחולל	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	5	obl	_	_
 3	_של_	של	ADP	ADP	_	4	case:gen	_	_
 4	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	_
-5	היה	_	VERB	VERB	Gender=Masc|HebExistential=True|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+5	היה	_	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 6	לה	לה	PROPN	PROPN	_	5	nsubj	_	SpaceAfter=No
 7	-	-	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
 8	קורוואזיה	קורוואזיה	PROPN	PROPN	_	6	flat:name	_	SpaceAfter=No
@@ -11809,7 +11809,7 @@
 
 # sent_id = 6074
 # text = אין בו אף שמץ של תחכום, עידון ואיפוק.
-1	אין	אין	VERB	VERB	HebExistential=True	0	root	_	_
+1	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
 2-3	בו	_	_	_	_	_	_	_	_
 2	ב_	ב	ADP	ADP	_	3	case	_	_
 3	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
@@ -12505,7 +12505,7 @@
 3-4	הגבייה	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
 4	גבייה	גבייה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
-5	יהיו	_	VERB	VERB	Gender=Fem,Masc|HebExistential=True|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+5	יהיו	_	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
 6	סמכויות	סמכות	NOUN	NOUN	Gender=Fem|Number=Plur	5	nsubj	_	_
 7	של	של	ADP	ADP	Case=Gen	8	case:gen	_	_
 8	גובי	גוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	nmod:poss	_	_
@@ -12683,7 +12683,7 @@
 1	ל	ל	ADP	ADP	_	2	case	_	_
 2	פקיד	פקיד	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
 3	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	det	_	_
-4	יהיו	_	VERB	VERB	Gender=Fem,Masc|HebExistential=True|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+4	יהיו	_	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
 5	סמכויות	סמכות	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	_
 6	לדרוש	דרש	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	5	acl	_	_
 7	מידע	מידע	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
@@ -12867,7 +12867,7 @@
 4	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nmod:poss	_	_
 5	,	,	PUNCT	PUNCT	_	2	punct	_	_
 6	לא	לא	ADV	ADV	Polarity=Neg	7	advmod	_	_
-7	יהיה	_	VERB	VERB	Gender=Masc|HebExistential=True|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+7	יהיה	_	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
 8	צורך	צורך	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
 9-11	בשלב	_	_	_	_	_	_	_	_
 9	ב	ב	ADP	ADP	_	11	case	_	_
@@ -13208,7 +13208,7 @@
 
 # sent_id = 6111
 # text = אין שום דבר מתוחכם או מורכב במרקים הללו, אבל משום שהם עשירים, מלאים בירקות ומתובלים בצורה מושלמת, הם תמיד מהנים.
-1	אין	אין	VERB	VERB	HebExistential=True	0	root	_	_
+1	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
 2	שום	שום	DET	DET	Definite=Cons	3	det	_	_
 3	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	_
 4	מתוחכם	מתוחכם	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
@@ -13902,7 +13902,7 @@
 14	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
 15	קיבלנו	קיבל	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=1|Tense=Past|Voice=Act	13	acl:relcl	_	_
 16	לא	לא	ADV	ADV	Polarity=Neg	17	advmod	_	_
-17	היה	_	VERB	VERB	Gender=Masc|HebExistential=True|Number=Sing|Person=3|Polarity=Pos|Tense=Past	3	conj	_	_
+17	היה	_	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	3	conj	_	_
 18	שמץ	שמץ	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj	_	_
 19	של	של	ADP	ADP	Case=Gen	20	case:gen	_	_
 20	שום	שום	NOUN	NOUN	Gender=Masc|Number=Sing	18	nmod:poss	_	SpaceAfter=No
@@ -13940,7 +13940,7 @@
 3	ל	ל	ADP	ADP	_	5	case	_	_
 4	כל	כול	DET	DET	Definite=Cons	5	det	_	_
 5	טבח	טבח	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
-6	יש	יש	VERB	VERB	HebExistential=True	1	advcl	_	_
+6	יש	יש	VERB	VERB	HebExistential=Yes	1	advcl	_	_
 7	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
 8	רע	רע	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	13	punct	_	_
@@ -14585,7 +14585,7 @@
 27	למרות	למרות	ADP	ADP	_	29	mark	_	_
 28-29	שהיה	_	_	_	_	_	_	_	_
 28	ש	ש	SCONJ	SCONJ	_	27	fixed	_	_
-29	היה	_	VERB	VERB	Gender=Masc|HebExistential=True|Number=Sing|Person=3|Polarity=Pos|Tense=Past	36	advcl	_	_
+29	היה	_	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	36	advcl	_	_
 30-31	בו	_	_	_	_	_	_	_	_
 30	ב_	ב	ADP	ADP	_	31	case	_	_
 31	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obl	_	_
@@ -14706,7 +14706,7 @@
 1	ב	ב	ADP	ADP	_	2	case	_	_
 2	סך	סך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
 3	הכל	הכיל	NOUN	NOUN	_	2	compound:smixut	_	_
-4	היה	_	VERB	VERB	Gender=Masc|HebExistential=True|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+4	היה	_	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 5	שם	שם	ADV	ADV	_	4	advmod	_	_
 6	מזון	מזון	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
 7	מספיק	הספיק	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	6	acl	_	_
@@ -15308,7 +15308,7 @@
 16-17	האלה	_	_	_	_	_	_	_	_
 16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
 17	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	13	det	_	_
-18	יש	יש	VERB	VERB	HebExistential=True	0	root	_	_
+18	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
 19	ידע	ידע	NOUN	NOUN	Gender=Masc|Number=Sing	18	nsubj	_	_
 20	מינימלי	מינימאלי	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
 21-22	וכבוד	_	_	_	_	_	_	_	_
@@ -15404,7 +15404,7 @@
 6	מקסימה	מקסים	ADJ	ADJ	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	9	punct	_	_
 8	אך	אך	CCONJ	CCONJ	_	9	cc	_	_
-9	יש	יש	VERB	VERB	HebExistential=True	3	conj	_	_
+9	יש	יש	VERB	VERB	HebExistential=Yes	3	conj	_	_
 10-12	כאלה	_	_	_	_	_	_	_	_
 10	כ	כ	ADP	ADP	_	12	case	_	_
 11	ה_	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
@@ -16365,7 +16365,7 @@
 
 # sent_id = 6209
 # text = יהיו אשר יהיו המעלות והחסרונות של האוכל במסעדה שלו, היא איטלקית לעילא.
-1	יהיו	_	VERB	VERB	Gender=Fem,Masc|HebExistential=True|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+1	יהיו	_	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
 2	אשר	אשר	SCONJ	SCONJ	_	3	mark	_	_
 3	יהיו	_	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	1	advcl	_	_
 4-5	המעלות	_	_	_	_	_	_	_	_
