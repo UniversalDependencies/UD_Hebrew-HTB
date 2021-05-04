@@ -94,6 +94,8 @@ is forthcoming.
 
 # Changelog
 
+* v2.8
+  * Fixed validation issues with lang-spec relations and features.
 * v2.2
   * Repository renamed from UD_Hebrew to UD_Hebrew-HTB.
 * v2.0

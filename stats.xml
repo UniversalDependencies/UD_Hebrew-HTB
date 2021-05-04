@@ -38,7 +38,7 @@
     <feat name="Case" value="Gen" upos="ADP,PRON">4905</feat><!-- של, _הוא, _היא, _הם, של_, _הן, _אני, _אנחנו, _אתה, שלהם -->
     <feat name="Case" value="Tem" upos="ADP,NUM,SCONJ">145</feat><!-- כש, 20.30, מש, 20.00, 01.00, 1.2.19, 1.6.90, 13.00, 13.11, 14.3.89 -->
     <feat name="Definite" value="Cons" upos="ADJ,DET,NOUN,NUM,VERB">10855</feat><!-- כל, בית, משרד, שני, כמה, יום, תל, שר, פי, ידי -->
-    <feat name="Definite" value="Def" upos="ADP,NOUN,PRON">2608</feat><!-- יד_, דבר_, שם_, אותו, בית_, אותה, חבר_, תפקיד_, פנים_, דרך_ -->
+    <feat name="Definite" value="Def" upos="ADP,DET,NOUN,PRON">19139</feat><!-- ה, ה_, יד_, דבר_, שם_, אותו, בית_, אותה, חבר_, תפקיד_ -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,NOUN,NUM,PRON,VERB">22611</feat><!-- _היא, היא, זו, _הן, זאת, היתה, משטרה, ארץ, ממשלה, חברה -->
     <feat name="Gender" value="Fem,Masc" upos="AUX,NOUN,NUM,PRON,VERB">3182</feat><!-- היו, _אני, _אנחנו, אני, יהיו, אנו, אלו, הגיעו, פנים_, אמרו -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">41754</feat><!-- _הוא, _הם, הוא, זה, היה, בית, הם, אלה, אחד, יום -->
@@ -84,7 +84,7 @@
     <feat name="Xtra" value="Junk" upos="X">165</feat><!-- ה, קפידבין, ב, קפספבין, ה_, קפכות, קפספקו, ו, בנקים, יחסים -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="38">
+  <deps unique="37">
     <dep name="acl">614</dep>
     <dep name="acl:relcl">2981</dep>
     <dep name="advcl">1290</dep>
@@ -103,8 +103,7 @@
     <dep name="cop">1118</dep>
     <dep name="csubj">12</dep>
     <dep name="dep">2751</dep>
-    <dep name="det">2277</dep>
-    <dep name="det:def">16358</dep>
+    <dep name="det">18635</dep>
     <dep name="discourse">2</dep>
     <dep name="dislocated">16</dep>
     <dep name="fixed">1585</dep>
