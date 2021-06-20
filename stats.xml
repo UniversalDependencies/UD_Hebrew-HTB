@@ -5,38 +5,40 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>6216</sentences><tokens>115535</tokens><words>161369</words><fused>37035</fused></total>
+    <total><sentences>6216</sentences><tokens>115529</tokens><words>161411</words><fused>37035</fused></total>
+    <train><sentences>5241</sentences><tokens>98344</tokens><words>137717</words><fused>31680</fused></train>
+    <dev><sentences>484</sentences><tokens>8358</tokens><words>11412</words><fused>2502</fused></dev>
+    <test><sentences>491</sentences><tokens>8827</tokens><words>12282</words><fused>2853</fused></test>
   </size>
-  <lemmas unique="10376" /><!-- ה, ב, ,, ., הוא, של, ל, ו, ש, את, ", מ, על, -, לא -->
-  <forms unique="17872" /><!-- ה, ב, ,, ., ו, ל, ש, ה_, _של_, של, _הוא, ", מ, את, על -->
+  <lemmas unique="10381" /><!-- ה, ב, ,, ., הוא, של, ל, ו, ש, את, ", מ, על, -, לא -->
+  <forms unique="17819" /><!-- ה, ב, ,, ., ו, ל, ש, ה_, _של_, של, _הוא, ", את, מ, על -->
   <fusions unique="15652" /><!-- לו, שהוא, בו, המשפט, המשטרה, אותו, שלו, ביום, בבית, הפועל, בכל, הממשלה, החברה, ולא, שלא -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="16">
+  <tags unique="15">
     <tag name="ADJ">8032</tag><!-- _, אחר, רב, חדש, גדול, לאומי, אחרון, ישראלי, אמריקני, טוב -->
-    <tag name="ADP">22614</tag><!-- ב, ל, של, מ, על, כ, עם, בין, מן, עד -->
-    <tag name="ADV">6108</tag><!-- לא, גם, רק, יותר, _, מה, עוד, כך, ביותר, אתמול -->
-    <tag name="AUX">843</tag><!-- _, אפשר, יכול, צריך, יש, עלול, אמור, חייב, מוכן, עשוי -->
-    <tag name="CCONJ">5413</tag><!-- ו, או, אבל, אך, _, אלא, אף, אולם, אפילו, לכן -->
+    <tag name="ADP">26773</tag><!-- ב, של, ל, את, מ, על, כ, עם, בין, מן -->
+    <tag name="ADV">6337</tag><!-- לא, גם, רק, יותר, _, מה, עוד, כך, ביותר, אתמול -->
+    <tag name="AUX">2487</tag><!-- היה, הוא, אינו, _, אפשר, יכול, צריך, יש, עלול, אמור -->
+    <tag name="CCONJ">5184</tag><!-- ו, או, אבל, אך, _, אלא, אף, אולם, אילו, מאשר -->
     <tag name="DET">17424</tag><!-- ה, כול, כמה, הרבה, רוב, _, שום, מספר, אף, שאר -->
     <tag name="INTJ">3</tag><!-- בבקשה, חלילה, נא -->
-    <tag name="NOUN">38249</tag><!-- בית, _, שנה, איש, יום, חברה, דבר, משרד, מדינה, ארץ -->
+    <tag name="NOUN">38246</tag><!-- בית, _, שנה, איש, יום, חברה, דבר, משרד, מדינה, ארץ -->
     <tag name="NUM">3309</tag><!-- אחד, שני, אחת, שתי, 1, 0, מיליון, אלף, 2, שלושה -->
-    <tag name="PART">4111</tag><!-- של, את, _, כש, מש -->
-    <tag name="PRON">7381</tag><!-- הוא, זה, זו, כך, אלה, זאת, עצמו, _, אלו, הללו -->
-    <tag name="PROPN">7971</tag><!-- ישראל, ירושלים, כהנא, מכבי, ארה"ב, עיראק, כנסת, צה"ל, יורק, גרמניה -->
-    <tag name="PUNCT">18302</tag><!-- ,, ., ", -, ), (, :, ;, ?, ! -->
+    <tag name="PRON">7381</tag><!-- הוא, זה, זו, כך, אלה, זאת, עצמו, אותו, _, אלו -->
+    <tag name="PROPN">7971</tag><!-- ישראל, ירושלים, כהנא, מכבי, ארה"ב, עיראק, כנסת, צה"ל, יורק, ניו -->
+    <tag name="PUNCT">18299</tag><!-- ,, ., ", -, ), (, :, ;, ?, ! -->
     <tag name="SCONJ">5524</tag><!-- ש, ה, כי, אם, כש, כאשר, אשר, משום, _, כפי -->
-    <tag name="VERB">15920</tag><!-- היה, _, הוא, אמר, אינו, יש, הגיע, אין, קיבל, עשה -->
+    <tag name="VERB">14276</tag><!-- אמר, _, יש, הגיע, אין, היה, קיבל, עשה, עלה, עבר -->
     <tag name="X">165</tag><!-- _, ה, ב, קפספקו, קפכות, ו, בנק, מ, 21פליון, 51פ6ארבעים -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="48">
+  <feats unique="46">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,CCONJ,NOUN,NUM,PROPN,X">998</feat><!-- ש"ח, ארה"ב, יו"ר, צה"ל, מנכ"ל, ח"כ, בריה"ם, בית"ר, ד"ר, חו"ל -->
-    <feat name="Case" value="Acc" upos="PART,PRON">2104</feat><!-- את, את_, אותה, אותו, _הוא, _הם, אותם, אותן, _היא, _הן -->
-    <feat name="Case" value="Gen" upos="ADP,PART,PRON">4905</feat><!-- של, _הוא, _היא, _הם, של_, _הן, _אני, _אנחנו, _אתה, שלהם -->
-    <feat name="Case" value="Tem" upos="ADP,NUM,PART,SCONJ">145</feat><!-- כש, 20.30, מש, 20.00, 01.00, 1.2.19, 1.6.90, 13.00, 13.11, 14.3.89 -->
+    <feat name="Case" value="Acc" upos="ADP,PRON">2058</feat><!-- את, את_, _הוא, _הם, _היא, _הן, אתכם, _אני, _אתה, _אתם -->
+    <feat name="Case" value="Gen" upos="ADP,PRON">4905</feat><!-- של, _הוא, _היא, _הם, של_, _הן, _אני, _אנחנו, _אתה, שלהם -->
+    <feat name="Case" value="Tem" upos="ADP,NUM,SCONJ">145</feat><!-- כש, 20.30, מש, 20.00, 01.00, 1.2.19, 1.6.90, 13.00, 13.11, 14.3.89 -->
     <feat name="Definite" value="Cons" upos="ADJ,DET,NOUN,NUM,VERB">10855</feat><!-- כל, בית, משרד, שני, כמה, יום, תל, שר, פי, ידי -->
-    <feat name="Definite" value="Def" upos="NOUN">2514</feat><!-- יד_, דבר_, שם_, בית_, חבר_, תפקיד_, פנים_, דרך_, חיים_, חלק_ -->
+    <feat name="Definite" value="Def" upos="ADP,DET,NOUN,PRON">19139</feat><!-- ה, ה_, יד_, דבר_, שם_, אותו, בית_, אותה, חבר_, תפקיד_ -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,NOUN,NUM,PRON,VERB">22611</feat><!-- _היא, היא, זו, _הן, זאת, היתה, משטרה, ארץ, ממשלה, חברה -->
     <feat name="Gender" value="Fem,Masc" upos="AUX,NOUN,NUM,PRON,VERB">3182</feat><!-- היו, _אני, _אנחנו, אני, יהיו, אנו, אלו, הגיעו, פנים_, אמרו -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">41754</feat><!-- _הוא, _הם, הוא, זה, היה, בית, הם, אלה, אחד, יום -->
@@ -47,10 +49,8 @@
     <feat name="HebBinyan" value="PAAL" upos="VERB">4232</feat><!-- אמר, אומר, חולים, לעשות, כולל, יודע, רבים, לתת, עלה, עולה -->
     <feat name="HebBinyan" value="PIEL" upos="VERB">2075</feat><!-- לשלם, ניצחה, לבצע, לקבל, סירב, ניצח, ניסה, קיבל, ביקשו, לאפשר -->
     <feat name="HebBinyan" value="PUAL" upos="VERB">508</feat><!-- מדובר, מדורגת, סוכם, נוצח, פורסם, שוחררו, אושרו, ממונה, מתוכנן, מזוהה -->
-    <feat name="HebExistential" value="True" upos="VERB">368</feat><!-- יש, אין, ישנם -->
-    <feat name="HebSource" value="ConvUncertainHead" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X">1937</feat><!-- ,, ו, יותר, ., לא, -, אי, ש, בן, כן -->
-    <feat name="HebSource" value="ConvUncertainLabel" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB">333</feat><!-- מ, מועצות, מספר, ש"ח, מולדת, ראשון, ארצית, מן, ברית, ו -->
-    <feat name="Mood" value="Imp" upos="VERB">52</feat><!-- לך, ישנו, ברור, הייה, אמור, חיו, חסר, חשוד, עסוק, קרא -->
+    <feat name="HebExistential" value="Yes" upos="VERB">539</feat><!-- יש, אין, היו, היה, יהיה, יהיו, היתה, תהיה, ישנם, הייה -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">52</feat><!-- לך, ישנו, ברור, הייה, אמור, חיו, חסר, חשוד, עסוק, קרא -->
     <feat name="Number" value="Dual" upos="NOUN,NUM">86</feat><!-- שנתיים, חודשיים, שבועיים, יומיים, פעמיים, שעתיים, משקפיים, אלפיים, קרניים -->
     <feat name="Number" value="Dual,Plur" upos="NOUN">6</feat><!-- שוליים, שפתיים -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,NOUN,NUM,PRON,VERB">18308</feat><!-- _הם, הם, אלה, _הן, היו, _אנחנו, שני, שנים, ימים, ידי -->
@@ -60,70 +60,63 @@
     <feat name="Person" value="1,2,3" upos="AUX,VERB">4704</feat><!-- אומר, יכול, מדובר, צריך, חולים, כולל, נראה, יודע, רבים, רוצה -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">246</feat><!-- _אתה, אתה, _אתם, יוכל, אתם, לך, ישנו, תוכיח, תוכל, _את -->
     <feat name="Person" value="3" upos="AUX,PRON,VERB">14853</feat><!-- _הוא, _הם, _היא, הוא, זה, היה, היא, הם, זו, כך -->
-    <feat name="Polarity" value="Neg" upos="ADV,VERB">1371</feat><!-- לא, אינו, אין, אינה, אינם, אינן, איננו, איננה, אינני, איני -->
-    <feat name="Polarity" value="Pos" upos="VERB">1495</feat><!-- היה, היו, הוא, היא, היתה, יהיה, להיות, תהיה, הם, יהיו -->
+    <feat name="Polarity" value="Neg" upos="ADV,AUX">1371</feat><!-- לא, אינו, אין, אינה, אינם, אינן, איננו, איננה, אינני, איני -->
+    <feat name="Polarity" value="Pos" upos="AUX,VERB">1495</feat><!-- היה, היו, הוא, היא, היתה, יהיה, להיות, תהיה, הם, יהיו -->
     <feat name="Prefix" value="Yes" upos="ADV">235</feat><!-- אי, בלתי, בין, אנטי, תת, דו, קדם, חד, פרו, נאו -->
     <feat name="PronType" value="Art" upos="DET">16531</feat><!-- ה, ה_ -->
     <feat name="PronType" value="Dem" upos="PRON">1198</feat><!-- זו, זה, כך, אלה, זאת, כן, אלו, הללו, זהו, זוהי -->
+    <feat name="PronType" value="Emp" upos="PRON">42</feat><!-- עצמו, עצמה, עצמם, עצמי, עצמן -->
     <feat name="PronType" value="Ind" upos="PRON">30</feat><!-- כלשהו, כלשהי, איזושהי, כלשהם, כלשהן, מישהו -->
     <feat name="PronType" value="Int" upos="ADV,PRON">407</feat><!-- מה, מי, האם, כיצד, מדוע, איך, למה, איזו, היכן, מהו -->
-    <feat name="PronType" value="Prs" upos="PRON">5890</feat><!-- _הוא, _הם, _היא, הוא, הם, היא, _הן, _אני, _אנחנו, אני -->
+    <feat name="PronType" value="Prs" upos="PRON">5848</feat><!-- _הוא, _הם, _היא, הוא, הם, היא, _הן, _אני, _אנחנו, אני -->
     <feat name="Reflex" value="Yes" upos="PRON">163</feat><!-- עצמו, עצמה, עצמם, עצמי, עצמן, עצמנו, עצמך -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">1460</feat><!-- יהיה, תהיה, יהיו, יוכל, תקבל, יוכלו, יכלו, יגיעו, יישאר, יישארו -->
     <feat name="Tense" value="Past" upos="AUX,VERB">6450</feat><!-- היה, היו, היתה, אמר, עבר, הגיעו, עלה, הגיע, טען, קשה -->
-    <feat name="VerbForm" value="Inf" upos="VERB">2599</feat><!-- להיות, לעשות, לתת, לשלם, למנוע, לבצע, לקבל, למצוא, להשיג, לומר -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">2599</feat><!-- להיות, לעשות, לתת, לשלם, למנוע, לבצע, לקבל, למצוא, להשיג, לומר -->
     <feat name="VerbForm" value="Part" upos="AUX,VERB">5149</feat><!-- הוא, היא, אינו, אינה, אינם, אומר, יכול, מדובר, הם, חולים -->
-    <feat name="VerbType" value="Cop" upos="VERB">1815</feat><!-- היה, היו, הוא, היא, היתה, אינו, יהיה, להיות, אינה, אינם -->
+    <feat name="VerbType" value="Cop" upos="AUX">1644</feat><!-- היה, הוא, היא, היו, היתה, אינו, להיות, יהיה, אינה, אינם -->
     <feat name="VerbType" value="Mod" upos="AUX">843</feat><!-- אפשר, יכול, יש, צריך, קשה, יכולה, ייתכן, ניתן, אמור, עלול -->
     <feat name="Voice" value="Act" upos="VERB">8867</feat><!-- אמר, אומר, חולים, לעשות, כולל, יודע, רבים, הגיעו, לתת, עלה -->
     <feat name="Voice" value="Mid" upos="VERB">1480</feat><!-- נראה, נמצא, נעשה, נאמר, נקבע, נמסר, נפצעו, נבחר, ניתן, נודע -->
     <feat name="Voice" value="Pass" upos="VERB">1068</feat><!-- מדובר, הוחלט, הוגשה, הוטל, מדורגת, מוצע, סוכם, הוגש, הוגשו, הועברו -->
-    <feat name="Xtra" value="Junk" upos="X">165</feat><!-- ה, קפידבין, ב, קפספבין, ה_, קפכות, קפספקו, ו, בנקים, יחסים -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="43">
-    <dep name="acl">315</dep>
-    <dep name="acl:inf">283</dep>
-    <dep name="acl:relcl">2983</dep>
-    <dep name="advcl">1090</dep>
-    <dep name="advmod">5280</dep>
-    <dep name="advmod:inf">16</dep>
-    <dep name="advmod:phrase">170</dep>
-    <dep name="amod">7570</dep>
-    <dep name="appos">1693</dep>
-    <dep name="aux">773</dep>
-    <dep name="aux:q">42</dep>
-    <dep name="case">19851</dep>
+  <deps unique="36">
+    <dep name="acl">613</dep>
+    <dep name="acl:relcl">2981</dep>
+    <dep name="advcl">1289</dep>
+    <dep name="advmod">5732</dep>
+    <dep name="amod">6989</dep>
+    <dep name="appos">1249</dep>
+    <dep name="aux">719</dep>
+    <dep name="case">19442</dep>
     <dep name="case:acc">1957</dep>
     <dep name="case:gen">4849</dep>
-    <dep name="cc">4946</dep>
+    <dep name="cc">4725</dep>
     <dep name="ccomp">939</dep>
+    <dep name="compound:affix">235</dep>
     <dep name="compound:smixut">8658</dep>
-    <dep name="conj">5432</dep>
-    <dep name="conj:discourse">114</dep>
-    <dep name="cop">394</dep>
+    <dep name="conj">5429</dep>
+    <dep name="cop">1118</dep>
     <dep name="csubj">12</dep>
-    <dep name="dep">3184</dep>
-    <dep name="det">1708</dep>
-    <dep name="det:def">16358</dep>
-    <dep name="det:quant">50</dep>
+    <dep name="dep">2522</dep>
+    <dep name="det">18635</dep>
+    <dep name="discourse">2</dep>
     <dep name="dislocated">16</dep>
-    <dep name="fixed">969</dep>
-    <dep name="flat:name">2580</dep>
-    <dep name="goeswith">3</dep>
-    <dep name="iobj">3669</dep>
-    <dep name="mark">5310</dep>
-    <dep name="nmod">6877</dep>
+    <dep name="fixed">1467</dep>
+    <dep name="flat:name">2699</dep>
+    <dep name="mark">5311</dep>
+    <dep name="mark:q">42</dep>
+    <dep name="nmod">6972</dep>
     <dep name="nmod:poss">4100</dep>
     <dep name="nsubj">8584</dep>
     <dep name="nsubj:cop">396</dep>
     <dep name="nummod">2126</dep>
     <dep name="obj">3925</dep>
-    <dep name="obl">8083</dep>
-    <dep name="obl:tmod">231</dep>
-    <dep name="parataxis">452</dep>
-    <dep name="punct">17418</dep>
+    <dep name="obl">11736</dep>
+    <dep name="parataxis">305</dep>
+    <dep name="punct">18279</dep>
     <dep name="root">6216</dep>
-    <dep name="xcomp">1747</dep>
+    <dep name="xcomp">1142</dep>
   </deps>
 </treebank>
