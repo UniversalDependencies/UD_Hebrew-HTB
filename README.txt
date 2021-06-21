@@ -1,22 +1,46 @@
 # Summary
 
-A Universal Dependencies Corpus for Hebrew.
-
+IAHLT version of the UD Hebrew Treebank (IAHLT-HTB)
 
 
 # Introduction
 
+## What is this?
+
+This is a revised fork of the Universal Dependencies version of the Hebrew Treebank, with some important changes and a consistency overhaul involving substantial manual corrections. The dataset was prepared as part of the Hebrew & Arabic Corpus Linguistics Infrastructure project at [the Israeli Association of Human Language Technologies](https://www.iahlt.org/) (IAHLT).
+
+Before using this data it is highly recommended to read the IAHLT treebanking documentation **(coming soon!)** and reading the general principles outlined below. This dataset is currently still a **work in progress**.
+
 Universal Dependencies - Hebrew Dependency Treebank (v2)
 https://github.com/UniversalDependencies/UD_Hebrew
 
-V1 for the the corpus was built by semi-automatic conversion of the
-Hebrew Constituency Treebank (v2).
-V2 is converted from V1, using a combination of automatic conversion when possible,
-and manual conversion and verification in other cases.
+## General principles
 
+This version of the HTB data follows the following principles:
 
+  * Aim for convergence with other UD languages, and in particular Arabic
+  * No addition of segments without corresponding characters in the text. This means that as in Arabic, there are no inserted _של_ in clitic possessives, no _את_ in clitic objects
+  * Representation of articles following prepositions using a morphological definiteness feature, rather than pseudo tokens
+  * Removal of strictly predictable dependency subtypes (e.g. only use `case` rather than `case:gen` and `case:acc` for של and את, remove `mark:q`)
+  * Multiword token strings should be the sum of their consituent token texts, allowing for simpler segmentation models (highly constrained search space) - thus forms like לה comprise two tokens ל and ה (as in UD Arabic)
+  * Clear separation of universal POS tags based on function (ADV for `advmod`, SCONJ for `mark`, ADP for `case` etc.)
+  * More consistent treatment of proper nouns as a gateway for downstream NER (all tokens inside named entities which would otherwise be NOUN are PROPN)
+  * More constrained lists of closed class items such as fixed expressions
+  * Rework auxiliaries, reanalyzing impersonal modals as predicates with clausal subjects
+  * Introduce previously unused labels with their usual functions (e.g. `expl`)
+  * More generally, producing valid (non-legacy) UD data in line with the current Universal Dependencies validator tool (available [here](https://github.com/UniversalDependencies/tools))
+
+## History
+
+V1 of the dependency corpus was built by semi-automatic conversion of the Hebrew Constituency Treebank (v2) by MILA.
+
+V2, refered to below as UD-HTB, was converted from V1, using a combination of automatic conversion when possible, and manual conversion and verification in other cases (see papers below).
+
+This version is currently refered to as IAHLT-HTB.
 
 # Structure
+
+**TODO**: update token numbers once stabilized
 
 This directory contains a corpus of sentences annotated using Universal Dependencies annotation.
 The corpus comprises 115,535 tokens (158,855 words) and 6,216 sentences, taken from the `Ha'aretz` newspaper.
@@ -40,15 +64,12 @@ entry of HebSource=ConvUncertainHead or HebSource=ConvUncertainLabel indicate th
 for this token is based on unreliable information.
 
 
-
 # Fixes
 
 To help improve the corpus, please alert us to any errors you find in it;
-contact Yoav Goldberg at yoav.goldberg@gmail.com or Reut Tsarfaty at reut.tsarfaty@gmail.com
+For underlying issues in the source data (UD-HTB) contact Yoav Goldberg at yoav.goldberg@gmail.com or Reut Tsarfaty at reut.tsarfaty@gmail.com
 
-# Known issues
-- Does not yet fully annotate enhanced dependencies.
-
+For issues specific to the IAHLT-HTB version, please contact Amir Zeldes at amir-zeldes@georgetown.edu
 
 
 # Acknowledgments
