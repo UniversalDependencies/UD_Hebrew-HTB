@@ -559,7 +559,7 @@
 # sent_id = 5745
 # text = לגבי אלה שהיה להם ספק, הרי שאמש הוא הוסר.
 1	לגבי	לגבי	ADP	ADP	_	2	case	_	_
-2	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	9	obl	_	_
+2	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	9	obl	_	_
 3-4	שהיה	_	_	_	_	_	_	_	_
 3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
 4	היה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	2	acl:relcl	_	_
@@ -4080,7 +4080,7 @@
 11	מע"ם	מע"ם	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	8	obj	_	_
 12	על	על	ADP	ADP	_	13	case	_	_
 13	דירות	דירה	NOUN	NOUN	Gender=Fem|Number=Plur	8	obl	_	_
-14	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	13	det	_	_
+14	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	13	det	_	_
 15-16	ודרשה	_	_	_	_	_	_	_	_
 15	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
 16	דרשה	דרש	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	_
@@ -7672,7 +7672,7 @@
 17	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	19	nmod	_	_
 18	-	-	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
 19	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	_
-20	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	19	det	_	_
+20	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	19	det	_	_
 21	יכרעו	כרע	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Fut|Voice=Act	15	advcl	_	_
 22	תחת	תחת	ADP	ADP	_	24	case	_	_
 23-24	הנטל	_	_	_	_	_	_	_	SpaceAfter=No
@@ -7896,7 +7896,7 @@
 29	גם	גם	ADV	ADV	_	31	advmod	_	_
 30-31	כאלה	_	_	_	_	_	_	_	_
 30	כ	כ	ADP	ADP	Definite=Def	31	case	_	_
-31	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	28	nsubj	_	_
+31	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	28	nsubj	_	_
 32-33	המנצלים	_	_	_	_	_	_	_	_
 32	ה	ה	SCONJ	SCONJ	_	33	mark	_	_
 33	מנצלים	ניצל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	31	dep	_	HebSource=ConvUncertainHead
@@ -8150,7 +8150,7 @@
 # text = אבל צעדים אלה לא הספיקו, ויש משפטנים הטוענים, כי התוצאה היחידה היתה העברת העומס מבתי-המשפט המחוזיים לבתי-משפט השלום.
 1	אבל	אבל	CCONJ	CCONJ	_	5	cc	_	_
 2	צעדים	צעד	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
-3	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	2	det	_	_
+3	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	2	det	_	_
 4	לא	לא	ADV	ADV	Polarity=Neg	5	advmod	_	_
 5	הספיקו	הספיק	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_
@@ -9249,7 +9249,7 @@
 # sent_id = 6013
 # text = ימים אלה מתקיימת במילאנו תערוכה יוצאת דופן של ביצים מחרסינה, שיוצרו בחצר הצאר מהמאה ה71 ועד תחילת המאה ה20.
 1	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	3	dep	_	_
-2	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	1	det	_	_
+2	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	1	det	_	_
 3	מתקיימת	התקיים	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|VerbForm=Part	0	root	_	_
 4-5	במילאנו	_	_	_	_	_	_	_	_
 4	ב	ב	ADP	ADP	_	5	case	_	_
@@ -10559,7 +10559,7 @@
 9	לא	לא	ADV	ADV	Polarity=Neg	10	advmod	_	_
 10	נמצאו	נמצא	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
 11	אצל	אצל	ADP	ADP	_	12	case	_	_
-12	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	10	obl	_	_
+12	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	10	obl	_	_
 13-16	שבידיהם	_	_	_	_	_	_	_	_
 13	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
 14	ב	ב	ADP	ADP	_	15	case	_	_
@@ -10606,7 +10606,7 @@
 3-4	ובחירות	_	_	_	_	_	_	_	_
 3	ו	ו	CCONJ	CCONJ	_	4	cc	_	_
 4	בחירות	בחירה	NOUN	NOUN	Gender=Fem|Number=Plur	2	conj	_	_
-5	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	2	det	_	_
+5	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	2	det	_	_
 6	רק	רק	ADV	ADV	_	7	advmod	_	_
 7	מעמיקים	העמיק	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	55	advcl	_	_
 8	את	את	ADP	ADP	Case=Acc	9	case	_	_
@@ -12721,7 +12721,7 @@
 3-4	המנות	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
 4	מנות	מנה	NOUN	NOUN	Gender=Fem|Number=Plur	12	obl	_	_
-5	הללו	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	4	det	_	SpaceAfter=No
+5	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	4	det	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	9	punct	_	_
 7-8	שאחדות	_	_	_	_	_	_	_	_
 7	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
@@ -12926,7 +12926,7 @@
 7-8	במרקים	_	_	_	_	_	_	_	_
 7	ב	ב	ADP	ADP	Definite=Def	1	dep	_	_
 8	מרקים	מרק	NOUN	NOUN	Gender=Masc|Number=Plur	1	dep	_	_
-9	הללו	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	8	det	_	SpaceAfter=No
+9	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	8	det	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	28	punct	_	_
 11	אבל	אבל	CCONJ	CCONJ	_	28	cc	_	_
 12	משום	משום	SCONJ	SCONJ	_	15	mark	_	_
@@ -13189,7 +13189,7 @@
 3	מבוססת	בוסס	VERB	VERB	Gender=Fem|Number=Sing|Person=1,2,3|VerbForm=Part	1	acl:relcl	_	_
 4	על	על	ADP	ADP	_	5	case	_	_
 5	מנות	מנה	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl	_	_
-6	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	5	det	_	_
+6	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	5	det	_	_
 7	תגיע	הגיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
 8-9	ל110	_	_	_	_	_	_	_	_
 8	ל	ל	ADP	ADP	_	10	case	_	_
@@ -13415,7 +13415,7 @@
 2	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
 3-4	מאלה	_	_	_	_	_	_	_	_
 3	מ	מ	ADP	ADP	_	4	case	_	_
-4	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	2	nmod	_	_
+4	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	2	nmod	_	_
 5	לא	לא	ADV	ADV	Polarity=Neg	6	advmod	_	_
 6	נמצא	נמצא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Mid	0	root	_	_
 7-8	בגרסה	_	_	_	_	_	_	_	_
@@ -14121,7 +14121,7 @@
 14-15	המנות	_	_	_	_	_	_	_	_
 14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
 15	מנות	מנה	NOUN	NOUN	Gender=Fem|Number=Plur	12	obl	_	_
-16	הללו	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	15	det	_	_
+16	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	15	det	_	_
 17	תעלה	עלה	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Fut	0	root	_	_
 18-19	כ150	_	_	_	_	_	_	_	_
 18	כ	כ	ADP	ADP	_	20	case	_	_
@@ -14222,7 +14222,7 @@
 6-7	הדברים	_	_	_	_	_	_	_	_
 6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
 7	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
-8	הללו	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	7	det	_	_
+8	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	7	det	_	_
 9	לבדם	לבד	ADV	ADV	_	7	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	12	punct	_	_
 11	אבל	אבל	CCONJ	CCONJ	_	12	cc	_	_
@@ -14988,7 +14988,7 @@
 15	אוכל	אוכל	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound	_	_
 16-17	האלה	_	_	_	_	_	_	_	_
 16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
-17	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	13	det	_	_
+17	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	13	det	_	_
 18	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
 19	ידע	ידע	NOUN	NOUN	Gender=Masc|Number=Sing	18	nsubj	_	_
 20	מינימלי	מינימאלי	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
@@ -15085,7 +15085,7 @@
 9	יש	יש	VERB	VERB	HebExistential=Yes	3	conj	_	_
 10-11	כאלה	_	_	_	_	_	_	_	_
 10	כ	כ	ADP	ADP	Definite=Def	11	case	_	_
-11	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	9	nsubj	_	_
+11	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	9	nsubj	_	_
 12-13	הסבורים	_	_	_	_	_	_	_	_
 12	ה	ה	SCONJ	SCONJ	Definite=Def|PronType=Art	13	mark	_	_
 13	סבורים	סבורים	AUX	AUX	VerbType=Mod	11	acl:relcl	_	_
@@ -15561,7 +15561,7 @@
 3-4	המנות	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
 4	מנות	מנה	NOUN	NOUN	Gender=Fem|Number=Plur	18	obl	_	_
-5	הללו	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	4	det	_	SpaceAfter=No
+5	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	4	det	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	8	punct	_	_
 7	כולל	כלל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	8	case	_	_
 8	בקבוק	בקבוק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	appos	_	_
@@ -15959,7 +15959,7 @@
 23-24	המנות	_	_	_	_	_	_	_	_
 23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
 24	מנות	מנה	NOUN	NOUN	Gender=Fem|Number=Plur	21	obl	_	_
-25	הללו	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	24	det	_	_
+25	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	24	det	_	_
 26-27	המחיר	_	_	_	_	_	_	_	_
 26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
 27	מחיר	מחיר	NOUN	NOUN	Gender=Masc|Number=Sing	31	nsubj	_	_
