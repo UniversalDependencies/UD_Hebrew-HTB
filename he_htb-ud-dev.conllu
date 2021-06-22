@@ -573,7 +573,7 @@
 12-13	התאילנדיים	_	_	_	_	_	_	_	_
 12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
 13	תאילנדיים	תאילנדי	ADJ	ADJ	Gender=Masc|Number=Plur	11	amod	_	_
-14	היא	הוא	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	16	cop	_	_
+14	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	16	cop	_	_
 15	"	"	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
 16	כתם	כתם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	ccomp	_	_
 17	חרפה	חרפה	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound	_	_
@@ -1653,7 +1653,7 @@
 22	מין	מין	NOUN	NOUN	Gender=Masc|Number=Sing	21	compound	_	SpaceAfter=No
 23	"	"	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
 24	)	)	PUNCT	PUNCT	_	14	punct	_	_
-25	הוא	הוא	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	26	cop	_	_
+25	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	26	cop	_	_
 26	שקר	שקר	NOUN	NOUN	Gender=Masc|Number=Sing	2	conj	_	_
 27-28	וכזב	_	_	_	_	_	_	_	SpaceAfter=No
 27	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
@@ -2485,7 +2485,7 @@
 17-18	מעשיהם	_	_	_	_	_	_	_	_
 17	מעשי	מעשה	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	16	compound	_	_
 18	הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
-19	הם	הוא	AUX	AUX	Gender=Masc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	21	cop	_	_
+19	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Polarity=Pos	21	cop	_	_
 20-21	הפוליטיקאים	_	_	_	_	_	_	_	SpaceAfter=No
 20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
 21	פוליטיקאים	פוליטיקאי	NOUN	NOUN	Gender=Masc|Number=Plur	3	acl:relcl	_	_
@@ -2769,7 +2769,7 @@
 11	במיוחד	במיוחד	ADV	ADV	_	13	advmod	_	_
 12	על	על	ADP	ADP	_	13	case	_	_
 13	משכנתאות	משכנתא	NOUN	NOUN	Gender=Fem|Number=Plur	8	nmod	_	_
-14	היא	הוא	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	17	cop	_	_
+14	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	17	cop	_	_
 15-17	מהנמוכות	_	_	_	_	_	_	_	_
 15	מ	מ	ADP	ADP	_	17	case	_	_
 16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
@@ -2920,7 +2920,7 @@
 # sent_id = 79
 # text = איובה היא מקום לא-שגרתי.
 1	איובה	איובה	PROPN	PROPN	_	3	nsubj	_	_
-2	היא	הוא	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	3	cop	_	_
+2	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	3	cop	_	_
 3	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 4	לא	לא	ADV	ADV	Polarity=Neg	6	advmod	_	SpaceAfter=No
 5	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
@@ -2987,7 +2987,7 @@
 # sent_id = 82
 # text = איובה היא מאסמי הדגנים של ארה"ב, ולפרנסתה היא מייצאת אותם למדינות כברית המועצות.
 1	איובה	איובה	PROPN	PROPN	_	4	nsubj	_	_
-2	היא	הוא	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	4	cop	_	_
+2	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	4	cop	_	_
 3-4	מאסמי	_	_	_	_	_	_	_	_
 3	מ	מ	ADP	ADP	_	4	case	_	_
 4	אסמי	אסם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	0	root	_	_
@@ -3311,7 +3311,7 @@
 1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 2	גורג	גורג	PROPN	PROPN	_	6	nsubj	_	SpaceAfter=No
 3	"	"	PUNCT	PUNCT	_	2	punct	_	_
-4	הוא	הוא	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	6	cop	_	_
+4	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	6	cop	_	_
 5	כמובן	כמובן	ADV	ADV	_	6	advmod	_	_
 6	גורג	גורג	PROPN	PROPN	_	0	root	_	_
 7	בוש	בוש	PROPN	PROPN	_	6	flat	_	SpaceAfter=No
@@ -3325,7 +3325,7 @@
 4	שפתיי	שפתיי	NOUN	NOUN	_	2	obj	_	SpaceAfter=No
 5	...	...	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 6	"	"	PUNCT	PUNCT	_	2	punct	_	_
-7	היא	הוא	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	8	cop	_	_
+7	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	8	cop	_	_
 8	פאראפראזה	פאראפראזה	NOUN	NOUN	_	0	root	_	_
 9	על	על	ADP	ADP	_	10	case	_	_
 10	סיסמת	סיסמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	nmod	_	_
@@ -5534,7 +5534,7 @@
 43-44	השנה	_	_	_	_	_	_	_	_
 43	ה	ה	DET	DET	Definite=Def|PronType=Art	44	det	_	_
 44	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	39	nmod	_	_
-45	היא	הוא	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	46	cop	_	_
+45	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	46	cop	_	_
 46	סוזן	סוזן	PROPN	PROPN	_	21	parataxis	_	_
 47	זונטג	זונטג	PROPN	PROPN	_	46	flat	_	SpaceAfter=No
 48	)	)	PUNCT	PUNCT	_	46	punct	_	SpaceAfter=No
@@ -6003,7 +6003,7 @@
 11-12	האחרונה	_	_	_	_	_	_	_	_
 11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
 12	אחרונה	אחרון	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
-13	היא	הוא	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	15	cop	_	_
+13	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	15	cop	_	_
 14-15	השימוש	_	_	_	_	_	_	_	_
 14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
 15	שימוש	שימוש	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
@@ -6186,7 +6186,7 @@
 53	לתרום	תרם	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	50	dep	_	HebSource=ConvUncertainHead
 54	תרומות	תרומה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	53	obj	_	_
 55	צדקה	צדקה	NOUN	NOUN	Gender=Fem|Number=Sing	54	compound	_	_
-56	הוא	הוא	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	58	cop	_	_
+56	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	58	cop	_	_
 57-58	המנהל	_	_	_	_	_	_	_	_
 57	ה	ה	SCONJ	SCONJ	_	58	mark	_	_
 58	מנהל	ניהל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	41	acl:relcl	_	_
@@ -6356,7 +6356,7 @@
 6	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
 7	בירת	בירה	NOUN	NOUN	Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	_
 8	ו	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
-9	היא	הוא	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	10	cop	_	_
+9	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	10	cop	_	_
 10	ואשינגטון	ואשינגטון	PROPN	PROPN	_	2	acl:relcl	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	2	punct	_	_
 12-13	העצות	_	_	_	_	_	_	_	_
@@ -6365,7 +6365,7 @@
 14-15	הבאות	_	_	_	_	_	_	_	_
 14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
 15	באות	בא	ADJ	ADJ	Gender=Fem|Number=Plur	13	amod	_	_
-16	הן	הוא	AUX	AUX	Gender=Fem|Number=Plur|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	18	cop	_	_
+16	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|Polarity=Pos	18	cop	_	_
 17-18	הישימות	_	_	_	_	_	_	_	_
 17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
 18	ישימות	ישים	ADJ	ADJ	Gender=Fem|Number=Plur	0	root	_	_
@@ -7032,7 +7032,7 @@
 14	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
 15	ב	ב	ADP	ADP	_	16	case	_	_
 16	איטליה	איטליה	PROPN	PROPN	_	13	acl:relcl	_	_
-17	הוא	הוא	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	18	cop	_	_
+17	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	18	cop	_	_
 18	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	1	ccomp	_	_
 19	טוב	טוב	ADJ	ADJ	Gender=Masc|Number=Sing	18	amod	_	_
 20-21	לחישול	_	_	_	_	_	_	_	_
@@ -7638,7 +7638,7 @@
 24	כיום	כיום	ADV	ADV	_	29	advmod	_	_
 25	כסף	כסף	NOUN	NOUN	Gender=Masc|Number=Sing	29	nsubj	_	_
 26	ימני	ימני	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
-27	הוא	הוא	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	29	cop	_	_
+27	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	29	cop	_	_
 28-29	החולש	_	_	_	_	_	_	_	_
 28	ה	ה	SCONJ	SCONJ	_	29	mark	_	_
 29	חולש	חלש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	14	conj	_	_
@@ -7995,7 +7995,7 @@
 26	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
 27	נוקטת	נקט	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	8	acl:relcl	_	SpaceAfter=No
 28	,	,	PUNCT	PUNCT	_	8	punct	_	_
-29	היא	הוא	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	30	cop	_	_
+29	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	30	cop	_	_
 30	שריד	שריד	NOUN	NOUN	Gender=Masc|Number=Sing	6	ccomp	_	_
 31-32	לליברליזם	_	_	_	_	_	_	_	_
 31	ל	ל	ADP	ADP	_	32	case	_	_
@@ -8551,7 +8551,7 @@
 4-5	המשחק	_	_	_	_	_	_	_	_
 4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
 5	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound	_	_
-6	הוא	הוא	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	7	cop	_	_
+6	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	7	cop	_	_
 7	לחטוף	חטף	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	1	ccomp	_	_
 8	"	"	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 9	ביטחון	ביטחון	NOUN	NOUN	Gender=Masc|Number=Sing	7	obj	_	_
@@ -8738,7 +8738,7 @@
 3	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	2	det	_	_
 4	סדאם	סדאם	PROPN	PROPN	_	7	nsubj	_	_
 5	חוסיין	חוסיין	PROPN	PROPN	_	4	flat	_	_
-6	הוא	הוא	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	7	cop	_	_
+6	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	7	cop	_	_
 7	מטרד	מטרד	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
@@ -9046,7 +9046,7 @@
 5	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
 6	כיום	כיום	ADV	ADV	_	11	advmod	_	_
 7	אלו	זה	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=3|PronType=Dem	11	nsubj	_	_
-8	הן	הוא	AUX	AUX	Gender=Fem|Number=Plur|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	11	cop	_	_
+8	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|Polarity=Pos	11	cop	_	_
 9	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	11	nummod	_	_
 10-11	הבעיות	_	_	_	_	_	_	_	_
 10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
@@ -9731,7 +9731,7 @@
 8-9	החופשית	_	_	_	_	_	_	_	_
 8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
 9	חופשית	חופשי	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	_
-10	הוא	הוא	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	11	cop	_	_
+10	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	11	cop	_	_
 11	פונקציה	פונקציה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 12	של	של	ADP	ADP	Case=Gen	13	case	_	_
 13-14	סודיותה	_	_	_	_	_	_	_	SpaceAfter=No
@@ -11181,7 +11181,7 @@
 3	ב	ב	ADP	ADP	_	4	case	_	_
 4	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod	_	_
 5	גדולה	גדול	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
-6	היא	הוא	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	7	cop	_	_
+6	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	7	cop	_	_
 7	קרש	קרש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
 8	קפיצה	קפיצה	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound	_	_
 9	אל	אל	ADP	ADP	_	10	case	_	_
@@ -12707,7 +12707,7 @@
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
 4	כהונה	כהונה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound	_	_
 5	"	"	PUNCT	PUNCT	_	2	punct	_	_
-6	הוא	הוא	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	10	cop	_	_
+6	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	10	cop	_	_
 7	עכשיו	עכשיו	ADV	ADV	_	10	advmod	_	_
 8	כל	כול	DET	DET	Definite=Cons	10	advmod	_	_
 9	כך	כך	ADV	ADV	_	8	fixed	_	_
@@ -13655,7 +13655,7 @@
 1-2	הרושם	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
 2	רושם	רושם	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
-3	הוא	הוא	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	9	cop	_	_
+3	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	9	cop	_	_
 4-6	שהממסד	_	_	_	_	_	_	_	_
 4	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
 5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
@@ -14593,7 +14593,7 @@
 15	רב	רב	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
 16	כהנא	כהנא	PROPN	PROPN	_	15	flat	_	SpaceAfter=No
 17	,	,	PUNCT	PUNCT	_	1	punct	_	_
-18	הם	הוא	AUX	AUX	Gender=Masc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	20	cop	_	_
+18	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Polarity=Pos	20	cop	_	_
 19-20	המפורשים	_	_	_	_	_	_	_	_
 19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
 20	מפורשים	מפורש	ADJ	ADJ	Gender=Masc|Number=Plur	0	root	_	_
