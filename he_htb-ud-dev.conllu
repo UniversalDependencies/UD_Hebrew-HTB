@@ -446,7 +446,7 @@
 7	ב	ב	ADP	ADP	_	8	case	_	_
 8	מכרזים	מכרז	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
 9	,	,	PUNCT	PUNCT	_	13	punct	_	_
-10	היות	היות	CCONJ	CCONJ	_	13	mark	_	_
+10	היות	היות	SCONJ	SCONJ	_	13	mark	_	_
 11-12	והן	_	_	_	_	_	_	_	_
 11	ו	ו	CCONJ	CCONJ	_	10	fixed	_	HebSource=ConvUncertainHead
 12	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
@@ -2244,7 +2244,7 @@
 52	עובדי	עובד	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	37	nmod	_	_
 53	ו	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	52	nmod:poss	_	_
 54	,	,	PUNCT	PUNCT	_	57	punct	_	_
-55	אף	אף	CCONJ	CCONJ	_	56	advmod	_	_
+55	אף	אף	ADV	ADV	_	56	advmod	_	_
 56	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	57	nsubj	_	_
 57	ערבי	ערבי	NOUN	NOUN	Gender=Masc|Number=Sing	52	appos	_	SpaceAfter=No
 58	,	,	PUNCT	PUNCT	_	57	punct	_	_
@@ -2794,7 +2794,7 @@
 # text = ובאשר להצמדה ולאינפלציה הכתובת אינה הבנקים.
 1-2	ובאשר	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
-2	באשר	באשר	CCONJ	CCONJ	_	4	case	_	_
+2	באשר	באשר	ADP	ADP	_	4	case	_	_
 3-4	להצמדה	_	_	_	_	_	_	_	_
 3	ל	ל	ADP	ADP	Definite=Def	2	fixed	_	_
 4	הצמדה	הצמדה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nmod	_	_
@@ -2947,7 +2947,7 @@
 12	ל	ל	ADP	ADP	_	13	case	_	_
 13	קילומטר	קילומטר	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
 14	מרובע	מרובע	ADJ	ADJ	Gender=Masc|Number=Sing	13	amod	_	_
-15	מאשר	מאשר	CCONJ	CCONJ	_	18	case	_	_
+15	מאשר	מאשר	ADP	ADP	_	18	case	_	_
 16-17	בכל	_	_	_	_	_	_	_	_
 16	ב	ב	ADP	ADP	_	18	case	_	_
 17	כל	כול	DET	DET	Definite=Cons	18	det	_	_
@@ -4250,7 +4250,7 @@
 39	ו	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	38	nmod:poss	_	_
 40	,	,	PUNCT	PUNCT	_	43	punct	_	_
 41	בעיקר	בעיקר	ADV	ADV	_	43	advmod	_	_
-42	עקב	עקב	CCONJ	CCONJ	_	43	case	_	_
+42	עקב	עקב	ADP	ADP	_	43	case	_	_
 43	היעדרות	היעדרות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	27	obl	_	_
 44	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	43	compound	_	_
 45-47	מהשטחים	_	_	_	_	_	_	_	SpaceAfter=No
@@ -5335,7 +5335,7 @@
 7-8	הזוכים	_	_	_	_	_	_	_	_
 7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
 8	זוכים	זכה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	20	nsubj	_	_
-9	אם	אם	SCONJ	SCONJ	_	10	case	_	_
+9	אם	אם	SCONJ	SCONJ	_	10	mark	_	_
 10	לשפוט	שפט	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	20	parataxis	_	_
 11	על	על	ADP	ADP	_	13	case	_	_
 12	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	fixed	_	_
@@ -6233,7 +6233,7 @@
 9	חברתיות	חברתי	ADJ	ADJ	Gender=Fem|Number=Plur	8	amod	_	_
 10	נאצלות	נאצל	ADJ	ADJ	Gender=Fem|Number=Plur	8	amod	_	_
 11	יותר	יותר	ADV	ADV	_	10	advmod	_	_
-12	מאשר	מאשר	CCONJ	CCONJ	_	13	case	_	_
+12	מאשר	מאשר	ADP	ADP	_	13	case	_	_
 13	הקמת	הקמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	obl	_	_
 14	סביבה	סביבה	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound	_	_
 15	תומכת	תומך	ADJ	ADJ	Gender=Fem|Number=Sing	14	amod	_	_
@@ -6885,7 +6885,7 @@
 20	יכולים	יכול	VERB	VERB	VerbForm=Part	14	conj	_	_
 21	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	20	cop	_	SpaceAfter=No
 22	,	,	PUNCT	PUNCT	_	24	punct	_	_
-23	אילו	אילו	CCONJ	CCONJ	_	24	mark	_	_
+23	אילו	אילו	SCONJ	SCONJ	_	24	mark	_	_
 24	סגרו	סגר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	20	parataxis	_	_
 25-26	אותם	_	_	_	_	_	_	_	_
 25	אות	את	ADP	ADP	Case=Acc	26	case	_	_
@@ -7088,7 +7088,7 @@
 9	שוררת	שרר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
 10	ציניות	ציניות	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
 11	רבה	רב	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
-12	באשר	באשר	CCONJ	CCONJ	_	14	case	_	_
+12	באשר	באשר	ADP	ADP	_	14	case	_	_
 13-14	למטר	_	_	_	_	_	_	_	_
 13	ל	ל	ADP	ADP	_	12	fixed	_	_
 14	מטר	מטר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	nmod	_	_
@@ -8167,7 +8167,7 @@
 17	ב	ב	ADP	ADP	Definite=Def	18	case	_	_
 18	מרכז	מרכז	NOUN	NOUN	Gender=Masc|Number=Sing	16	nmod	_	_
 19-20	ומעט	_	_	_	_	_	_	_	_
-19	ו	ו	CCONJ	CCONJ	_	18	dep	_	HebSource=ConvUncertainHead
+19	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
 20	מעט	מעט	ADV	ADV	_	18	advmod	_	_
 21	שמאלה	שמאלה	ADV	ADV	_	20	advmod	_	HebSource=ConvUncertainHead
 22-23	ממנו	_	_	_	_	_	_	_	SpaceAfter=No
@@ -9542,7 +9542,7 @@
 18	,	,	PUNCT	PUNCT	_	23	punct	_	_
 19-20	ובאם	_	_	_	_	_	_	_	_
 19	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
-20	באם	באם	CCONJ	CCONJ	_	23	mark	_	_
+20	באם	באם	SCONJ	SCONJ	_	23	mark	_	_
 21	אין	אין	ADV	ADV	Polarity=Neg	23	advmod	_	_
 22	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
 23	מתכוון	התכוון	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|VerbForm=Part	16	conj	_	_
@@ -10373,7 +10373,7 @@
 
 # sent_id = 309
 # text = אילו ניצח סילבר, יתכן מאוד שהיה מנסה בעוד שנתיים, או בעוד שש שנים, להתמודד על הנשיאות.
-1	אילו	אילו	CCONJ	CCONJ	_	2	case	_	_
+1	אילו	אילו	SCONJ	SCONJ	_	2	mark	_	_
 2	ניצח	ניצח	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	5	obl	_	_
 3	סילבר	סילבר	PROPN	PROPN	_	2	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	2	punct	_	_
@@ -10885,7 +10885,7 @@
 18	אנחה	אנחה	NOUN	NOUN	Gender=Fem|Number=Sing	16	obl	_	_
 19	עמוקה	עמוק	ADJ	ADJ	Gender=Fem|Number=Sing	18	amod	_	_
 20	כי	כי	SCONJ	SCONJ	_	34	mark	_	_
-21	אילו	אילו	CCONJ	CCONJ	_	23	mark	_	_
+21	אילו	אילו	SCONJ	SCONJ	_	23	mark	_	_
 22	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	23	cop	_	_
 23	משכילים	השכיל	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	34	advcl	_	_
 24	לעמוד	עמד	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	23	xcomp	_	_
@@ -10918,7 +10918,7 @@
 
 # sent_id = 328
 # text = מאחר שהכול ראו בה שיה מובלת לטבח, היא נשארה עם תקציב בחירות קטן ב90% מזה של בראדלי.
-1	מאחר	מאחר	CCONJ	CCONJ	_	4	mark	_	_
+1	מאחר	מאחר	SCONJ	SCONJ	_	4	mark	_	_
 2-3	שהכול	_	_	_	_	_	_	_	_
 2	ש	ש	SCONJ	SCONJ	_	1	fixed	_	_
 3	הכול	הכול	PRON	PRON	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
@@ -12346,7 +12346,7 @@
 8	נגד	נגד	ADP	ADP	_	9	case	_	_
 9	וולסטון	וולסטון	PROPN	PROPN	_	7	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	14	punct	_	HebSource=ConvUncertainHead
-11	באשר	באשר	CCONJ	CCONJ	_	14	mark	_	_
+11	באשר	באשר	SCONJ	SCONJ	_	14	mark	_	_
 12	אין	אין	ADV	ADV	Polarity=Neg	14	advmod	_	_
 13	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 14	יהודי	יהודי	NOUN	NOUN	Gender=Masc|Number=Sing	7	dep	_	HebSource=ConvUncertainHead
@@ -12728,7 +12728,7 @@
 21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
 22	יריבה	יריב	ADJ	ADJ	Gender=Fem|Number=Sing	20	amod	_	_
 23	להציג	הציג	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	18	xcomp	_	_
-24	אפילו	אפילו	CCONJ	CCONJ	_	25	advmod	_	_
+24	אפילו	אפילו	ADV	ADV	_	25	advmod	_	_
 25	מועמד	מועמד	NOUN	NOUN	Gender=Masc|Number=Sing	23	obj	_	_
 26	נומינלי	נומינלי	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
 27	.	.	PUNCT	PUNCT	_	10	punct	_	_
@@ -12991,7 +12991,7 @@
 10	בוסקה	בוסקה	PROPN	PROPN	_	9	flat	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	2	punct	_	_
 12	נמצאות	נמצא	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Mid	0	root	_	_
-13	אף	אף	CCONJ	CCONJ	_	14	advmod	_	_
+13	אף	אף	ADV	ADV	_	14	advmod	_	_
 14	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	12	dep	_	_
 15	כיום	כיום	ADV	ADV	_	12	advmod	_	_
 16-17	בדיון	_	_	_	_	_	_	_	_
@@ -13541,7 +13541,7 @@
 4	תפקידים	תפקיד	NOUN	NOUN	Gender=Masc|Number=Plur	3	obj	_	_
 5	רמים	רם	ADJ	ADJ	Gender=Masc|Number=Plur	4	amod	_	_
 6-7	ובעלי	_	_	_	_	_	_	_	_
-6	ו	ו	CCONJ	CCONJ	_	5	dep	_	_
+6	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
 7	בעלי	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	dep	_	_
 8	חשיבות	חשיבות	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound	_	_
 9-10	בפוליטיקה	_	_	_	_	_	_	_	SpaceAfter=No
@@ -13818,7 +13818,7 @@
 29-30	שנפצעו	_	_	_	_	_	_	_	_
 29	ש	ש	SCONJ	SCONJ	_	30	mark	_	_
 30	נפצעו	נפצע	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	25	acl:relcl	_	_
-31	אף	אף	CCONJ	CCONJ	_	32	advmod	_	_
+31	אף	אף	ADV	ADV	_	32	advmod	_	_
 32	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	dep	_	SpaceAfter=No
 33	.	.	PUNCT	PUNCT	_	11	punct	_	_
 
@@ -14608,7 +14608,7 @@
 27	רב	רב	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	25	obl	_	_
 28	ו	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
 29	,	,	PUNCT	PUNCT	_	33	punct	_	_
-30	כאילו	כאילו	CCONJ	CCONJ	_	33	mark	_	_
+30	כאילו	כאילו	SCONJ	SCONJ	_	33	mark	_	_
 31	עוד	עוד	ADV	ADV	_	33	advmod	_	_
 32	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	33	cop	_	_
 33	חי	חי	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	25	advcl	_	SpaceAfter=No

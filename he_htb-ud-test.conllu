@@ -1903,7 +1903,7 @@
 14	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obl	_	_
 15	ו	ו	CCONJ	CCONJ	_	14	compound	_	SpaceAfter=No
 16	,	,	PUNCT	PUNCT	_	18	punct	_	_
-17	עקב	עקב	CCONJ	CCONJ	_	18	case	_	_
+17	עקב	עקב	ADP	ADP	_	18	case	_	_
 18	שהיית	שהייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	obl	_	_
 19-20	הנבחרת	_	_	_	_	_	_	_	_
 19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
@@ -2247,7 +2247,7 @@
 
 # sent_id = 5812
 # text = למעט מוטי דניאל ולאוון מרסר, ולפרקים גם דונאלד רויאל, היו כל היתר חלשים מאוד לרבות שחקני הנבחרת דורון גמצי, נדב הנפלד וגיא גודס.
-1	למעט	למעט	CCONJ	CCONJ	_	2	case	_	_
+1	למעט	למעט	ADP	ADP	_	2	case	_	_
 2	מוטי	מוטי	PROPN	PROPN	_	19	obl	_	_
 3	דניאל	דניאל	PROPN	PROPN	_	2	flat	_	_
 4-5	ולאוון	_	_	_	_	_	_	_	_
@@ -4101,7 +4101,7 @@
 
 # sent_id = 5880
 # text = עקב דרישה זאת, המשקפת שינוי בפועל בתנאי התשלום המוסכמים, נחתם בסוף אפריל 87 זיכרון דברים בין הצדדים, ובו נקבעו מועדים להחזרת המע"ם.
-1	עקב	עקב	CCONJ	CCONJ	_	2	case	_	_
+1	עקב	עקב	ADP	ADP	_	2	case	_	_
 2	דרישה	דרישה	NOUN	NOUN	Gender=Fem|Number=Sing	17	obl	_	_
 3	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	6	punct	_	_
@@ -4136,9 +4136,9 @@
 26	צדדים	צד	NOUN	NOUN	Gender=Masc|Number=Plur	22	nmod	_	_
 27	,	,	PUNCT	PUNCT	_	31	punct	_	_
 28-30	ובו	_	_	_	_	_	_	_	_
-28	ו	ו	CCONJ	CCONJ	_	31	mark	_	_
-29	וב	ב	ADP	ADP	_	30	case	_	_
-30	וב	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obl	_	_
+28	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
+29	ב	ב	ADP	ADP	_	30	case	_	_
+30	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obl	_	_
 31	נקבעו	נקבע	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	22	acl:relcl	_	_
 32	מועדים	מועד	NOUN	NOUN	Gender=Masc|Number=Plur	31	nsubj	_	_
 33-34	להחזרת	_	_	_	_	_	_	_	_
@@ -4260,7 +4260,7 @@
 
 # sent_id = 5885
 # text = כיוון שהעמותה סירבה לשלם את יתרת המע"ם, הגישה נגדה החברה תביעה בסדר-דין מקוצר לבית-המשפט המחוזי בתל-אביב.
-1	כיוון	כיוון	SCONJ	SCONJ	_	5	case	_	_
+1	כיוון	כיוון	SCONJ	SCONJ	_	5	mark	_	_
 2-4	שהעמותה	_	_	_	_	_	_	_	_
 2	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
@@ -4522,7 +4522,7 @@
 58-59	העמותה	_	_	_	_	_	_	_	_
 58	ה	ה	DET	DET	Definite=Def|PronType=Art	59	det	_	_
 59	עמותה	עמותה	NOUN	NOUN	Gender=Fem|Number=Sing	55	nsubj	_	_
-60	עקב	עקב	CCONJ	CCONJ	_	62	case	_	_
+60	עקב	עקב	ADP	ADP	_	62	case	_	_
 61-62	האיחור	_	_	_	_	_	_	_	_
 61	ה	ה	DET	DET	Definite=Def|PronType=Art	62	det	_	_
 62	איחור	איחור	NOUN	NOUN	Gender=Masc|Number=Sing	55	obl	_	_
@@ -4536,7 +4536,7 @@
 
 # sent_id = 5891
 # text = באשר לסכומים שרצתה העמותה לקזז בגלל הנזקים שנגרמו לה קבעה השופטת, כי סכומי הנזקים לא פורטו כראוי וכי העמותה מתעלמת מהסכמתה המפורשת בזיכרון הדברים "לעיכוב כל הדירות, פרט לדירת קנטור, עד סילוק המגיע עבור מע"ם".
-1	באשר	באשר	CCONJ	CCONJ	_	3	case	_	_
+1	באשר	באשר	ADP	ADP	_	3	case	_	_
 2-3	לסכומים	_	_	_	_	_	_	_	_
 2	ל	ל	ADP	ADP	Definite=Def	1	fixed	_	_
 3	סכומים	סכום	NOUN	NOUN	Gender=Masc|Number=Plur	16	obl	_	_
@@ -4619,7 +4619,7 @@
 
 # sent_id = 5892
 # text = הואיל וניתנה הסכמתה של העמותה לעיכוב, אין היא יכולה לתבוע פיצויים עליו.
-1	הואיל	הואיל	CCONJ	CCONJ	_	3	mark	_	_
+1	הואיל	הואיל	SCONJ	SCONJ	_	3	mark	_	_
 2-3	וניתנה	_	_	_	_	_	_	_	_
 2	ו	ו	CCONJ	CCONJ	_	1	fixed	_	_
 3	ניתנה	ניתן	VERB	VERB	_	15	advcl	_	_
@@ -4814,7 +4814,7 @@
 4	שופט	שופט	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj	_	_
 5	,	,	PUNCT	PUNCT	_	31	punct	_	_
 6	כי	כי	SCONJ	SCONJ	_	31	mark	_	_
-7	אף	אף	CCONJ	CCONJ	_	11	mark	_	_
+7	אף	אף	SCONJ	SCONJ	_	11	mark	_	_
 8-10	שהעמותה	_	_	_	_	_	_	_	_
 8	ש	ש	SCONJ	SCONJ	_	7	fixed	_	_
 9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
@@ -4873,7 +4873,7 @@
 49	ה	ה	DET	DET	Definite=Def|PronType=Art	50	det	_	_
 50	דירות	דירה	NOUN	NOUN	Gender=Fem|Number=Plur	48	compound	_	_
 51	,	,	PUNCT	PUNCT	_	57	punct	_	_
-52	ככל	ככל	SCONJ	SCONJ	_	57	case	_	_
+52	ככל	ככל	SCONJ	SCONJ	_	57	mark	_	_
 53-55	שהדבר	_	_	_	_	_	_	_	_
 53	ש	ש	SCONJ	SCONJ	_	57	mark	_	_
 54	ה	ה	DET	DET	Definite=Def|PronType=Art	55	det	_	_
@@ -5005,8 +5005,8 @@
 46	ו	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	45	nmod:poss	_	_
 47	,	,	PUNCT	PUNCT	_	48	punct	_	_
 48-49	ולו	_	_	_	_	_	_	_	_
-48	ו	ו	CCONJ	CCONJ	_	42	dep	_	HebSource=ConvUncertainHead
-49	לו	לו	CCONJ	CCONJ	_	52	case	_	_
+48	ו	ו	CCONJ	CCONJ	_	52	cc	_	_
+49	לו	לו	SCONJ	SCONJ	_	52	mark	_	_
 50	רק	רק	ADV	ADV	_	52	advmod	_	_
 51-52	בדוחק	_	_	_	_	_	_	_	SpaceAfter=No
 51	ב	ב	ADP	ADP	_	52	case	_	_
@@ -5040,7 +5040,7 @@
 75	גופה	גופה	NOUN	NOUN	Gender=Fem|Number=Sing	74	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
 76	,	,	PUNCT	PUNCT	_	77	punct	_	HebSource=ConvUncertainHead
 77-79	והנתבע	_	_	_	_	_	_	_	_
-77	ו	ו	CCONJ	CCONJ	_	64	dep	_	HebSource=ConvUncertainHead
+77	ו	ו	CCONJ	CCONJ	_	80	cc	_	_
 78	ה	ה	DET	DET	Definite=Def|PronType=Art	79	det	_	_
 79	נתבע	נתבע	NOUN	NOUN	Gender=Masc|Number=Sing	80	nsubj	_	_
 80	יצא	יצא	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	64	dep	_	HebSource=ConvUncertainHead
@@ -5138,7 +5138,7 @@
 # text = ומכיוון שהוכרע כי העמותה רשאית להתגונן, גם אין לשלול ממנה הגשת תביעה שכנגד באמצעות אי-מתן רשות להגיש כתב הגנה.
 1-2	ומכיוון	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
-2	מכיוון	מכיוון	SCONJ	SCONJ	_	4	case	_	_
+2	מכיוון	מכיוון	SCONJ	SCONJ	_	4	mark	_	_
 3-4	שהוכרע	_	_	_	_	_	_	_	_
 3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
 4	הוכרע	הוכרע	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	13	obl	_	_
@@ -5249,7 +5249,7 @@
 14	"	"	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
 15	שפע	שפע	NOUN	NOUN	Gender=Masc|Number=Sing	8	obj	_	_
 16	רב	רב	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
-17	ככל	ככל	SCONJ	SCONJ	_	19	case	_	_
+17	ככל	ככל	SCONJ	SCONJ	_	19	mark	_	_
 18-19	שנדבה	_	_	_	_	_	_	_	_
 18	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
 19	נדבה	נידב	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	8	obl	_	_
@@ -5261,7 +5261,7 @@
 23	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
 24-25	וככל	_	_	_	_	_	_	_	_
 24	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
-25	ככל	ככל	SCONJ	SCONJ	_	27	case	_	_
+25	ככל	ככל	SCONJ	SCONJ	_	27	mark	_	_
 26	אשר	אשר	SCONJ	SCONJ	_	27	mark	_	_
 27	העלה	העלה	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	19	conj	_	_
 28-29	קולמוסם	_	_	_	_	_	_	_	SpaceAfter=No
@@ -5300,27 +5300,27 @@
 2	משיבים	משיב	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	לא	לא	ADV	ADV	Polarity=Neg	4	advmod	_	_
 4	נותרו	נותר	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
-5	חייבים	חייב	NOUN	NOUN	Gender=Masc|Number=Plur	4	dep	_	SpaceAfter=No
+5	חייבים	חייב	NOUN	NOUN	Gender=Masc|Number=Plur	4	xcomp	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	30	punct	_	_
 7-9	וסיכומיהם	_	_	_	_	_	_	_	_
 7	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
 8	סיכומי	סיכום	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	30	nsubj	_	_
 9	הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
-10	השתרעו	השתרע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	30	dep	_	HebSource=ConvUncertainHead
-11	על	על	ADP	ADP	_	12	case	_	_
-12	25	25	NUM	NUM	_	30	obl	_	_
+10	השתרעו	השתרע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	4	conj	_	_
+11	על	על	ADP	ADP	_	19	case	_	_
+12	25	25	NUM	NUM	_	19	nummod	_	_
 13	(	(	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
-14	עשרים	עשרים	NUM	NUM	Gender=Fem,Masc|Number=Sing	12	dep	_	HebSource=ConvUncertainHead
+14	עשרים	עשרים	NUM	NUM	Gender=Fem,Masc|Number=Sing	12	parataxis	_	_
 15-16	וחמישה	_	_	_	_	_	_	_	_
 15	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
 16	חמישה	חמישה	NUM	NUM	Gender=Masc|Number=Sing	14	conj	_	_
 17	!	!	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
 18	)	)	PUNCT	PUNCT	_	14	punct	_	_
-19	עמודים	עמוד	NOUN	NOUN	Gender=Masc|Number=Plur	12	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+19	עמודים	עמוד	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	_	12	punct	_	_
 21-22	ואילו	_	_	_	_	_	_	_	_
-21	ו	ו	CCONJ	CCONJ	_	30	dep	_	HebSource=ConvUncertainHead
-22	אילו	אילו	ADV	ADV	_	30	advmod	_	_
+21	ו	ו	SCONJ	SCONJ	_	30	mark	_	_
+22	אילו	אילו	SCONJ	SCONJ	_	21	fixed	_	_
 23	תשובת	תשובה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	30	nsubj	_	_
 24-25	המערערים	_	_	_	_	_	_	_	_
 24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
@@ -5330,7 +5330,7 @@
 28-29	המשיבה	_	_	_	_	_	_	_	_
 28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
 29	משיבה	משיב	NOUN	NOUN	Gender=Fem|Number=Sing	27	compound	_	_
-30	השתרעה	השתרע	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	4	conj	_	_
+30	השתרעה	השתרע	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	10	conj	_	_
 31	על	על	ADP	ADP	_	33	case	_	_
 32	תשעה	תשעה	NUM	NUM	Gender=Masc|Number=Sing	33	nummod	_	_
 33	עמודים	עמוד	NOUN	NOUN	Gender=Masc|Number=Plur	30	obl	_	SpaceAfter=No
@@ -6922,7 +6922,7 @@
 13-14	הצפונית	_	_	_	_	_	_	_	_
 13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
 14	צפונית	צפוני	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
-15	מאשר	מאשר	CCONJ	CCONJ	_	16	case	_	_
+15	מאשר	מאשר	SCONJ	SCONJ	_	16	mark	_	_
 16	להגר	היגר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	7	advcl	_	_
 17-18	למערב	_	_	_	_	_	_	_	SpaceAfter=No
 17	ל	ל	ADP	ADP	_	20	case	_	_
@@ -7858,7 +7858,7 @@
 
 # sent_id = 5978
 # text = מכיוון שזמן הבירורים המשפטיים מתארך והולך, נאלצים אזרחים להסכים לפשרות בלתי צודקות, מתרחבת התופעה של עסקות טיעון, ויש גם כאלה המנצלים את התמשכות הדיון כדי ללחוץ על הצד השני לוותר.
-1	מכיוון	מכיוון	SCONJ	SCONJ	_	8	case	_	_
+1	מכיוון	מכיוון	SCONJ	SCONJ	_	8	mark	_	_
 2-3	שזמן	_	_	_	_	_	_	_	_
 2	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
 3	זמן	זמן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -10235,7 +10235,7 @@
 
 # sent_id = 6043
 # text = אפילו הכריכה האחורית מכוסה טבלאות, שרטוטים וסימני ספרות.
-1	אפילו	אפילו	CCONJ	CCONJ	_	3	advmod	_	_
+1	אפילו	אפילו	ADV	ADV	_	3	advmod	_	_
 2-3	הכריכה	_	_	_	_	_	_	_	_
 2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
 3	כריכה	כריכה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
@@ -10575,7 +10575,7 @@
 23	,	,	PUNCT	PUNCT	_	22	punct	_	_
 24	"	"	PUNCT	PUNCT	_	25	punct	_	SpaceAfter=No
 25-26	והם	_	_	_	_	_	_	_	_
-25	ו	ו	CCONJ	CCONJ	_	10	dep	_	HebSource=ConvUncertainHead
+25	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
 26	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	27	nsubj	_	_
 27	דאגו	דאג	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	10	parataxis	_	_
 28-29	לחידוש	_	_	_	_	_	_	_	_
@@ -10856,7 +10856,7 @@
 52	ה	ה	DET	DET	Definite=Def|PronType=Art	53	det	_	_
 53	גבעה	גבעה	NOUN	NOUN	Gender=Fem|Number=Sing	51	compound	_	_
 54	,	,	PUNCT	PUNCT	_	56	punct	_	_
-55	חרף	חרף	CCONJ	CCONJ	_	56	case	_	_
+55	חרף	חרף	ADP	ADP	_	56	case	_	_
 56	ניסיונות	ניסיון	NOUN	NOUN	Gender=Masc|Number=Plur	46	obl	_	_
 57	חוזרים	חוזר	ADJ	ADJ	Gender=Masc|Number=Plur	56	amod	_	_
 58-59	ונשנים	_	_	_	_	_	_	_	_
@@ -11117,9 +11117,9 @@
 
 # sent_id = 6065
 # text = מאחר והבניין אינו ניצב לרחוב, אלא מקביל לו, נגרע מרושמה הייצוגי המצופה של החזית.
-1	מאחר	מאחר	CCONJ	CCONJ	_	6	case	_	_
+1	מאחר	מאחר	SCONJ	SCONJ	_	6	mark	_	_
 2-4	והבניין	_	_	_	_	_	_	_	_
-2	ו	ו	CCONJ	CCONJ	_	6	mark	_	_
+2	ו	ו	SCONJ	SCONJ	_	6	mark	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
 4	בניין	בניין	NOUN	NOUN	_	6	nsubj	_	_
 5	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part|VerbType=Cop	6	aux	_	_
@@ -11292,7 +11292,7 @@
 # text = אולם, בניגוד לרוב הערים האירופיות, שהתפתחו מצומת לצומת וממבנה שלטוני או כנסייתי שלפניו כיכר למבנה ולכיכר אחרת, נבנתה תל-אביב כאוסף רציף של בנייני מגורים, שביניהם משובצים כיד הספקולציה או המקוריות מבני צבור.
 1	אולם	אולם	CCONJ	CCONJ	_	34	cc	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	_
-3	בניגוד	בניגוד	CCONJ	CCONJ	_	7	case	_	_
+3	בניגוד	בניגוד	ADP	ADP	_	7	case	_	_
 4-5	לרוב	_	_	_	_	_	_	_	_
 4	ל	ל	ADP	ADP	_	3	fixed	_	_
 5	רוב	רוב	DET	DET	Definite=Cons	7	det	_	_
@@ -11956,7 +11956,7 @@
 
 # sent_id = 6086
 # text = מכיוון שממדי ההשתמטות מתשלום קנסות פוגעים באכיפת החוק, מכינים במשרד המשפטים הצעת-חוק לייעול הגבייה, ובמרכזה האפשרות לעקל חשבונות בנק.
-1	מכיוון	מכיוון	SCONJ	SCONJ	_	9	case	_	_
+1	מכיוון	מכיוון	SCONJ	SCONJ	_	9	mark	_	_
 2-3	שממדי	_	_	_	_	_	_	_	_
 2	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
 3	ממדי	ממד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	nsubj	_	_
@@ -13544,7 +13544,7 @@
 12-13	הדעת	_	_	_	_	_	_	_	_
 12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
 13	דעת	דעת	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
-14	אלמלא	אלמלא	CCONJ	CCONJ	_	15	mark	_	_
+14	אלמלא	אלמלא	SCONJ	SCONJ	_	15	mark	_	_
 15	בושלה	בושל	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	9	advcl	_	_
 16-17	הפסטה	_	_	_	_	_	_	_	_
 16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
@@ -13613,7 +13613,7 @@
 24	ל	ל	ADP	ADP	_	25	case	_	_
 25	אנשובי	אנשובי	NOUN	NOUN	_	23	nmod	_	_
 26	,	,	PUNCT	PUNCT	_	30	punct	_	_
-27	אפילו	אפילו	CCONJ	CCONJ	_	30	advmod	_	_
+27	אפילו	אפילו	ADV	ADV	_	30	advmod	_	_
 28	לא	לא	DET	DET	Polarity=Neg	30	det	_	_
 29-30	הרמז	_	_	_	_	_	_	_	_
 29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
@@ -14639,7 +14639,7 @@
 8	ירקות	ירקות	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	_
 9	מבושלים	בושל	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Pass	8	amod	_	_
 10-12	והמתובלים	_	_	_	_	_	_	_	SpaceAfter=No
-10	ו	ו	CCONJ	CCONJ	_	8	dep	_	HebSource=ConvUncertainHead
+10	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
 11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
 12	מתובלים	תובל	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Pass	8	amod	_	_
 13	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -16183,7 +16183,7 @@
 
 # sent_id = 6213
 # text = אף שהמנה היתה טעימה, חסרה בה החריפות של פלפלי צילי והמתיקות של קורנית האופייניים בדרך כלל למנה זו.
-1	אף	אף	CCONJ	CCONJ	_	6	mark	_	_
+1	אף	אף	SCONJ	SCONJ	_	6	mark	_	_
 2-4	שהמנה	_	_	_	_	_	_	_	_
 2	ש	ש	SCONJ	SCONJ	_	1	fixed	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
