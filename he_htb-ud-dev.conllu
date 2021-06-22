@@ -28,7 +28,7 @@
 # sent_id = 2
 # text = תופעה זו התבררה אתמול בוועדת העבודה והרווחה של הכנסת, שדנה בנושא העסקת עובדים זרים.
 1	תופעה	תופעה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
-2	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	1	det	_	_
+2	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	1	det	_	_
 3	התבררה	התברר	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	אתמול	אתמול	ADV	ADV	_	3	advmod	_	_
 5-6	בוועדת	_	_	_	_	_	_	_	_
@@ -1368,7 +1368,7 @@
 32-33	בסוגיה	_	_	_	_	_	_	_	_
 32	ב	ב	ADP	ADP	_	33	case	_	_
 33	סוגיה	סוגיה	NOUN	NOUN	Gender=Fem|Number=Sing	28	nmod	_	_
-34	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	33	det	_	SpaceAfter=No
+34	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	33	det	_	SpaceAfter=No
 35	.	.	PUNCT	PUNCT	_	25	punct	_	_
 
 # sent_id = 37
@@ -2284,7 +2284,7 @@
 # text = אני כותב זאת בצער וברגשי אשם; פעם חשבתי אחרת (על הערבים, לא על הנחשים).
 1	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	כותב	כתב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
-3	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	obj	_	_
+3	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	obj	_	_
 4-5	בצער	_	_	_	_	_	_	_	_
 4	ב	ב	ADP	ADP	_	5	case	_	_
 5	צער	צער	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
@@ -2473,7 +2473,7 @@
 8	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
 9-10	הזו	_	_	_	_	_	_	_	_
 9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
-10	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	8	det	_	_
+10	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	8	det	_	_
 11-12	שאינם	_	_	_	_	_	_	_	_
 11	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
 12	אינם	אינו	AUX	AUX	Gender=Masc|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part|VerbType=Cop	14	aux	_	_
@@ -2729,7 +2729,7 @@
 
 # sent_id = 72
 # text = זו לא הריבית שסיבכה את מקבלי המשכנתאות או לקוחות הבנקים האחרים.
-1	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
+1	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
 2	לא	לא	ADV	ADV	Polarity=Neg	4	advmod	_	_
 3-4	הריבית	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
@@ -3978,7 +3978,7 @@
 
 # sent_id = 113
 # text = זו היתה התרברבות לא-דיסקרטית, ואין ספק שיימנע ממנה השנה.
-1	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
+1	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
 2	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	3	cop	_	_
 3	התרברבות	התרברבות	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 4	לא	לא	ADV	ADV	Polarity=Neg	6	advmod	_	SpaceAfter=No
@@ -4292,7 +4292,7 @@
 23-24	לעבודה	_	_	_	_	_	_	_	_
 23	ל	ל	ADP	ADP	_	24	case	_	_
 24	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	22	obl	_	_
-25	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	24	det	_	_
+25	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	24	det	_	_
 26	מעט	מעט	ADV	ADV	_	28	advmod	_	_
 27	מעל	מעל	ADP	ADP	_	28	case	_	_
 28	שכר	שכר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	nmod	_	_
@@ -5141,7 +5141,7 @@
 15	הנחיה	הנחיה	NOUN	NOUN	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
 16-17	בזו	_	_	_	_	_	_	_	_
 16	ב	ב	ADP	ADP	_	19	case	_	_
-17	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	19	det	_	_
+17	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	19	det	_	_
 18-19	הלשון	_	_	_	_	_	_	_	SpaceAfter=No
 18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
 19	לשון	לשון	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod	_	_
@@ -5546,7 +5546,7 @@
 2-3	בכל	_	_	_	_	_	_	_	_
 2	ב	ב	ADV	ADV	_	6	advmod	_	_
 3	כל	כול	DET	DET	Definite=Cons	2	fixed	_	_
-4	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	fixed	_	_
+4	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	fixed	_	_
 5	אתם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=2|PronType=Prs	6	nsubj	_	_
 6	רוצים	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	17	advcl	_	_
 7	סבסוד	סבסוד	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
@@ -5645,7 +5645,7 @@
 
 # sent_id = 169
 # text = זו אחת הסיבות לכך שמענקי מקארתור מבוקשים כל כך.
-1	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
+1	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
 2	אחת	אחת	NUM	NUM	Definite=Cons|Gender=Fem|Number=Sing	4	nummod	_	_
 3-4	הסיבות	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
@@ -5738,7 +5738,7 @@
 17-18	הגופים	_	_	_	_	_	_	_	_
 17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
 18	גופים	גוף	NOUN	NOUN	Gender=Masc|Number=Plur	11	nmod	_	_
-19	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	18	det	_	SpaceAfter=No
+19	הללו	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	18	det	_	SpaceAfter=No
 20	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = 172
@@ -6770,7 +6770,7 @@
 3	יכול	יכול	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	5	aux	_	_
 4	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	5	cop	_	_
 5	להבטיח	הבטיח	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
-6	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	5	obj	_	_
+6	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	5	obj	_	_
 7-8	במצפון	_	_	_	_	_	_	_	_
 7	ב	ב	ADP	ADP	_	8	case	_	_
 8	מצפון	מצפון	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
@@ -7059,7 +7059,7 @@
 7-8	מאלכימיה	_	_	_	_	_	_	_	_
 7	מ	מ	ADP	ADP	_	8	case	_	_
 8	אלכימיה	אלכימיה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
-9	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	8	det	_	SpaceAfter=No
+9	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	8	det	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	4	punct	_	_
 11	קרוב	קרוב	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
 12-13	לוודאי	_	_	_	_	_	_	_	_
@@ -7380,7 +7380,7 @@
 7	כי	כי	SCONJ	SCONJ	_	11	mark	_	_
 8	לא	לא	ADV	ADV	Polarity=Neg	11	advmod	_	_
 9	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	11	cop	_	_
-10	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	_
+10	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	_
 11	מזימה	מזימה	NOUN	NOUN	Gender=Fem|Number=Sing	6	ccomp	_	_
 12	של	של	ADP	ADP	Case=Gen	14	case	_	_
 13-14	הימין	_	_	_	_	_	_	_	SpaceAfter=No
@@ -7724,7 +7724,7 @@
 1-2	ולא	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	0	root	_	_
 2	לא	לא	ADV	ADV	Polarity=Neg	1	advmod	_	HebSource=ConvUncertainHead
-3	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	fixed	_	_
+3	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	fixed	_	_
 4	בלבד	בלבד	ADV	ADV	_	2	fixed	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	7	punct	_	_
 6	אלא	אלא	CCONJ	CCONJ	_	7	cc	_	_
@@ -7807,7 +7807,7 @@
 3	תיאוריה	תיאוריה	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
 4-5	כזו	_	_	_	_	_	_	_	_
 4	כ	כ	ADP	ADP	Definite=Def	5	case	_	_
-5	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nmod	_	_
+5	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nmod	_	_
 6-7	בחזקת	_	_	_	_	_	_	_	_
 6	ב	ב	ADP	ADP	_	7	case	_	_
 7	חזקת	חזקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	0	root	_	_
@@ -7837,7 +7837,7 @@
 12-13	בבעיה	_	_	_	_	_	_	_	_
 12	ב	ב	ADP	ADP	_	13	case	_	_
 13	בעיה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	_
-14	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	13	det	_	_
+14	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	13	det	_	_
 15-16	ואינם	_	_	_	_	_	_	_	_
 15	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
 16	אינם	אינו	AUX	AUX	Gender=Masc|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part|VerbType=Cop	17	aux	_	_
@@ -7856,7 +7856,7 @@
 # sent_id = 235
 # text = עם זאת, גם הקרנות בעלות השמות הגדולים אינן בהכרח מעיינות החשיבה הליברלית הסטריאוטיפית כפי שלעתים קרובות מתארים אותן.
 1	עם	עם	ADP	ADP	_	2	case	_	_
-2	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	14	nmod	_	SpaceAfter=No
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	14	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	2	punct	_	_
 4	גם	גם	ADV	ADV	_	6	advmod	_	_
 5-6	הקרנות	_	_	_	_	_	_	_	_
@@ -8064,7 +8064,7 @@
 # sent_id = 240
 # text = עם זאת, "טובת הכלל", הדו"ח הגדול על סעד שפרסמה קרן פורד ב9891, סיפק תמיכה מנומקת (בגיבוי קונסנזוס רחב להפתיע של שמות מפורסמים) לתוכנית עבודה וסעד נוקשה ויקרה למדי, שאמנם הבטיחה מקומות עבודה, אבל גם קבעה שכל אדם ייזרק מרשימות מקבלי הסעד כעבור שנתיים.
 1	עם	עם	ADP	ADP	_	2	case	_	_
-2	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	23	obl	_	SpaceAfter=No
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	23	obl	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	2	punct	_	_
 4	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 5	טובת	טובה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	23	nsubj	_	_
@@ -8840,7 +8840,7 @@
 # sent_id = 263
 # text = עובדה זו שימשה יסוד לתלונה שכיחה בתחום הפילנטרופיה: התמקדותם של קרנות וצוותות חשיבה במגמות אופנתיות גורמת לכך שהחברה בקושי ערוכה לגלים היסטוריים חדשים.
 1	עובדה	עובדה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
-2	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	1	det	_	_
+2	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	1	det	_	_
 3	שימשה	שימש	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 4	יסוד	יסוד	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
 5-6	לתלונה	_	_	_	_	_	_	_	_
@@ -9045,7 +9045,7 @@
 5-6	שכיום	_	_	_	_	_	_	_	_
 5	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
 6	כיום	כיום	ADV	ADV	_	11	advmod	_	_
-7	אלו	אלו	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=3|PronType=Dem	11	nsubj	_	_
+7	אלו	זה	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=3|PronType=Dem	11	nsubj	_	_
 8	הן	הוא	AUX	AUX	Gender=Fem|Number=Plur|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	11	cop	_	_
 9	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	11	nummod	_	_
 10-11	הבעיות	_	_	_	_	_	_	_	_
@@ -9143,7 +9143,7 @@
 2	לענות	ענה	VERB	VERB	VerbForm=Inf	7	advcl	_	_
 3	על	על	ADP	ADP	_	4	case	_	_
 4	שאלות	שאלה	NOUN	NOUN	Gender=Fem|Number=Plur	2	obl	_	_
-5	אלו	אלו	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=3|PronType=Dem	4	det	_	_
+5	אלו	זה	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=3|PronType=Dem	4	det	_	_
 6-7	עליך	_	_	_	_	_	_	_	_
 6	עלי	על	ADP	ADP	_	7	case	_	_
 7	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	0	root	_	_
@@ -9156,7 +9156,7 @@
 12	ב	ב	ADP	ADP	_	16	case	_	_
 13	אי	אי	ADV	ADV	Prefix=Yes	16	compound:affix	_	_
 14	-	-	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
-15	אלו	אלו	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=3|PronType=Dem	13	fixed	_	_
+15	אלו	זה	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=3|PronType=Dem	13	fixed	_	_
 16	הרהורים	הרהור	NOUN	NOUN	Gender=Masc|Number=Plur	8	obl	_	_
 17	קוסמיים	קוסמי	ADJ	ADJ	_	16	amod	_	_
 18	על	על	ADP	ADP	_	19	case	_	_
@@ -9554,7 +9554,7 @@
 27	ש	ש	SCONJ	SCONJ	_	31	mark	_	_
 28	ב	ב	ADV	ADV	_	31	advmod	_	_
 29	כל	כול	DET	DET	Definite=Cons	28	fixed	_	_
-30	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	28	fixed	_	_
+30	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	28	fixed	_	_
 31	יצביע	הצביע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	26	ccomp	_	_
 32	באמצעות	באמצעות	ADP	ADP	_	34	case	_	_
 33-34	הדואר	_	_	_	_	_	_	_	SpaceAfter=No
@@ -9613,7 +9613,7 @@
 7	התאמה	התאמה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nmod:poss	_	_
 8-9	כזאת	_	_	_	_	_	_	_	SpaceAfter=No
 8	כ	כ	ADP	ADP	Definite=Def	9	case	_	_
-9	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	7	nmod	_	_
+9	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	7	nmod	_	_
 10	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = 284
@@ -9843,7 +9843,7 @@
 7	תיאוריה	תיאוריה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obj	_	_
 8-9	הזו	_	_	_	_	_	_	_	_
 8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
-9	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	7	det	_	_
+9	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	7	det	_	_
 10-11	מפי	_	_	_	_	_	_	_	_
 10	מ	מ	ADP	ADP	_	12	case	_	_
 11	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	fixed	_	_
@@ -10053,7 +10053,7 @@
 # sent_id = 302
 # text = לעומת זאת הוא גם השמיע מסר פוליטי רב-תוכן, שבו הדגיש יותר מכל עניין אחר את משבר החינוך באמריקה, והציע חלופות רציניות.
 1	לעומת	לעומת	ADP	ADP	_	2	case	_	_
-2	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	5	obl	_	_
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	5	obl	_	_
 3	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	גם	גם	ADV	ADV	_	5	advmod	_	_
 5	השמיע	השמיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -10490,7 +10490,7 @@
 2	השוואה	השוואה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
 3-4	הזו	_	_	_	_	_	_	_	SpaceAfter=No
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
-4	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+4	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
 5	,	,	PUNCT	PUNCT	_	8	punct	_	_
 6	על	על	ADP	ADP	_	8	case	_	_
 7	כל	כול	DET	DET	Definite=Cons	8	det	_	_
@@ -11076,7 +11076,7 @@
 1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	אומרת	אמר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
 3	לעומת	לעומת	ADP	ADP	_	4	case	_	_
-4	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	obl	_	SpaceAfter=No
+4	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	obl	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	13	punct	_	_
 6-7	שמשהו	_	_	_	_	_	_	_	_
 6	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
@@ -11130,7 +11130,7 @@
 2	מאה	מאה	NUM	NUM	Gender=Fem|Number=Sing	5	obl	_	_
 3-4	הזו	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
-4	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+4	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
 5	נבחרו	נבחר	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
 6	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	7	nummod	_	_
 7	סנאטורים	סנטור	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -11163,7 +11163,7 @@
 # sent_id = 335
 # text = לעומת זאת הגיעו לנשיאות חמישה מושלי מדינות.
 1	לעומת	לעומת	ADP	ADP	_	2	case	_	_
-2	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	obl	_	_
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	obl	_	_
 3	הגיעו	הגיע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
 4-5	לנשיאות	_	_	_	_	_	_	_	_
 4	ל	ל	ADP	ADP	Definite=Def	5	case	_	_
@@ -12238,7 +12238,7 @@
 # sent_id = 374
 # text = לעומת זאת נשמרה רמת הייצוג היהודי.
 1	לעומת	לעומת	ADP	ADP	_	2	case	_	_
-2	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	obl	_	_
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	obl	_	_
 3	נשמרה	נשמר	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
 4	רמת	רמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	nsubj	_	_
 5-6	הייצוג	_	_	_	_	_	_	_	_
@@ -12812,7 +12812,7 @@
 4-5	בפרשה	_	_	_	_	_	_	_	_
 4	ב	ב	ADP	ADP	_	5	case	_	_
 5	פרשה	פרשה	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod	_	_
-6	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	5	det	_	SpaceAfter=No
+6	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	5	det	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	8	punct	_	_
 8	דרקייה	דרקייה	PROPN	PROPN	_	1	dep	_	HebSource=ConvUncertainHead
 9	דה	דה	PROPN	PROPN	_	8	flat	_	_
@@ -12985,7 +12985,7 @@
 4	,	,	PUNCT	PUNCT	_	7	punct	_	_
 5	נוסף	נוסף	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	7	case	_	_
 6	על	על	ADP	ADP	_	5	fixed	_	_
-7	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	nmod	_	_
+7	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	nmod	_	_
 8	של	של	ADP	ADP	Case=Gen	9	case	_	_
 9	רנה	רנה	PROPN	PROPN	_	7	nmod:poss	_	_
 10	בוסקה	בוסקה	PROPN	PROPN	_	9	flat	_	SpaceAfter=No
@@ -13005,13 +13005,13 @@
 22	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	21	obj	_	_
 23	רב	רב	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
 24	:	:	PUNCT	PUNCT	_	25	punct	_	_
-25	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	12	dep	_	_
+25	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	12	dep	_	_
 26	של	של	ADP	ADP	Case=Gen	27	case	_	_
 27	מוריס	מוריס	PROPN	PROPN	_	25	nmod:poss	_	_
 28	פאפון	פאפון	PROPN	PROPN	_	27	flat	_	_
 29-30	וזו	_	_	_	_	_	_	_	_
 29	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
-30	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	25	conj	_	_
+30	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	25	conj	_	_
 31	של	של	ADP	ADP	Case=Gen	32	case	_	_
 32	פול	פול	PROPN	PROPN	_	30	nmod:poss	_	_
 33	טובייה	טובייה	PROPN	PROPN	_	32	flat	_	SpaceAfter=No
@@ -13159,7 +13159,7 @@
 2	היום	היום	ADV	ADV	_	3	obl	_	_
 3	נמצאות	נמצא	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Mid	0	root	_	_
 4	תלונות	תלונה	NOUN	NOUN	Gender=Fem|Number=Plur	3	nsubj	_	_
-5	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	4	det	_	_
+5	הללו	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	4	det	_	_
 6-7	בשלב	_	_	_	_	_	_	_	_
 6	ב	ב	ADP	ADP	_	7	case	_	_
 7	שלב	שלב	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
@@ -13526,7 +13526,7 @@
 6-7	האנשים	_	_	_	_	_	_	_	_
 6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
 7	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	10	nsubj	_	_
-8	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	7	det	_	_
+8	הללו	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	7	det	_	_
 9	לא	לא	ADV	ADV	Polarity=Neg	10	advmod	_	_
 10	נשפטו	נשפט	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	3	ccomp	_	_
 11	עד	עד	ADP	ADP	_	12	case	_	_
@@ -14022,7 +14022,7 @@
 5	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
 6	ניסו	ניסה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
 7	לעשות	עשה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	6	xcomp	_	_
-8	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	7	obj	_	SpaceAfter=No
+8	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	7	obj	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	10	punct	_	_
 10	אך	אך	CCONJ	CCONJ	_	6	cc	_	_
 11	ללא	ללא	ADP	ADP	_	12	case	_	_
@@ -14485,7 +14485,7 @@
 
 # sent_id = 458
 # text = זו העת להרוג רבותי.
-1	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
+1	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
 2-3	העת	_	_	_	_	_	_	_	_
 2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
 3	עת	עת	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_

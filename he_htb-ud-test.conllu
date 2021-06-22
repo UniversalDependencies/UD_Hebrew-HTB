@@ -219,7 +219,7 @@
 # text = חולון ניצלה זאת ל-212 (דקה 3) ו-617 (דקה 5).
 1	חולון	חולון	PROPN	PROPN	_	2	nsubj	_	_
 2	ניצלה	ניצל	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	0	root	_	_
-3	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	obj	_	_
+3	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	obj	_	_
 4	ל	ל	ADP	ADP	_	6	case	_	SpaceAfter=No
 5	-	-	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
 6	212	212	NUM	NUM	_	2	obl	_	_
@@ -454,7 +454,7 @@
 6	ליגה	ליגה	NOUN	NOUN	Gender=Fem|Number=Sing	19	nsubj	_	_
 7-8	הזו	_	_	_	_	_	_	_	_
 7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
-8	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	6	det	_	_
+8	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	6	det	_	_
 9-11	ש"התחממה	_	_	_	_	_	_	_	SpaceAfter=No
 9	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
 10	"	"	PUNCT	PUNCT	_	11	punct	_	_
@@ -702,7 +702,7 @@
 1	ל	ל	ADP	ADP	_	2	case	_	_
 2	מכבי	מכבי	PROPN	PROPN	_	5	obl	_	_
 3	פגרה	פגרה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
-4	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	det	_	_
+4	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	det	_	_
 5	באה	בא	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 6	בדיוק	בדיוק	ADV	ADV	_	8	advmod	_	_
 7-8	בזמן	_	_	_	_	_	_	_	SpaceAfter=No
@@ -1048,7 +1048,7 @@
 # text = יחד עם זאת אין מכחישים, כי כל צעד שיביא להבראת מצב הקבוצה אפשרי בעתיד.
 1	יחד	יחד	ADV	ADV	_	5	advmod	_	_
 2	עם	עם	ADP	ADP	_	1	fixed	_	_
-3	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	1	fixed	_	_
+3	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	1	fixed	_	_
 4	אין	אין	ADV	ADV	Polarity=Neg	5	advmod	_	_
 5	מכחישים	הכחיש	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	17	punct	_	_
@@ -1270,7 +1270,7 @@
 10	שחקנים	שחקן	NOUN	NOUN	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
 11	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	3	punct	_	_
-13	אלו	אלו	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=3|PronType=Dem	14	nsubj	_	_
+13	אלו	זה	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=3|PronType=Dem	14	nsubj	_	_
 14	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 15-17	מהדברים	_	_	_	_	_	_	_	_
 15	מ	מ	ADP	ADP	_	17	case	_	HebSource=ConvUncertainLabel
@@ -1554,7 +1554,7 @@
 11	,	,	PUNCT	PUNCT	_	16	punct	_	_
 12	אך	אך	CCONJ	CCONJ	_	16	cc	_	_
 13	לא	לא	ADV	ADV	Polarity=Neg	16	advmod	_	_
-14	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	16	nsubj	_	_
+14	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	16	nsubj	_	_
 15-16	המטרה	_	_	_	_	_	_	_	SpaceAfter=No
 15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
 16	מטרה	מטרה	NOUN	NOUN	Gender=Fem|Number=Sing	5	conj	_	_
@@ -2104,7 +2104,7 @@
 # sent_id = 5805
 # text = גם זו הסתיימה אחרי שתי הארכות.
 1	גם	גם	ADV	ADV	_	2	advmod	_	_
-2	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
+2	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
 3	הסתיימה	הסתיים	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	אחרי	אחרי	ADP	ADP	_	6	case	_	_
 5	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	6	nummod	_	_
@@ -2324,7 +2324,7 @@
 7-8	במחצית	_	_	_	_	_	_	_	_
 7	ב	ב	ADP	ADP	_	8	case	_	_
 8	מחצית	מחצית	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
-9	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	8	det	_	_
+9	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	8	det	_	_
 10	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	11	cop	_	_
 11	נקודה	נקודה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 12	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	11	nummod	_	SpaceAfter=No
@@ -3115,7 +3115,7 @@
 # text = בעקבות אמירה זו הושעה קפלן מאימוני בית שאן.
 1	בעקבות	בעקבות	ADP	ADP	_	2	case	_	_
 2	אמירה	אמירה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
-3	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+3	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
 4	הושעה	הושעה	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
 5	קפלן	קפלן	PROPN	PROPN	_	4	nsubj:pass	_	_
 6-7	מאימוני	_	_	_	_	_	_	_	_
@@ -3282,7 +3282,7 @@
 16	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
 17-18	הזו	_	_	_	_	_	_	_	SpaceAfter=No
 17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
-18	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	16	det	_	_
+18	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	16	det	_	_
 19	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 20	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -4103,7 +4103,7 @@
 # text = עקב דרישה זאת, המשקפת שינוי בפועל בתנאי התשלום המוסכמים, נחתם בסוף אפריל 87 זיכרון דברים בין הצדדים, ובו נקבעו מועדים להחזרת המע"ם.
 1	עקב	עקב	CCONJ	CCONJ	_	2	case	_	_
 2	דרישה	דרישה	NOUN	NOUN	Gender=Fem|Number=Sing	17	obl	_	_
-3	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	SpaceAfter=No
+3	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	6	punct	_	_
 5-6	המשקפת	_	_	_	_	_	_	_	_
 5	ה	ה	SCONJ	SCONJ	_	6	mark	_	_
@@ -4207,7 +4207,7 @@
 # sent_id = 5883
 # text = עם זאת נקבע, כי תנאי העסקה יישארו בעינם.
 1	עם	עם	ADP	ADP	_	2	case	_	_
-2	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	obl	_	_
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	obl	_	_
 3	נקבע	נקבע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	9	punct	_	_
 5	כי	כי	SCONJ	SCONJ	_	9	mark	_	_
@@ -4248,7 +4248,7 @@
 19	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	15	compound	_	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	_	2	punct	_	_
 21	התנתה	התנה	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
-22	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	21	obj	_	_
+22	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	21	obj	_	_
 23-24	בקבלת	_	_	_	_	_	_	_	_
 23	ב	ב	ADP	ADP	_	24	case	_	_
 24	קבלת	קבלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	21	obl	_	_
@@ -4479,7 +4479,7 @@
 26-27	וגם	_	_	_	_	_	_	_	_
 26	ו	ו	CCONJ	CCONJ	_	34	cc	_	_
 27	גם	גם	ADV	ADV	_	28	advmod	_	_
-28	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	34	nsubj	_	_
+28	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	34	nsubj	_	_
 29	רק	רק	ADV	ADV	_	34	advmod	_	_
 30	עד	עד	ADP	ADP	_	34	case	_	_
 31-32	ל28	_	_	_	_	_	_	_	_
@@ -5338,7 +5338,7 @@
 
 # sent_id = 5907
 # text = זאת ועוד, אם בעמודי סיכומים לא חסכו באי-כוח הצדדים ולא קפצו ידם, הרי בכל האמור ברווחים בין שורות הטענות קימצו באי-כוח הצדדים גם קימצו, ולא הותירו בין השורות רווח אף כמלוא עובי מחט".
-1	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	33	parataxis	_	_
+1	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	33	parataxis	_	_
 2-3	ועוד	_	_	_	_	_	_	_	SpaceAfter=No
 2	ו	ו	CCONJ	CCONJ	_	1	fixed	_	_
 3	עוד	עוד	ADV	ADV	_	1	fixed	_	_
@@ -5514,7 +5514,7 @@
 1-2	במוסיקה	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
 2	מוסיקה	מוזיקה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
-3	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+3	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
 4	נמצא	נמצא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Mid	0	root	_	_
 5	מבט	מבט	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
 6	אל	אל	ADP	ADP	_	7	case	_	_
@@ -6033,7 +6033,7 @@
 2-3	המפה	_	_	_	_	_	_	_	_
 2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
 3	מפה	מפה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
-4	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
+4	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
 5	אותה	אותו	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	det	_	_
 6	פיסה	פיסה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 7	קטנה	קטן	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
@@ -6491,7 +6491,7 @@
 4-5	לוועדה	_	_	_	_	_	_	_	_
 4	ל	ל	ADP	ADP	_	5	case	_	_
 5	וועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
-6	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	5	det	_	_
+6	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	5	det	_	_
 7-8	כאל	_	_	_	_	_	_	_	_
 7	כ	כ	ADP	ADP	_	9	case	_	_
 8	אל	אל	ADP	ADP	_	9	case	_	_
@@ -6591,7 +6591,7 @@
 12	ב	1988	NUM	NUM	_	10	obl	_	_
 13	כי	כי	SCONJ	SCONJ	_	16	mark	_	_
 14	דרישה	דרישה	NOUN	NOUN	Gender=Fem|Number=Sing	16	nsubj	_	_
-15	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	14	det	_	_
+15	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	14	det	_	_
 16	קיבלה	קיבל	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	10	ccomp	_	_
 17	תמיכה	תמיכה	NOUN	NOUN	Gender=Fem|Number=Sing	16	obj	_	_
 18-20	שבשתיקה	_	_	_	_	_	_	_	_
@@ -7094,7 +7094,7 @@
 1-2	בהצעה	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
 2	הצעה	הצעה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
-3	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+3	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
 4	דן	דן	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
 5	כעת	כעת	ADV	ADV	_	4	advmod	_	_
 6-7	הקרמלין	_	_	_	_	_	_	_	SpaceAfter=No
@@ -8471,7 +8471,7 @@
 # sent_id = 5991
 # text = לעומת זאת, תבוטל חציצת הסמכות הנהוגה כעת בין שני סוגי בתי-המשפט, והדבר יבטיח זרימת תיקים חופשית ממחלקה למחלקה ומשופט לשופט ומעבר שופטים ממחלקה למחלקה לפי העומס והצרכים.
 1	לעומת	לעומת	ADP	ADP	_	2	case	_	_
-2	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	obl	_	SpaceAfter=No
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	2	punct	_	_
 4	תבוטל	בוטל	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	0	root	_	_
 5	חציצת	חציצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
@@ -8836,7 +8836,7 @@
 1-2	בדרך	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
 2	דרך	דרך	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
-3	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+3	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
 4	יובטח	הובטח	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	13	punct	_	_
 6-7	שבית	_	_	_	_	_	_	_	SpaceAfter=No
@@ -9218,7 +9218,7 @@
 8-9	בערכאה	_	_	_	_	_	_	_	_
 8	ב	ב	ADP	ADP	_	9	case	_	_
 9	ערכאה	ערכאה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
-10	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	9	det	_	_
+10	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	9	det	_	_
 11-13	ובבית	_	_	_	_	_	_	_	SpaceAfter=No
 11	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
 12	ב	ב	ADP	ADP	_	16	case	_	_
@@ -10119,7 +10119,7 @@
 3	הפוגה	הפוגה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
 4-5	הזאת	_	_	_	_	_	_	_	SpaceAfter=No
 4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
-5	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	det	_	_
+5	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	det	_	_
 6	,	,	PUNCT	PUNCT	_	3	punct	_	_
 7	מגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
 8	מטח	מטח	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -10164,7 +10164,7 @@
 12-13	בקבוצה	_	_	_	_	_	_	_	_
 12	ב	ב	ADP	ADP	_	13	case	_	_
 13	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
-14	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	13	det	_	SpaceAfter=No
+14	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	13	det	_	SpaceAfter=No
 15	:	:	PUNCT	PUNCT	_	5	punct	_	_
 16-17	המספר	_	_	_	_	_	_	_	_
 16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
@@ -11422,7 +11422,7 @@
 
 # sent_id = 6072
 # text = זאת הוותה מודל חיקוי למבני דת רבים.
-1	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
+1	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
 2	הוותה	הוותה	AUX	AUX	VerbForm=Part	3	aux	_	_
 3	מודל	מודל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
 4	חיקוי	חיקוי	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound	_	_
@@ -11567,7 +11567,7 @@
 4	שוצפת	שצף	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	2	amod	_	_
 5-6	הזאת	_	_	_	_	_	_	_	_
 5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
-6	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+6	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
 7	מגבירה	הגביר	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
 8-9	לעוצמה	_	_	_	_	_	_	_	_
 8	ל	ל	ADP	ADP	_	9	case	_	_
@@ -12721,7 +12721,7 @@
 3-4	המנות	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
 4	מנות	מנה	NOUN	NOUN	Gender=Fem|Number=Plur	12	obl	_	_
-5	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	4	det	_	SpaceAfter=No
+5	הללו	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	4	det	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	9	punct	_	_
 7-8	שאחדות	_	_	_	_	_	_	_	_
 7	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
@@ -12926,7 +12926,7 @@
 7-8	במרקים	_	_	_	_	_	_	_	_
 7	ב	ב	ADP	ADP	Definite=Def	1	dep	_	_
 8	מרקים	מרק	NOUN	NOUN	Gender=Masc|Number=Plur	1	dep	_	_
-9	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	8	det	_	SpaceAfter=No
+9	הללו	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	8	det	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	28	punct	_	_
 11	אבל	אבל	CCONJ	CCONJ	_	28	cc	_	_
 12	משום	משום	SCONJ	SCONJ	_	15	mark	_	_
@@ -13944,7 +13944,7 @@
 13	ה	ה	SCONJ	SCONJ	Definite=Def|PronType=Art	14	mark	_	_
 14	עושות	עשה	VERB	VERB	VerbForm=Part	5	acl:relcl	_	_
 15	מנה	מנה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obj	_	_
-16	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	15	det	_	_
+16	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	15	det	_	_
 17	מפתה	מפתה	ADJ	ADJ	Gender=Fem|Number=Sing	14	dep	_	HebSource=ConvUncertainHead
 18	כל	כול	DET	DET	Definite=Cons	17	advmod	_	_
 19	כך	כך	ADV	ADV	_	18	fixed	_	SpaceAfter=No
@@ -14121,7 +14121,7 @@
 14-15	המנות	_	_	_	_	_	_	_	_
 14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
 15	מנות	מנה	NOUN	NOUN	Gender=Fem|Number=Plur	12	obl	_	_
-16	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	15	det	_	_
+16	הללו	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	15	det	_	_
 17	תעלה	עלה	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Fut	0	root	_	_
 18-19	כ150	_	_	_	_	_	_	_	_
 18	כ	כ	ADP	ADP	_	20	case	_	_
@@ -14222,7 +14222,7 @@
 6-7	הדברים	_	_	_	_	_	_	_	_
 6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
 7	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
-8	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	7	det	_	_
+8	הללו	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	7	det	_	_
 9	לבדם	לבד	ADV	ADV	_	7	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	12	punct	_	_
 11	אבל	אבל	CCONJ	CCONJ	_	12	cc	_	_
@@ -15091,7 +15091,7 @@
 13	סבורים	סבורים	AUX	AUX	VerbType=Mod	11	acl:relcl	_	_
 14-15	שזו	_	_	_	_	_	_	_	_
 14	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
-15	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	18	nsubj	_	_
+15	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	18	nsubj	_	_
 16	אחת	אחת	NUM	NUM	Definite=Cons|Gender=Fem|Number=Sing	18	nummod	_	_
 17-18	המסעדות	_	_	_	_	_	_	_	_
 17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
@@ -15381,7 +15381,7 @@
 6	מנה	מנה	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
 7-8	הזאת	_	_	_	_	_	_	_	_
 7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
-8	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	6	det	_	_
+8	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	6	det	_	_
 9	נפלאה	נפלא	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
@@ -15561,7 +15561,7 @@
 3-4	המנות	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
 4	מנות	מנה	NOUN	NOUN	Gender=Fem|Number=Plur	18	obl	_	_
-5	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	4	det	_	SpaceAfter=No
+5	הללו	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	4	det	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	8	punct	_	_
 7	כולל	כלל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	8	case	_	_
 8	בקבוק	בקבוק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	appos	_	_
@@ -15733,7 +15733,7 @@
 5-6	במנה	_	_	_	_	_	_	_	_
 5	ב	ב	ADP	ADP	_	6	case	_	_
 6	מנה	מנה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
-7	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	6	det	_	_
+7	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	6	det	_	_
 8	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	20	cop	_	_
 9-10	שרוטב	_	_	_	_	_	_	_	_
 9	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
@@ -15959,7 +15959,7 @@
 23-24	המנות	_	_	_	_	_	_	_	_
 23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
 24	מנות	מנה	NOUN	NOUN	Gender=Fem|Number=Plur	21	obl	_	_
-25	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	24	det	_	_
+25	הללו	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	24	det	_	_
 26-27	המחיר	_	_	_	_	_	_	_	_
 26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
 27	מחיר	מחיר	NOUN	NOUN	Gender=Masc|Number=Sing	31	nsubj	_	_
@@ -16217,7 +16217,7 @@
 26-27	למנה	_	_	_	_	_	_	_	_
 26	ל	ל	ADP	ADP	_	27	case	_	_
 27	מנה	מנה	NOUN	NOUN	Gender=Fem|Number=Sing	22	obl	_	_
-28	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	27	det	_	SpaceAfter=No
+28	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	27	det	_	SpaceAfter=No
 29	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = 6214
