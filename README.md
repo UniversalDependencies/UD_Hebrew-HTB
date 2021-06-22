@@ -28,6 +28,7 @@ This version of the HTB data follows the following principles:
   * More constrained lists of closed class items such as fixed expressions
   * Rework auxiliaries, reanalyzing impersonal modals as predicates with clausal subjects
   * Introduce previously unused labels with their usual functions (e.g. `expl`)
+  * Introduce commons subtypes for passive subjects (`nsubj:pass`, `csubj:pass`)
   * More generally, producing valid (non-legacy) UD data in line with the current Universal Dependencies validator tool (available [here](https://github.com/UniversalDependencies/tools))
 
 ## History
