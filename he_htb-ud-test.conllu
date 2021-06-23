@@ -75,7 +75,7 @@
 1-2	בדקה	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	Definite=Def	2	case	_	_
 2	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
-3	ה	ה	DET	DET	Definite=Def|PronType=Art	5	dep	_	SpaceAfter=No
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	SpaceAfter=No
 4	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
 5	37	37	NUM	NUM	_	2	amod	_	_
 6	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	10	cop	_	_
@@ -312,7 +312,7 @@
 29-30	בדקה	_	_	_	_	_	_	_	_
 29	ב	ב	ADP	ADP	Definite=Def	30	case	_	_
 30	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	24	nmod	_	_
-31	ה	ה	DET	DET	Definite=Def|PronType=Art	33	dep	_	SpaceAfter=No
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	SpaceAfter=No
 32	-	-	PUNCT	PUNCT	_	31	punct	_	SpaceAfter=No
 33	25	25	NUM	NUM	_	30	amod	_	SpaceAfter=No
 34	.	.	PUNCT	PUNCT	_	2	punct	_	_
@@ -663,7 +663,7 @@
 7-8	המחזור	_	_	_	_	_	_	_	_
 7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
 8	מחזור	מחזור	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
-9	ה	ה	DET	DET	Definite=Def|PronType=Art	11	dep	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	SpaceAfter=No
 10	-	-	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 11	9	9	NUM	NUM	_	8	amod	_	_
 12	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	0	root	_	_
@@ -3391,7 +3391,7 @@
 1-2	בדקה	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	Definite=Def	2	case	_	_
 2	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
-3	ה	ה	DET	DET	Definite=Def|PronType=Art	5	dep	_	SpaceAfter=No
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	SpaceAfter=No
 4	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
 5	7	7	NUM	NUM	_	2	amod	_	_
 6	היה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
@@ -3437,7 +3437,7 @@
 27-28	הדקה	_	_	_	_	_	_	_	_
 27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
 28	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	21	obl	_	_
-29	ה	ה	DET	DET	Definite=Def|PronType=Art	31	dep	_	SpaceAfter=No
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	SpaceAfter=No
 30	-	-	PUNCT	PUNCT	_	29	punct	_	SpaceAfter=No
 31	11	11	NUM	NUM	_	28	amod	_	SpaceAfter=No
 32	,	,	PUNCT	PUNCT	_	35	punct	_	_
@@ -3532,7 +3532,7 @@
 9	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
 10	ב	ב	ADP	ADP	Definite=Def	11	case	_	_
 11	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
-12	ה	ה	DET	DET	Definite=Def|PronType=Art	14	dep	_	SpaceAfter=No
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	SpaceAfter=No
 13	-	-	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
 14	27	27	NUM	NUM	_	11	amod	_	_
 15	הובילה	הוביל	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	_
