@@ -89,7 +89,7 @@
 25	תאילנד	תאילנד	PROPN	PROPN	_	23	nmod	_	_
 26	,	,	PUNCT	PUNCT	_	30	punct	_	_
 27	רק	רק	ADV	ADV	_	30	advmod	_	_
-28	כדי	כדי	ADP	ADP	_	30	case	_	_
+28	כדי	כדי	SCONJ	SCONJ	_	30	mark	_	_
 29	לא	לא	ADV	ADV	Polarity=Neg	30	advmod	_	_
 30	לשלם	שילם	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	15	advcl	_	_
 31-32	להם	_	_	_	_	_	_	_	_
@@ -423,7 +423,7 @@
 17	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	16	compound	_	_
 18	זרים	זר	ADJ	ADJ	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
 19	,	,	PUNCT	PUNCT	_	21	punct	_	_
-20	כדי	כדי	ADP	ADP	_	21	case	_	_
+20	כדי	כדי	SCONJ	SCONJ	_	21	mark	_	_
 21	למנוע	מנע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	7	advcl	_	_
 22-23	העדפתם	_	_	_	_	_	_	_	_
 22	העדפת	העדפה	NOUN	NOUN	Definite=Def|Gender=Fem|Number=Sing	21	obj	_	_
@@ -1982,7 +1982,7 @@
 20	קופסת	קופסה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	16	conj	_	_
 21	ממתקים	ממתק	NOUN	NOUN	Gender=Masc|Number=Plur	20	compound	_	SpaceAfter=No
 22	,	,	PUNCT	PUNCT	_	24	punct	_	_
-23	כדי	כדי	ADP	ADP	_	24	case	_	_
+23	כדי	כדי	SCONJ	SCONJ	_	24	mark	_	_
 24	להביע	הביע	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	7	advcl	_	_
 25	הוקרה	הוקרה	NOUN	NOUN	Gender=Fem|Number=Sing	24	obj	_	_
 26-27	ועידוד	_	_	_	_	_	_	_	_
@@ -5173,7 +5173,7 @@
 40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
 41	גג	גג	NOUN	NOUN	Gender=Masc|Number=Sing	38	nmod	_	_
 42	,	,	PUNCT	PUNCT	_	44	punct	_	_
-43	כדי	כדי	ADP	ADP	_	44	case	_	_
+43	כדי	כדי	SCONJ	SCONJ	_	44	mark	_	_
 44	למנוע	מנע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	34	advcl	_	_
 45-46	מאנשים	_	_	_	_	_	_	_	_
 45	מ	מ	ADP	ADP	_	46	case	_	_
@@ -5261,7 +5261,7 @@
 11-12	בו	_	_	_	_	_	_	_	_
 11	ב	ב	ADP	ADP	_	12	case	_	_
 12	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
-13	כדי	כדי	ADP	ADP	_	14	case	_	_
+13	כדי	כדי	SCONJ	SCONJ	_	14	mark	_	_
 14	לגרום	גרם	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	10	advcl	_	_
 15-16	לסופרים	_	_	_	_	_	_	_	SpaceAfter=No
 15	ל	ל	ADP	ADP	_	16	case	_	_
@@ -5513,7 +5513,7 @@
 26	אינם	אינו	AUX	AUX	Gender=Masc|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part|VerbType=Cop	28	aux	_	_
 27	בדיוק	בדיוק	ADV	ADV	_	28	advmod	_	_
 28	נאבקים	נאבק	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Mid	24	acl:relcl	_	_
-29	כדי	כדי	ADP	ADP	_	30	case	_	_
+29	כדי	כדי	SCONJ	SCONJ	_	30	mark	_	_
 30	לזכות	זכה	VERB	VERB	VerbForm=Inf	28	advcl	_	_
 31-32	בהכרה	_	_	_	_	_	_	_	_
 31	ב	ב	ADP	ADP	_	32	case	_	_
@@ -5794,7 +5794,7 @@
 39	מ	מ	ADP	ADP	_	41	case	_	_
 40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
 41	מענק	מענק	NOUN	NOUN	Gender=Masc|Number=Sing	37	nmod	_	_
-42	כדי	כדי	ADP	ADP	_	43	case	_	_
+42	כדי	כדי	SCONJ	SCONJ	_	43	mark	_	_
 43	לכסות	כיסה	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	36	advcl	_	_
 44	"	"	PUNCT	PUNCT	_	45	punct	_	SpaceAfter=No
 45	הוצאות	הוצאה	NOUN	NOUN	Gender=Fem|Number=Plur	43	obj	_	_
@@ -5866,7 +5866,7 @@
 29-30	מקרנות	_	_	_	_	_	_	_	_
 29	מ	מ	ADP	ADP	_	30	case	_	_
 30	קרנות	קרן	NOUN	NOUN	Gender=Fem|Number=Plur	27	obl	_	_
-31	כדי	כדי	ADP	ADP	_	32	case	_	_
+31	כדי	כדי	SCONJ	SCONJ	_	32	mark	_	_
 32	להפיק	הפיק	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	27	advcl	_	_
 33	סרטי	סרט	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	32	obj	_	_
 34	טלוויזיה	טלוויזיה	NOUN	NOUN	Gender=Fem|Number=Sing	33	compound	_	_
@@ -5920,7 +5920,7 @@
 32	ה	ה	SCONJ	SCONJ	_	33	mark	_	_
 33	קיימת	קיים	ADJ	ADJ	Gender=Fem|Number=Sing	27	acl:relcl	_	_
 34	בהחלט	בהחלט	ADV	ADV	_	33	advmod	_	_
-35	כדי	כדי	ADP	ADP	_	36	case	_	_
+35	כדי	כדי	SCONJ	SCONJ	_	36	mark	_	_
 36	לשאת	נשא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	33	advcl	_	_
 37	רווחים	רווח	NOUN	NOUN	Gender=Masc|Number=Plur	36	obj	_	_
 38-40	וברשתות	_	_	_	_	_	_	_	_
@@ -8036,7 +8036,7 @@
 23	פראפראז	פראפראז	PROPN	PROPN	_	20	nmod	_	SpaceAfter=No
 24	"	"	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
 25	,	,	PUNCT	PUNCT	_	28	punct	_	_
-26	כדי	כדי	ADP	ADP	_	28	case	_	_
+26	כדי	כדי	SCONJ	SCONJ	_	28	mark	_	_
 27	"	"	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
 28	לשרטט	שרטט	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	18	advcl	_	_
 29	את	את	ADP	ADP	Case=Acc	30	case	_	_
@@ -8294,7 +8294,7 @@
 25	ל	ל	ADP	ADP	_	26	case	_	_
 26	קרנות	קרן	NOUN	NOUN	Gender=Fem|Number=Plur	17	obl	_	_
 27	שמרניות	שמרני	ADJ	ADJ	Gender=Fem|Number=Plur	26	amod	_	_
-28	כדי	כדי	ADP	ADP	_	29	case	_	_
+28	כדי	כדי	SCONJ	SCONJ	_	29	mark	_	_
 29	למלא	מילא	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	17	advcl	_	_
 30	את	את	ADP	ADP	Case=Acc	32	case	_	_
 31-32	החסר	_	_	_	_	_	_	_	SpaceAfter=No
@@ -9139,7 +9139,7 @@
 
 # sent_id = 271
 # text = כדי לענות על שאלות אלו עליך להשתקע קודם לכל באי-אלו הרהורים קוסמיים על טבעה של ההיסטוריה, ולהקדיש מחשבה לדיאלקטיקה הגליאנית, לתיאוריות על מקומו של האדם הגדול בהיסטוריה וכך הלאה.
-1	כדי	כדי	ADP	ADP	_	2	case	_	_
+1	כדי	כדי	SCONJ	SCONJ	_	2	mark	_	_
 2	לענות	ענה	VERB	VERB	VerbForm=Inf	7	advcl	_	_
 3	על	על	ADP	ADP	_	4	case	_	_
 4	שאלות	שאלה	NOUN	NOUN	Gender=Fem|Number=Plur	2	obl	_	_
@@ -10228,7 +10228,7 @@
 38	ל	ל	ADP	ADP	Definite=Def	39	case	_	_
 39	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	37	obl	_	_
 40	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	37	obj	_	_
-41	כדי	כדי	ADP	ADP	_	42	case	_	_
+41	כדי	כדי	SCONJ	SCONJ	_	42	mark	_	_
 42	לעשות	עשה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	37	advcl	_	_
 43	למען	למען	ADP	ADP	_	44	case	_	_
 44	טלוויזיה	טלוויזיה	NOUN	NOUN	Gender=Fem|Number=Sing	42	obl	_	_
@@ -12746,7 +12746,7 @@
 8-9	הכהונה	_	_	_	_	_	_	_	_
 8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
 9	כהונה	כהונה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obj	_	_
-10	כדי	כדי	ADP	ADP	_	11	case	_	_
+10	כדי	כדי	SCONJ	SCONJ	_	11	mark	_	_
 11	לאסוף	אסף	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	6	advcl	_	_
 12	כמויות	כמות	NOUN	NOUN	Gender=Fem|Number=Plur	11	obj	_	_
 13	עצומות	עצום	ADJ	ADJ	Gender=Fem|Number=Plur	12	amod	_	_

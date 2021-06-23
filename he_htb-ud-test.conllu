@@ -1590,7 +1590,7 @@
 5	אך	אך	CCONJ	CCONJ	_	6	cc	_	_
 6	נעשה	עשה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Fut|Voice=Act	2	conj	_	_
 7	הכל	הכול	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
-8	כדי	כדי	ADP	ADP	_	9	case	_	_
+8	כדי	כדי	SCONJ	SCONJ	_	9	mark	_	_
 9	להצליח	הצליח	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	6	advcl	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -7588,7 +7588,7 @@
 17	לנדוי	לנדוי	PROPN	PROPN	_	16	flat	_	SpaceAfter=No
 18	,	,	PUNCT	PUNCT	_	2	punct	_	_
 19	הוקמה	הוקם	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
-20	כדי	כדי	ADP	ADP	_	21	case	_	_
+20	כדי	כדי	SCONJ	SCONJ	_	21	mark	_	_
 21	למצוא	מצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	19	advcl	_	_
 22	פתרון	פתרון	NOUN	NOUN	Gender=Masc|Number=Sing	21	obj	_	_
 23	דחוף	דחוף	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	_
@@ -7905,7 +7905,7 @@
 36-37	הדיון	_	_	_	_	_	_	_	_
 36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
 37	דיון	דיון	NOUN	NOUN	Gender=Masc|Number=Sing	35	compound	_	_
-38	כדי	כדי	ADP	ADP	_	39	case	_	_
+38	כדי	כדי	SCONJ	SCONJ	_	39	mark	_	_
 39	ללחוץ	לחץ	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	33	advcl	_	_
 40	על	על	ADP	ADP	_	42	case	_	_
 41-42	הצד	_	_	_	_	_	_	_	_
@@ -8990,7 +8990,7 @@
 8	בחירת	בחירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	nmod	_	_
 9	שופטים	שופט	NOUN	NOUN	Gender=Masc|Number=Plur	8	compound	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	12	punct	_	_
-11	כדי	כדי	ADP	ADP	_	12	case	_	_
+11	כדי	כדי	SCONJ	SCONJ	_	12	mark	_	_
 12	לשמור	שמר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	1	advcl	_	_
 13	על	על	ADP	ADP	_	14	case	_	_
 14	עצמאות	עצמאות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	obl	_	_
@@ -9071,7 +9071,7 @@
 
 # sent_id = 6008
 # text = כדי להגדיל את השפעת השופטים על תפקוד המערכת מוצע להקים מועצת שופטים, המורכבת מנשיאי בתי-המשפט ונציגים של בתי-המשפט למיניהם, ובכלל זה בית-הדין לעבודה.
-1	כדי	כדי	ADP	ADP	_	2	case	_	_
+1	כדי	כדי	SCONJ	SCONJ	_	2	mark	_	_
 2	להגדיל	הגדיל	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	11	advcl	_	_
 3	את	את	ADP	ADP	Case=Acc	4	case	_	_
 4	השפעת	השפעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obj	_	_
@@ -10003,7 +10003,7 @@
 64	ממנ	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	62	obl	_	_
 65	בעיות	בעיה	NOUN	NOUN	Gender=Fem|Number=Plur	62	obj	_	_
 66	שונות	שונה	ADJ	ADJ	Gender=Fem|Number=Plur	65	amod	_	_
-67	כדי	כדי	ADP	ADP	_	68	case	_	_
+67	כדי	כדי	SCONJ	SCONJ	_	68	mark	_	_
 68	לשלב	שילב	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	62	advcl	_	_
 69-70	אותן	_	_	_	_	_	_	_	_
 69	אות	את	ADP	ADP	Case=Acc	70	case	_	_
@@ -12470,7 +12470,7 @@
 21	ב	ב	ADP	ADP	Definite=Def	22	case	_	_
 22	גבייה	גבייה	NOUN	NOUN	Gender=Fem|Number=Sing	20	obl	_	_
 23	,	,	PUNCT	PUNCT	_	27	punct	_	_
-24	כדי	כדי	ADP	ADP	_	27	case	_	_
+24	כדי	כדי	SCONJ	SCONJ	_	27	mark	_	_
 25-26	לעודדם	_	_	_	_	_	_	_	_
 25	לעודד	עודד	VERB	VERB	VerbForm=Inf	27	dep	_	_
 26	ם	הוא	PRON	PRON	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	27	obj	_	_
@@ -12533,7 +12533,7 @@
 27-28	במכשור	_	_	_	_	_	_	_	_
 27	ב	ב	ADP	ADP	_	28	case	_	_
 28	מכשור	מכשור	NOUN	NOUN	Gender=Masc|Number=Sing	26	obl	_	_
-29	כדי	כדי	ADP	ADP	_	30	case	_	_
+29	כדי	כדי	SCONJ	SCONJ	_	30	mark	_	_
 30	לעמוד	עמד	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	26	advcl	_	_
 31-32	בקשר	_	_	_	_	_	_	_	_
 31	ב	ב	ADP	ADP	_	32	case	_	_
@@ -12749,7 +12749,7 @@
 
 # sent_id = 6106
 # text = כדי לקבל תמורה מלאה לכספכם היכנסו רק כדי לטעום מנה אחת של ניוקי וסלט נדיב של חסילונים, שקדים, פטריות ועשבים טריים, הכל על מצע נאה של חסה.
-1	כדי	כדי	ADP	ADP	_	2	case	_	_
+1	כדי	כדי	SCONJ	SCONJ	_	2	mark	_	_
 2	לקבל	קיבל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	8	advcl	_	_
 3	תמורה	תמורה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obj	_	_
 4	מלאה	מלא	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
@@ -12759,7 +12759,7 @@
 7	כם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
 8	היכנסו	נכנס	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Mood=Imp|Number=Plur|Person=2|Voice=Mid	0	root	_	_
 9	רק	רק	ADV	ADV	_	11	advmod	_	_
-10	כדי	כדי	ADP	ADP	_	11	case	_	_
+10	כדי	כדי	SCONJ	SCONJ	_	11	mark	_	_
 11	לטעום	טעם	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	8	advcl	_	_
 12	מנה	מנה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obj	_	_
 13	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	12	nummod	_	_
@@ -13303,7 +13303,7 @@
 4-5	בכך	_	_	_	_	_	_	_	_
 4	ב	ב	ADP	ADP	_	5	case	_	_
 5	כך	כך	PRON	PRON	Person=3|PronType=Dem	3	obl	_	_
-6	כדי	כדי	ADP	ADP	_	7	case	_	_
+6	כדי	כדי	SCONJ	SCONJ	_	7	mark	_	_
 7	ללמוד	למד	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	3	advcl	_	_
 8	להכין	הכין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	7	dep	_	HebSource=ConvUncertainHead
 9	כמה	כמה	DET	DET	Definite=Cons	10	det	_	_
@@ -13322,7 +13322,7 @@
 19	ב	ב	ADP	ADP	_	20	case	_	_
 20	כך	כך	PRON	PRON	Person=3|PronType=Dem	21	obl	_	_
 21	די	די	ADV	ADV	_	3	conj	_	_
-22	כדי	כדי	ADP	ADP	_	23	case	_	_
+22	כדי	כדי	SCONJ	SCONJ	_	23	mark	_	_
 23	לפתוח	פתח	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	21	advcl	_	_
 24	מסעדה	מסעדה	NOUN	NOUN	Gender=Fem|Number=Sing	23	obj	_	_
 25	איטלקית	איטלקי	ADJ	ADJ	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
@@ -13955,7 +13955,7 @@
 1-2	וכאילו	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
 2	כאילו	כאילו	ADV	ADV	_	4	advmod	_	_
-3	כדי	כדי	ADP	ADP	_	4	case	_	_
+3	כדי	כדי	SCONJ	SCONJ	_	4	mark	_	_
 4	להוסיף	הוסיף	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	9	advcl	_	_
 5	חטא	חטא	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
 6	על	על	ADP	ADP	_	7	case	_	_
