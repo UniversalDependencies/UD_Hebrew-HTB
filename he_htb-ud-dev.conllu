@@ -4939,7 +4939,7 @@
 17-18	חלקם	_	_	_	_	_	_	_	_
 17	חלק	חלק	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	19	nsubj	_	_
 18	ם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
-19	בעלי	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	acl	_	_
+19	בעלי	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	acl:relcl	_	_
 20	משרות	משרה	NOUN	NOUN	Gender=Fem|Number=Plur	19	compound	_	_
 21-22	במערכת	_	_	_	_	_	_	_	_
 21	ב	ב	ADP	ADP	_	22	case	_	_
