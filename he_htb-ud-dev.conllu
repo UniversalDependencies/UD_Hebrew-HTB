@@ -104,7 +104,7 @@
 1-2	מצד	_	_	_	_	_	_	_	_
 1	מ	מ	ADP	ADP	_	2	case	_	_
 2	צד	צד	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
-3	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	2	amod	_	_
+3	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	2	amod	_	_
 4	רוצה	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
 5-6	האוצר	_	_	_	_	_	_	_	_
 5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
@@ -940,7 +940,7 @@
 39	,	,	PUNCT	PUNCT	_	41	punct	_	_
 40-41	כאחד	_	_	_	_	_	_	_	_
 40	כ	כ	ADP	ADP	_	41	case	_	_
-41	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	23	appos	_	_
+41	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	23	appos	_	_
 42-43	שהיה	_	_	_	_	_	_	_	_
 42	ש	ש	SCONJ	SCONJ	_	43	mark	_	_
 43	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	41	acl:relcl	_	_
@@ -1083,7 +1083,7 @@
 23	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
 24	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
 25	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	28	cop	_	_
-26	אחד	אחד	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	28	nummod	_	_
+26	אחד	אחת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	28	nummod	_	_
 27-28	הקשים	_	_	_	_	_	_	_	_
 27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
 28	קשים	קשה	ADJ	ADJ	Gender=Masc|Number=Plur	19	conj	_	_
@@ -1786,7 +1786,7 @@
 28	כתבה	כתב	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 29	כי	כי	SCONJ	SCONJ	_	56	mark	_	_
 30	"	"	PUNCT	PUNCT	_	56	punct	_	SpaceAfter=No
-31	אחד	אחד	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	33	nummod	_	_
+31	אחד	אחת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	33	nummod	_	_
 32-33	ההורים	_	_	_	_	_	_	_	SpaceAfter=No
 32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
 33	הורים	הורה	NOUN	NOUN	Gender=Masc|Number=Plur	56	nsubj	_	_
@@ -2012,7 +2012,7 @@
 45-46	למוות	_	_	_	_	_	_	_	_
 45	ל	ל	ADP	ADP	Definite=Def	46	case	_	_
 46	מוות	מוות	NOUN	NOUN	Gender=Masc|Number=Sing	44	obl	_	_
-47	שלושה	שלושה	NUM	NUM	Gender=Masc|Number=Sing	48	nummod	_	_
+47	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Sing	48	nummod	_	_
 48	יהודים	יהודי	NOUN	NOUN	Gender=Masc|Number=Plur	44	obj	_	_
 49-50	בשכונת	_	_	_	_	_	_	_	_
 49	ב	ב	ADP	ADP	_	50	case	_	_
@@ -2215,7 +2215,7 @@
 30	תקעה	תקע	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	22	acl:relcl	_	_
 31-32	באחד	_	_	_	_	_	_	_	_
 31	ב	ב	ADP	ADP	_	34	case	_	_
-32	אחד	אחד	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	34	nummod	_	_
+32	אחד	אחת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	34	nummod	_	_
 33-34	הספקים	_	_	_	_	_	_	_	SpaceAfter=No
 33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
 34	ספקים	ספק	NOUN	NOUN	Gender=Masc|Number=Plur	30	obl	_	_
@@ -2238,7 +2238,7 @@
 47	על	על	ADP	ADP	_	52	case	_	SpaceAfter=No
 48	-	-	PUNCT	PUNCT	_	49	punct	_	SpaceAfter=No
 49	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	47	fixed	_	_
-50	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	52	nummod	_	_
+50	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	52	nummod	_	_
 51-53	מעובדיו	_	_	_	_	_	_	_	SpaceAfter=No
 51	מ	מ	ADP	ADP	_	52	case	_	_
 52	עובדי	עובד	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	37	nmod	_	_
@@ -2664,7 +2664,7 @@
 3	י	הוא	PRON	PRON	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 4	להדגיש	הדגיש	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
 5	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
-6	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	5	nummod	_	_
+6	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	5	nummod	_	_
 7-9	בדבריה	_	_	_	_	_	_	_	SpaceAfter=No
 7	ב	ב	ADP	ADP	_	8	case	_	_
 8	דברי	דבר	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	_
@@ -3162,7 +3162,7 @@
 # sent_id = 88
 # text = יום אחד בשבוע שעבר מרח העיתון המקומי "דה מוין רגיסטר" כותרת ענקית לרוחב מלוא העמוד הראשון של מוספו היומי.
 1	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	7	dep	_	_
-2	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	1	nummod	_	_
+2	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	1	nummod	_	_
 3-4	בשבוע	_	_	_	_	_	_	_	_
 3	ב	ב	ADP	ADP	Definite=Def	4	case	_	_
 4	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -3390,7 +3390,7 @@
 25-26	באריכות	_	_	_	_	_	_	_	_
 25	ב	ב	ADP	ADP	_	26	case	_	_
 26	אריכות	אריכות	NOUN	NOUN	Gender=Fem|Number=Sing	22	obl	_	_
-27	אחד	אחד	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	29	nummod	_	_
+27	אחד	אחת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	29	nummod	_	_
 28-29	הנוכחים	_	_	_	_	_	_	_	_
 28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
 29	נוכחים	נוכח	VERB	VERB	Gender=Masc|Number=Plur|Person=1,2,3|VerbForm=Part	22	nsubj	_	_
@@ -3783,7 +3783,7 @@
 13	,	,	PUNCT	PUNCT	_	20	punct	_	_
 14-15	שאחד	_	_	_	_	_	_	_	_
 14	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
-15	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	17	nummod	_	_
+15	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	17	nummod	_	_
 16-18	מסעיפיו	_	_	_	_	_	_	_	_
 16	מ	מ	ADP	ADP	_	17	case	_	_
 17	סעיפי	סעיף	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	20	nsubj	_	_
@@ -3884,7 +3884,7 @@
 11	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound	_	_
 12	,	,	PUNCT	PUNCT	_	3	punct	_	_
 13	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	16	cop	_	_
-14	אחד	אחד	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	16	nummod	_	_
+14	אחד	אחת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	16	nummod	_	_
 15-16	המקבלים	_	_	_	_	_	_	_	_
 15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
 16	מקבלים	מקבל	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
@@ -3958,12 +3958,12 @@
 9	הארקין	הארקין	PROPN	PROPN	_	3	obj	_	_
 10-11	כאחד	_	_	_	_	_	_	_	_
 10	כ	כ	ADP	ADP	_	11	case	_	_
-11	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	3	obl	_	_
+11	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	3	obl	_	_
 12-13	מששה	_	_	_	_	_	_	_	_
 12	מ	מ	ADP	ADP	_	13	case	_	_
-13	ששה	ששה	NUM	NUM	Gender=Masc|Number=Sing	11	nummod	_	_
+13	ששה	שש	NUM	NUM	Gender=Masc|Number=Sing	11	nummod	_	_
 14	או	או	CCONJ	CCONJ	_	15	cc	_	_
-15	שבעה	שבעה	NUM	NUM	Gender=Masc|Number=Sing	13	conj	_	_
+15	שבעה	שבע	NUM	NUM	Gender=Masc|Number=Sing	13	conj	_	_
 16	סנאטורים	סנטור	NOUN	NOUN	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	PUNCT	_	19	punct	_	_
 18-19	שנבחרו	_	_	_	_	_	_	_	_
@@ -4191,7 +4191,7 @@
 32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
 33	הדרים	הדר	NOUN	NOUN	Gender=Masc|Number=Plur	31	compound	_	_
 34	במשך	במשך	ADP	ADP	_	36	case	_	_
-35	שלושה	שלושה	NUM	NUM	Gender=Masc|Number=Sing	36	nummod	_	_
+35	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Sing	36	nummod	_	_
 36	חודשים	חודש	NOUN	NOUN	Gender=Masc|Number=Plur	29	obl	_	_
 37	לפחות	לפחות	ADV	ADV	_	36	advmod	_	SpaceAfter=No
 38	.	.	PUNCT	PUNCT	_	7	punct	_	_
@@ -5621,10 +5621,10 @@
 # text = כמעט אף אחד משבעה מיליארדי הדולרים שקרנות אמריקאיות מחלקות מדי שנה אינו מיועד ליחידים.
 1	כמעט	כמעט	ADV	ADV	_	3	advmod	_	_
 2	אף	אף	DET	DET	Definite=Cons	3	det	_	_
-3	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+3	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
 4-5	משבעה	_	_	_	_	_	_	_	_
 4	מ	מ	ADP	ADP	_	8	case	_	_
-5	שבעה	שבעה	NUM	NUM	Gender=Masc|Number=Sing	6	nummod	_	_
+5	שבעה	שבע	NUM	NUM	Gender=Masc|Number=Sing	6	nummod	_	_
 6	מיליארדי	מיליארדי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	8	nummod	_	_
 7-8	הדולרים	_	_	_	_	_	_	_	_
 7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
@@ -5731,10 +5731,10 @@
 12	חשוב	חשוב	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	_
 13-14	באחד	_	_	_	_	_	_	_	_
 13	ב	ב	ADP	ADP	_	18	case	_	_
-14	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	18	nummod	_	_
+14	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	18	nummod	_	_
 15-16	ממאות	_	_	_	_	_	_	_	_
 15	מ	מ	ADP	ADP	_	18	case	_	_
-16	מאות	מאות	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	18	nummod	_	_
+16	מאות	מאה	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	18	nummod	_	_
 17-18	הגופים	_	_	_	_	_	_	_	_
 17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
 18	גופים	גוף	NOUN	NOUN	Gender=Masc|Number=Plur	11	nmod	_	_
@@ -7411,7 +7411,7 @@
 18	לזלי	לזלי	PROPN	PROPN	_	17	nsubj	_	_
 19	לנקובסקי	לנקובסקי	PROPN	PROPN	_	18	flat	_	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	_	23	punct	_	_
-21	אחד	אחד	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	23	nummod	_	_
+21	אחד	אחת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	23	nummod	_	_
 22-23	השותפים	_	_	_	_	_	_	_	_
 22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
 23	שותפים	שותף	NOUN	NOUN	Gender=Masc|Number=Plur	18	appos	_	_
@@ -9075,12 +9075,12 @@
 8	אף	אף	DET	DET	Definite=Cons	10	advmod	_	_
 9	לא	לא	ADV	ADV	Polarity=Neg	10	advmod	_	_
 10	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	27	nsubj:pass	_	_
-11	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	10	nummod	_	_
+11	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	10	nummod	_	_
 12	מבין	מבין	ADP	ADP	_	10	dep	_	_
 13	למעלה	למעלה	ADV	ADV	_	18	advmod	_	HebSource=ConvUncertainHead
-14-15	מ05	_	_	_	_	_	_	_	_
+14-15	מ50	_	_	_	_	_	_	_	_
 14	מ	מ	ADP	ADP	_	13	fixed	_	_
-15	05	05	NUM	NUM	_	16	nummod	_	_
+15	50	50	NUM	NUM	_	16	nummod	_	_
 16	מיליארד	מיליארד	NUM	NUM	Gender=Masc|Number=Sing	18	nummod	_	_
 17-18	הדולרים	_	_	_	_	_	_	_	_
 17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
@@ -10731,7 +10731,7 @@
 9	נאה	נאה	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
 10-11	לשניים	_	_	_	_	_	_	_	_
 10	ל	ל	ADP	ADP	_	14	case	_	_
-11	שניים	שניים	NUM	NUM	Gender=Masc|Number=Plur	14	nummod	_	_
+11	שניים	שתיים	NUM	NUM	Gender=Masc|Number=Plur	14	nummod	_	_
 12	מן	מן	ADP	ADP	_	14	case	_	_
 13-14	הפוליטיקאים	_	_	_	_	_	_	_	_
 13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
@@ -10853,7 +10853,7 @@
 4	ב	ב	ADP	ADP	_	5	case	_	_
 5	הפרש	הפרש	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
 6	של	של	ADP	ADP	Case=Gen	8	case	_	_
-7	שלושה	שלושה	NUM	NUM	Gender=Masc|Number=Sing	8	nummod	_	_
+7	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Sing	8	nummod	_	_
 8	אחוזים	אחוז	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod:poss	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -11020,7 +11020,7 @@
 23	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
 24	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	28	cop	_	_
 25	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	28	dep	_	_
-26	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	25	nummod	_	_
+26	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	25	nummod	_	_
 27-28	התשובה	_	_	_	_	_	_	_	_
 27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
 28	תשובה	תשובה	NOUN	NOUN	Gender=Fem|Number=Sing	17	ccomp	_	_
@@ -11101,7 +11101,7 @@
 6-7	לך	_	_	_	_	_	_	_	_
 6	ל	ל	ADP	ADP	_	7	case	_	_
 7	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	obl	_	_
-8	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	10	nummod	_	_
+8	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	10	nummod	_	_
 9-10	מהם	_	_	_	_	_	_	_	_
 9	מ	מן	ADP	ADP	_	10	case	_	_
 10	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
@@ -11140,7 +11140,7 @@
 10	,	,	PUNCT	PUNCT	_	15	punct	_	_
 11-12	ושלושה	_	_	_	_	_	_	_	_
 11	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
-12	שלושה	שלושה	NUM	NUM	Gender=Masc|Number=Sing	13	nummod	_	_
+12	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Sing	13	nummod	_	_
 13	נשיאים	נשיא	NOUN	NOUN	Gender=Masc|Number=Plur	15	nsubj	_	_
 14	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	13	amod	_	_
 15	כיהנו	כיהן	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	5	conj	_	_
@@ -11168,7 +11168,7 @@
 4-5	לנשיאות	_	_	_	_	_	_	_	_
 4	ל	ל	ADP	ADP	Definite=Def	5	case	_	_
 5	נשיאות	נשיאות	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
-6	חמישה	חמישה	NUM	NUM	Gender=Masc|Number=Sing	7	nummod	_	_
+6	חמישה	חמש	NUM	NUM	Gender=Masc|Number=Sing	7	nummod	_	_
 7	מושלי	מושל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	nsubj	_	_
 8	מדינות	מדינה	NOUN	NOUN	Gender=Fem|Number=Plur	7	compound	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	3	punct	_	_
@@ -12256,7 +12256,7 @@
 2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
 3	בחירות	בחירות	NOUN	NOUN	Gender=Fem|Number=Plur	4	obl	_	_
 4	היו	היה	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
-5	שבעה	שבעה	NUM	NUM	Gender=Masc|Number=Sing	6	nummod	_	_
+5	שבעה	שבע	NUM	NUM	Gender=Masc|Number=Sing	6	nummod	_	_
 6	סנאטורים	סנטור	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	12	punct	_	_
 8-9	וגם	_	_	_	_	_	_	_	_
@@ -12266,13 +12266,13 @@
 10	אחרי	אחרי	ADP	ADP	_	11	case	_	_
 11	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obl	_	_
 12	יש	יש	VERB	VERB	HebExistential=Yes	4	conj	_	_
-13	שבעה	שבעה	NUM	NUM	Gender=Masc|Number=Sing	14	nummod	_	_
+13	שבעה	שבע	NUM	NUM	Gender=Masc|Number=Sing	14	nummod	_	_
 14	סנאטורים	סנטור	NOUN	NOUN	Gender=Masc|Number=Plur	12	nsubj	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = 376
 # text = אחד מהם, רודי בושוויץ, רפובליקן ממדינת מינסוטה, נוצח בבחירות, אבל את מקומו תופס יהודי אחר ממינסוטה, פול ולסטון.
-1	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	3	nummod	_	_
+1	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	3	nummod	_	_
 2-3	מהם	_	_	_	_	_	_	_	SpaceAfter=No
 2	מ	מן	ADP	ADP	_	3	case	_	_
 3	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	nsubj:pass	_	_
@@ -12536,7 +12536,7 @@
 
 # sent_id = 386
 # text = שניים מהם היו מערכונים קומיים.
-1	שניים	שניים	NUM	NUM	Gender=Masc|Number=Plur	3	nummod	_	_
+1	שניים	שתיים	NUM	NUM	Gender=Masc|Number=Plur	3	nummod	_	_
 2-3	מהם	_	_	_	_	_	_	_	_
 2	מ	מן	ADP	ADP	_	3	case	_	_
 3	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
@@ -12549,7 +12549,7 @@
 # text = באחד נראה וולסטון מחפש את רודי בושוויץ על פני כל מינסוטה, בניסיון לקיים אתו ויכוח פומבי.
 1-2	באחד	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
-2	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	3	obl	_	_
+2	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	3	obl	_	_
 3	נראה	נראה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
 4	וולסטון	וולסטון	PROPN	PROPN	_	3	nsubj	_	_
 5	מחפש	חיפש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	3	advcl	_	_
@@ -13505,7 +13505,7 @@
 2	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	PUNCT	_	8	punct	_	_
 4	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
-5	שלושה	שלושה	NUM	NUM	Gender=Masc|Number=Sing	6	nummod	_	_
+5	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Sing	6	nummod	_	_
 6	תיקים	תיק	NOUN	NOUN	Gender=Masc|Number=Plur	8	nsubj	_	_
 7	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	6	det	_	_
 8	נמצאים	נמצא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Mid	2	ccomp	_	_
@@ -13639,7 +13639,7 @@
 # sent_id = 425
 # text = כל אחד מהם מתקרב לגיל שמונים.
 1	כל	כול	DET	DET	Definite=Cons	2	det	_	_
-2	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	5	nsubj	_	_
+2	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	5	nsubj	_	_
 3-4	מהם	_	_	_	_	_	_	_	_
 3	מה	מן	ADP	ADP	_	2	dep	_	_
 4	ם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	dep	_	HebSource=ConvUncertainHead
@@ -13798,11 +13798,11 @@
 12-13	המשטרה	_	_	_	_	_	_	_	_
 12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
 13	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
-14	שלושה	שלושה	NUM	NUM	Gender=Masc|Number=Sing	15	nummod	_	_
+14	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Sing	15	nummod	_	_
 15	שוטרים	שוטר	NOUN	NOUN	Gender=Masc|Number=Plur	11	obj	_	_
 16	פצועים	פצוע	ADJ	ADJ	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
 17	,	,	PUNCT	PUNCT	_	20	punct	_	_
-18	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	20	nummod	_	_
+18	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	20	nummod	_	_
 19-20	מהם	_	_	_	_	_	_	_	_
 19	מ	מן	ADP	ADP	_	20	case	_	_
 20	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	appos	_	_
@@ -13810,7 +13810,7 @@
 22	,	,	PUNCT	PUNCT	_	20	punct	_	_
 23-24	וארבעה	_	_	_	_	_	_	_	_
 23	ו	ו	CCONJ	CCONJ	_	25	cc	_	_
-24	ארבעה	ארבעה	NUM	NUM	Gender=Masc|Number=Sing	25	nummod	_	_
+24	ארבעה	ארבע	NUM	NUM	Gender=Masc|Number=Sing	25	nummod	_	_
 25	ערבים	ערבי	NOUN	NOUN	Gender=Masc|Number=Plur	15	conj	_	_
 26	עוברי	עבר	VERB	VERB	Definite=Cons|Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	25	amod	_	SpaceAfter=No
 27	-	-	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
@@ -13936,7 +13936,7 @@
 5	קול	קול	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	_
 6	ו	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
 7	של	של	ADP	ADP	Case=Gen	10	case	_	_
-8	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	10	nummod	_	_
+8	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	10	nummod	_	_
 9-10	מתלמידי	_	_	_	_	_	_	_	_
 9	מ	מ	ADP	ADP	_	10	case	_	_
 10	תלמידי	תלמיד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	nmod:poss	_	_
@@ -14084,7 +14084,7 @@
 
 # sent_id = 443
 # text = מאות צרו על רכב החברה קדישא, תוך שהם דוחפים איש את רעהו ומשלחים קללות וגידופים לעבר אנשי התקשורת הרבים.
-1	מאות	מאות	NUM	NUM	Gender=Fem|Number=Plur	2	nsubj	_	_
+1	מאות	מאה	NUM	NUM	Gender=Fem|Number=Plur	2	nsubj	_	_
 2	צרו	צר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
 3	על	על	ADP	ADP	_	4	case	_	_
 4	רכב	רכב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obl	_	_
@@ -14808,7 +14808,7 @@
 6	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
 7	של	של	ADP	ADP	Case=Gen	9	case	_	_
 8	כמה	כמה	DET	DET	Definite=Cons	9	det	_	_
-9	מאות	מאות	NUM	NUM	Gender=Fem|Number=Plur	6	nmod:poss	_	_
+9	מאות	מאה	NUM	NUM	Gender=Fem|Number=Plur	6	nmod:poss	_	_
 10	הצידה	הצידה	ADV	ADV	_	5	advmod	_	_
 11	כאשר	כאשר	SCONJ	SCONJ	_	12	mark	_	_
 12	נדמה	נדמה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Mid	5	advcl	_	_
@@ -14876,7 +14876,7 @@
 # text = מאחור צרו מאות על בניין הטלוויזיה.
 1	מאחור	מאחור	ADV	ADV	_	2	advmod	_	_
 2	צרו	צר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
-3	מאות	מאות	NUM	NUM	Gender=Fem|Number=Plur	2	nsubj	_	_
+3	מאות	מאה	NUM	NUM	Gender=Fem|Number=Plur	2	nsubj	_	_
 4	על	על	ADP	ADP	_	5	case	_	_
 5	בניין	בניין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obl	_	_
 6-7	הטלוויזיה	_	_	_	_	_	_	_	SpaceAfter=No
