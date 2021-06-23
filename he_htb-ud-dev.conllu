@@ -9062,7 +9062,7 @@
 18	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = 269
-# text = אך אפשר לומר בביטחון, שאף לא דולר אחד מבין למעלה מ05 מיליארד הדולרים שהוציאו קרנות בין 9791 ל9891 לא הוקדש להבהרתן.
+# text = אך אפשר לומר בביטחון, שאף לא דולר אחד מבין למעלה מ50 מיליארד הדולרים שהוציאו קרנות בין 1979 ל1989 לא הוקדש להבהרתן.
 1	אך	אך	CCONJ	CCONJ	_	3	cc	_	_
 2	אפשר	אפשר	AUX	AUX	VerbType=Mod	3	aux	_	_
 3	לומר	אמר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
@@ -9090,10 +9090,10 @@
 20	הוציאו	הוציא	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	18	acl:relcl	_	_
 21	קרנות	קרן	NOUN	NOUN	Gender=Fem|Number=Plur	20	nsubj	_	_
 22	בין	בין	ADP	ADP	_	23	case	_	_
-23	9791	9791	NUM	NUM	_	20	obl	_	_
-24-25	ל9891	_	_	_	_	_	_	_	_
+23	1979	1979	NUM	NUM	_	20	obl	_	_
+24-25	ל1989	_	_	_	_	_	_	_	_
 24	ל	ל	ADP	ADP	_	25	case	_	_
-25	9891	9891	NUM	NUM	_	23	conj	_	_
+25	1989	1989	NUM	NUM	_	23	conj	_	_
 26	לא	לא	ADV	ADV	Polarity=Neg	27	advmod	_	_
 27	הוקדש	הוקדש	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	ccomp	_	_
 28-30	להבהרתן	_	_	_	_	_	_	_	SpaceAfter=No
