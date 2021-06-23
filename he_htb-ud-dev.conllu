@@ -1946,7 +1946,7 @@
 39	ינעץ	נעץ	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	32	advcl	_	_
 40-41	בהם	_	_	_	_	_	_	_	_
 40	ב	ב	ADP	ADP	_	41	case	_	_
-41	ב	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	39	obl	_	_
+41	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	39	obl	_	_
 42	סכין	סכין	NOUN	NOUN	Gender=Fem,Masc|Number=Sing	39	obj	_	_
 43-44	בגב	_	_	_	_	_	_	_	SpaceAfter=No
 43	ב	ב	ADP	ADP	Definite=Def	44	case	_	_
@@ -5320,7 +5320,7 @@
 55	ייכללו	נכלל	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Fut|Voice=Mid	50	acl:relcl	_	_
 56-57	בה	_	_	_	_	_	_	_	SpaceAfter=No
 56	ב	ב	ADP	ADP	_	57	case	_	_
-57	ב	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	55	obl	_	_
+57	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	55	obl	_	_
 58	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = 157

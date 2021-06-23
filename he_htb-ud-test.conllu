@@ -354,7 +354,7 @@
 2	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
 3-4	בו	_	_	_	_	_	_	_	_
 3	ב	ב	ADP	ADP	_	4	case	_	_
-4	ב	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+4	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
 5	קלט	קלט	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl	_	_
 6	ויליאמס	ויליאמס	PROPN	PROPN	_	5	nsubj	_	_
 7	ריבאונדים	ריבאונד	NOUN	NOUN	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
@@ -1428,7 +1428,7 @@
 35	,	,	PUNCT	PUNCT	_	38	punct	_	_
 36-37	בו	_	_	_	_	_	_	_	_
 36	ב	ב	ADP	ADP	_	37	case	_	_
-37	ב	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	obl	_	_
+37	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	obl	_	_
 38	ניצחה	ניצח	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	27	acl	_	_
 39	ישראל	ישראל	PROPN	PROPN	_	38	nsubj	_	_
 40	1	1	NUM	NUM	_	38	dep	_	_
@@ -3443,7 +3443,7 @@
 32	,	,	PUNCT	PUNCT	_	35	punct	_	_
 33-34	בה	_	_	_	_	_	_	_	_
 33	ב	ב	ADP	ADP	_	34	case	_	_
-34	ב	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	obl	_	_
+34	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	obl	_	_
 35	נפגע	נפגע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	28	acl:relcl	_	_
 36	בידי	בידי	ADP	ADP	_	37	case	_	_
 37	רוברטס	רוברטס	PROPN	PROPN	_	35	obl	_	_
