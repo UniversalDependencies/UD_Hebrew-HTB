@@ -3603,7 +3603,7 @@
 12	מנעה	מנע	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	_
 13-14	מהם	_	_	_	_	_	_	_	_
 13	מ	מן	ADP	ADP	_	14	case	_	_
-14	מ	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obl	_	_
+14	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obl	_	_
 15	לתת	נתן	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	12	xcomp	_	_
 16	תשובה	תשובה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obj	_	_
 17	מעשית	מעשי	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	_
@@ -4087,7 +4087,7 @@
 17	להחזיר	החזיר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	16	xcomp	_	_
 18-19	לה	_	_	_	_	_	_	_	_
 18	ל	ל	ADP	ADP	_	19	case	_	_
-19	ל	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obl	_	_
+19	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obl	_	_
 20	את	את	ADP	ADP	Case=Acc	22	case	_	_
 21-22	הכסף	_	_	_	_	_	_	_	SpaceAfter=No
 21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
@@ -4556,7 +4556,7 @@
 13	נגרמו	נגרם	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	11	acl:relcl	_	_
 14-15	לה	_	_	_	_	_	_	_	_
 14	ל	ל	ADP	ADP	_	15	case	_	_
-15	ל	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obl	_	_
+15	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obl	_	_
 16	קבעה	קבע	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	0	root	_	_
 17-18	השופטת	_	_	_	_	_	_	_	SpaceAfter=No
 17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
@@ -8250,7 +8250,7 @@
 41	מוגשת	הוגש	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass	39	acl:relcl	_	_
 42-43	להם	_	_	_	_	_	_	_	SpaceAfter=No
 42	ל	ל	ADP	ADP	_	43	case	_	_
-43	ל	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	41	obl	_	_
+43	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	41	obl	_	_
 44	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = 5986
@@ -11132,7 +11132,7 @@
 11	מקביל	מקביל	ADJ	ADJ	Gender=Masc|Number=Sing	6	conj	_	_
 12-13	לו	_	_	_	_	_	_	_	SpaceAfter=No
 12	ל	ל	ADP	ADP	_	13	case	_	_
-13	ל	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+13	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
 14	,	,	PUNCT	PUNCT	_	6	punct	_	_
 15	נגרע	נגרע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
 16-18	מרושמה	_	_	_	_	_	_	_	_

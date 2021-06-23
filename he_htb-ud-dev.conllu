@@ -2047,7 +2047,7 @@
 17	יגיד	הגיד	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	8	conj	_	_
 18-19	לו	_	_	_	_	_	_	_	SpaceAfter=No
 18	ל	ל	ADP	ADP	_	19	case	_	_
-19	ל	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obl	_	_
+19	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obl	_	_
 20	:	:	PUNCT	PUNCT	_	24	punct	_	_
 21	"	"	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
 22	אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	24	nsubj	_	_
@@ -2123,7 +2123,7 @@
 32	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	ccomp	_	_
 33-34	לי	_	_	_	_	_	_	_	SpaceAfter=No
 33	ל	ל	ADP	ADP	_	34	case	_	_
-34	ל	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	32	obl	_	_
+34	י	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	32	obl	_	_
 35	:	:	PUNCT	PUNCT	_	42	punct	_	_
 36	"	"	PUNCT	PUNCT	_	42	punct	_	SpaceAfter=No
 37	אלי	אלי	PROPN	PROPN	_	42	obl	_	SpaceAfter=No
@@ -5151,7 +5151,7 @@
 23	יש	יש	VERB	VERB	HebExistential=Yes	34	advcl	_	_
 24-25	לך	_	_	_	_	_	_	_	_
 24	ל	ל	ADP	ADP	_	25	case	_	_
-25	ל	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	23	obl	_	_
+25	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	23	obl	_	_
 26	מיכל	מכל	NOUN	NOUN	_	23	nsubj	_	_
 27	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	26	compound	_	_
 28	על	על	ADP	ADP	_	29	case	_	_
@@ -6568,7 +6568,7 @@
 23	אין	אין	VERB	VERB	HebExistential=Yes	16	acl:relcl	_	_
 24-25	להן	_	_	_	_	_	_	_	_
 24	ל	ל	ADP	ADP	_	25	case	_	_
-25	ל	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	23	obl	_	_
+25	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	23	obl	_	_
 26	יישום	יישום	NOUN	NOUN	Gender=Masc|Number=Sing	23	nsubj	_	_
 27	מעשי	מעשי	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	_
 28	מידי	מיידי	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
