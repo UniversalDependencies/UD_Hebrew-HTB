@@ -152,7 +152,7 @@
 12-14	בהפועל	_	_	_	_	_	_	_	_
 12	ב	ב	ADP	ADP	_	14	case	_	_
 13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
-14	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+14	פועל	פועל	PROPN	PROPN	Gender=Masc|Number=Sing	8	obl	_	_
 15	חולון	חולון	PROPN	PROPN	_	14	flat	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
@@ -541,8 +541,8 @@
 4	יארחו	אירח	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Fut|Voice=Act	0	root	_	_
 5	את	את	ADP	ADP	Case=Acc	6	case	_	_
 6	מכבי	מכבי	PROPN	PROPN	_	4	obj	_	_
-7	תל	תל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	flat	_	_
-8	אביב	אביב	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound	_	SpaceAfter=No
+7	תל	תל	PROPN	PROPN	Definite=Cons|Gender=Masc|Number=Sing	6	flat	_	_
+8	אביב	אביב	PROPN	PROPN	Gender=Masc|Number=Sing	7	compound	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = 5744
@@ -596,9 +596,9 @@
 12	נוסף	נוסף	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	_
 13-14	הפועל	_	_	_	_	_	_	_	_
 13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
-14	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	10	dep	_	_
-15	תל	תל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	acl	_	_
-16	אביב	אביב	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound	_	SpaceAfter=No
+14	פועל	פועל	PROPN	PROPN	Gender=Masc|Number=Sing	11	appos	_	_
+15	תל	תל	PROPN	PROPN	Definite=Cons|Gender=Masc|Number=Sing	14	flat	_	_
+16	אביב	אביב	PROPN	PROPN	Gender=Masc|Number=Sing	15	compound	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = 5747
@@ -680,8 +680,8 @@
 3	ל	ל	ADP	ADP	Definite=Def|PronType=Art	4	case	_	_
 4	אלוף	אלוף	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 5	מכבי	מכבי	PROPN	PROPN	_	4	flat	_	_
-6	תל	תל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	flat	_	_
-7	אביב	אביב	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound	_	SpaceAfter=No
+6	תל	תל	PROPN	PROPN	Definite=Cons|Gender=Masc|Number=Sing	4	flat	_	_
+7	אביב	אביב	PROPN	PROPN	Gender=Masc|Number=Sing	6	compound	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	11	punct	_	_
 9	לאחר	לאחר	ADP	ADP	_	11	case	_	_
 10	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	11	nummod	_	_
@@ -783,7 +783,7 @@
 8	מוביל	מוביל	NOUN	NOUN	Gender=Masc|Number=Sing	5	obj	_	_
 9-10	הפועל	_	_	_	_	_	_	_	_
 9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
-10	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	8	dep	_	HebSource=ConvUncertainHead
+10	פועל	פועל	PROPN	PROPN	Gender=Masc|Number=Sing	8	appos	_	HebSource=ConvUncertainHead
 11	ירושלים	ירושלים	PROPN	PROPN	_	10	flat	_	_
 12	96	96	NUM	NUM	_	8	dep	_	HebSource=ConvUncertainHead
 13	83	83	NUM	NUM	_	12	nummod	_	_
@@ -892,7 +892,7 @@
 1-3	להפועל	_	_	_	_	_	_	_	_
 1	ל	ל	ADP	ADP	_	3	case	_	_
 2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
-3	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+3	פועל	פועל	PROPN	PROPN	Gender=Masc|Number=Sing	8	obl	_	_
 4	חולון	חולון	PROPN	PROPN	_	3	flat	_	_
 5	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	8	cop	_	_
 6	הרבה	הרבה	ADV	ADV	_	8	advmod	_	_
@@ -979,7 +979,7 @@
 8	את	את	ADP	ADP	Case=Acc	10	case	_	_
 9-10	הפועל	_	_	_	_	_	_	_	_
 9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
-10	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	7	obj	_	_
+10	פועל	פועל	PROPN	PROPN	Gender=Masc|Number=Sing	7	obj	_	_
 11	כפ"ס	כפ"ס	PROPN	PROPN	Abbr=Yes	10	flat	_	_
 12	מן	מן	ADP	ADP	_	14	case	_	_
 13-14	המצב	_	_	_	_	_	_	_	_
@@ -1870,7 +1870,7 @@
 8	עם	עם	ADP	ADP	_	10	case	_	_
 9-10	הפועל	_	_	_	_	_	_	_	_
 9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
-10	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
+10	פועל	פועל	PROPN	PROPN	Gender=Masc|Number=Sing	6	nmod	_	_
 11	חדרה	חדרה	PROPN	PROPN	_	10	flat	_	_
 12-14	מהליגה	_	_	_	_	_	_	_	_
 12	מ	מ	ADP	ADP	_	14	case	_	_
@@ -1944,8 +1944,8 @@
 5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
 6	אלוף	אלוף	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
 7	מכבי	מכבי	PROPN	PROPN	_	6	flat	_	_
-8	תל	תל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	flat	_	_
-9	אביב	אביב	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound	_	_
+8	תל	תל	PROPN	PROPN	Definite=Cons|Gender=Masc|Number=Sing	6	flat	_	_
+9	אביב	אביב	PROPN	PROPN	Gender=Masc|Number=Sing	8	compound	_	_
 10	את	את	ADP	ADP	Case=Acc	12	case	_	_
 11-12	העולה	_	_	_	_	_	_	_	_
 11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
@@ -1955,7 +1955,7 @@
 14	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
 15-16	הפועל	_	_	_	_	_	_	_	_
 15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
-16	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	12	nmod	_	_
+16	פועל	פועל	PROPN	PROPN	Gender=Masc|Number=Sing	12	nmod	_	_
 17	גבת	גבת	PROPN	PROPN	_	16	flat	_	_
 18-19	העמק	_	_	_	_	_	_	_	_
 18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
@@ -2004,7 +2004,7 @@
 9	מאמן	מאמן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	appos	_	_
 10-11	הפועל	_	_	_	_	_	_	_	_
 10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
-11	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound	_	_
+11	פועל	פועל	PROPN	PROPN	Gender=Masc|Number=Sing	9	compound	_	_
 12	גבת	גבת	PROPN	PROPN	_	11	flat	_	_
 13-14	העמק	_	_	_	_	_	_	_	SpaceAfter=No
 13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
@@ -2053,8 +2053,8 @@
 3	,	,	PUNCT	PUNCT	_	2	punct	_	_
 4	שחקני	שחקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	nsubj	_	_
 5	מכבי	מכבי	PROPN	PROPN	_	4	compound	_	_
-6	תל	תל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	flat	_	_
-7	אביב	אביב	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound	_	_
+6	תל	תל	PROPN	PROPN	Definite=Cons|Gender=Masc|Number=Sing	5	flat	_	_
+7	אביב	אביב	PROPN	PROPN	Gender=Masc|Number=Sing	6	compound	_	_
 8-9	והנהלת	_	_	_	_	_	_	_	_
 8	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
 9	הנהלת	הנהלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	dep	_	_
@@ -2097,7 +2097,7 @@
 38-40	להפועל	_	_	_	_	_	_	_	_
 38	ל	ל	ADP	ADP	_	40	case	_	_
 39	ה	ה	DET	DET	Definite=Def|PronType=Art	40	det	_	_
-40	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	37	conj	_	_
+40	פועל	פועל	PROPN	PROPN	Gender=Masc|Number=Sing	37	conj	_	_
 41	עפולה	עפולה	PROPN	PROPN	_	40	flat	_	SpaceAfter=No
 42	.	.	PUNCT	PUNCT	_	13	punct	_	_
 
@@ -2234,8 +2234,8 @@
 # sent_id = 5811
 # text = שחקני תל אביב הראו רק שמץ מיכולתם.
 1	שחקני	שחקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	nsubj	_	_
-2	תל	תל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	compound	_	_
-3	אביב	אביב	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound	_	_
+2	תל	תל	PROPN	PROPN	Definite=Cons|Gender=Masc|Number=Sing	1	compound	_	_
+3	אביב	אביב	PROPN	PROPN	Gender=Masc|Number=Sing	2	compound	_	_
 4	הראו	הראה	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
 5	רק	רק	ADV	ADV	_	6	advmod	_	_
 6	שמץ	שמץ	NOUN	NOUN	_	4	obj	_	_
@@ -2301,8 +2301,8 @@
 8	צמוד	צמוד	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	14	punct	_	_
 10	כאשר	כאשר	SCONJ	SCONJ	_	14	mark	_	_
-11	תל	תל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	dep	_	_
-12	אביב	אביב	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound	_	_
+11	תל	תל	PROPN	PROPN	Definite=Cons|Gender=Masc|Number=Sing	14	dep	_	_
+12	אביב	אביב	PROPN	PROPN	Gender=Masc|Number=Sing	11	compound	_	_
 13	אינה	אינו	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part|VerbType=Cop	14	aux	_	_
 14	מצליחה	הצליח	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	8	advcl	_	_
 15	לברוח	ברח	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	14	xcomp	_	_
@@ -2875,7 +2875,7 @@
 37	נערי	נער	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	31	nmod	_	_
 38-39	הפועל	_	_	_	_	_	_	_	_
 38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
-39	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	37	compound	_	_
+39	פועל	פועל	PROPN	PROPN	Gender=Masc|Number=Sing	37	compound	_	_
 40	טייבה	טייבה	PROPN	PROPN	_	39	flat	_	SpaceAfter=No
 41	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
@@ -3194,10 +3194,10 @@
 4-6	ל"ספורט	_	_	_	_	_	_	_	_
 4	ל	ל	ADP	ADP	_	6	case	_	_
 5	"	"	PUNCT	PUNCT	_	6	punct	_	_
-6	ספורט	ספורט	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obl	_	_
+6	ספורט	ספורט	PROPN	PROPN	Definite=Cons|Gender=Masc|Number=Sing	3	obl	_	_
 7-8	הארץ	_	_	_	_	_	_	_	SpaceAfter=No
 7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
-8	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound	_	_
+8	ארץ	ארץ	PROPN	PROPN	Gender=Fem|Number=Sing	6	compound	_	_
 9	"	"	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
 10	:	:	PUNCT	PUNCT	_	14	punct	_	_
 11	"	"	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
@@ -3310,7 +3310,7 @@
 16	מחזור	מחזור	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound	_	_
 17-18	הפועל	_	_	_	_	_	_	_	_
 17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
-18	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	13	dep	_	HebSource=ConvUncertainHead
+18	פועל	פועל	PROPN	PROPN	Gender=Masc|Number=Sing	13	dep	_	HebSource=ConvUncertainHead
 19	ירושלים	ירושלים	PROPN	PROPN	_	18	flat	_	_
 20	96	96	NUM	NUM	_	10	dep	_	_
 21	83	83	NUM	NUM	_	20	nummod	_	SpaceAfter=No
