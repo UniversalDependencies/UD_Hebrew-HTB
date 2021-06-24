@@ -871,7 +871,7 @@
 19	"	"	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
 20-21	הארץ	_	_	_	_	_	_	_	SpaceAfter=No
 20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
-21	ארץ	ארץ	PROPN	PROPN	Gender=Fem|Number=Sing	1	appos	_	_
+21	ארץ	ארץ	PROPN	PROPN	_	1	appos	_	_
 22	"	"	PUNCT	PUNCT	_	21	punct	_	_
 23	105	105	NUM	NUM	_	21	nummod	_	SpaceAfter=No
 24	)	)	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
@@ -1736,7 +1736,7 @@
 31	"	"	PUNCT	PUNCT	_	33	punct	_	SpaceAfter=No
 32-33	הארץ	_	_	_	_	_	_	_	SpaceAfter=No
 32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
-33	ארץ	ארץ	PROPN	PROPN	Gender=Fem|Number=Sing	7	parataxis	_	_
+33	ארץ	ארץ	PROPN	PROPN	_	7	parataxis	_	_
 34	"	"	PUNCT	PUNCT	_	33	punct	_	SpaceAfter=No
 35	,	,	PUNCT	PUNCT	_	36	punct	_	_
 36	0192	0192	NUM	NUM	_	33	parataxis	_	SpaceAfter=No
@@ -2343,7 +2343,7 @@
 16	"	"	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
 17-18	הארץ	_	_	_	_	_	_	_	SpaceAfter=No
 17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
-18	ארץ	ארץ	PROPN	PROPN	Gender=Fem|Number=Sing	1	appos	_	_
+18	ארץ	ארץ	PROPN	PROPN	_	1	appos	_	_
 19	"	"	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	_	21	punct	_	_
 21	111	111	NUM	NUM	_	18	nummod	_	SpaceAfter=No
