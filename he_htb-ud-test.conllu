@@ -10000,7 +10000,7 @@
 62	נוטלים	נטל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	58	conj	_	_
 63-64	ממנו	_	_	_	_	_	_	_	_
 63	ממנ	ממנו	ADP	ADP	_	64	case	_	_
-64	ממנ	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	62	obl	_	_
+64	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	62	obl	_	_
 65	בעיות	בעיה	NOUN	NOUN	Gender=Fem|Number=Plur	62	obj	_	_
 66	שונות	שונה	ADJ	ADJ	Gender=Fem|Number=Plur	65	amod	_	_
 67	כדי	כדי	SCONJ	SCONJ	_	68	mark	_	_
