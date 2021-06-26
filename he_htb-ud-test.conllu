@@ -741,7 +741,7 @@
 5	שיחק	שיחק	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	_
 6	רק	רק	ADV	ADV	_	8	advmod	_	_
 7	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	8	nummod	_	_
-8	דקות	דקה	NOUN	NOUN	Gender=Fem|Number=Plur	5	dep	_	_
+8	דקות	דקה	NOUN	NOUN	Gender=Fem|Number=Plur	5	obl:tmod	_	_
 9	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
 10	כנראה	כנראה	ADV	ADV	_	11	advmod	_	_
 11	מישחק	משחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
@@ -943,7 +943,7 @@
 5	מנוחה	מנוחה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 6	מוחלטת	מוחלט	ADJ	ADJ	Gender=Fem|Number=Sing	5	amod	_	_
 7	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	8	nummod	_	_
-8	שבועות	שבוע	NOUN	NOUN	Gender=Masc|Number=Plur	5	dep	_	_
+8	שבועות	שבוע	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl:tmod	_	_
 9-10	ויחזור	_	_	_	_	_	_	_	_
 9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
 10	יחזור	חזר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	5	conj	_	_
@@ -2084,7 +2084,7 @@
 27	ב	ב	ADP	ADP	Definite=Def|PronType=Art	28	case	_	_
 28	עמק	עמק	NOUN	NOUN	Gender=Masc|Number=Sing	26	obl	_	_
 29	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	30	det	_	_
-30	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	26	dep	_	SpaceAfter=No
+30	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	26	obl:tmod	_	SpaceAfter=No
 31	,	,	PUNCT	PUNCT	_	35	punct	_	_
 32-33	מאז	_	_	_	_	_	_	_	_
 32	מ	מ	ADP	ADP	_	35	case	_	_
@@ -2708,7 +2708,7 @@
 # sent_id = 5831
 # text = שתי דקות מהסיום (דקה 48) עלה מכבי ליתרון 3 נקודות מסל של גמצי מחוץ לקשת (107 104).
 1	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	2	nummod	_	_
-2	דקות	דקה	NOUN	NOUN	Gender=Fem|Number=Plur	10	dep	_	_
+2	דקות	דקה	NOUN	NOUN	Gender=Fem|Number=Plur	10	obl:tmod	_	_
 3-5	מהסיום	_	_	_	_	_	_	_	_
 3	מ	מ	ADP	ADP	_	5	case	_	_
 4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
@@ -3663,7 +3663,7 @@
 14	74	74	NUM	NUM	_	12	nmod	_	HebSource=ConvUncertainLabel
 15	63	63	NUM	NUM	_	14	nummod	_	_
 16	(	(	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
-17	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	11	dep	_	_
+17	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl:tmod	_	_
 18	36	36	NUM	NUM	_	17	nummod	_	SpaceAfter=No
 19	)	)	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
 20	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -4044,7 +4044,7 @@
 8	נקבע	נקבע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	6	acl:relcl	_	_
 9	,	,	PUNCT	PUNCT	_	10	punct	_	_
 10	ספטמבר	ספטמבר	PROPN	PROPN	_	6	appos	_	_
-11	84	84	NUM	NUM	_	10	nummod	_	SpaceAfter=No
+11	84	84	NUM	NUM	_	10	nmod:tmod	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = 5878
@@ -6279,7 +6279,7 @@
 11-12	שנמשכה	_	_	_	_	_	_	_	_
 11	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
 12	נמשכה	נמשך	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	8	acl:relcl	_	_
-13	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	12	dep	_	SpaceAfter=No
+13	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	12	obl:tmod	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 5937
@@ -6934,7 +6934,7 @@
 # sent_id = 5956
 # text = כמה שבועות לאחר מכן הודיעה מוסקווה על תוכניות למשוך גרמנים מרפובליקות סובייטיות שונות להתיישב בקלינינגרד אובלסט, והציעה לשנות את שם הבירה לקאנטגרד, על-שם עמנואל קאנט.
 1	כמה	כמה	DET	DET	Definite=Cons	2	det	_	_
-2	שבועות	שבוע	NOUN	NOUN	Gender=Masc|Number=Plur	6	dep	_	_
+2	שבועות	שבוע	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl:tmod	_	_
 3	לאחר	לאחר	ADP	ADP	_	5	case	_	_
 4-5	מכן	_	_	_	_	_	_	_	_
 4	מ	מן	ADP	ADP	_	5	case	_	_
@@ -7337,9 +7337,9 @@
 33	מלבד	מלבד	ADV	ADV	_	35	advmod	_	_
 34-35	בשנים	_	_	_	_	_	_	_	_
 34	ב	ב	ADP	ADP	Definite=Def|PronType=Art	35	case	_	_
-35	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	31	dep	_	_
+35	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	25	obl	_	_
 36	23	23	NUM	NUM	_	35	nmod	_	_
-37	39	39	NUM	NUM	_	36	nummod	_	SpaceAfter=No
+37	39	39	NUM	NUM	_	36	conj	_	SpaceAfter=No
 38	)	)	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
 39	.	.	PUNCT	PUNCT	_	25	punct	_	_
 
@@ -9248,7 +9248,7 @@
 
 # sent_id = 6013
 # text = ימים אלה מתקיימת במילאנו תערוכה יוצאת דופן של ביצים מחרסינה, שיוצרו בחצר הצאר מהמאה ה71 ועד תחילת המאה ה20.
-1	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	3	dep	_	_
+1	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl:tmod	_	_
 2	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	1	det	_	_
 3	מתקיימת	התקיים	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
 4-5	במילאנו	_	_	_	_	_	_	_	_
@@ -12021,9 +12021,9 @@
 9	חוק	חוק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	dep	_	_
 10	גביית	גבייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	compound	_	_
 11	קנסות	קנס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	compound	_	_
-12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
-13	תשנא	תשנא	NOUN	NOUN	_	11	compound	_	_
-14	1990	1990	NUM	NUM	_	13	nummod	_	SpaceAfter=No
+12	ה	ה	NUM	NUM	_	13	compound:affix	_	_
+13	תשנא	תשנא	NUM	NUM	_	11	compound	_	_
+14	1990	1990	NUM	NUM	_	13	appos	_	SpaceAfter=No
 15	"	"	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 16	,	,	PUNCT	PUNCT	_	2	punct	_	_
 17	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	18	aux	_	_
@@ -12827,7 +12827,7 @@
 # text = היא נפתחה שנים אחדות לפני המסעדות האיטלקיות מן הגל החדש, ומגישים בה אוכל פשוט וחסר יומרות, נאמן במידה רבה לזה שאפשר למצוא בהרבה אוסטריות צנועות בכל רחבי איטליה.
 1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	נפתחה	נפתח	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
-3	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	2	dep	_	_
+3	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	2	obl:tmod	_	_
 4	אחדות	אחדים	ADJ	ADJ	Gender=Fem|Number=Plur	3	amod	_	_
 5	לפני	לפני	ADP	ADP	_	7	case	_	_
 6-7	המסעדות	_	_	_	_	_	_	_	_
