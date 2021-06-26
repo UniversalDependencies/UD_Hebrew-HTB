@@ -8062,7 +8062,7 @@
 45	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = 240
-# text = עם זאת, "טובת הכלל", הדו"ח הגדול על סעד שפרסמה קרן פורד ב9891, סיפק תמיכה מנומקת (בגיבוי קונסנזוס רחב להפתיע של שמות מפורסמים) לתוכנית עבודה וסעד נוקשה ויקרה למדי, שאמנם הבטיחה מקומות עבודה, אבל גם קבעה שכל אדם ייזרק מרשימות מקבלי הסעד כעבור שנתיים.
+# text = עם זאת, "טובת הכלל", הדו"ח הגדול על סעד שפרסמה קרן פורד ב1989, סיפק תמיכה מנומקת (בגיבוי קונסנזוס רחב להפתיע של שמות מפורסמים) לתוכנית עבודה וסעד נוקשה ויקרה למדי, שאמנם הבטיחה מקומות עבודה, אבל גם קבעה שכל אדם ייזרק מרשימות מקבלי הסעד כעבור שנתיים.
 1	עם	עם	ADP	ADP	_	2	case	_	_
 2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	23	obl	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	2	punct	_	_
@@ -8086,9 +8086,9 @@
 17	פרסמה	פרסם	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	11	acl:relcl	_	_
 18	קרן	קרן	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	17	nsubj	_	_
 19	פורד	פורד	PROPN	PROPN	_	18	flat	_	_
-20-21	ב9891	_	_	_	_	_	_	_	SpaceAfter=No
+20-21	ב1989	_	_	_	_	_	_	_	SpaceAfter=No
 20	ב	ב	ADP	ADP	_	21	case	_	_
-21	9891	9891	NUM	NUM	_	17	obl	_	_
+21	1989	1989	NUM	NUM	_	17	obl	_	_
 22	,	,	PUNCT	PUNCT	_	5	punct	_	_
 23	סיפק	סיפק	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 24	תמיכה	תמיכה	NOUN	NOUN	Gender=Fem|Number=Sing	23	obj	_	_
@@ -9920,7 +9920,7 @@
 9	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = 297
-# text = סילבר היה אולי הדמות הפוליטית המרתקת, המורכבת והמסוכנת ביותר במערכת הבחירות של 0991.
+# text = סילבר היה אולי הדמות הפוליטית המרתקת, המורכבת והמסוכנת ביותר במערכת הבחירות של 1990.
 1	סילבר	סילבר	PROPN	PROPN	_	5	nsubj	_	_
 2	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	5	cop	_	_
 3	אולי	אולי	ADV	ADV	_	5	advmod	_	_
@@ -9949,7 +9949,7 @@
 19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
 20	בחירות	בחירות	NOUN	NOUN	Gender=Fem|Number=Plur	18	compound	_	_
 21	של	של	ADP	ADP	Case=Gen	22	case	_	_
-22	0991	0991	NUM	NUM	_	18	nmod:poss	_	SpaceAfter=No
+22	1990	1990	NUM	NUM	_	18	nmod:poss	_	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = 298
@@ -10526,7 +10526,7 @@
 15	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = 316
-# text = המפלגות הפוליטיות בארה"ב מתחילות כבר את הכנותיהן לקראת הסיבוב הבא, ב2991.
+# text = המפלגות הפוליטיות בארה"ב מתחילות כבר את הכנותיהן לקראת הסיבוב הבא, ב1992.
 1-2	המפלגות	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
 2	מפלגות	מפלגה	NOUN	NOUN	Gender=Fem|Number=Plur	7	nsubj	_	_
@@ -10550,9 +10550,9 @@
 15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
 16	בא	בא	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	_
 17	,	,	PUNCT	PUNCT	_	19	punct	_	_
-18-19	ב2991	_	_	_	_	_	_	_	SpaceAfter=No
+18-19	ב1992	_	_	_	_	_	_	_	SpaceAfter=No
 18	ב	ב	ADP	ADP	_	19	case	_	_
-19	2991	2991	NUM	NUM	_	14	nmod	_	_
+19	1992	1992	NUM	NUM	_	14	nmod	_	_
 20	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = 317
@@ -10717,7 +10717,7 @@
 7	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = 323
-# text = הבחירות של השבוע יכלו להעניק דחיפה נאה לשניים מן הפוליטיקאים המוזכרים ביותר: המושל רב-הכריזמה של מדינת ניו יורק, מריו קואומו, ששמו מתרוצץ בהקשרים נשיאותיים מאז 4891; והסנאטור מניו גרסי, האינטלקטואל וכוכב הכדורסל המהולל של שנות ה06, ביל בראדלי.
+# text = הבחירות של השבוע יכלו להעניק דחיפה נאה לשניים מן הפוליטיקאים המוזכרים ביותר: המושל רב-הכריזמה של מדינת ניו יורק, מריו קואומו, ששמו מתרוצץ בהקשרים נשיאותיים מאז 1984; והסנאטור מניו גרסי, האינטלקטואל וכוכב הכדורסל המהולל של שנות ה06, ביל בראדלי.
 1-2	הבחירות	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
 2	בחירות	בחירות	NOUN	NOUN	Gender=Fem|Number=Plur	6	nsubj	_	_
@@ -10769,7 +10769,7 @@
 40-41	מאז	_	_	_	_	_	_	_	_
 40	מ	מ	ADP	ADP	_	42	case	_	_
 41	אז	אז	ADV	ADV	_	40	fixed	_	_
-42	4891	4891	NUM	NUM	_	36	obl	_	SpaceAfter=No
+42	1984	1984	NUM	NUM	_	36	obl	_	SpaceAfter=No
 43	;	;	PUNCT	PUNCT	_	44	punct	_	_
 44-46	והסנאטור	_	_	_	_	_	_	_	_
 44	ו	ו	CCONJ	CCONJ	_	46	cc	_	_
@@ -10950,7 +10950,7 @@
 25	.	.	PUNCT	PUNCT	_	13	punct	_	_
 
 # sent_id = 329
-# text = מריו קואומו היה המועמד הטבעי ביותר לנשיאות מאז נשא נאום מלהיב באוזני ועידת המפלגה הדמוקרטית, בקיץ 4891.
+# text = מריו קואומו היה המועמד הטבעי ביותר לנשיאות מאז נשא נאום מלהיב באוזני ועידת המפלגה הדמוקרטית, בקיץ 1984.
 1	מריו	מריו	PROPN	PROPN	_	5	nsubj	_	_
 2	קואומו	קואומו	PROPN	PROPN	_	1	flat	_	_
 3	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	5	cop	_	_
@@ -10982,7 +10982,7 @@
 23-24	בקיץ	_	_	_	_	_	_	_	_
 23	ב	ב	ADP	ADP	_	24	case	_	_
 24	קיץ	קיץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
-25	4891	4891	NUM	NUM	_	24	compound	_	SpaceAfter=No
+25	1984	1984	NUM	NUM	_	24	compound	_	SpaceAfter=No
 26	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = 330
@@ -11403,7 +11403,7 @@
 16	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 345
-# text = היא נבחרה השבוע למושלת טקסס, מקץ מערכת הבחירות המכוערת והדרמטית ביותר של 0991.
+# text = היא נבחרה השבוע למושלת טקסס, מקץ מערכת הבחירות המכוערת והדרמטית ביותר של 1990.
 1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	נבחרה	נבחר	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
 3	השבוע	השבוע	ADV	ADV	_	2	advmod	_	_
@@ -11428,11 +11428,11 @@
 17	דרמטית	דרמטי	ADJ	ADJ	Gender=Fem|Number=Sing	14	conj	_	_
 18	ביותר	ביותר	ADV	ADV	_	14	advmod	_	_
 19	של	של	ADP	ADP	Case=Gen	20	case	_	_
-20	0991	0991	NUM	NUM	_	10	nmod	_	SpaceAfter=No
+20	1990	1990	NUM	NUM	_	10	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = 346
-# text = ריצארדס הגיעה לראשונה אל התודעה הלאומית בארה"ב, כאשר הוזמנה לשאת את הנאום המרכזי בוועידת המפלגה הדמוקרטית, ערב הבחירות לנשיאות של 8891.
+# text = ריצארדס הגיעה לראשונה אל התודעה הלאומית בארה"ב, כאשר הוזמנה לשאת את הנאום המרכזי בוועידת המפלגה הדמוקרטית, ערב הבחירות לנשיאות של 1988.
 1	ריצארדס	ריצארדס	PROPN	PROPN	_	2	nsubj	_	_
 2	הגיעה	הגיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 3	לראשונה	לראשונה	ADV	ADV	_	2	advmod	_	_
@@ -11475,7 +11475,7 @@
 30	ל	ל	ADP	ADP	Definite=Def|PronType=Art	31	case	_	_
 31	נשיאות	נשיאות	NOUN	NOUN	Gender=Fem|Number=Sing	29	nmod	_	_
 32	של	של	ADP	ADP	Case=Gen	33	case	_	_
-33	8891	8891	NUM	NUM	_	29	nmod	_	SpaceAfter=No
+33	1988	1988	NUM	NUM	_	29	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = 347
@@ -12878,10 +12878,10 @@
 22	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = 398
-# text = ב8791 הכריז בראיון ענק לשבועון "לאקספרס", שאמנם באושוויץ עסקו הנאצים בהגזה, אך לא בהגזת בני-אדם, אלא בהגזת כינים.
-1-2	ב8791	_	_	_	_	_	_	_	_
+# text = ב1978 הכריז בראיון ענק לשבועון "לאקספרס", שאמנם באושוויץ עסקו הנאצים בהגזה, אך לא בהגזת בני-אדם, אלא בהגזת כינים.
+1-2	ב1978	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
-2	8791	8791	NUM	NUM	_	3	obl	_	_
+2	1978	1978	NUM	NUM	_	3	obl	_	_
 3	הכריז	הכריז	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 4-5	בראיון	_	_	_	_	_	_	_	_
 4	ב	ב	ADP	ADP	_	5	case	_	_
@@ -13018,7 +13018,7 @@
 34	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = 402
-# text = פאפון, שכאמור שימש ממונה על מחוז זירונד בזמן המלחמה, הורה על ביצוע האקציות נגד היהודים ביולי 2491.
+# text = פאפון, שכאמור שימש ממונה על מחוז זירונד בזמן המלחמה, הורה על ביצוע האקציות נגד היהודים ביולי 1942.
 1	פאפון	פאפון	PROPN	PROPN	_	15	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	5	punct	_	_
 3-4	שכאמור	_	_	_	_	_	_	_	_
@@ -13049,11 +13049,11 @@
 23-24	ביולי	_	_	_	_	_	_	_	_
 23	ב	ב	ADP	ADP	_	24	case	_	_
 24	יולי	יולי	PROPN	PROPN	_	15	obl	_	_
-25	2491	2491	NUM	NUM	_	24	nummod	_	SpaceAfter=No
+25	1942	1942	NUM	NUM	_	24	nummod	_	SpaceAfter=No
 26	.	.	PUNCT	PUNCT	_	15	punct	_	_
 
 # sent_id = 403
-# text = אחרי המלחמה, בשנת 8591, הוא היה ממונה על מחוז פאריס.
+# text = אחרי המלחמה, בשנת 1958, הוא היה ממונה על מחוז פאריס.
 1	אחרי	אחרי	ADP	ADP	_	3	case	_	_
 2-3	המלחמה	_	_	_	_	_	_	_	SpaceAfter=No
 2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
@@ -13062,7 +13062,7 @@
 5-6	בשנת	_	_	_	_	_	_	_	_
 5	ב	ב	ADP	ADP	_	6	case	_	_
 6	שנת	שנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	nmod	_	_
-7	8591	8591	NUM	NUM	_	6	compound	_	SpaceAfter=No
+7	1958	1958	NUM	NUM	_	6	compound	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	6	punct	_	_
 9	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 10	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	11	cop	_	_
@@ -13097,10 +13097,10 @@
 18	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = 405
-# text = ב3891, בעקבות חקירה מחודשת, נקבע כי יש מקום להגיש נגדו כתב אישום בגין סיוע למעצרם של יהודים כדרישת הגרמנים.
-1-2	ב3891	_	_	_	_	_	_	_	SpaceAfter=No
+# text = ב1983, בעקבות חקירה מחודשת, נקבע כי יש מקום להגיש נגדו כתב אישום בגין סיוע למעצרם של יהודים כדרישת הגרמנים.
+1-2	ב1983	_	_	_	_	_	_	_	SpaceAfter=No
 1	ב	ב	ADP	ADP	_	2	case	_	_
-2	3891	3891	NUM	NUM	_	8	obl	_	_
+2	1983	1983	NUM	NUM	_	8	obl	_	_
 3	,	,	PUNCT	PUNCT	_	2	punct	_	_
 4	בעקבות	בעקבות	ADP	ADP	_	5	case	_	_
 5	חקירה	חקירה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
@@ -13133,10 +13133,10 @@
 28	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = 406
-# text = ב4891 הודיע לו שופט-חוקר כי הוגשו נגדו תלונות נוספות.
-1-2	ב4891	_	_	_	_	_	_	_	_
+# text = ב1984 הודיע לו שופט-חוקר כי הוגשו נגדו תלונות נוספות.
+1-2	ב1984	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
-2	4891	4891	NUM	NUM	_	3	obl	_	_
+2	1984	1984	NUM	NUM	_	3	obl	_	_
 3	הודיע	הודיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 4-5	לו	_	_	_	_	_	_	_	_
 4	ל	ל	ADP	ADP	_	5	case	_	_
@@ -13359,11 +13359,11 @@
 41	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = 413
-# text = בשנת 3891 נתחדשה החקירה נגד טובייה, אך הוא שוב נעלם.
+# text = בשנת 1983 נתחדשה החקירה נגד טובייה, אך הוא שוב נעלם.
 1-2	בשנת	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
 2	שנת	שנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	obl	_	_
-3	3891	3891	NUM	NUM	_	2	compound	_	_
+3	1983	1983	NUM	NUM	_	2	compound	_	_
 4	נתחדשה	התחדש	VERB	VERB	_	0	root	_	_
 5-6	החקירה	_	_	_	_	_	_	_	_
 5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
