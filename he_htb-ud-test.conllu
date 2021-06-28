@@ -1369,7 +1369,7 @@
 38-39	בטורניר	_	_	_	_	_	_	_	_
 38	ב	ב	ADP	ADP	Definite=Def|PronType=Art	39	case	_	_
 39	טורניר	טורניר	NOUN	NOUN	Gender=Masc|Number=Sing	35	nmod	_	_
-41-42	הקדם	_	_	_	_	_	_	_	_
+40-41	הקדם	_	_	_	_	_	_	_	_
 40	ה	ה	DET	DET	Definite=Def|PronType=Art	42	det	_	_
 41	קדם	קדם	ADV	ADV	Prefix=Yes	42	compound:affix	_	_
 42	אולימפי	אולימפי	ADJ	ADJ	Gender=Masc|Number=Sing	39	amod	_	SpaceAfter=No
@@ -4777,9 +4777,9 @@
 # text = ואולם לכאורה, אין להסיק שהחברה זכאית לעכב את מסירת הדירות כשישולם המע"ם.
 1-2	ואולם	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
-2	אולם	אולם	ADV	ADV	_	6	advmod	_	_
-3	לכאורה	לכאורה	ADV	ADV	_	2	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
-4	,	,	PUNCT	PUNCT	_	2	punct	_	_
+2	אולם	אולם	CCONJ	CCONJ	_	1	fixed	_	_
+3	לכאורה	לכאורה	ADV	ADV	_	6	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	6	punct	_	_
 5	אין	אין	AUX	AUX	VerbType=Mod	6	aux	_	_
 6	להסיק	הסיק	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
 7-9	שהחברה	_	_	_	_	_	_	_	_
@@ -4787,7 +4787,7 @@
 8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
 9	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
 10	זכאית	זכאי	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbType=Mod	11	aux	_	_
-11	לעכב	עיכב	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	6	advcl	_	_
+11	לעכב	עיכב	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	6	ccomp	_	_
 12	את	את	ADP	ADP	Case=Acc	13	case	_	_
 13	מסירת	מסירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	obj	_	_
 14-15	הדירות	_	_	_	_	_	_	_	_
@@ -4798,7 +4798,7 @@
 17	ישולם	שולם	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	11	advcl	_	_
 18-19	המע"ם	_	_	_	_	_	_	_	SpaceAfter=No
 18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
-19	מע"ם	מע"ם	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	17	dep	_	_
+19	מע"ם	מע"ם	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	17	nsubj:pass	_	_
 20	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 5897
@@ -5228,7 +5228,7 @@
 # text = ואולם באי-כוח הצדדים העתירו על בית-המשפט "שפע רב ככל שנדבה רוחם אותם וככל אשר העלה קולמוסם.
 1-2	ואולם	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
-2	אולם	אולם	ADV	ADV	_	8	advmod	_	_
+2	אולם	אולם	ADV	ADV	_	1	fixed	_	_
 3	באי	באי	NOUN	NOUN	Definite=Cons	5	nmod	_	SpaceAfter=No
 4	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
 5	כוח	כוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -5297,7 +5297,7 @@
 3	לא	לא	ADV	ADV	Polarity=Neg	4	advmod	_	_
 4	נותרו	נותר	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
 5	חייבים	חייב	NOUN	NOUN	Gender=Masc|Number=Plur	4	xcomp	_	SpaceAfter=No
-6	,	,	PUNCT	PUNCT	_	30	punct	_	_
+6	,	,	PUNCT	PUNCT	_	10	punct	_	_
 7-9	וסיכומיהם	_	_	_	_	_	_	_	_
 7	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
 8	סיכומי	סיכום	NOUN	NOUN	Gender=Masc|Number=Plur	30	nsubj	_	_
@@ -5313,7 +5313,7 @@
 17	!	!	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
 18	)	)	PUNCT	PUNCT	_	14	punct	_	_
 19	עמודים	עמוד	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
-20	,	,	PUNCT	PUNCT	_	12	punct	_	_
+20	,	,	PUNCT	PUNCT	_	30	punct	_	_
 21-22	ואילו	_	_	_	_	_	_	_	_
 21	ו	ו	SCONJ	SCONJ	_	30	mark	_	_
 22	אילו	אילו	SCONJ	SCONJ	_	21	fixed	_	_
@@ -11667,10 +11667,10 @@
 42	כ	כ	ADP	ADP	_	44	case	_	_
 43	ב	ב	ADP	ADP	Definite=Def|PronType=Art	44	case	_	_
 44	כנסייה	בכנסייה	NOUN	NOUN	_	22	obl	_	_
-46-47	הנוצרית	_	_	_	_	_	_	_	_
+45-46	הנוצרית	_	_	_	_	_	_	_	_
 45	ה	ה	DET	DET	Definite=Def|PronType=Art	46	det	_	_
 46	נוצרית	נוצרי	ADJ	ADJ	Gender=Fem|Number=Sing	44	amod	_	_
-48-50	לדורותיה	_	_	_	_	_	_	_	SpaceAfter=No
+47-49	לדורותיה	_	_	_	_	_	_	_	SpaceAfter=No
 47	ל	ל	ADP	ADP	_	48	case	_	_
 48	דורות	דור	NOUN	NOUN	Gender=Masc|Number=Plur	44	nmod	_	_
 49	יה	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	48	nmod:poss	_	_
@@ -11817,7 +11817,7 @@
 13	ל	ל	ADP	ADP	_	14	case	_	_
 14	הכרה	הכרה	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
 15	על	על	ADP	ADP	_	18	case	_	_
-16	עצם	עצם	ADV	ADV	_	18	det	_	_
+16	עצם	עצם	DET	DET	_	18	det	_	_
 17-18	המאמץ	_	_	_	_	_	_	_	_
 17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
 18	מאמץ	מאמץ	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
@@ -12540,7 +12540,7 @@
 # text = ואולם מכיני ההצעה מציינים כי מדובר בקנסות במיליוני שקלים שאינם נגבים כלל.
 1-2	ואולם	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
-2	אולם	אולם	ADV	ADV	_	6	advmod	_	_
+2	אולם	אולם	CCONJ	CCONJ	_	1	fixed	_	_
 3	מכיני	הכין	VERB	VERB	Definite=Cons|Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	nsubj	_	_
 4-5	ההצעה	_	_	_	_	_	_	_	_
 4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
@@ -13748,18 +13748,18 @@
 4	מושחמות	הושחם	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Pass	2	amod	_	_
 5	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	6	cop	_	_
 6	בסדר	בסדר	ADV	ADV	_	0	root	_	SpaceAfter=No
-7	,	,	PUNCT	PUNCT	_	13	punct	_	_
-8	אבל	אבל	CCONJ	CCONJ	_	13	cc	_	_
+7	,	,	PUNCT	PUNCT	_	12	punct	_	_
+8	אבל	אבל	CCONJ	CCONJ	_	12	cc	_	_
 9-10	הרוטב	_	_	_	_	_	_	_	_
 9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
-10	רוטב	רוטב	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
-11	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	13	cop	_	_
-12	חסר	חסר	ADJ	ADJ	Gender=Masc|Number=Sing	13	det	_	_
-13	תחכום	תחכום	NOUN	NOUN	Gender=Masc|Number=Sing	6	conj	_	_
+10	רוטב	רוטב	NOUN	NOUN	Gender=Masc|Number=Sing	12	nsubj	_	_
+11	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	12	cop	_	_
+12	חסר	חסר	ADJ	ADJ	Gender=Masc|Number=Sing	6	conj	_	_
+13	תחכום	תחכום	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound	_	_
 14-15	ובלתי	_	_	_	_	_	_	_	_
 14	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
 15	בלתי	בלתי	ADV	ADV	Prefix=Yes	16	compound:affix	_	_
-16	מגרה	גירה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	13	conj	_	SpaceAfter=No
+16	מגרה	גירה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	12	conj	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 6139
@@ -15899,7 +15899,7 @@
 8	הנאה	הנאה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 9	גדולה	גדול	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	13	punct	_	_
-11	אולי	אולי	ADV	ADV	_	13	det	_	_
+11	אולי	אולי	ADV	ADV	_	13	advmod	_	_
 12-13	המנה	_	_	_	_	_	_	_	_
 12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
 13	מנה	מנה	NOUN	NOUN	Gender=Fem|Number=Sing	8	appos	_	_

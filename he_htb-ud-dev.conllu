@@ -1706,8 +1706,8 @@
 6-7	הכותרת	_	_	_	_	_	_	_	SpaceAfter=No
 6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
 7	כותרת	כותרת	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
-8	:	:	PUNCT	PUNCT	_	24	punct	_	_
-9	"	"	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+8	:	:	PUNCT	PUNCT	_	20	punct	_	_
+9	"	"	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
 10	הורים	הורה	NOUN	NOUN	Gender=Masc|Number=Plur	20	nsubj	_	_
 11-12	בבית	_	_	_	_	_	_	_	_
 11	ב	ב	ADP	ADP	_	12	case	_	_
@@ -1730,7 +1730,7 @@
 25	:	:	PUNCT	PUNCT	_	26	punct	_	_
 26	הפגנה	הפגנה	NOUN	NOUN	Gender=Fem|Number=Sing	24	obj	_	_
 27	פוליטית	פוליטי	ADJ	ADJ	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
-28	"	"	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+28	"	"	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
 29	;	;	PUNCT	PUNCT	_	33	punct	_	_
 30	(	(	PUNCT	PUNCT	_	33	punct	_	SpaceAfter=No
 31	"	"	PUNCT	PUNCT	_	33	punct	_	SpaceAfter=No
