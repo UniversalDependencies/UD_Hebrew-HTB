@@ -81,7 +81,12 @@ The Universal Dependencies Hebrew Treebank created by:
 - Yoav Goldberg
 - Reut Tsarfaty
 
-- The following people were also involved in the creation of v2:
+Revised IAHLT version:
+
+- Amir Zeldes
+
+The following people were also involved in the creation of v2:
+
 - Amir More (adding Lemmas, detokenization, v1->v2 conversion)
 - Yuval Pinter (documentation)
 - Shoval Sadde (documentation, v2 validation and conversion)
@@ -112,36 +117,3 @@ You are encouraged to cite these papers if you use the Hebrew Universal Dependen
 Note that these papers do not accurately reflect the current annotation in the Treebank. A more up-to-date publication
 is forthcoming.
 
-
-
-# Changelog
-
-* v2.8
-  * Fixed validation issues with lang-spec relations and features.
-  * Attribute HebSource moved from FEATS to MISC; same for undocumented Xtra=Junk.
-  * HebExistential changed from True to Yes as with other boolean features in UD.
-* v2.2
-  * Repository renamed from UD_Hebrew to UD_Hebrew-HTB.
-* v2.0
-  * Conversion to UD v2 guidelines.
-* v1.2
-  * Fixed a labeling bug.
-
-
-
-<pre>
-=== Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v1.1
-License: CC BY-NC-SA 4.0
-Includes text: yes
-Genre: news
-Lemmas: converted from manual
-UPOS: converted from manual
-XPOS: manual native
-Features: converted from manual
-Relations: converted from manual
-Contributors: Goldberg, Yoav; Tsarfaty, Reut; More, Amir; Sadde, Shoval; Basmov, Victoria
-Contributing: elsewhere
-Contact: yoav.goldberg@gmail.com, reut.tsarfaty@gmail.com, habeanf@gmail.com, shovatz@gmail.com, vikasaeta@gmail.com
-===============================================================================
-</pre>
