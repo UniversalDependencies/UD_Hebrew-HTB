@@ -3632,7 +3632,7 @@
 6	קרה	קר	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
 7	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	11	cop	_	_
 8	טוקי	טוקי	PROPN	PROPN	_	11	nsubj	_	_
-9	אנטי	אנטי	ADV	ADV	Prefix=Yes	11	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
+9	אנטי	אנטי	ADJ	ADJ	Prefix=Yes	11	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
 10	-	-	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 11	קומוניסט	קומוניסט	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 12	נלהב	נלהב	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Mid	11	amod	_	SpaceAfter=No
@@ -9154,7 +9154,7 @@
 11	כל	כול	DET	DET	Definite=Cons	9	fixed	_	_
 12-13	באי	_	_	_	_	_	_	_	SpaceAfter=No
 12	ב	ב	ADP	ADP	_	16	case	_	_
-13	אי	אי	ADV	ADV	Prefix=Yes	16	compound:affix	_	_
+13	אי	אי	ADJ	ADJ	Prefix=Yes	16	compound:affix	_	_
 14	-	-	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
 15	אלו	זה	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=3|PronType=Dem	13	fixed	_	_
 16	הרהורים	הרהור	NOUN	NOUN	Gender=Masc|Number=Plur	8	obl	_	_
@@ -9583,7 +9583,7 @@
 17	תיאוריה	תיאוריה	NOUN	NOUN	Gender=Fem|Number=Sing	16	nsubj	_	_
 18	שלמה	שלם	ADJ	ADJ	Gender=Fem|Number=Sing	17	amod	_	_
 19	על	על	ADP	ADP	_	23	case	_	_
-20	אי	אי	ADV	ADV	Prefix=Yes	23	compound:affix	_	SpaceAfter=No
+20	אי	אי	ADJ	ADJ	Prefix=Yes	23	compound:affix	_	SpaceAfter=No
 21	-	-	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
 22-23	ההתאמה	_	_	_	_	_	_	_	_
 22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
@@ -9606,7 +9606,7 @@
 2	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	3	cop	_	_
 3	קורבן	קורבן	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 4	של	של	ADP	ADP	Case=Gen	7	case	_	_
-5	אי	אי	ADV	ADV	Prefix=Yes	7	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
+5	אי	אי	ADJ	ADJ	Prefix=Yes	7	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
 6	-	-	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 7	התאמה	התאמה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nmod:poss	_	_
 8-9	כזאת	_	_	_	_	_	_	_	SpaceAfter=No
@@ -9690,7 +9690,7 @@
 14	בא	בא	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
 15-16	לאי	_	_	_	_	_	_	_	SpaceAfter=No
 15	ל	ל	ADP	ADP	_	19	case	_	_
-16	אי	אי	ADV	ADV	Prefix=Yes	19	compound:affix	_	_
+16	אי	אי	ADJ	ADJ	Prefix=Yes	19	compound:affix	_	_
 17	-	-	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
 18-19	ההתאמות	_	_	_	_	_	_	_	SpaceAfter=No
 18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
@@ -10868,7 +10868,7 @@
 7	רפובליקאים	רפובליקאים	NOUN	NOUN	_	6	nsubj	_	_
 8-9	באי	_	_	_	_	_	_	_	SpaceAfter=No
 8	ב	ב	ADP	ADP	_	11	case	_	_
-9	אי	אי	ADV	ADV	Prefix=Yes	11	compound:affix	_	HebSource=ConvUncertainHead
+9	אי	אי	ADJ	ADJ	Prefix=Yes	11	compound:affix	_	HebSource=ConvUncertainHead
 10	-	-	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 11	אמון	אמון	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
 12-13	בתוצאות	_	_	_	_	_	_	_	SpaceAfter=No
@@ -11688,7 +11688,7 @@
 27	מעורר	עורר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	20	acl:relcl	_	_
 28	עד	עד	ADP	ADP	_	29	case	_	_
 29	עכשיו	עכשיו	ADV	ADV	_	27	obl	_	_
-30	אי	אי	ADV	ADV	Prefix=Yes	32	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
+30	אי	אי	ADJ	ADJ	Prefix=Yes	32	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
 31	-	-	PUNCT	PUNCT	_	30	punct	_	SpaceAfter=No
 32	נוחות	נוחות	NOUN	NOUN	Gender=Fem|Number=Sing	27	obj	_	_
 33	ניכרת	ניכר	ADJ	ADJ	Gender=Fem|Number=Sing	32	amod	_	_
@@ -12634,7 +12634,7 @@
 # sent_id = 390
 # text = הוא מולטי-מיליונר, המסוגל תמיד להלוות לעצמו כסף.
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	מולטי	מולטי	ADV	ADV	Prefix=Yes	4	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
+2	מולטי	מולטי	ADJ	ADJ	Prefix=Yes	4	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
 3	-	-	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 4	מיליונר	מיליונר	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	9	punct	_	_
@@ -14693,7 +14693,7 @@
 6-7	לחבר	_	_	_	_	_	_	_	_
 6	ל	ל	ADP	ADP	Definite=Def|PronType=Art	7	case	_	_
 7	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Sing	1	obl	_	_
-8	תת	תת	ADV	ADV	Prefix=Yes	10	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
+8	תת	תת	ADJ	ADJ	Prefix=Yes	10	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
 9	-	-	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
 10	מקלע	מקלע	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	HebSource=ConvUncertainLabel
 11-12	לחבר	_	_	_	_	_	_	_	_

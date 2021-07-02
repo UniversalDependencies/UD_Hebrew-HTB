@@ -3207,7 +3207,7 @@
 16-17	ולחזק	_	_	_	_	_	_	_	_
 16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
 17	לחזק	חיזק	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	15	conj	_	_
-18	דו	דו	ADV	ADV	Prefix=Yes	20	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
+18	דו	דו	ADJ	ADJ	Prefix=Yes	20	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
 19	-	-	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
 20	קיום	קיום	NOUN	NOUN	Gender=Masc|Number=Sing	15	obj	_	_
 21	בין	בין	ADP	ADP	_	22	case	_	_
@@ -5158,7 +5158,7 @@
 19	כ	כ	ADP	ADP	_	20	case	_	_
 20	נגד	נגד	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod	_	_
 21	באמצעות	באמצעות	ADP	ADP	_	24	case	_	_
-22	אי	אי	ADV	ADV	Prefix=Yes	24	compound:affix	_	SpaceAfter=No
+22	אי	אי	ADJ	ADJ	Prefix=Yes	24	compound:affix	_	SpaceAfter=No
 23	-	-	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
 24	מתן	מתן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
 25	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	24	compound	_	_
@@ -11371,7 +11371,7 @@
 8-9	המושג	_	_	_	_	_	_	_	_
 8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
 9	מושג	מושג	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
-10	פוסט	פוסט	ADV	ADV	Prefix=Yes	12	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
+10	פוסט	פוסט	ADJ	ADJ	Prefix=Yes	12	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
 11	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
 12	מודרניזם	מודרניזם	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
 13	,	,	PUNCT	PUNCT	_	20	punct	_	_
@@ -11903,7 +11903,7 @@
 15	סכנת	סכנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	nsubj	_	_
 16	מאסר	מאסר	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound	_	_
 17	על	על	ADP	ADP	_	20	case	_	_
-18	אי	אי	ADV	ADV	Prefix=Yes	20	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
+18	אי	אי	ADJ	ADJ	Prefix=Yes	20	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
 19	-	-	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
 20	תשלום	תשלום	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
 21-22	שלהם	_	_	_	_	_	_	_	SpaceAfter=No
@@ -13562,7 +13562,7 @@
 6-7	המנה	_	_	_	_	_	_	_	_
 6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
 7	מנה	מנה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obj	_	_
-8	בלתי	בלתי	ADV	ADV	Prefix=Yes	9	compound:affix	_	_
+8	בלתי	בלתי	ADJ	ADJ	Prefix=Yes	9	compound:affix	_	_
 9	אכילה	אכילה	NOUN	NOUN	Gender=Fem|Number=Sing	4	dep	_	_
 10	לחלוטין	לחלוטין	ADV	ADV	_	9	advmod	_	_
 11	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	13	cop	_	_
