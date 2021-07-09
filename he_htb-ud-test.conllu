@@ -547,9 +547,9 @@
 
 # sent_id = 5744
 # text = אפשר כבר להכין את הכרטיסים.
-1	אפשר	אפשר	AUX	AUX	VerbType=Mod	3	aux	_	_
-2	כבר	כבר	ADV	ADV	_	3	advmod	_	_
-3	להכין	הכין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+1	אפשר	אפשר	VERB	VERB	VerbType=Mod	0	root	_	_
+2	כבר	כבר	ADV	ADV	_	1	advmod	_	_
+3	להכין	הכין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	1	csubj	_	_
 4	את	את	ADP	ADP	Case=Acc	6	case	_	_
 5-6	הכרטיסים	_	_	_	_	_	_	_	SpaceAfter=No
 5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
@@ -1754,8 +1754,8 @@
 
 # sent_id = 5794
 # text = כדאי להתייחס לרמה שלנו בדרגה של מדינות כמו פינלנד, איסלנד ורק אחרי שנרכוש ניסיון נוכל להתמודד בהצלחה עם אחרים".
-1	כדאי	כדאי	AUX	AUX	VerbType=Mod	2	aux	_	_
-2	להתייחס	התייחס	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	0	root	_	_
+1	כדאי	כדאי	VERB	VERB	VerbType=Mod	0	root	_	_
+2	להתייחס	התייחס	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	1	csubj	_	_
 3-4	לרמה	_	_	_	_	_	_	_	_
 3	ל	ל	ADP	ADP	Definite=Def|PronType=Art	4	case	_	_
 4	רמה	רמה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
@@ -1787,7 +1787,7 @@
 25	עם	עם	ADP	ADP	_	26	case	_	_
 26	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
 27	"	"	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
-28	.	.	PUNCT	PUNCT	_	2	punct	_	_
+28	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = 5795
 # text = יו"ר ועדת הנוער נתן סלובטיק אמר שהשחקנים שלנו לא משתלבים באירופה.
@@ -6819,15 +6819,15 @@
 42	אינה	אינו	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	44	aux	_	_
 43	רק	רק	ADV	ADV	_	44	advmod	_	_
 44	הגיונית	הגיוני	ADJ	ADJ	Gender=Fem|Number=Sing	20	ccomp	_	SpaceAfter=No
-45	,	,	PUNCT	PUNCT	_	53	punct	_	_
-46	אלא	אלא	CCONJ	CCONJ	_	53	cc	_	_
-47	גם	גם	ADV	ADV	_	53	advmod	_	_
+45	,	,	PUNCT	PUNCT	_	50	punct	_	_
+46	אלא	אלא	CCONJ	CCONJ	_	50	cc	_	_
+47	גם	גם	ADV	ADV	_	50	advmod	_	_
 48	"	"	PUNCT	PUNCT	_	47	punct	_	SpaceAfter=No
-49	אי	אי	ADV	ADV	Prefix=Yes	53	advmod	_	_
-50	אפשר	אפשר	AUX	AUX	VerbType=Mod	53	aux	_	_
+49	אי	אי	ADV	ADV	Prefix=Yes	50	advmod	_	_
+50	אפשר	אפשר	VERB	VERB	VerbType=Mod	44	conj	_	_
 51	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	53	cop	_	_
 52	אז	אז	ADV	ADV	_	53	advmod	_	_
-53	להאשים	האשים	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	44	conj	_	_
+53	להאשים	האשים	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	50	csubj	_	_
 54	גרמנים	גרמני	NOUN	NOUN	Gender=Masc|Number=Plur	53	obj	_	_
 55-56	שהם	_	_	_	_	_	_	_	_
 55	ש	ש	SCONJ	SCONJ	_	57	mark	_	_
@@ -8223,12 +8223,12 @@
 25-26	בתיקים	_	_	_	_	_	_	_	SpaceAfter=No
 25	ב	ב	ADP	ADP	Definite=Def|PronType=Art	26	case	_	_
 26	תיקים	תיק	NOUN	NOUN	Gender=Masc|Number=Plur	22	nmod	_	_
-27	,	,	PUNCT	PUNCT	_	31	punct	_	_
+27	,	,	PUNCT	PUNCT	_	30	punct	_	_
 28-29	והיום	_	_	_	_	_	_	_	_
-28	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
-29	היום	היום	ADV	ADV	_	31	advmod	_	_
-30	צריך	צריך	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	31	aux	_	_
-31	להמתין	המתין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	5	conj	_	_
+28	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
+29	היום	היום	ADV	ADV	_	30	advmod	_	_
+30	צריך	צריך	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	5	conj	_	_
+31	להמתין	המתין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	30	csubj	_	_
 32	חודשים	חודש	NOUN	NOUN	Gender=Masc|Number=Plur	31	obl	_	_
 33	עד	עד	ADP	ADP	_	35	mark	_	_
 34-35	שמתחיל	_	_	_	_	_	_	_	_
@@ -11263,11 +11263,11 @@
 10	ב	ב	ADP	ADP	_	11	case	_	_
 11	אופן	אופן	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
 12-13	שניתן	_	_	_	_	_	_	_	_
-12	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
-13	ניתן	ניתן	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	15	aux	_	_
+12	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+13	ניתן	ניתן	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	11	acl:relcl	_	_
 14	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	15	cop	_	_
 15-16	לראותו	_	_	_	_	_	_	_	SpaceAfter=No
-15	לראות	ראה	VERB	VERB	VerbForm=Inf	11	acl:relcl	_	_
+15	לראות	ראה	VERB	VERB	VerbForm=Inf	13	csubj	_	_
 16	ו	הוא	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
 17	,	,	PUNCT	PUNCT	_	19	punct	_	_
 18-19	בקצה	_	_	_	_	_	_	_	_
@@ -12856,9 +12856,9 @@
 30	ל	ל	ADP	ADP	_	31	case	_	_
 31	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	26	obl	_	_
 32-33	שאפשר	_	_	_	_	_	_	_	_
-32	ש	ש	SCONJ	SCONJ	_	34	mark	_	_
-33	אפשר	אפשר	AUX	AUX	VerbType=Mod	34	aux	_	_
-34	למצוא	מצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	31	acl:relcl	_	_
+32	ש	ש	SCONJ	SCONJ	_	33	mark	_	_
+33	אפשר	אפשר	VERB	VERB	VerbType=Mod	31	acl:relcl	_	_
+34	למצוא	מצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	33	csubj	_	_
 35-36	בהרבה	_	_	_	_	_	_	_	_
 35	ב	ב	ADP	ADP	_	37	case	_	_
 36	הרבה	הרבה	DET	DET	Definite=Cons	37	det	_	_
@@ -13237,9 +13237,9 @@
 19	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
 20	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 21-22	שכדאי	_	_	_	_	_	_	_	_
-21	ש	ש	SCONJ	SCONJ	_	23	mark	_	_
-22	כדאי	כדאי	AUX	AUX	VerbType=Mod	23	aux	_	_
-23	לנסות	ניסה	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	20	acl:relcl	_	_
+21	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+22	כדאי	כדאי	VERB	VERB	VerbType=Mod	20	acl:relcl	_	_
+23	לנסות	ניסה	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	22	csubj	_	_
 24-25	אותו	_	_	_	_	_	_	_	_
 24	אות	את	ADP	ADP	Case=Acc	25	case	_	_
 25	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
@@ -13672,9 +13672,9 @@
 2	מחירים	מחיר	NOUN	NOUN	Gender=Masc|Number=Plur	4	dep	_	_
 3	כאן	כאן	ADV	ADV	_	2	advmod	_	_
 4	נמוכים	נמוך	ADJ	ADJ	Gender=Masc|Number=Plur	0	root	_	_
-5	(	(	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
-6	אפשר	אפשר	AUX	AUX	VerbType=Mod	7	aux	_	HebSource=ConvUncertainHead
-7	לקבל	קיבל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	4	dep	_	_
+5	(	(	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+6	אפשר	אפשר	VERB	VERB	VerbType=Mod	4	dep	_	HebSource=ConvUncertainHead
+7	לקבל	קיבל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	6	csubj	_	_
 8	ארוחת	ארוחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	obj	_	_
 9	ערב	ערב	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound	_	_
 10	מלאה	מלאה	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
@@ -14125,10 +14125,10 @@
 # text = במחיר זה אפשר לצפות למשהו טוב יותר.
 1-2	במחיר	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
-2	מחיר	מחיר	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+2	מחיר	מחיר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
 3	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	det	_	_
-4	אפשר	אפשר	AUX	AUX	VerbType=Mod	5	aux	_	_
-5	לצפות	ציפה	VERB	VERB	VerbForm=Inf	0	root	_	_
+4	אפשר	אפשר	VERB	VERB	VerbType=Mod	0	root	_	_
+5	לצפות	ציפה	VERB	VERB	VerbForm=Inf	4	csubj	_	_
 6-7	למשהו	_	_	_	_	_	_	_	_
 6	ל	ל	ADP	ADP	_	7	case	_	_
 7	משהו	משהו	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
@@ -14204,9 +14204,9 @@
 
 # sent_id = 6153
 # text = אפשר בקלות להרכיב ארוחה מן הדברים הללו לבדם, אבל החלטנו ללכת על ארוחה קלה שכולה פסטה.
-1	אפשר	אפשר	AUX	AUX	VerbType=Mod	3	aux	_	_
-2	בקלות	בקלות	ADV	ADV	_	3	advmod	_	_
-3	להרכיב	הרכיב	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+1	אפשר	אפשר	VERB	VERB	VerbType=Mod	0	root	_	_
+2	בקלות	בקלות	ADV	ADV	_	1	advmod	_	_
+3	להרכיב	הרכיב	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	1	csubj	_	_
 4	ארוחה	ארוחה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obj	_	_
 5	מן	מן	ADP	ADP	_	7	case	_	_
 6-7	הדברים	_	_	_	_	_	_	_	_
