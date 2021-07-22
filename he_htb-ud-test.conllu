@@ -3296,7 +3296,7 @@
 7	גדולה	גדול	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	10	punct	_	_
 9-10	כשניצחה	_	_	_	_	_	_	_	_
-9	כש	כש	SCONJ	SCONJ	Case=Tem	10	mark	_	_
+9	כש	כש	SCONJ	SCONJ	_	10	mark	_	_
 10	ניצחה	ניצח	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	advcl	_	_
 11	את	את	ADP	ADP	Case=Acc	13	case	_	_
 12-13	המוליך	_	_	_	_	_	_	_	_
@@ -4794,7 +4794,7 @@
 14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
 15	דירות	דירה	NOUN	NOUN	Gender=Fem|Number=Plur	13	compound	_	_
 16-17	כשישולם	_	_	_	_	_	_	_	_
-16	כש	כש	SCONJ	SCONJ	Case=Tem	17	mark	_	_
+16	כש	כש	SCONJ	SCONJ	_	17	mark	_	_
 17	ישולם	שולם	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	11	advcl	_	_
 18-19	המע"ם	_	_	_	_	_	_	_	SpaceAfter=No
 18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
@@ -5601,7 +5601,7 @@
 3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
 4	דוקלם	דוקלם	VERB	VERB	_	0	root	_	_
 5-6	כששזורים	_	_	_	_	_	_	_	_
-5	כש	כש	SCONJ	SCONJ	Case=Tem	6	mark	_	_
+5	כש	כש	SCONJ	SCONJ	_	6	mark	_	_
 6	שזורים	שזר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	_
 7-8	בו	_	_	_	_	_	_	_	_
 7	ב	ב	ADP	ADP	_	8	case	_	_
@@ -9028,7 +9028,7 @@
 22	רק	רק	ADV	ADV	_	25	advmod	_	_
 23	"	"	PUNCT	PUNCT	_	25	punct	_	SpaceAfter=No
 24-25	משראה	_	_	_	_	_	_	_	SpaceAfter=No
-24	מש	מש	SCONJ	SCONJ	Case=Tem	25	mark	_	_
+24	מש	מש	SCONJ	SCONJ	_	25	mark	_	_
 25	ראה	ראה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	15	advcl	_	_
 26	"	"	PUNCT	PUNCT	_	25	punct	_	_
 27-28	שיש	_	_	_	_	_	_	_	_
@@ -9593,7 +9593,7 @@
 11	19	19	NUM	NUM	_	9	amod	_	_
 12	,	,	PUNCT	PUNCT	_	14	punct	_	_
 13-14	כשהתחילו	_	_	_	_	_	_	_	_
-13	כש	כש	SCONJ	SCONJ	Case=Tem	14	mark	_	_
+13	כש	כש	SCONJ	SCONJ	_	14	mark	_	_
 14	התחילו	התחיל	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	5	advcl	_	_
 15	לייצר	ייצר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	14	xcomp	_	_
 16	ביצים	ביצה	NOUN	NOUN	Gender=Fem|Number=Plur	15	obj	_	_
@@ -11884,7 +11884,7 @@
 # text = בייחוד כשמדובר בקנסות על עבירות מסוג ברירת משפט שאין נשקפת סכנת מאסר על אי-תשלום שלהם.
 1	בייחוד	בייחוד	ADV	ADV	_	3	advmod	_	_
 2-3	כשמדובר	_	_	_	_	_	_	_	_
-2	כש	כש	SCONJ	SCONJ	Case=Tem	3	mark	_	_
+2	כש	כש	SCONJ	SCONJ	_	3	mark	_	_
 3	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
 4-5	בקנסות	_	_	_	_	_	_	_	_
 4	ב	ב	ADP	ADP	_	5	case	_	_
@@ -14643,7 +14643,7 @@
 5	תאווה	תאווה	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	13	punct	_	_
 7-9	כשהעור	_	_	_	_	_	_	_	_
-7	כש	כש	SCONJ	SCONJ	Case=Tem	13	mark	_	_
+7	כש	כש	SCONJ	SCONJ	_	13	mark	_	_
 8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
 9	עור	עור	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
 10	של	של	ADP	ADP	Case=Gen	12	case	_	_
