@@ -1892,7 +1892,7 @@
 14-15	ממדרגה	_	_	_	_	_	_	_	_
 14	מ	מ	ADP	ADP	_	15	case	_	_
 15	מדרגה	מדרגה	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod	_	_
-16	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+16	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = 54
@@ -2434,7 +2434,7 @@
 9	שגיאה	שגיאה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
 10-11	הראשונה	_	_	_	_	_	_	_	SpaceAfter=No
 10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
-11	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
+11	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
 12	,	,	PUNCT	PUNCT	_	5	punct	_	_
 13	תסבול	סבל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
 14-15	המדינה	_	_	_	_	_	_	_	_
@@ -2857,7 +2857,7 @@
 6	הפגנה	הפגנה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
 7-8	הראשונה	_	_	_	_	_	_	_	_
 7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
-8	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
+8	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
 9	נגד	נגד	ADP	ADP	_	10	case	_	_
 10	מלחמה	מלחמה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
 11-12	במפרץ	_	_	_	_	_	_	_	_
@@ -3641,7 +3641,7 @@
 14	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
 15	הארקין	הארקין	PROPN	PROPN	_	17	nsubj	_	_
 16	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	17	cop	_	_
-17	יונה	יון	NOUN	NOUN	Gender=Fem|Number=Sing	11	conj	_	_
+17	יונה	יונה	NOUN	NOUN	Gender=Fem|Number=Sing	11	conj	_	_
 18	נלהבת	נלהב	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Mid	17	amod	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	11	punct	_	_
 
@@ -3715,7 +3715,7 @@
 7	יוניים	יוני	ADJ	ADJ	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	10	punct	_	_
 9	או	או	CCONJ	CCONJ	_	10	cc	_	_
-10	יונים	יון	NOUN	NOUN	Gender=Masc|Number=Plur	6	conj	_	_
+10	יונים	יונה	NOUN	NOUN	Gender=Fem|Number=Plur	6	conj	_	_
 11	נציות	ניצי	ADJ	ADJ	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	14	punct	_	_
 13-14	במידה	_	_	_	_	_	_	_	_
@@ -8359,7 +8359,7 @@
 10	תחום	תחום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	obl	_	_
 11-12	היחסים	_	_	_	_	_	_	_	_
 11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
-12	יחסים	יחסים	NOUN	NOUN	Gender=Masc|Number=Plur	10	compound	_	_
+12	יחסים	יחס	NOUN	NOUN	Gender=Masc|Number=Plur	10	compound	_	_
 13-14	הבין	_	_	_	_	_	_	_	SpaceAfter=No
 13	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
 14	בין	בין	ADV	ADV	Prefix=Yes	16	compound:affix	_	_
@@ -8439,7 +8439,7 @@
 8	חם	חם	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
 9-10	ביחסים	_	_	_	_	_	_	_	_
 9	ב	ב	ADP	ADP	Definite=Def|PronType=Art	10	case	_	_
-10	יחסים	יחסים	NOUN	NOUN	Gender=Masc|Number=Plur	6	nmod	_	_
+10	יחסים	יחס	NOUN	NOUN	Gender=Masc|Number=Plur	6	nmod	_	_
 11-12	הבין	_	_	_	_	_	_	_	SpaceAfter=No
 11	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
 12	בין	בין	ADV	ADV	Prefix=Yes	14	compound:affix	_	_
@@ -10157,7 +10157,7 @@
 18-19	ממדרגה	_	_	_	_	_	_	_	_
 18	מ	מ	ADP	ADP	_	19	case	_	_
 19	מדרגה	מדרגה	NOUN	NOUN	Gender=Fem|Number=Sing	17	nmod	_	_
-20	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+20	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
 21	"	"	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
 22	,	,	PUNCT	PUNCT	_	6	punct	_	_
 23	הנה	הנה	ADV	ADV	_	27	advmod	_	_
