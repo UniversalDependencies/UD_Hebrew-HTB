@@ -1103,7 +1103,7 @@
 1-2	ועל	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	4	cc	_	_
 2	על	על	ADP	ADP	_	3	case	_	_
-3	כך	כך	PRON	PRON	Person=3|PronType=Dem	4	obl	_	_
+3	כך	כך	PRON	PRON	PronType=Dem	4	obl	_	_
 4	תעיד	העיד	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
 5-6	ההיסטוריה	_	_	_	_	_	_	_	SpaceAfter=No
 5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
@@ -1557,7 +1557,7 @@
 3	התכוון	התכוון	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4-5	לכך	_	_	_	_	_	_	_	SpaceAfter=No
 4	ל	ל	ADP	ADP	_	5	case	_	_
-5	כך	כך	PRON	PRON	Person=3|PronType=Dem	3	obl	_	_
+5	כך	כך	PRON	PRON	PronType=Dem	3	obl	_	_
 6	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = 45
@@ -4751,7 +4751,7 @@
 1	רק	רק	ADV	ADV	_	4	advmod	_	HebSource=ConvUncertainHead
 2	אחר	אחר	ADP	ADP	_	4	case	_	SpaceAfter=No
 3	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
-4	כך	כך	PRON	PRON	Person=3|PronType=Dem	5	obl	_	_
+4	כך	כך	PRON	PRON	PronType=Dem	5	obl	_	_
 5	נמצא	נמצא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
 6	כרטיס	כרטיס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nsubj	_	_
 7	ביקור	ביקור	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound	_	SpaceAfter=No
@@ -5445,7 +5445,7 @@
 3	יכולים	יכול	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbForm=Part|VerbType=Mod	4	aux	_	_
 4	להתעלות	התעלה	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	0	root	_	_
 5	על	על	ADP	ADP	_	6	case	_	_
-6	כך	כך	PRON	PRON	Person=3|PronType=Dem	4	obl	_	SpaceAfter=No
+6	כך	כך	PRON	PRON	PronType=Dem	4	obl	_	SpaceAfter=No
 7	?	?	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = 163
@@ -5651,7 +5651,7 @@
 4	סיבות	סיבה	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	_
 5-6	לכך	_	_	_	_	_	_	_	_
 5	ל	ל	ADP	ADP	_	6	case	_	_
-6	כך	כך	PRON	PRON	Person=3|PronType=Dem	4	nmod	_	_
+6	כך	כך	PRON	PRON	PronType=Dem	4	nmod	_	_
 7-8	שמענקי	_	_	_	_	_	_	_	_
 7	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
 8	מענקי	מענק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	nsubj	_	_
@@ -5716,7 +5716,7 @@
 # sent_id = 171
 # text = משום כך, ראשית כל עליך לחשוב על קבלת תפקיד חשוב באחד ממאות הגופים הללו.
 1	משום	משום	SCONJ	SCONJ	_	2	case	_	_
-2	כך	כך	PRON	PRON	Person=3|PronType=Dem	7	nmod	_	SpaceAfter=No
+2	כך	כך	PRON	PRON	PronType=Dem	7	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	2	punct	_	_
 4	ראשית	ראשית	ADV	ADV	_	7	advmod	_	_
 5	כל	כול	DET	DET	Definite=Cons	4	fixed	_	_
@@ -7234,7 +7234,7 @@
 5	אירוניה	אירוניה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
 6-7	בכך	_	_	_	_	_	_	_	_
 6	ב	ב	ADP	ADP	_	7	case	_	_
-7	כך	כך	PRON	PRON	Person=3|PronType=Dem	5	nmod	_	_
+7	כך	כך	PRON	PRON	PronType=Dem	5	nmod	_	_
 8-9	שמענקי	_	_	_	_	_	_	_	_
 8	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
 9	מענקי	מענק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	11	nsubj	_	_
@@ -7615,7 +7615,7 @@
 7	רמז	רמז	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
 8-9	לכך	_	_	_	_	_	_	_	_
 8	ל	ל	ADP	ADP	_	9	case	_	_
-9	כך	כך	PRON	PRON	Person=3|PronType=Dem	7	nmod	_	_
+9	כך	כך	PRON	PRON	PronType=Dem	7	nmod	_	_
 10-11	שקריסטול	_	_	_	_	_	_	_	_
 10	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
 11	קריסטול	שקריסטול	PROPN	PROPN	_	14	nsubj	_	_
@@ -8870,7 +8870,7 @@
 23	גורמת	גרם	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	appos	_	_
 24-25	לכך	_	_	_	_	_	_	_	_
 24	ל	ל	ADP	ADP	_	25	case	_	_
-25	כך	כך	PRON	PRON	Person=3|PronType=Dem	23	obl	_	_
+25	כך	כך	PRON	PRON	PronType=Dem	23	obl	_	_
 26-28	שהחברה	_	_	_	_	_	_	_	_
 26	ש	ש	SCONJ	SCONJ	_	30	mark	_	_
 27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
@@ -14305,7 +14305,7 @@
 30-31	ואחר	_	_	_	_	_	_	_	_
 30	ו	ו	CCONJ	CCONJ	_	33	cc	_	_
 31	אחר	אחר	ADP	ADP	_	32	case	_	_
-32	כך	כך	PRON	PRON	Person=3|PronType=Dem	33	obl	_	_
+32	כך	כך	PRON	PRON	PronType=Dem	33	obl	_	_
 33	פונה	פנה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	5	conj	_	_
 34-35	לקהל	_	_	_	_	_	_	_	SpaceAfter=No
 34	ל	ל	ADP	ADP	Definite=Def|PronType=Art	35	case	_	_
@@ -14746,7 +14746,7 @@
 4-5	ואחר	_	_	_	_	_	_	_	_
 4	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
 5	אחר	אחר	ADP	ADP	_	6	case	_	_
-6	כך	כך	PRON	PRON	Person=3|PronType=Dem	3	conj	_	_
+6	כך	כך	PRON	PRON	PronType=Dem	3	conj	_	_
 7	תוך	תוך	ADP	ADP	_	8	case	_	_
 8	קריאות	קריאה	NOUN	NOUN	Gender=Fem|Number=Plur	6	dep	_	HebSource=ConvUncertainHead
 9	גוברות	גבר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	8	amod	_	_
@@ -14957,7 +14957,7 @@
 # text = מיד אחר כך נופצו חלונות ראווה של חנויות במרכז.
 1	מיד	מייד	ADV	ADV	_	3	advmod	_	_
 2	אחר	אחר	ADP	ADP	_	3	case	_	_
-3	כך	כך	PRON	PRON	Person=3|PronType=Dem	4	obl	_	_
+3	כך	כך	PRON	PRON	PronType=Dem	4	obl	_	_
 4	נופצו	נופץ	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
 5	חלונות	חלון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 6	ראווה	ראווה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound	_	_

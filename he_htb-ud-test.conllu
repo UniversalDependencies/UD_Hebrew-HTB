@@ -489,7 +489,7 @@
 3	יהנה	נהנה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	1	acl:relcl	_	_
 4-5	מכך	_	_	_	_	_	_	_	SpaceAfter=No
 4	מ	מ	ADP	ADP	_	5	case	_	_
-5	כך	כך	PRON	PRON	Person=3|PronType=Dem	3	obl	_	_
+5	כך	כך	PRON	PRON	PronType=Dem	3	obl	_	_
 6	,	,	PUNCT	PUNCT	_	9	punct	_	_
 7	לפחות	לפחות	ADV	ADV	_	9	advmod	_	_
 8-9	בחודש	_	_	_	_	_	_	_	_
@@ -4382,7 +4382,7 @@
 10-12	ובכך	_	_	_	_	_	_	_	_
 10	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
 11	ב	ב	ADP	ADP	_	12	case	_	_
-12	כך	כך	PRON	PRON	Person=3|PronType=Dem	13	obl	_	_
+12	כך	כך	PRON	PRON	PronType=Dem	13	obl	_	_
 13	גרמה	גרם	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	_
 14	נזק	נזק	NOUN	NOUN	Gender=Masc|Number=Sing	13	obj	_	_
 15	רב	רב	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
@@ -4846,7 +4846,7 @@
 31	להסיק	הסיק	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	2	ccomp	_	_
 32-33	מכך	_	_	_	_	_	_	_	_
 32	מ	מ	ADP	ADP	_	33	case	_	_
-33	כך	כך	PRON	PRON	Person=3|PronType=Dem	31	obl	_	_
+33	כך	כך	PRON	PRON	PronType=Dem	31	obl	_	_
 34	כלל	כלל	NOUN	NOUN	Gender=Masc|Number=Sing	31	advmod	_	_
 35-36	ועיקר	_	_	_	_	_	_	_	_
 35	ו	ו	CCONJ	CCONJ	_	34	fixed	_	HebSource=ConvUncertainHead
@@ -5408,7 +5408,7 @@
 # sent_id = 5908
 # text = על כך נענשו שני הצדדים.
 1	על	על	ADP	ADP	_	2	case	_	_
-2	כך	כך	PRON	PRON	Person=3|PronType=Dem	3	obl	_	_
+2	כך	כך	PRON	PRON	PronType=Dem	3	obl	_	_
 3	נענשו	נענש	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
 4	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	6	nummod	_	_
 5-6	הצדדים	_	_	_	_	_	_	_	SpaceAfter=No
@@ -8716,7 +8716,7 @@
 # text = בכך יקבל עליו חלק מהמשימות המוטלות כעת על השופטים המחוזיים ועל שופטי בית-המשפט העליון.
 1-2	בכך	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
-2	כך	כך	PRON	PRON	Person=3|PronType=Dem	3	obl	_	_
+2	כך	כך	PRON	PRON	PronType=Dem	3	obl	_	_
 3	יקבל	קיבל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
 4-5	עליו	_	_	_	_	_	_	_	_
 4	עלי	על	ADP	ADP	_	5	case	_	_
@@ -11582,7 +11582,7 @@
 2-4	שבכך	_	_	_	_	_	_	_	_
 2	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
 3	ב	ב	ADP	ADP	_	4	case	_	_
-4	כך	כך	PRON	PRON	Person=3|PronType=Dem	5	obl	_	_
+4	כך	כך	PRON	PRON	PronType=Dem	5	obl	_	_
 5	משתקפת	השתקף	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	1	ccomp	_	_
 6-7	הפרובלמטיקה	_	_	_	_	_	_	_	_
 6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
@@ -11683,7 +11683,7 @@
 1	לקחו	לקח	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
 2-3	בכך	_	_	_	_	_	_	_	_
 2	ב	ב	ADP	ADP	_	3	case	_	_
-3	כך	כך	PRON	PRON	Person=3|PronType=Dem	1	obl	_	_
+3	כך	כך	PRON	PRON	PronType=Dem	1	obl	_	_
 4	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	1	obj	_	_
 5	גזרות	גזרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	1	nsubj	_	_
 6-7	השלטון	_	_	_	_	_	_	_	_
@@ -12596,7 +12596,7 @@
 22	יעסקו	עסק	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Fut|Voice=Act	6	advcl	_	_
 23-24	בכך	_	_	_	_	_	_	_	_
 23	ב	ב	ADP	ADP	_	24	case	_	_
-24	כך	כך	PRON	PRON	Person=3|PronType=Dem	22	obl	_	_
+24	כך	כך	PRON	PRON	PronType=Dem	22	obl	_	_
 25	מחלקות	מחלקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	22	nsubj	_	_
 26-27	הגבייה	_	_	_	_	_	_	_	_
 26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
@@ -13294,7 +13294,7 @@
 3	די	די	ADV	ADV	_	1	advcl	_	_
 4-5	בכך	_	_	_	_	_	_	_	_
 4	ב	ב	ADP	ADP	_	5	case	_	_
-5	כך	כך	PRON	PRON	Person=3|PronType=Dem	3	obl	_	_
+5	כך	כך	PRON	PRON	PronType=Dem	3	obl	_	_
 6	כדי	כדי	SCONJ	SCONJ	_	7	mark	_	_
 7	ללמוד	למד	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	3	advcl	_	_
 8	להכין	הכין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	7	dep	_	HebSource=ConvUncertainHead
@@ -13312,7 +13312,7 @@
 18	אין	אין	ADV	ADV	Polarity=Neg	21	advmod	_	_
 19-20	בכך	_	_	_	_	_	_	_	_
 19	ב	ב	ADP	ADP	_	20	case	_	_
-20	כך	כך	PRON	PRON	Person=3|PronType=Dem	21	obl	_	_
+20	כך	כך	PRON	PRON	PronType=Dem	21	obl	_	_
 21	די	די	ADV	ADV	_	3	conj	_	_
 22	כדי	כדי	SCONJ	SCONJ	_	23	mark	_	_
 23	לפתוח	פתח	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	21	advcl	_	_
@@ -13967,7 +13967,7 @@
 18-20	ובכך	_	_	_	_	_	_	_	_
 18	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
 19	ב	ב	ADP	ADP	_	20	case	_	_
-20	כך	כך	PRON	PRON	Person=3|PronType=Dem	21	obl	_	_
+20	כך	כך	PRON	PRON	PronType=Dem	21	obl	_	_
 21	הפכו	הפך	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	9	conj	_	_
 22	את	את	ADP	ADP	Case=Acc	23	case	_	_
 23	קרום	קרום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	obj	_	_
@@ -14029,7 +14029,7 @@
 12-13	ואחר	_	_	_	_	_	_	_	_
 12	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
 13	אחר	אחר	ADP	ADP	_	14	case	_	_
-14	כך	כך	PRON	PRON	Person=3|PronType=Dem	15	obl	_	_
+14	כך	כך	PRON	PRON	PronType=Dem	15	obl	_	_
 15	נצלה	נצלה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	5	conj	_	_
 16	עם	עם	ADP	ADP	_	17	case	_	_
 17	ירקות	ירק	NOUN	NOUN	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
@@ -14051,7 +14051,7 @@
 30	טעים	טעים	ADJ	ADJ	Gender=Masc|Number=Sing	26	conj	_	_
 31	עד	עד	ADP	ADP	_	37	case	_	_
 32	כדי	כדי	ADP	ADP	_	31	fixed	_	_
-33	כך	כך	PRON	PRON	Person=3|PronType=Dem	31	fixed	_	_
+33	כך	כך	PRON	PRON	PronType=Dem	31	fixed	_	_
 34-35	שהייתי	_	_	_	_	_	_	_	_
 34	ש	ש	SCONJ	SCONJ	_	37	mark	_	_
 35	הייתי	היה	AUX	AUX	Gender=Fem,Masc|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbType=Cop	37	cop	_	_
@@ -15338,7 +15338,7 @@
 10	נוספת	נוסף	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
 11-12	לכך	_	_	_	_	_	_	_	_
 11	ל	ל	ADP	ADP	_	12	case	_	_
-12	כך	כך	PRON	PRON	Person=3|PronType=Dem	9	nmod	_	_
+12	כך	כך	PRON	PRON	PronType=Dem	9	nmod	_	_
 13-15	שבפרגו	_	_	_	_	_	_	_	_
 13	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
 14	ב	ב	ADP	ADP	_	15	case	_	_
@@ -15669,7 +15669,7 @@
 33-35	ובכך	_	_	_	_	_	_	_	_
 33	ו	ו	CCONJ	CCONJ	_	36	cc	_	_
 34	ב	ב	ADP	ADP	_	35	case	_	_
-35	כך	כך	PRON	PRON	Person=3|PronType=Dem	36	obl	_	_
+35	כך	כך	PRON	PRON	PronType=Dem	36	obl	_	_
 36	מפגין	הפגין	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	conj	_	_
 37	חוסר	חוסר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	36	obj	_	_
 38	יומרות	יומרה	NOUN	NOUN	Gender=Fem|Number=Plur	37	compound	_	_
@@ -16088,7 +16088,7 @@
 23-24	ואחר	_	_	_	_	_	_	_	_
 23	ו	ו	CCONJ	CCONJ	_	26	cc	_	_
 24	אחר	אחר	ADP	ADP	_	25	case	_	_
-25	כך	כך	PRON	PRON	Person=3|PronType=Dem	26	obl	_	_
+25	כך	כך	PRON	PRON	PronType=Dem	26	obl	_	_
 26	טוגן	טוגן	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	20	conj	_	SpaceAfter=No
 27	,	,	PUNCT	PUNCT	_	17	punct	_	_
 28	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	29	cop	_	_
