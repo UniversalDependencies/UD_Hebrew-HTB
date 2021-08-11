@@ -14,7 +14,7 @@
 10	סמית	סמית	PROPN	PROPN	_	8	conj	_	_
 11-12	שהיו	_	_	_	_	_	_	_	_
 11	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
-12	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	13	cop	_	_
+12	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	13	cop	_	_
 13	אמורים	אמור	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	8	acl:relcl	_	_
 14	לעזור	עזר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	13	dep	_	HebSource=ConvUncertainHead
 15-16	בריבאונד	_	_	_	_	_	_	_	SpaceAfter=No
@@ -137,7 +137,7 @@
 # text = מלכתחילה היה ברור שתוצאת המשחק תלוייה אך ורק בהפועל חולון.
 1	מלכתחילה	מלכתחילה	ADV	ADV	_	3	advmod	_	_
 2	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	3	cop	_	_
-3	ברור	ברר	VERB	VERB	Gender=Masc|Mood=Imp|Number=Sing|Person=2	0	root	_	_
+3	ברור	ברור	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
 4-5	שתוצאת	_	_	_	_	_	_	_	_
 4	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
 5	תוצאת	תוצאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -205,7 +205,7 @@
 28	,	,	PUNCT	PUNCT	_	31	punct	_	_
 29	כי	כי	SCONJ	SCONJ	_	31	mark	_	_
 30	לא	לא	ADV	ADV	Polarity=Neg	31	advmod	_	_
-31	היה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	22	ccomp	_	_
+31	היה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past	22	ccomp	_	_
 32-33	בבית"ר	_	_	_	_	_	_	_	_
 32	ב	ב	ADP	ADP	_	33	case	_	_
 33	בית"ר	בית"ר	PROPN	PROPN	Abbr=Yes	31	obl	_	_
@@ -303,7 +303,7 @@
 20	חולון	חולון	PROPN	PROPN	_	19	compound	_	_
 21	עד	עד	ADP	ADP	_	24	case	_	_
 22	כדי	כדי	ADP	ADP	_	21	fixed	_	_
-23	שלוש	שלוש	NUM	NUM	Gender=Fem|Number=Plur	24	nummod	_	_
+23	שלוש	שלוש	NUM	NUM	Gender=Fem	24	nummod	_	_
 24	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	14	nmod	_	_
 25	בלבד	בלבד	ADV	ADV	_	24	advmod	_	SpaceAfter=No
 26	,	,	PUNCT	PUNCT	_	27	punct	_	_
@@ -427,7 +427,7 @@
 34-35	בשלשה	_	_	_	_	_	_	_	_
 34	ב	ב	ADP	ADP	_	35	case	_	_
 35	שלשה	שלשה	NOUN	NOUN	Gender=Fem|Number=Sing	33	obl	_	_
-36	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	35	nummod	_	SpaceAfter=No
+36	אחת	אחת	NUM	NUM	Gender=Fem	35	nummod	_	SpaceAfter=No
 37	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = 5739
@@ -458,7 +458,7 @@
 9-11	ש"התחממה	_	_	_	_	_	_	_	SpaceAfter=No
 9	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
 10	"	"	PUNCT	PUNCT	_	11	punct	_	_
-11	התחממה	התחממה	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	6	acl:relcl	_	_
+11	התחממה	התחמם	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	6	acl:relcl	_	_
 12	"	"	PUNCT	PUNCT	_	11	punct	_	_
 13-14	והיתה	_	_	_	_	_	_	_	_
 13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
@@ -489,7 +489,7 @@
 3	יהנה	נהנה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	1	acl:relcl	_	_
 4-5	מכך	_	_	_	_	_	_	_	SpaceAfter=No
 4	מ	מ	ADP	ADP	_	5	case	_	_
-5	כך	כך	PRON	PRON	Person=3|PronType=Dem	3	obl	_	_
+5	כך	כך	PRON	PRON	PronType=Dem	3	obl	_	_
 6	,	,	PUNCT	PUNCT	_	9	punct	_	_
 7	לפחות	לפחות	ADV	ADV	_	9	advmod	_	_
 8-9	בחודש	_	_	_	_	_	_	_	_
@@ -502,7 +502,7 @@
 13	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	14	cop	_	_
 14	קבוצת	קבוצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	0	root	_	_
 15	מכבי	מכבי	PROPN	PROPN	_	14	compound	_	_
-16	ראשון	ראשון	NUM	NUM	Gender=Masc|Number=Plur	15	flat	_	_
+16	ראשון	ראשון	NUM	NUM	Gender=Masc	15	flat	_	_
 17-18	לציון	_	_	_	_	_	_	_	SpaceAfter=No
 17	ל	ל	ADP	ADP	_	18	case	_	_
 18	ציון	ציון	PROPN	PROPN	_	16	flat	_	_
@@ -547,9 +547,9 @@
 
 # sent_id = 5744
 # text = אפשר כבר להכין את הכרטיסים.
-1	אפשר	אפשר	AUX	AUX	VerbType=Mod	3	aux	_	_
-2	כבר	כבר	ADV	ADV	_	3	advmod	_	_
-3	להכין	הכין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+1	אפשר	אפשר	VERB	VERB	VerbType=Mod	0	root	_	_
+2	כבר	כבר	ADV	ADV	_	1	advmod	_	_
+3	להכין	הכין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	1	csubj	_	_
 4	את	את	ADP	ADP	Case=Acc	6	case	_	_
 5-6	הכרטיסים	_	_	_	_	_	_	_	SpaceAfter=No
 5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
@@ -562,7 +562,7 @@
 2	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	9	obl	_	_
 3-4	שהיה	_	_	_	_	_	_	_	_
 3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
-4	היה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	2	acl:relcl	_	_
+4	היה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past	2	acl:relcl	_	_
 5-6	להם	_	_	_	_	_	_	_	_
 5	ל	ל	ADP	ADP	_	6	case	_	_
 6	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obl	_	_
@@ -578,7 +578,7 @@
 
 # sent_id = 5746
 # text = ראשון לציון באה לאולם באוסישקין ותבעה קורבן נוסף הפועל תל אביב.
-1	ראשון	ראשון	NUM	NUM	Gender=Masc|Number=Plur	4	nsubj	_	_
+1	ראשון	ראשון	NUM	NUM	Gender=Masc	4	nsubj	_	_
 2-3	לציון	_	_	_	_	_	_	_	_
 2	ל	ל	ADP	ADP	_	3	case	_	_
 3	ציון	ציון	PROPN	PROPN	_	1	flat	_	_
@@ -625,7 +625,7 @@
 16	ביתי	ביתי	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
 17	שני	שני	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
 18-19	עבורם	_	_	_	_	_	_	_	_
-18	עבור	עבורם	ADP	ADP	_	19	case	_	_
+18	עבור	עבור	ADP	ADP	_	19	case	_	_
 19	ם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	obl	_	_
 20	תוך	תוך	ADP	ADP	_	21	case	_	_
 21	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
@@ -634,7 +634,7 @@
 # sent_id = 5748
 # text = ראשל"ץ יכולה לראות עצמה עתה, חזק בתמונת המאבק על 41.
 1	ראשל"ץ	ראשל"ץ	PROPN	PROPN	Abbr=Yes	3	nsubj	_	_
-2	יכולה	יכולה	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	3	aux	_	_
+2	יכולה	יכול	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	3	aux	_	_
 3	לראות	ראה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
 4	עצמה	עצמו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	_
 5	עתה	עתה	ADV	ADV	_	3	advmod	_	SpaceAfter=No
@@ -684,7 +684,7 @@
 7	אביב	אביב	PROPN	PROPN	_	6	compound	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	11	punct	_	_
 9	לאחר	לאחר	ADP	ADP	_	11	case	_	_
-10	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	11	nummod	_	_
+10	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem	11	nummod	_	_
 11	הארכות	הארכה	NOUN	NOUN	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
@@ -740,7 +740,7 @@
 4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
 5	שיחק	שיחק	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	_
 6	רק	רק	ADV	ADV	_	8	advmod	_	_
-7	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	8	nummod	_	_
+7	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem	8	nummod	_	_
 8	דקות	דקה	NOUN	NOUN	Gender=Fem|Number=Plur	5	obl:tmod	_	_
 9	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
 10	כנראה	כנראה	ADV	ADV	_	11	advmod	_	_
@@ -817,7 +817,7 @@
 2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
 3	שרון	שרון	PROPN	PROPN	_	1	compound	_	_
 4	קפצה	קפץ	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	0	root	_	_
-5	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	6	nummod	_	_
+5	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc	6	nummod	_	_
 6	שלבים	שלב	NOUN	NOUN	Gender=Masc|Number=Plur	4	dep	_	_
 7-9	מהמקום	_	_	_	_	_	_	_	_
 7	מ	מ	ADP	ADP	_	9	case	_	_
@@ -840,7 +840,7 @@
 
 # sent_id = 5758
 # text = שני ניצחונות בית צפויים הושגו בכפר בלום ובחולון.
-1	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	2	nummod	_	_
+1	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc	2	nummod	_	_
 2	ניצחונות	ניצחון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound	_	_
 4	צפויים	צפוי	ADJ	ADJ	Gender=Masc|Number=Plur	2	amod	_	_
@@ -937,12 +937,12 @@
 1-2	השחקן	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
 2	שחקן	שחקן	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
-3	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	5	cop	_	_
+3	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	5	cop	_	_
 4-5	במנוחה	_	_	_	_	_	_	_	_
 4	ב	ב	ADP	ADP	_	5	case	_	_
 5	מנוחה	מנוחה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 6	מוחלטת	מוחלט	ADJ	ADJ	Gender=Fem|Number=Sing	5	amod	_	_
-7	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	8	nummod	_	_
+7	שלושה	שלוש	NUM	NUM	Gender=Masc	8	nummod	_	_
 8	שבועות	שבוע	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl:tmod	_	_
 9-10	ויחזור	_	_	_	_	_	_	_	_
 9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
@@ -962,7 +962,7 @@
 3	לשחק	שיחק	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
 4	רק	רק	ADV	ADV	_	7	advmod	_	_
 5	בעוד	בעוד	ADP	ADP	_	7	case	_	_
-6	שישה	שש	NUM	NUM	Gender=Masc|Number=Plur	7	nummod	_	_
+6	שישה	שש	NUM	NUM	Gender=Masc	7	nummod	_	_
 7	שבועות	שבוע	NOUN	NOUN	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -1088,7 +1088,7 @@
 3	מתנהלים	התנהל	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
 4-5	בשני	_	_	_	_	_	_	_	_
 4	ב	ב	ADP	ADP	_	6	case	_	_
-5	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	6	nummod	_	_
+5	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc	6	nummod	_	_
 6	כיוונים	כיוון	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
 7	:	:	PUNCT	PUNCT	_	10	punct	_	_
 8	מן	מן	ADP	ADP	_	10	case	_	_
@@ -1112,7 +1112,7 @@
 3-4	השני	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
 4	שני	שני	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
-5	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	9	cop	_	_
+5	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	9	cop	_	_
 6-7	הדבר	_	_	_	_	_	_	_	_
 6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
 7	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -1360,7 +1360,7 @@
 31	)	)	PUNCT	PUNCT	_	28	punct	_	_
 32-33	שיהיה	_	_	_	_	_	_	_	_
 32	ש	ש	SCONJ	SCONJ	_	35	mark	_	_
-33	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	35	cop	_	_
+33	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	35	cop	_	_
 34-35	הראשון	_	_	_	_	_	_	_	_
 34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
 35	ראשון	ראשון	PROPN	PROPN	_	16	acl:relcl	_	_
@@ -1383,7 +1383,7 @@
 3	התייחסו	התייחס	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	0	root	_	_
 4-5	לשני	_	_	_	_	_	_	_	_
 4	ל	ל	ADP	ADP	_	7	case	_	_
-5	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	7	nummod	_	_
+5	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc	7	nummod	_	_
 6-7	ההפסדים	_	_	_	_	_	_	_	_
 6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
 7	הפסדים	הפסד	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
@@ -1478,7 +1478,7 @@
 13-14	הישראלי	_	_	_	_	_	_	_	_
 13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
 14	ישראלי	ישראלי	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
-15	יש	יש	VERB	VERB	HebExistential=Yes	6	conj	_	_
+15	יש	יש	VERB	VERB	_	6	conj	_	_
 16	בעיות	בעיה	NOUN	NOUN	Gender=Fem|Number=Plur	15	nsubj	_	_
 17	כלליות	כללי	ADJ	ADJ	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	6	punct	_	_
@@ -1515,7 +1515,7 @@
 7	ליגות	ליגה	NOUN	NOUN	Gender=Fem|Number=Plur	5	obl	_	_
 8-9	שלהם	_	_	_	_	_	_	_	_
 8	של	של	ADP	ADP	Case=Gen	9	case	_	_
-9	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+9	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	nmod:poss	_	_
 10-11	ונוצר	_	_	_	_	_	_	_	_
 10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
 11	נוצר	נוצר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	5	conj	_	_
@@ -1567,7 +1567,7 @@
 5-6	ביוון	_	_	_	_	_	_	_	_
 5	ב	ב	ADP	ADP	_	6	case	_	_
 6	יוון	יוון	PROPN	PROPN	_	2	obl	_	_
-7	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	0	root	_	_
+7	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	0	root	_	_
 8-9	לנו	_	_	_	_	_	_	_	_
 8	ל	ל	ADP	ADP	_	9	case	_	_
 9	נו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	7	obl	_	_
@@ -1661,7 +1661,7 @@
 6	נבחרת	נבחרת	NOUN	NOUN	Gender=Fem|Number=Sing	10	nsubj	_	_
 7-8	שלנו	_	_	_	_	_	_	_	_
 7	של	של	ADP	ADP	Case=Gen	8	case	_	_
-8	נו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+8	נו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	6	nmod:poss	_	_
 9	לא	לא	ADV	ADV	Polarity=Neg	10	advmod	_	_
 10	ניצחה	ניצח	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	ccomp	_	_
 11-12	בטמפרטורה	_	_	_	_	_	_	_	_
@@ -1725,7 +1725,7 @@
 11	קטנה	קטן	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	14	punct	_	_
 13	אך	אך	CCONJ	CCONJ	_	14	cc	_	_
-14	יש	יש	VERB	VERB	HebExistential=Yes	10	conj	_	_
+14	יש	יש	VERB	VERB	_	10	conj	_	_
 15-16	לה	_	_	_	_	_	_	_	_
 15	ל	ל	ADP	ADP	_	16	case	_	_
 16	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
@@ -1737,16 +1737,16 @@
 # sent_id = 5793
 # text = "יש לנו 32 אלף כדורגלנים לעומת ארבעה מיליון בגרמניה.
 1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
-2	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+2	יש	יש	VERB	VERB	_	0	root	_	_
 3-4	לנו	_	_	_	_	_	_	_	_
 3	ל	ל	ADP	ADP	_	4	case	_	_
 4	נו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	2	obl	_	_
 5	32	32	NUM	NUM	_	6	nummod	_	_
-6	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	7	nummod	_	_
+6	אלף	אלף	NUM	NUM	Gender=Masc|Number=Sing	7	nummod	_	_
 7	כדורגלנים	כדורגלן	NOUN	NOUN	Gender=Masc|Number=Plur	2	nsubj	_	_
 8	לעומת	לעומת	ADP	ADP	_	10	case	_	_
-9	ארבעה	ארבע	NUM	NUM	Gender=Masc|Number=Sing	10	nummod	_	_
-10	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	7	nmod	_	_
+9	ארבעה	ארבע	NUM	NUM	Gender=Masc	10	nummod	_	_
+10	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Sing	7	nmod	_	_
 11-12	בגרמניה	_	_	_	_	_	_	_	SpaceAfter=No
 11	ב	ב	ADP	ADP	_	12	case	_	_
 12	גרמניה	גרמניה	PROPN	PROPN	_	10	obl	_	_
@@ -1754,14 +1754,14 @@
 
 # sent_id = 5794
 # text = כדאי להתייחס לרמה שלנו בדרגה של מדינות כמו פינלנד, איסלנד ורק אחרי שנרכוש ניסיון נוכל להתמודד בהצלחה עם אחרים".
-1	כדאי	כדאי	AUX	AUX	VerbType=Mod	2	aux	_	_
-2	להתייחס	התייחס	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	0	root	_	_
+1	כדאי	כדאי	VERB	VERB	VerbType=Mod	0	root	_	_
+2	להתייחס	התייחס	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	1	csubj	_	_
 3-4	לרמה	_	_	_	_	_	_	_	_
 3	ל	ל	ADP	ADP	Definite=Def|PronType=Art	4	case	_	_
 4	רמה	רמה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
 5-6	שלנו	_	_	_	_	_	_	_	_
 5	של	של	ADP	ADP	Case=Gen	6	case	_	_
-6	נו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+6	נו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	4	nmod:poss	_	_
 7-8	בדרגה	_	_	_	_	_	_	_	_
 7	ב	ב	ADP	ADP	_	8	case	_	_
 8	דרגה	דרגה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
@@ -1787,7 +1787,7 @@
 25	עם	עם	ADP	ADP	_	26	case	_	_
 26	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
 27	"	"	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
-28	.	.	PUNCT	PUNCT	_	2	punct	_	_
+28	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = 5795
 # text = יו"ר ועדת הנוער נתן סלובטיק אמר שהשחקנים שלנו לא משתלבים באירופה.
@@ -1805,7 +1805,7 @@
 10	שחקנים	שחקן	NOUN	NOUN	Gender=Masc|Number=Plur	14	nsubj	_	_
 11-12	שלנו	_	_	_	_	_	_	_	_
 11	של	של	ADP	ADP	Case=Gen	12	case	_	_
-12	נו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+12	נו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	10	nmod:poss	_	_
 13	לא	לא	ADV	ADV	Polarity=Neg	14	advmod	_	_
 14	משתלבים	השתלב	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	7	ccomp	_	_
 15-16	באירופה	_	_	_	_	_	_	_	SpaceAfter=No
@@ -1894,7 +1894,7 @@
 8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
 9	בא	בא	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
 10	לא	לא	ADV	ADV	Polarity=Neg	11	advmod	_	_
-11	יהיו	יהיו	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	3	ccomp	_	_
+11	יהיו	היה	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	3	ccomp	_	_
 12	מישחקים	משחק	NOUN	NOUN	Gender=Masc|Number=Plur	11	nsubj	_	_
 13-14	ביום	_	_	_	_	_	_	_	_
 13	ב	ב	ADP	ADP	_	14	case	_	_
@@ -1916,7 +1916,7 @@
 1	דראמה	דראמה	NOUN	NOUN	_	5	nsubj	_	_
 2-3	בשלוש	_	_	_	_	_	_	_	_
 2	ב	ב	ADP	ADP	_	4	case	_	_
-3	שלוש	שלוש	NUM	NUM	Gender=Fem|Number=Plur	4	nummod	_	_
+3	שלוש	שלוש	NUM	NUM	Gender=Fem	4	nummod	_	_
 4	מערכות	מערכה	NOUN	NOUN	Gender=Fem|Number=Plur	1	nmod	_	_
 5	התרחשה	התרחש	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
 6	אמש	אמש	ADV	ADV	_	5	advmod	_	_
@@ -1971,7 +1971,7 @@
 4-5	הדקות	_	_	_	_	_	_	_	_
 4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
 5	דקות	דקה	NOUN	NOUN	Gender=Fem|Number=Plur	2	compound	_	_
-6	היה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+6	היה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 7	שיויוון	שיויוון	NOUN	NOUN	Definite=Cons	6	nsubj	_	_
 8	85	85	NUM	NUM	_	7	compound	_	_
 9	85	85	NUM	NUM	_	8	nummod	_	_
@@ -1984,7 +1984,7 @@
 14	ארכה	ארכה	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound	_	_
 15-16	הראשונה	_	_	_	_	_	_	_	_
 15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
-16	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	14	amod	_	_
+16	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing	14	amod	_	_
 17	97	97	NUM	NUM	_	12	dep	_	HebSource=ConvUncertainHead
 18	97	97	NUM	NUM	_	17	nummod	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	6	punct	_	_
@@ -2020,9 +2020,9 @@
 23-24	הספסל	_	_	_	_	_	_	_	_
 23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
 24	ספסל	ספסל	NOUN	NOUN	Gender=Masc|Number=Sing	16	obl	_	_
-25	מהרהר	הרהר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	16	parataxis	_	_
+25	מהרהר	הירהר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	16	parataxis	_	_
 26	כיצד	כיצד	ADV	ADV	PronType=Int	27	advmod	_	_
-27	יכלו	יכלו	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	25	dep	_	HebSource=ConvUncertainHead
+27	יכלו	יכל	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	25	dep	_	HebSource=ConvUncertainHead
 28-29	חניכיו	_	_	_	_	_	_	_	_
 28	חניכי	חניך	NOUN	NOUN	Gender=Masc|Number=Plur	27	nsubj	_	_
 29	ו	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
@@ -2074,7 +2074,7 @@
 21	מתיש	מתיש	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
 22	,	,	PUNCT	PUNCT	_	26	punct	_	_
 23-24	כמותו	_	_	_	_	_	_	_	_
-23	כמות	כמותו	ADP	ADP	_	24	case	_	_
+23	כמות	כמו	ADP	ADP	_	24	case	_	_
 24	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obl	_	_
 25	לא	לא	ADV	ADV	Polarity=Neg	26	advmod	_	_
 26	ידעו	ידע	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	19	acl	_	_
@@ -2105,7 +2105,7 @@
 2	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
 3	הסתיימה	הסתיים	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	אחרי	אחרי	ADP	ADP	_	6	case	_	_
-5	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	6	nummod	_	_
+5	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem	6	nummod	_	_
 6	הארכות	הארכה	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
@@ -2128,7 +2128,7 @@
 10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
 11	קריאות	קריאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	9	conj	_	_
 12	שמחה	שמחה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound	_	_
-13	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	14	cop	_	_
+13	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	14	cop	_	_
 14	אוהדי	אוהד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	0	root	_	_
 15	עפולה	עפולה	PROPN	PROPN	_	14	compound	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	14	punct	_	_
@@ -2163,7 +2163,7 @@
 3	ו	ו	CCONJ	CCONJ	_	4	cc	_	_
 4	קאלווין	קאלווין	PROPN	PROPN	_	1	conj	_	_
 5	רוברטס	רוברטס	PROPN	PROPN	_	4	flat	_	_
-6	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	7	cop	_	_
+6	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	7	cop	_	_
 7	כוכבי	כוכב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	0	root	_	_
 8-9	המשחק	_	_	_	_	_	_	_	SpaceAfter=No
 8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
@@ -2261,7 +2261,7 @@
 12	דונאלד	דונאלד	PROPN	PROPN	_	2	conj	_	_
 13	רויאל	רויאל	PROPN	PROPN	_	12	flat	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	2	punct	_	_
-15	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	19	cop	_	_
+15	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	19	cop	_	_
 16	כל	כול	DET	DET	Definite=Cons	18	det	_	_
 17-18	היתר	_	_	_	_	_	_	_	_
 17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
@@ -2291,7 +2291,7 @@
 2	מחצית	מחצית	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
 3-4	הראשונה	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
-4	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+4	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
 5	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	8	cop	_	_
 6-7	המשחק	_	_	_	_	_	_	_	_
 6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
@@ -2325,7 +2325,7 @@
 9	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	8	det	_	_
 10	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	11	cop	_	_
 11	נקודה	נקודה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
-12	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	11	nummod	_	SpaceAfter=No
+12	אחת	אחת	NUM	NUM	Gender=Fem	11	nummod	_	SpaceAfter=No
 13	,	,	PUNCT	PUNCT	_	15	punct	_	_
 14	כמו	כמו	ADP	ADP	_	15	case	_	_
 15	סיום	סיום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nmod	_	_
@@ -2441,7 +2441,7 @@
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	קלע	קלע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 3	נקודה	נקודה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obj	_	_
-4	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	3	nummod	_	_
+4	אחת	אחת	NUM	NUM	Gender=Fem	3	nummod	_	_
 5-6	והשיג	_	_	_	_	_	_	_	_
 5	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
 6	השיג	השיג	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	_
@@ -2465,7 +2465,7 @@
 9	ארי	ארי	PROPN	PROPN	_	19	nsubj	_	_
 10	רוזנברג	רוזנברג	PROPN	PROPN	_	9	flat	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	13	punct	_	_
-12	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	13	nummod	_	_
+12	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem	13	nummod	_	_
 13	שניות	שנייה	NOUN	NOUN	Gender=Fem|Number=Plur	19	parataxis	_	_
 14-15	לסיום	_	_	_	_	_	_	_	_
 14	ל	ל	ADP	ADP	_	15	case	_	_
@@ -2479,7 +2479,7 @@
 21-22	מטווח	_	_	_	_	_	_	_	_
 21	מ	מ	ADP	ADP	_	22	case	_	_
 22	טווח	טווח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	obl	_	_
-23	שלוש	שלוש	NUM	NUM	Gender=Fem|Number=Plur	24	nummod	_	_
+23	שלוש	שלוש	NUM	NUM	Gender=Fem	24	nummod	_	_
 24	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	22	compound	_	SpaceAfter=No
 25	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -2512,7 +2512,7 @@
 # text = ארי זרק שלוש פעמים מקו העונשין וקלע רק שתיים 85 83 לגבת.
 1	ארי	ארי	PROPN	PROPN	_	2	nsubj	_	_
 2	זרק	זרק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
-3	שלוש	שלוש	NUM	NUM	Gender=Fem|Number=Plur	4	nummod	_	_
+3	שלוש	שלוש	NUM	NUM	Gender=Fem	4	nummod	_	_
 4	פעמים	פעם	NOUN	NOUN	Gender=Fem|Number=Plur	2	dep	_	_
 5-6	מקו	_	_	_	_	_	_	_	_
 5	מ	מ	ADP	ADP	_	6	case	_	_
@@ -2524,7 +2524,7 @@
 9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
 10	קלע	קלע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	_
 11	רק	רק	ADV	ADV	_	12	advmod	_	_
-12	שתיים	שתיים	NUM	NUM	Gender=Fem|Number=Plur	10	obj	_	_
+12	שתיים	שתיים	NUM	NUM	Gender=Fem	10	obj	_	_
 13	85	85	NUM	NUM	_	10	dep	_	_
 14	83	83	NUM	NUM	_	13	nummod	_	_
 15-16	לגבת	_	_	_	_	_	_	_	SpaceAfter=No
@@ -2536,7 +2536,7 @@
 # text = רק עוד שתי שניות.
 1	רק	רק	ADV	ADV	_	4	advmod	_	_
 2	עוד	עוד	DET	DET	_	4	det	_	_
-3	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	4	nummod	_	_
+3	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem	4	nummod	_	_
 4	שניות	שנייה	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
@@ -2577,7 +2577,7 @@
 # text = בחמש הדקות הבאות התנהל שוב מרדף.
 1-2	בחמש	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	4	case	_	_
-2	חמש	חמש	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	4	nummod	_	_
+2	חמש	חמש	NUM	NUM	Definite=Cons|Gender=Fem	4	nummod	_	_
 3-4	הדקות	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
 4	דקות	דקה	NOUN	NOUN	Gender=Fem|Number=Plur	7	obl	_	_
@@ -2600,7 +2600,7 @@
 6	הארכה	הארכה	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound	_	_
 7-8	בשתי	_	_	_	_	_	_	_	_
 7	ב	ב	ADP	ADP	_	9	case	_	_
-8	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	9	nummod	_	_
+8	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem	9	nummod	_	_
 9	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	15	punct	_	_
 11-12	ושוב	_	_	_	_	_	_	_	_
@@ -2612,7 +2612,7 @@
 16-17	שקלע	_	_	_	_	_	_	_	_
 16	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
 17	קלע	קלע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	15	acl:relcl	_	_
-18	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	19	nummod	_	_
+18	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem	19	nummod	_	_
 19	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	17	obj	_	_
 20	(	(	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
 21	97	97	NUM	NUM	_	19	appos	_	_
@@ -2689,7 +2689,7 @@
 6	חולשה	חולשה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obj	_	_
 7-8	הפיזית	_	_	_	_	_	_	_	_
 7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
-8	פיזית	פיסי	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
+8	פיזית	פיזי	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
 9	של	של	ADP	ADP	Case=Gen	10	case	_	_
 10-11	יריביהם	_	_	_	_	_	_	_	_
 10	יריבי	יריב	NOUN	NOUN	Gender=Masc|Number=Plur	6	nmod	_	_
@@ -2705,7 +2705,7 @@
 
 # sent_id = 5831
 # text = שתי דקות מהסיום (דקה 48) עלה מכבי ליתרון 3 נקודות מסל של גמצי מחוץ לקשת (107 104).
-1	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	2	nummod	_	_
+1	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem	2	nummod	_	_
 2	דקות	דקה	NOUN	NOUN	Gender=Fem|Number=Plur	10	obl:tmod	_	_
 3-5	מהסיום	_	_	_	_	_	_	_	_
 3	מ	מ	ADP	ADP	_	5	case	_	_
@@ -2815,7 +2815,7 @@
 28	מערכת	מערכת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	26	obl	_	_
 29-30	היחסים	_	_	_	_	_	_	_	_
 29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
-30	יחסים	יחסים	NOUN	NOUN	Gender=Masc|Number=Plur	28	compound	_	_
+30	יחסים	יחס	NOUN	NOUN	Gender=Masc|Number=Plur	28	compound	_	_
 31	בין	בין	ADP	ADP	_	32	case	_	_
 32	קבוצות	קבוצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	28	nmod	_	_
 33	ספורט	ספורט	NOUN	NOUN	Gender=Masc|Number=Sing	32	compound	_	_
@@ -2987,7 +2987,7 @@
 2	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
 3	שאן	שאן	PROPN	PROPN	_	2	flat	_	_
 4	לא	לא	ADV	ADV	Polarity=Neg	5	advmod	_	_
-5	היה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+5	היה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 6-7	בשבת	_	_	_	_	_	_	_	_
 6	ב	ב	ADP	ADP	_	7	case	_	_
 7	שבת	שבת	PROPN	PROPN	_	5	obl	_	_
@@ -3181,8 +3181,10 @@
 25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
 26	רכב	רכב	NOUN	NOUN	Gender=Masc|Number=Sing	24	compound	_	_
 27	על	על	ADP	ADP	_	28	case	_	_
-28	יושביו	יושביו	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-29	.	.	PUNCT	PUNCT	_	9	punct	_	_
+28-29	יושביו	_	_	_	_	_	_	_	_
+28	יושבי	יושב	NOUN	NOUN	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+29	ו	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+30	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = 5844
 # text = ח"כ גולדמן אמר ל"ספורט הארץ": "הספורט נועד לאחד ולחזק דו-קיום בין יהודים לערבים, ולא להיגרר אחרי בודדים המנסים לפגוע במרקם שנוצר בין יהודים לערבים באמצעות מגרש הספורט.
@@ -3207,7 +3209,7 @@
 16-17	ולחזק	_	_	_	_	_	_	_	_
 16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
 17	לחזק	חיזק	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	15	conj	_	_
-18	דו	דו	ADV	ADV	Prefix=Yes	20	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
+18	דו	דו	ADJ	ADJ	Prefix=Yes	20	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
 19	-	-	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
 20	קיום	קיום	NOUN	NOUN	Gender=Masc|Number=Sing	15	obj	_	_
 21	בין	בין	ADP	ADP	_	22	case	_	_
@@ -3296,7 +3298,7 @@
 7	גדולה	גדול	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	10	punct	_	_
 9-10	כשניצחה	_	_	_	_	_	_	_	_
-9	כש	כש	SCONJ	SCONJ	Case=Tem	10	mark	_	_
+9	כש	כש	SCONJ	SCONJ	_	10	mark	_	_
 10	ניצחה	ניצח	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	advcl	_	_
 11	את	את	ADP	ADP	Case=Acc	13	case	_	_
 12-13	המוליך	_	_	_	_	_	_	_	_
@@ -3321,7 +3323,7 @@
 2	מחצית	מחצית	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
 3-4	הראשונה	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
-4	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+4	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
 5	נקטה	נקט	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 6	ירושלים	ירושלים	PROPN	PROPN	_	5	nsubj	_	_
 7-8	בשמירה	_	_	_	_	_	_	_	_
@@ -3392,7 +3394,7 @@
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	SpaceAfter=No
 4	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
 5	7	7	NUM	NUM	_	2	amod	_	_
-6	היה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+6	היה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 7	שיוויון	שוויון	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
 8	14	14	NUM	NUM	_	7	nmod	_	HebSource=ConvUncertainLabel
 9	14	14	NUM	NUM	_	8	nummod	_	SpaceAfter=No
@@ -3630,7 +3632,7 @@
 7	מחצית	מחצית	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
 8-9	הראשונה	_	_	_	_	_	_	_	_
 8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
-9	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	_
+9	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	_
 10	הצטיינו	הצטיין	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	1	acl:relcl	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	1	punct	_	_
 12	כמו	כמו	ADV	ADV	_	13	advmod	_	_
@@ -3644,7 +3646,7 @@
 2	חברי	חבר	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	הם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 4	לא	לא	ADV	ADV	Polarity=Neg	5	advmod	_	_
-5	יכלו	יכלו	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	0	root	_	_
+5	יכלו	יכל	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	0	root	_	_
 6-7	לרמת	_	_	_	_	_	_	_	_
 6	ל	ל	ADP	ADP	_	7	case	_	_
 7	רמת	רמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	obl	_	_
@@ -3696,7 +3698,7 @@
 1-2	החגיגות	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
 2	חגיגות	חגיגה	NOUN	NOUN	Gender=Fem|Number=Plur	5	nsubj	_	_
-3	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	5	cop	_	_
+3	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	5	cop	_	_
 4-6	בעיצומן	_	_	_	_	_	_	_	SpaceAfter=No
 4	ב	ב	ADP	ADP	_	5	case	_	_
 5	עיצומ	עיצום	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
@@ -3720,7 +3722,7 @@
 1	לפני	לפני	ADP	ADP	_	4	case	_	_
 2-3	כעשרים	_	_	_	_	_	_	_	_
 2	כ	כ	ADP	ADP	_	4	case	_	_
-3	עשרים	עשרים	NUM	NUM	Gender=Fem,Masc|Number=Plur	4	nummod	_	_
+3	עשרים	עשרים	NUM	NUM	Gender=Fem,Masc	4	nummod	_	_
 4	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
 5	עלה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 6-7	מארה"ב	_	_	_	_	_	_	_	_
@@ -4149,7 +4151,7 @@
 # sent_id = 5881
 # text = 16 אלף דולר שולמו מראש, ותמורתם קיבלה העמותה דירה אחת, שנועדה למשפחת קנטור.
 1	16	16	NUM	NUM	_	2	nummod	_	_
-2	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	3	nummod	_	_
+2	אלף	אלף	NUM	NUM	Gender=Masc|Number=Sing	3	nummod	_	_
 3	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 4	שולמו	שולם	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
 5	מראש	מראש	ADV	ADV	_	4	advmod	_	SpaceAfter=No
@@ -4163,7 +4165,7 @@
 11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
 12	עמותה	עמותה	NOUN	NOUN	Gender=Fem|Number=Sing	10	nsubj	_	_
 13	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obj	_	_
-14	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	13	nummod	_	SpaceAfter=No
+14	אחת	אחת	NUM	NUM	Gender=Fem	13	nummod	_	SpaceAfter=No
 15	,	,	PUNCT	PUNCT	_	17	punct	_	_
 16-17	שנועדה	_	_	_	_	_	_	_	_
 16	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
@@ -4241,7 +4243,7 @@
 16-17	כ66	_	_	_	_	_	_	_	_
 16	כ	כ	ADP	ADP	_	19	case	_	_
 17	66	66	NUM	NUM	_	18	nummod	_	_
-18	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	19	nummod	_	_
+18	אלף	אלף	NUM	NUM	Gender=Masc|Number=Sing	19	nummod	_	_
 19	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	15	compound	_	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	_	2	punct	_	_
 21	התנתה	התנה	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -4249,7 +4251,7 @@
 23-24	בקבלת	_	_	_	_	_	_	_	_
 23	ב	ב	ADP	ADP	_	24	case	_	_
 24	קבלת	קבלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	21	obl	_	_
-25	עשר	עשר	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	26	nummod	_	_
+25	עשר	עשר	NUM	NUM	Definite=Cons|Gender=Fem|Number=Sing	26	nummod	_	_
 26-27	דירותיה	_	_	_	_	_	_	_	SpaceAfter=No
 26	דירות	דירה	NOUN	NOUN	Gender=Fem|Number=Plur	24	compound	_	_
 27	יה	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
@@ -4317,7 +4319,7 @@
 10	,	,	PUNCT	PUNCT	_	13	punct	_	_
 11-12	בשלושה	_	_	_	_	_	_	_	_
 11	ב	ב	ADP	ADP	_	13	case	_	_
-12	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	13	nummod	_	_
+12	שלושה	שלוש	NUM	NUM	Gender=Masc	13	nummod	_	_
 13	טיעונים	טיעון	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
@@ -4380,7 +4382,7 @@
 10-12	ובכך	_	_	_	_	_	_	_	_
 10	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
 11	ב	ב	ADP	ADP	_	12	case	_	_
-12	כך	כך	PRON	PRON	Person=3|PronType=Dem	13	obl	_	_
+12	כך	כך	PRON	PRON	PronType=Dem	13	obl	_	_
 13	גרמה	גרם	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	_
 14	נזק	נזק	NOUN	NOUN	Gender=Masc|Number=Sing	13	obj	_	_
 15	רב	רב	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
@@ -4430,7 +4432,7 @@
 21	כדי	כדי	ADP	ADP	_	26	mark	_	_
 22-23	ששתי	_	_	_	_	_	_	_	_
 22	ש	ש	SCONJ	SCONJ	_	21	fixed	_	_
-23	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	25	nummod	_	_
+23	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem	25	nummod	_	_
 24-25	התביעות	_	_	_	_	_	_	_	_
 24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
 25	תביעות	תביעה	NOUN	NOUN	Gender=Fem|Number=Plur	26	nsubj	_	_
@@ -4482,7 +4484,7 @@
 31-32	ל28	_	_	_	_	_	_	_	_
 31	ל	ל	ADP	ADP	_	30	fixed	_	_
 32	28	28	NUM	NUM	_	33	nummod	_	_
-33	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	34	nummod	_	_
+33	אלף	אלף	NUM	NUM	Gender=Masc|Number=Sing	34	nummod	_	_
 34	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
 35	,	,	PUNCT	PUNCT	_	37	punct	_	_
 36-37	המורכבים	_	_	_	_	_	_	_	_
@@ -4633,7 +4635,7 @@
 11	,	,	PUNCT	PUNCT	_	3	punct	_	_
 12	אין	אין	ADV	ADV	Polarity=Neg	15	advmod	_	_
 13	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
-14	יכולה	יכולה	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	15	aux	_	_
+14	יכולה	יכול	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	15	aux	_	_
 15	לתבוע	תבע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
 16	פיצויים	פיצוי	NOUN	NOUN	Gender=Masc|Number=Plur	15	obj	_	_
 17-18	עליו	_	_	_	_	_	_	_	SpaceAfter=No
@@ -4794,7 +4796,7 @@
 14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
 15	דירות	דירה	NOUN	NOUN	Gender=Fem|Number=Plur	13	compound	_	_
 16-17	כשישולם	_	_	_	_	_	_	_	_
-16	כש	כש	SCONJ	SCONJ	Case=Tem	17	mark	_	_
+16	כש	כש	SCONJ	SCONJ	_	17	mark	_	_
 17	ישולם	שולם	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	11	advcl	_	_
 18-19	המע"ם	_	_	_	_	_	_	_	SpaceAfter=No
 18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
@@ -4830,7 +4832,7 @@
 20	,	,	PUNCT	PUNCT	_	22	punct	_	_
 21-22	המשנה	_	_	_	_	_	_	_	_
 21	ה	ה	SCONJ	SCONJ	_	22	mark	_	_
-22	משנה	משנה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	14	acl:relcl	_	_
+22	משנה	שינה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	14	acl:relcl	_	_
 23	לכאורה	לכאורה	ADV	ADV	_	22	advmod	_	_
 24	את	את	ADP	ADP	Case=Acc	26	case	_	_
 25-26	ההסדר	_	_	_	_	_	_	_	_
@@ -4844,7 +4846,7 @@
 31	להסיק	הסיק	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	2	ccomp	_	_
 32-33	מכך	_	_	_	_	_	_	_	_
 32	מ	מ	ADP	ADP	_	33	case	_	_
-33	כך	כך	PRON	PRON	Person=3|PronType=Dem	31	obl	_	_
+33	כך	כך	PRON	PRON	PronType=Dem	31	obl	_	_
 34	כלל	כלל	NOUN	NOUN	Gender=Masc|Number=Sing	31	advmod	_	_
 35-36	ועיקר	_	_	_	_	_	_	_	_
 35	ו	ו	CCONJ	CCONJ	_	34	fixed	_	HebSource=ConvUncertainHead
@@ -5058,7 +5060,7 @@
 7	שופט	שופט	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound	_	_
 8	לוין	לוין	PROPN	PROPN	_	7	flat	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	5	punct	_	_
-10	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+10	יש	יש	VERB	VERB	_	0	root	_	_
 11-12	בפי	_	_	_	_	_	_	_	_
 11	ב	ב	ADP	ADP	_	14	case	_	_
 12	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	fixed	_	_
@@ -5149,7 +5151,7 @@
 12	אין	אין	AUX	AUX	VerbType=Mod	13	aux	_	_
 13	לשלול	שלל	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
 14-15	ממנה	_	_	_	_	_	_	_	_
-14	ממנ	ממנה	ADP	ADP	_	15	case	_	_
+14	ממנ	מן	ADP	ADP	_	15	case	_	_
 15	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obl	_	_
 16	הגשת	הגשה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	obj	_	_
 17	תביעה	תביעה	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound	_	_
@@ -5158,7 +5160,7 @@
 19	כ	כ	ADP	ADP	_	20	case	_	_
 20	נגד	נגד	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod	_	_
 21	באמצעות	באמצעות	ADP	ADP	_	24	case	_	_
-22	אי	אי	ADV	ADV	Prefix=Yes	24	compound:affix	_	SpaceAfter=No
+22	אי	אי	ADJ	ADJ	Prefix=Yes	24	compound:affix	_	SpaceAfter=No
 23	-	-	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
 24	מתן	מתן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
 25	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	24	compound	_	_
@@ -5196,7 +5198,7 @@
 20	הורה	הורה	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	7	ccomp	_	_
 21-22	לשני	_	_	_	_	_	_	_	_
 21	ל	ל	ADP	ADP	_	24	case	_	_
-22	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	24	nummod	_	_
+22	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc	24	nummod	_	_
 23-24	הצדדים	_	_	_	_	_	_	_	_
 23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
 24	צדדים	צד	NOUN	NOUN	Gender=Masc|Number=Plur	20	obl	_	_
@@ -5211,11 +5213,11 @@
 31	היקפ	היקף	NOUN	NOUN	Gender=Masc|Number=Sing	35	nsubj	_	_
 32	ם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
 33	לא	לא	ADV	ADV	Polarity=Neg	35	advmod	_	_
-34	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	35	cop	_	_
+34	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	35	cop	_	_
 35	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	26	acl:relcl	_	_
 36-37	מחמישה	_	_	_	_	_	_	_	_
 36	מ	מ	ADP	ADP	_	38	case	_	_
-37	חמישה	חמש	NUM	NUM	Gender=Masc|Number=Plur	38	nummod	_	_
+37	חמישה	חמש	NUM	NUM	Gender=Masc	38	nummod	_	_
 38	עמודים	עמוד	NOUN	NOUN	Gender=Masc|Number=Plur	35	obl	_	_
 39-40	לכל	_	_	_	_	_	_	_	_
 39	ל	ל	ADP	ADP	_	41	case	_	_
@@ -5280,10 +5282,10 @@
 9	על	על	ADP	ADP	_	10	case	_	_
 10	24	24	NUM	NUM	_	8	obl	_	_
 11	(	(	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
-12	עשרים	עשרים	NUM	NUM	Gender=Fem,Masc|Number=Plur	10	dep	_	HebSource=ConvUncertainHead
+12	עשרים	עשרים	NUM	NUM	Gender=Fem,Masc	10	dep	_	HebSource=ConvUncertainHead
 13-14	וארבעה	_	_	_	_	_	_	_	_
 13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
-14	ארבעה	ארבע	NUM	NUM	Gender=Masc|Number=Sing	12	conj	_	_
+14	ארבעה	ארבע	NUM	NUM	Gender=Masc	12	conj	_	_
 15	!	!	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
 16	)	)	PUNCT	PUNCT	_	12	punct	_	_
 17	עמודים	עמוד	NOUN	NOUN	Gender=Masc|Number=Plur	10	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
@@ -5306,10 +5308,10 @@
 11	על	על	ADP	ADP	_	19	case	_	_
 12	25	25	NUM	NUM	_	19	nummod	_	_
 13	(	(	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
-14	עשרים	עשרים	NUM	NUM	Gender=Fem,Masc|Number=Plur	12	parataxis	_	_
+14	עשרים	עשרים	NUM	NUM	Gender=Fem,Masc	12	parataxis	_	_
 15-16	וחמישה	_	_	_	_	_	_	_	_
 15	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
-16	חמישה	חמש	NUM	NUM	Gender=Masc|Number=Plur	14	conj	_	_
+16	חמישה	חמש	NUM	NUM	Gender=Masc	14	conj	_	_
 17	!	!	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
 18	)	)	PUNCT	PUNCT	_	14	punct	_	_
 19	עמודים	עמוד	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
@@ -5328,7 +5330,7 @@
 29	משיבה	משיב	NOUN	NOUN	Gender=Fem|Number=Sing	27	compound	_	_
 30	השתרעה	השתרע	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	10	conj	_	_
 31	על	על	ADP	ADP	_	33	case	_	_
-32	תשעה	תשע	NUM	NUM	Gender=Masc|Number=Plur	33	nummod	_	_
+32	תשעה	תשע	NUM	NUM	Gender=Masc	33	nummod	_	_
 33	עמודים	עמוד	NOUN	NOUN	Gender=Masc|Number=Plur	30	obl	_	SpaceAfter=No
 34	.	.	PUNCT	PUNCT	_	30	punct	_	_
 
@@ -5355,7 +5357,7 @@
 16-17	ולא	_	_	_	_	_	_	_	_
 16	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
 17	לא	לא	ADV	ADV	Polarity=Neg	18	advmod	_	_
-18	קפצו	קיפץ	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	10	conj	_	_
+18	קפצו	קפץ	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	10	conj	_	_
 19-20	ידם	_	_	_	_	_	_	_	SpaceAfter=No
 19	יד	יד	NOUN	NOUN	Gender=Fem|Number=Sing	18	obj	_	_
 20	ם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
@@ -5406,9 +5408,9 @@
 # sent_id = 5908
 # text = על כך נענשו שני הצדדים.
 1	על	על	ADP	ADP	_	2	case	_	_
-2	כך	כך	PRON	PRON	Person=3|PronType=Dem	3	obl	_	_
+2	כך	כך	PRON	PRON	PronType=Dem	3	obl	_	_
 3	נענשו	נענש	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
-4	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	6	nummod	_	_
+4	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc	6	nummod	_	_
 5-6	הצדדים	_	_	_	_	_	_	_	SpaceAfter=No
 5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
 6	צדדים	צד	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
@@ -5476,8 +5478,8 @@
 20-21	המקסימות	_	_	_	_	_	_	_	_
 20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
 21	מקסימות	מקסים	ADJ	ADJ	Gender=Fem|Number=Plur	18	amod	_	_
-22	קונצרטו	קונצרט	PROPN	PROPN	_	13	dep	_	_
-23	קאמרי	קאמרי	PROPN	PROPN	_	22	flat	_	_
+22	קונצרטו	קונצרטו	NOUN	NOUN	Gender=Masc|Number=Sing	13	obj	_	_
+23	קאמרי	קאמרי	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	_
 24-25	ל13	_	_	_	_	_	_	_	_
 24	ל	ל	ADP	ADP	_	26	case	_	_
 25	13	13	NUM	NUM	_	26	nummod	_	_
@@ -5498,7 +5500,7 @@
 3	נאמן	נאמן	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
 4-6	לאופיו	_	_	_	_	_	_	_	_
 4	ל	ל	ADP	ADP	_	5	case	_	_
-5	אופי	אופה	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+5	אופי	אופי	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
 6	ו	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
 7	נפתח	נפתח	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
 8	ערב	ערב	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -5553,12 +5555,12 @@
 1	גורמי	גורם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	0	root	_	_
 2	הצלחת	הצלחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound	_	_
 3-5	ה"הקשרים	_	_	_	_	_	_	_	SpaceAfter=No
-3	ה	ה	DET	DET	Definite=Def|PronType=Art	2	compound	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
 4	"	"	PUNCT	PUNCT	_	5	punct	_	HebSource=ConvUncertainHead
-5	הקשרים	"הקשרים	NOUN	NOUN	Gender=Masc|Number=Plur	3	dep	_	HebSource=ConvUncertainHead
+5	הקשרים	הקשר	NOUN	NOUN	Gender=Masc|Number=Plur	2	compound	_	_
 6	"	"	PUNCT	PUNCT	_	5	punct	_	HebSource=ConvUncertainHead
 7	(	(	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
-8	בכורה	בכורה	NOUN	NOUN	Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No
+8	בכורה	בכורה	NOUN	NOUN	Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No
 9	)	)	PUNCT	PUNCT	_	8	punct	_	_
 10-11	לקול	_	_	_	_	_	_	_	_
 10	ל	ל	ADP	ADP	_	11	case	_	_
@@ -5571,7 +5573,7 @@
 16	של	של	ADP	ADP	Case=Gen	17	case	_	_
 17	שטיינברג	שטיינברג	PROPN	PROPN	_	3	obl	_	SpaceAfter=No
 18	,	,	PUNCT	PUNCT	_	19	punct	_	HebSource=ConvUncertainHead
-19	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	1	dep	_	HebSource=ConvUncertainHead
+19	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	1	dep	_	HebSource=ConvUncertainHead
 20-21	סיפורו	_	_	_	_	_	_	_	_
 20	סיפור	סיפור	NOUN	NOUN	Gender=Masc|Number=Sing	1	dep	_	HebSource=ConvUncertainHead
 21	ו	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
@@ -5599,9 +5601,9 @@
 2	,	,	PUNCT	PUNCT	_	4	punct	_	_
 3-4	שדוקלם	_	_	_	_	_	_	_	_
 3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
-4	דוקלם	דוקלם	VERB	VERB	_	0	root	_	_
+4	דוקלם	דוקלם	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
 5-6	כששזורים	_	_	_	_	_	_	_	_
-5	כש	כש	SCONJ	SCONJ	Case=Tem	6	mark	_	_
+5	כש	כש	SCONJ	SCONJ	_	6	mark	_	_
 6	שזורים	שזר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	_
 7-8	בו	_	_	_	_	_	_	_	_
 7	ב	ב	ADP	ADP	_	8	case	_	_
@@ -5781,7 +5783,7 @@
 # sent_id = 5920
 # text = אופי שלוש המיניאטורות לגיטרה ולרביעיית פסנתר מוגדר בצדק על ידי יוצרן, זורמן, כקליל ונוסטלגי.
 1	אופי	אופי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nsubj:pass	_	_
-2	שלוש	שלוש	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	4	nummod	_	_
+2	שלוש	שלוש	NUM	NUM	Definite=Cons|Gender=Fem	4	nummod	_	_
 3-4	המיניאטורות	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
 4	מיניאטורות	מיניאטורות	NOUN	NOUN	_	1	compound	_	_
@@ -5825,7 +5827,7 @@
 6	תולדה	תולדה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 7-8	שיש	_	_	_	_	_	_	_	_
 7	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
-8	יש	יש	VERB	VERB	HebExistential=Yes	6	acl:relcl	_	_
+8	יש	יש	VERB	VERB	_	6	acl:relcl	_	_
 9-10	בה	_	_	_	_	_	_	_	_
 9	ב	ב	ADP	ADP	_	10	case	_	_
 10	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
@@ -5855,7 +5857,7 @@
 6	נראה	נראה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	3	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
 7	"	"	PUNCT	PUNCT	_	3	punct	_	_
 8	(	(	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
-9	ארבעה	ארבע	NUM	NUM	Gender=Masc|Number=Sing	11	nummod	_	_
+9	ארבעה	ארבע	NUM	NUM	Gender=Masc	11	nummod	_	_
 10-11	משירי	_	_	_	_	_	_	_	_
 10	מ	מ	ADP	ADP	_	11	case	_	_
 11	שירי	שיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	appos	_	_
@@ -5872,7 +5874,7 @@
 20	ליף	ליף	PROPN	PROPN	_	19	flat	_	_
 21	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	25	cop	_	_
 22-23	לדידי	_	_	_	_	_	_	_	_
-22	לדיד	לדידי	ADP	ADP	_	23	case	_	_
+22	לדיד	לדיד	ADP	ADP	_	23	case	_	_
 23	י	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	25	nmod	_	_
 24-25	היצירה	_	_	_	_	_	_	_	_
 24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
@@ -5909,7 +5911,7 @@
 # text = כך גם היה ביצועה בידי הנגנים, המנצח טלגם והזמרת וייזל-קפסוטו.
 1	כך	כך	ADV	ADV	_	3	advmod	_	_
 2	גם	גם	ADV	ADV	_	3	advmod	_	_
-3	היה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+3	היה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 4-5	ביצועה	_	_	_	_	_	_	_	_
 4	ביצוע	ביצוע	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
 5	ה	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
@@ -5937,8 +5939,8 @@
 2	יודעים	ידע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
 3-4	שיש	_	_	_	_	_	_	_	_
 3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
-4	יש	יש	VERB	VERB	HebExistential=Yes	2	ccomp	_	_
-5	שלוש	שלוש	NUM	NUM	Gender=Fem|Number=Plur	6	nummod	_	_
+4	יש	יש	VERB	VERB	_	2	ccomp	_	_
+5	שלוש	שלוש	NUM	NUM	Gender=Fem	6	nummod	_	_
 6	מדינות	מדינה	NOUN	NOUN	Gender=Fem|Number=Plur	4	dep	_	_
 7	בלטיות	בלטיות	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
 8	:	:	PUNCT	PUNCT	_	9	punct	_	_
@@ -6181,7 +6183,7 @@
 # text = ביוני 1989 הגיעו הלמוט קוהל ומיכאיל גורבצוב להסכם, שלפיו ישמש אזור זה כמקום מושבה של רפובליקה בעלת אוכלוסייה דוברת גרמנית שתהווה חלק אינטגרלי מברית-המועצות.
 1-2	ביוני	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
-2	יוני	יון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	obl	_	_
+2	יוני	יוני	PROPN	PROPN	Definite=Cons|Gender=Masc|Number=Plur	4	obl	_	_
 3	1989	1989	NUM	NUM	_	2	compound	_	_
 4	הגיעו	הגיע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
 5	הלמוט	הלמוט	PROPN	PROPN	_	4	nsubj	_	_
@@ -6196,7 +6198,7 @@
 12	,	,	PUNCT	PUNCT	_	16	punct	_	_
 13-15	שלפיו	_	_	_	_	_	_	_	_
 13	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
-14	לפי	לפיו	ADP	ADP	_	15	case	_	_
+14	לפי	לפי	ADP	ADP	_	15	case	_	_
 15	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
 16	ישמש	שימש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	11	acl:relcl	_	_
 17	אזור	אזור	NOUN	NOUN	Gender=Masc|Number=Sing	16	nsubj	_	_
@@ -6702,7 +6704,7 @@
 1	אבל	אבל	CCONJ	CCONJ	_	11	cc	_	_
 2-3	הקזחים	_	_	_	_	_	_	_	SpaceAfter=No
 2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
-3	קזחים	קזחים	NOUN	NOUN	_	11	nsubj	_	_
+3	קזחים	קזחי	NOUN	NOUN	_	11	nsubj	_	_
 4	,	,	PUNCT	PUNCT	_	6	punct	_	_
 5-6	בדומה	_	_	_	_	_	_	_	_
 5	ב	ב	ADP	ADP	_	6	case	_	_
@@ -6797,7 +6799,7 @@
 23-25	ל"שפיגל	_	_	_	_	_	_	_	SpaceAfter=No
 23	ל	ל	ADP	ADP	_	25	case	_	_
 24	"	"	PUNCT	PUNCT	_	25	punct	_	_
-25	שפיגל	"שפיגל	PROPN	PROPN	_	22	nmod	_	_
+25	שפיגל	שפיגל	PROPN	PROPN	_	22	nmod	_	_
 26	"	"	PUNCT	PUNCT	_	25	punct	_	SpaceAfter=No
 27	,	,	PUNCT	PUNCT	_	44	punct	_	_
 28-29	שהקמת	_	_	_	_	_	_	_	_
@@ -6819,15 +6821,15 @@
 42	אינה	אינו	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	44	aux	_	_
 43	רק	רק	ADV	ADV	_	44	advmod	_	_
 44	הגיונית	הגיוני	ADJ	ADJ	Gender=Fem|Number=Sing	20	ccomp	_	SpaceAfter=No
-45	,	,	PUNCT	PUNCT	_	53	punct	_	_
-46	אלא	אלא	CCONJ	CCONJ	_	53	cc	_	_
-47	גם	גם	ADV	ADV	_	53	advmod	_	_
+45	,	,	PUNCT	PUNCT	_	50	punct	_	_
+46	אלא	אלא	CCONJ	CCONJ	_	50	cc	_	_
+47	גם	גם	ADV	ADV	_	50	advmod	_	_
 48	"	"	PUNCT	PUNCT	_	47	punct	_	SpaceAfter=No
-49	אי	אי	ADV	ADV	Prefix=Yes	53	advmod	_	_
-50	אפשר	אפשר	AUX	AUX	VerbType=Mod	53	aux	_	_
-51	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	53	cop	_	_
+49	אי	אי	ADV	ADV	Prefix=Yes	50	advmod	_	_
+50	אפשר	אפשר	VERB	VERB	VerbType=Mod	44	conj	_	_
+51	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	53	cop	_	_
 52	אז	אז	ADV	ADV	_	53	advmod	_	_
-53	להאשים	האשים	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	44	conj	_	_
+53	להאשים	האשים	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	50	csubj	_	_
 54	גרמנים	גרמני	NOUN	NOUN	Gender=Masc|Number=Plur	53	obj	_	_
 55-56	שהם	_	_	_	_	_	_	_	_
 55	ש	ש	SCONJ	SCONJ	_	57	mark	_	_
@@ -6904,7 +6906,7 @@
 2-3	מ80	_	_	_	_	_	_	_	SpaceAfter=No
 2	מ	מ	ADP	ADP	_	1	fixed	_	_
 3	80	80	NUM	NUM	_	4	nummod	_	_
-4	%	O	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	5	dep	_	_
+4	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	5	dep	_	_
 5	אמרו	אמר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
 6	כי	כי	SCONJ	SCONJ	_	7	mark	_	_
 7	יעדיפו	העדיף	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Fut|Voice=Act	5	ccomp	_	_
@@ -7000,7 +7002,7 @@
 21-23	ל"סובייטסקאיה	_	_	_	_	_	_	_	_
 21	ל	ל	ADP	ADP	_	23	case	_	_
 22	"	"	PUNCT	PUNCT	_	23	punct	_	_
-23	סובייטסקאיה	"סובייטסקאיה	PROPN	PROPN	_	20	nmod	_	_
+23	סובייטסקאיה	סובייטסקאיה	PROPN	PROPN	_	20	nmod	_	_
 24	רוסיה	רוסיה	PROPN	PROPN	_	23	flat	_	SpaceAfter=No
 25	"	"	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
 26	,	,	PUNCT	PUNCT	_	31	punct	_	_
@@ -7122,7 +7124,7 @@
 17-18	לריבונות	_	_	_	_	_	_	_	_
 17	ל	ל	ADP	ADP	_	18	case	_	_
 18	ריבונות	ריבונות	NOUN	NOUN	Gender=Fem|Number=Sing	16	nmod	_	_
-19	יכולה	יכולה	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	20	aux	_	_
+19	יכולה	יכול	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	20	aux	_	_
 20	לעלות	עלה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
 21	על	על	ADP	ADP	_	23	case	_	_
 22-23	הפרק	_	_	_	_	_	_	_	_
@@ -7145,11 +7147,11 @@
 # text = אם ליטא תהיה עצמאית, לא יהיה לרפובליקה האוטונומית הגרמנית קניגסברג, שום גשר יבשתי עם שאר חלקי ברית-המועצות.
 1	אם	אם	SCONJ	SCONJ	_	4	mark	_	_
 2	ליטא	ליטא	PROPN	PROPN	_	4	nsubj	_	_
-3	תהיה	תהיה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	4	cop	_	_
+3	תהיה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	4	cop	_	_
 4	עצמאית	עצמאי	ADJ	ADJ	Gender=Fem|Number=Sing	7	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	4	punct	_	_
 6	לא	לא	ADV	ADV	Polarity=Neg	7	advmod	_	_
-7	יהיה	יהיה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+7	יהיה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
 8-9	לרפובליקה	_	_	_	_	_	_	_	_
 8	ל	ל	ADP	ADP	Definite=Def|PronType=Art	9	case	_	_
 9	רפובליקה	רפובליקה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
@@ -7224,7 +7226,7 @@
 21	רפובליקה	רפובליקה	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod	_	_
 22-23	שלהם	_	_	_	_	_	_	_	_
 22	של	של	ADP	ADP	Case=Gen	23	case	_	_
-23	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+23	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	nmod:poss	_	_
 24-25	בברית	_	_	_	_	_	_	_	SpaceAfter=No
 24	ב	ב	ADP	ADP	_	25	case	_	_
 25	ברית	ברית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	nmod	_	_
@@ -7294,7 +7296,7 @@
 2	,	,	PUNCT	PUNCT	_	6	punct	_	HebSource=ConvUncertainHead
 3-5	שאותה	_	_	_	_	_	_	_	_
 3	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
-4	אות	אותו	ADP	ADP	Definite=Def|PronType=Art	5	case	_	_
+4	אות	את	ADP	ADP	Definite=Def|PronType=Art	5	case	_	_
 5	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
 6	הקימו	הקים	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	1	dep	_	HebSource=ConvUncertainHead
 7-8	במאה	_	_	_	_	_	_	_	_
@@ -7500,7 +7502,7 @@
 11	ל	ל	ADP	ADP	_	12	case	_	_
 12	ריבונית	ריבוני	ADJ	ADJ	Gender=Fem|Number=Sing	4	acl:relcl	_	_
 13	,	,	PUNCT	PUNCT	_	3	punct	_	_
-14	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	17	cop	_	_
+14	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	17	cop	_	_
 15-16	העולם	_	_	_	_	_	_	_	_
 15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
 16	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj	_	_
@@ -7521,7 +7523,7 @@
 # sent_id = 5972
 # text = לפני עשר שנים הגישה הוועדה, שמינה שר המשפטים לבדיקת המבנה והסמכויות של בתי-המשפט, את מסקנותיה.
 1	לפני	לפני	ADP	ADP	_	3	case	_	_
-2	עשר	עשר	NUM	NUM	Gender=Fem|Number=Plur	3	nummod	_	_
+2	עשר	עשר	NUM	NUM	Gender=Fem|Number=Sing	3	nummod	_	_
 3	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	4	obl	_	_
 4	הגישה	הגיש	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 5-6	הוועדה	_	_	_	_	_	_	_	SpaceAfter=No
@@ -7709,7 +7711,7 @@
 51	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	49	conj	_	_
 52-53	שלה	_	_	_	_	_	_	_	SpaceAfter=No
 52	של	של	ADP	ADP	Case=Gen	53	case	_	_
-53	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	49	nmod:poss	_	_
+53	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	49	nmod:poss	_	_
 54	.	.	PUNCT	PUNCT	_	45	punct	_	_
 
 # sent_id = 5975
@@ -7750,7 +7752,7 @@
 3-4	שעברה	_	_	_	_	_	_	_	_
 3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
 4	עברה	עבר	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	2	acl:relcl	_	_
-5	היו	היו	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+5	היו	היה	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 6-7	בבית	_	_	_	_	_	_	_	SpaceAfter=No
 6	ב	ב	ADP	ADP	_	10	case	_	_
 7	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	nmod	_	_
@@ -7792,12 +7794,12 @@
 34-35	כ60	_	_	_	_	_	_	_	_
 34	כ	כ	ADP	ADP	_	36	case	_	_
 35	60	60	NUM	NUM	_	36	nummod	_	_
-36	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	31	dep	_	HebSource=ConvUncertainHead
+36	אלף	אלף	NUM	NUM	Gender=Masc|Number=Sing	31	dep	_	HebSource=ConvUncertainHead
 37	(	(	PUNCT	PUNCT	_	40	punct	_	SpaceAfter=No
 38-39	כ42	_	_	_	_	_	_	_	_
 38	כ	כ	ADP	ADP	_	40	case	_	_
 39	42	42	NUM	NUM	_	40	nummod	_	_
-40	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	36	appos	_	_
+40	אלף	אלף	NUM	NUM	Gender=Masc|Number=Sing	36	appos	_	_
 41-42	ב79	_	_	_	_	_	_	_	SpaceAfter=No
 41	ב	ב	ADP	ADP	_	42	case	_	_
 42	79	79	NUM	NUM	_	40	obl	_	_
@@ -7814,12 +7816,12 @@
 51-52	כ310	_	_	_	_	_	_	_	_
 51	כ	כ	ADP	ADP	_	53	case	_	_
 52	310	310	NUM	NUM	_	53	nummod	_	_
-53	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	48	dep	_	HebSource=ConvUncertainHead
+53	אלף	אלף	NUM	NUM	Gender=Masc|Number=Sing	48	dep	_	HebSource=ConvUncertainHead
 54	(	(	PUNCT	PUNCT	_	57	punct	_	SpaceAfter=No
 55-56	כ93	_	_	_	_	_	_	_	_
 55	כ	כ	ADP	ADP	_	57	case	_	_
 56	93	93	NUM	NUM	_	57	nummod	_	_
-57	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	53	appos	_	_
+57	אלף	אלף	NUM	NUM	Gender=Masc|Number=Sing	53	appos	_	_
 58-59	ב79	_	_	_	_	_	_	_	SpaceAfter=No
 58	ב	ב	ADP	ADP	_	59	case	_	_
 59	79	79	NUM	NUM	_	57	obl	_	_
@@ -7868,7 +7870,7 @@
 9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
 10	הולך	הלך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	conj	_	_
 11	,	,	PUNCT	PUNCT	_	8	punct	_	_
-12	נאלצים	נאלצים	AUX	AUX	VerbType=Mod	14	aux	_	_
+12	נאלצים	נאלץ	AUX	AUX	VerbType=Mod	14	aux	_	_
 13	אזרחים	אזרח	NOUN	NOUN	Gender=Masc|Number=Plur	14	nsubj	_	_
 14	להסכים	הסכים	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
 15-16	לפשרות	_	_	_	_	_	_	_	_
@@ -7887,7 +7889,7 @@
 26	,	,	PUNCT	PUNCT	_	20	punct	_	_
 27-28	ויש	_	_	_	_	_	_	_	_
 27	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
-28	יש	יש	VERB	VERB	HebExistential=Yes	12	conj	_	_
+28	יש	יש	VERB	VERB	_	12	conj	_	_
 29	גם	גם	ADV	ADV	_	31	advmod	_	_
 30-31	כאלה	_	_	_	_	_	_	_	_
 30	כ	כ	ADP	ADP	Definite=Def|PronType=Art	31	case	_	_
@@ -7916,7 +7918,7 @@
 # text = ביוני 88 הגיש שר המשפטים, אברהם שריר, לכנסת הצעה מטעם הממשלה לרפורמה במבנה בתי-המשפט, אבל ההצעה נכשלה בקריאה הראשונה.
 1-2	ביוני	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
-2	יוני	יון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	obl	_	_
+2	יוני	יוני	PROPN	PROPN	Definite=Cons|Gender=Masc|Number=Plur	4	obl	_	_
 3	88	88	NUM	NUM	_	2	compound	_	_
 4	הגיש	הגיש	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 5	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -7959,7 +7961,7 @@
 33	קריאה	קריאה	NOUN	NOUN	Gender=Fem|Number=Sing	31	obl	_	_
 34-35	הראשונה	_	_	_	_	_	_	_	SpaceAfter=No
 34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
-35	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	33	amod	_	_
+35	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing	33	amod	_	_
 36	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = 5980
@@ -8058,7 +8060,7 @@
 32-33	ל300	_	_	_	_	_	_	_	_
 32	ל	ל	ADP	ADP	_	35	case	_	_
 33	300	300	NUM	NUM	_	34	nummod	_	_
-34	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	35	nummod	_	_
+34	אלף	אלף	NUM	NUM	Gender=Masc|Number=Sing	35	nummod	_	_
 35	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
 36	,	,	PUNCT	PUNCT	_	38	punct	_	_
 37-38	והגדלת	_	_	_	_	_	_	_	_
@@ -8112,7 +8114,7 @@
 14	תקנים	תקן	NOUN	NOUN	Gender=Masc|Number=Plur	12	nsubj:pass	_	_
 15-16	שלהם	_	_	_	_	_	_	_	SpaceAfter=No
 15	של	של	ADP	ADP	Case=Gen	16	case	_	_
-16	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+16	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	nmod:poss	_	_
 17	,	,	PUNCT	PUNCT	_	19	punct	_	_
 18	מתוך	מתוך	ADP	ADP	_	19	case	_	_
 19	כוונה	כוונה	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
@@ -8151,7 +8153,7 @@
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_
 7-8	ויש	_	_	_	_	_	_	_	_
 7	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
-8	יש	יש	VERB	VERB	HebExistential=Yes	5	conj	_	_
+8	יש	יש	VERB	VERB	_	5	conj	_	_
 9	משפטנים	משפטן	NOUN	NOUN	Gender=Masc|Number=Plur	8	nsubj	_	_
 10-11	הטוענים	_	_	_	_	_	_	_	SpaceAfter=No
 10	ה	ה	SCONJ	SCONJ	_	11	mark	_	_
@@ -8200,7 +8202,7 @@
 6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
 7	משאבים	משאב	NOUN	NOUN	Gender=Masc|Number=Plur	5	compound	_	_
 8	לא	לא	ADV	ADV	Polarity=Neg	5	advmod	_	_
-9	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	5	cop	_	_
+9	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	5	cop	_	_
 10	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
 11	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
 12	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -8223,12 +8225,12 @@
 25-26	בתיקים	_	_	_	_	_	_	_	SpaceAfter=No
 25	ב	ב	ADP	ADP	Definite=Def|PronType=Art	26	case	_	_
 26	תיקים	תיק	NOUN	NOUN	Gender=Masc|Number=Plur	22	nmod	_	_
-27	,	,	PUNCT	PUNCT	_	31	punct	_	_
+27	,	,	PUNCT	PUNCT	_	30	punct	_	_
 28-29	והיום	_	_	_	_	_	_	_	_
-28	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
-29	היום	היום	ADV	ADV	_	31	advmod	_	_
-30	צריך	צריך	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	31	aux	_	_
-31	להמתין	המתין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	5	conj	_	_
+28	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
+29	היום	היום	ADV	ADV	_	30	advmod	_	_
+30	צריך	צריך	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	5	conj	_	_
+31	להמתין	המתין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	30	csubj	_	_
 32	חודשים	חודש	NOUN	NOUN	Gender=Masc|Number=Plur	31	obl	_	_
 33	עד	עד	ADP	ADP	_	35	mark	_	_
 34-35	שמתחיל	_	_	_	_	_	_	_	_
@@ -8359,7 +8361,7 @@
 11	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound	_	_
 12-13	משלוש	_	_	_	_	_	_	_	_
 12	מ	מ	ADP	ADP	_	14	case	_	_
-13	שלוש	שלוש	NUM	NUM	Gender=Fem|Number=Plur	14	nummod	_	_
+13	שלוש	שלוש	NUM	NUM	Gender=Fem	14	nummod	_	_
 14	ערכאות	ערכאה	NOUN	NOUN	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
 15	:	:	PUNCT	PUNCT	_	18	punct	_	_
 16	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
@@ -8371,7 +8373,7 @@
 21	ערכאה	ערכאה	NOUN	NOUN	Gender=Fem|Number=Sing	18	nmod:poss	_	_
 22-23	הראשונה	_	_	_	_	_	_	_	SpaceAfter=No
 22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
-23	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	21	amod	_	_
+23	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing	21	amod	_	_
 24	,	,	PUNCT	PUNCT	_	27	punct	_	_
 25	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
 26	-	-	PUNCT	PUNCT	_	25	punct	_	SpaceAfter=No
@@ -8398,7 +8400,7 @@
 2	ערכאה	ערכאה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3-4	הראשונה	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
-4	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+4	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
 5	תוקם	הוקם	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	0	root	_	_
 6	באמצעות	באמצעות	ADP	ADP	_	7	case	_	_
 7	איחוד	איחוד	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
@@ -8478,7 +8480,7 @@
 9	נהוגה	נהג	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	5	acl:relcl	_	_
 10	כעת	כעת	ADV	ADV	_	9	advmod	_	_
 11	בין	בין	ADP	ADP	_	13	case	_	_
-12	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	13	nummod	_	_
+12	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc	13	nummod	_	_
 13	סוגי	סוג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	obl	_	_
 14	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
 15	-	-	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
@@ -8524,7 +8526,7 @@
 45-47	והצרכים	_	_	_	_	_	_	_	SpaceAfter=No
 45	ו	ו	CCONJ	CCONJ	_	47	cc	_	_
 46	ה	ה	DET	DET	Definite=Def|PronType=Art	47	det	_	_
-47	צרכים	צרכים	NOUN	NOUN	Gender=Masc|Number=Sing	44	conj	_	_
+47	צרכים	צורך	NOUN	NOUN	Gender=Masc|Number=Plur	44	conj	_	_
 48	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = 5992
@@ -8534,7 +8536,7 @@
 2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
 3	מנהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound	_	_
 4	של	של	ADP	ADP	Case=Gen	6	case	_	_
-5	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	6	nummod	_	_
+5	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc	6	nummod	_	_
 6	סוגי	סוג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	nmod:poss	_	_
 7	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
 8	-	-	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
@@ -8564,8 +8566,8 @@
 8	ערכאה	ערכאה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod:poss	_	_
 9-10	הראשונה	_	_	_	_	_	_	_	_
 9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
-10	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
-11	יהיו	יהיו	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+10	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+11	יהיו	היה	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
 12	נשיא	נשיא	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	_
 13-14	וסגן	_	_	_	_	_	_	_	_
 13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
@@ -8601,7 +8603,7 @@
 # text = כמו כן תהיה בכל בית-משפט כזה מחלקת ערעורים, שתדון בערעורים על החלטות של בית-המשפט לתביעות קטנות, של בית-המשפט לעניינים מקומיים, של שופטי תעבורה ושל ראש ההוצאה לפועל.
 1	כמו	כמו	ADP	ADP	_	2	case	_	_
 2	כן	כן	PRON	PRON	Person=3|PronType=Dem	3	obl	_	_
-3	תהיה	תהיה	VERB	VERB	Gender=Fem|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+3	תהיה	היה	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
 4-5	בכל	_	_	_	_	_	_	_	_
 4	ב	ב	ADP	ADP	_	8	case	_	_
 5	כל	כול	DET	DET	Definite=Cons	8	det	_	_
@@ -8676,7 +8678,7 @@
 10-11	לערעורים	_	_	_	_	_	_	_	_
 10	ל	ל	ADP	ADP	_	11	case	_	_
 11	ערעורים	ערעור	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod	_	_
-12	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	14	cop	_	_
+12	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	14	cop	_	_
 13-14	ברשות	_	_	_	_	_	_	_	_
 13	ב	ב	ADP	ADP	_	14	case	_	_
 14	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
@@ -8707,17 +8709,17 @@
 15	ערכאה	ערכאה	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound	_	_
 16-17	הראשונה	_	_	_	_	_	_	_	SpaceAfter=No
 16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
-17	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	15	amod	_	_
+17	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing	15	amod	_	_
 18	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = 5997
 # text = בכך יקבל עליו חלק מהמשימות המוטלות כעת על השופטים המחוזיים ועל שופטי בית-המשפט העליון.
 1-2	בכך	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
-2	כך	כך	PRON	PRON	Person=3|PronType=Dem	3	obl	_	_
+2	כך	כך	PRON	PRON	PronType=Dem	3	obl	_	_
 3	יקבל	קיבל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
 4-5	עליו	_	_	_	_	_	_	_	_
-4	עלי	עליו	ADP	ADP	_	5	case	_	_
+4	עלי	על	ADP	ADP	_	5	case	_	_
 5	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
 6	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
 7-9	מהמשימות	_	_	_	_	_	_	_	_
@@ -8755,7 +8757,7 @@
 2	-	-	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
 3	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 4	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	det	_	_
-5	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	6	cop	_	_
+5	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	6	cop	_	_
 6	מורכב	הורכב	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
 7-8	ממחלקה	_	_	_	_	_	_	_	_
 7	מ	מ	ADP	ADP	_	8	case	_	_
@@ -8819,7 +8821,7 @@
 3-4	אליו	_	_	_	_	_	_	_	_
 3	אלי	אל	ADP	ADP	_	4	case	_	_
 4	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
-5	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	7	cop	_	_
+5	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	7	cop	_	_
 6-7	ברשות	_	_	_	_	_	_	_	_
 6	ב	ב	ADP	ADP	_	7	case	_	_
 7	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
@@ -8892,7 +8894,7 @@
 24	ערכאה	ערכאה	NOUN	NOUN	Gender=Fem|Number=Sing	22	obl	_	_
 25-26	הראשונה	_	_	_	_	_	_	_	SpaceAfter=No
 25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
-26	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	24	amod	_	_
+26	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing	24	amod	_	_
 27	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = 6003
@@ -8976,7 +8978,7 @@
 1	מוצע	הוצע	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
 2	להעביר	העביר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	1	xcomp	_	_
 3	סמכות	סמכות	NOUN	NOUN	Gender=Fem|Number=Sing	2	obj	_	_
-4	זאתו	זאתו	X	X	_	2	dep	_	Xtra=Junk
+4	זאתו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	det	_	CorrectForm=זאת|Typo=Yes
 5-6	לוועדה	_	_	_	_	_	_	_	_
 5	ל	ל	ADP	ADP	Definite=Def|PronType=Art	6	case	_	_
 6	וועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
@@ -9028,7 +9030,7 @@
 22	רק	רק	ADV	ADV	_	25	advmod	_	_
 23	"	"	PUNCT	PUNCT	_	25	punct	_	SpaceAfter=No
 24-25	משראה	_	_	_	_	_	_	_	SpaceAfter=No
-24	מש	מש	SCONJ	SCONJ	Case=Tem	25	mark	_	_
+24	מש	מש	SCONJ	SCONJ	_	25	mark	_	_
 25	ראה	ראה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	15	advcl	_	_
 26	"	"	PUNCT	PUNCT	_	25	punct	_	_
 27-28	שיש	_	_	_	_	_	_	_	_
@@ -9052,7 +9054,7 @@
 9	משרת	משרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	nsubj	_	_
 10	שופט	שופט	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	8	punct	_	_
-12	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	16	cop	_	_
+12	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	16	cop	_	_
 13-14	השר	_	_	_	_	_	_	_	_
 13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
 14	שר	שר	NOUN	NOUN	Gender=Masc|Number=Sing	16	nsubj	_	_
@@ -9157,7 +9159,7 @@
 8	,	,	PUNCT	PUNCT	_	11	punct	_	_
 9-10	שיהיה	_	_	_	_	_	_	_	_
 9	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
-10	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	11	cop	_	_
+10	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	11	cop	_	_
 11	אחראי	אחראי	ADJ	ADJ	Gender=Masc|Number=Sing	6	acl:relcl	_	_
 12-13	לניהול	_	_	_	_	_	_	_	_
 12	ל	ל	ADP	ADP	_	13	case	_	_
@@ -9186,7 +9188,7 @@
 9	ערכאה	ערכאה	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	_
 10-11	הראשונה	_	_	_	_	_	_	_	_
 10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
-11	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
+11	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
 12-13	לדרגים	_	_	_	_	_	_	_	_
 12	ל	ל	ADP	ADP	Definite=Def|PronType=Art	13	case	_	_
 13	דרגים	דרג	NOUN	NOUN	Gender=Masc|Number=Plur	4	obl	_	_
@@ -9485,7 +9487,7 @@
 
 # sent_id = 6019
 # text = היו ביצים קטנות בגודל של ביצת יונה והיו גם ביצים בגודל של ביצת בת-יענה.
-1	היו	היו	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+1	היו	היה	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 2	ביצים	ביצה	NOUN	NOUN	Gender=Fem|Number=Plur	1	nsubj	_	_
 3	קטנות	קטן	ADJ	ADJ	Gender=Fem|Number=Plur	2	amod	_	_
 4-5	בגודל	_	_	_	_	_	_	_	_
@@ -9493,10 +9495,10 @@
 5	גודל	גודל	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
 6	של	של	ADP	ADP	Case=Gen	7	case	_	_
 7	ביצת	ביצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	nmod:poss	_	_
-8	יונה	יון	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound	_	_
+8	יונה	יונה	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound	_	_
 9-10	והיו	_	_	_	_	_	_	_	_
 9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
-10	היו	היו	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Past	1	conj	_	_
+10	היו	היה	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past	1	conj	_	_
 11	גם	גם	ADV	ADV	_	12	advmod	_	_
 12	ביצים	ביצה	NOUN	NOUN	Gender=Fem|Number=Plur	10	nsubj	_	_
 13-14	בגודל	_	_	_	_	_	_	_	_
@@ -9593,7 +9595,7 @@
 11	19	19	NUM	NUM	_	9	amod	_	_
 12	,	,	PUNCT	PUNCT	_	14	punct	_	_
 13-14	כשהתחילו	_	_	_	_	_	_	_	_
-13	כש	כש	SCONJ	SCONJ	Case=Tem	14	mark	_	_
+13	כש	כש	SCONJ	SCONJ	_	14	mark	_	_
 14	התחילו	התחיל	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	5	advcl	_	_
 15	לייצר	ייצר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	14	xcomp	_	_
 16	ביצים	ביצה	NOUN	NOUN	Gender=Fem|Number=Plur	15	obj	_	_
@@ -9607,7 +9609,7 @@
 22-23	עליהן	_	_	_	_	_	_	_	_
 22	עלי	על	ADP	ADP	_	23	case	_	_
 23	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	21	obl	_	_
-24	מוטיווים	מוטיווים	NOUN	NOUN	_	21	obj	_	_
+24	מוטיווים	מוטיב	NOUN	NOUN	_	21	obj	_	_
 25	דתיים	דתי	ADJ	ADJ	Gender=Masc|Number=Plur	24	amod	_	_
 26-27	והעתקים	_	_	_	_	_	_	_	_
 26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
@@ -9626,7 +9628,7 @@
 2-3	הביצים	_	_	_	_	_	_	_	_
 2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
 3	ביצים	ביצה	NOUN	NOUN	Gender=Fem|Number=Plur	5	obj	_	_
-4	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	5	cop	_	_
+4	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	5	cop	_	_
 5	תולים	תלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
 6	בתוך	בתוך	ADP	ADP	_	8	case	_	_
 7-8	הבית	_	_	_	_	_	_	_	_
@@ -9645,7 +9647,7 @@
 2	כל	כול	DET	DET	Definite=Cons	3	det	_	_
 3	ביצה	ביצה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
 4	ניקבו	ניקב	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
-5	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	6	nummod	_	_
+5	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc	6	nummod	_	_
 6	נקבים	נקב	NOUN	NOUN	Gender=Masc|Number=Plur	4	obj	_	_
 7	לאורך	לאורך	ADP	ADP	_	9	case	_	_
 8-9	הציר	_	_	_	_	_	_	_	_
@@ -9895,7 +9897,7 @@
 20	מלא	מלא	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
 21-22	לשלוש	_	_	_	_	_	_	_	_
 21	ל	ל	ADP	ADP	_	24	case	_	_
-22	שלוש	שלוש	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	24	nummod	_	_
+22	שלוש	שלוש	NUM	NUM	Definite=Cons|Gender=Fem	24	nummod	_	_
 23-24	הבעיות	_	_	_	_	_	_	_	_
 23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
 24	בעיות	בעיה	NOUN	NOUN	Gender=Fem|Number=Plur	17	nmod	_	_
@@ -9957,7 +9959,7 @@
 34	מוצר	מוצר	NOUN	NOUN	Gender=Masc|Number=Sing	31	obj	_	_
 35-36	שלהם	_	_	_	_	_	_	_	_
 35	של	של	ADP	ADP	Case=Gen	36	case	_	_
-36	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+36	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	34	nmod:poss	_	_
 37-38	לתלמידי	_	_	_	_	_	_	_	_
 37	ל	ל	ADP	ADP	_	38	case	_	_
 38	תלמידי	תלמיד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	31	obl	_	_
@@ -9978,7 +9980,7 @@
 49	,	,	PUNCT	PUNCT	_	53	punct	_	_
 50	אבל	אבל	CCONJ	CCONJ	_	53	cc	_	_
 51	לא	לא	ADV	ADV	Polarity=Neg	53	advmod	_	_
-52	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	51	fixed	_	HebSource=ConvUncertainHead
+52	אחת	אחת	NUM	NUM	Gender=Fem	51	fixed	_	HebSource=ConvUncertainHead
 53	מתברר	התברר	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	31	conj	_	_
 54-55	שגם	_	_	_	_	_	_	_	_
 54	ש	ש	SCONJ	SCONJ	_	58	mark	_	_
@@ -9994,7 +9996,7 @@
 61	ו	ו	CCONJ	CCONJ	_	62	cc	_	_
 62	נוטלים	נטל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	58	conj	_	_
 63-64	ממנו	_	_	_	_	_	_	_	_
-63	ממנ	ממנו	ADP	ADP	_	64	case	_	_
+63	ממנ	מן	ADP	ADP	_	64	case	_	_
 64	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	62	obl	_	_
 65	בעיות	בעיה	NOUN	NOUN	Gender=Fem|Number=Plur	62	obj	_	_
 66	שונות	שונה	ADJ	ADJ	Gender=Fem|Number=Plur	65	amod	_	_
@@ -10019,7 +10021,7 @@
 2	ש	ש	SCONJ	SCONJ	_	3	mark	_	_
 3	פותר	פתר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	acl:relcl	_	_
 4	בעיה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obj	_	_
-5	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	4	nummod	_	SpaceAfter=No
+5	אחת	אחת	NUM	NUM	Gender=Fem	4	nummod	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	1	punct	_	_
 7	מוזמן	הוזמן	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
 8	לעבור	עבר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	7	xcomp	_	_
@@ -10174,7 +10176,7 @@
 24	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 25	סכום	סכום	NOUN	NOUN	Gender=Masc|Number=Sing	20	acl:relcl	_	_
 26	של	של	ADP	ADP	Case=Gen	28	case	_	_
-27	ארבעה	ארבע	NUM	NUM	Gender=Masc|Number=Sing	28	nummod	_	_
+27	ארבעה	ארבע	NUM	NUM	Gender=Masc	28	nummod	_	_
 28	מספרים	מספר	NOUN	NOUN	Gender=Masc|Number=Plur	25	nmod:poss	_	_
 29	ראשוניים	ראשוני	ADJ	ADJ	Gender=Masc|Number=Plur	28	amod	_	_
 30	עוקבים	עוקב	ADJ	ADJ	Gender=Masc|Number=Plur	28	amod	_	SpaceAfter=No
@@ -10238,7 +10240,7 @@
 4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
 5	אחורית	אחורי	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
 6	מכוסה	כוסה	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
-7	טבלאות	טבלאות	NOUN	NOUN	_	6	obj	_	SpaceAfter=No
+7	טבלאות	טבלא	NOUN	NOUN	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	9	punct	_	_
 9	שרטוטים	שרטוט	NOUN	NOUN	Gender=Masc|Number=Plur	7	conj	_	_
 10-11	וסימני	_	_	_	_	_	_	_	_
@@ -10303,7 +10305,7 @@
 9	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	1	appos	_	_
 10-11	לארבעה	_	_	_	_	_	_	_	_
 10	ל	ל	ADP	ADP	_	12	case	_	_
-11	ארבעה	ארבע	NUM	NUM	Gender=Masc|Number=Sing	12	nummod	_	_
+11	ארבעה	ארבע	NUM	NUM	Gender=Masc	12	nummod	_	_
 12	גיליונות	גיליון	NOUN	NOUN	Gender=Masc|Number=Plur	9	dep	_	HebSource=ConvUncertainHead
 13-14	הרואים	_	_	_	_	_	_	_	_
 13	ה	ה	SCONJ	SCONJ	_	14	mark	_	_
@@ -10385,7 +10387,7 @@
 4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
 5	דין	דין	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound	_	_
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_
-7	עו"ד	"	NOUN	NOUN	_	1	appos	_	_
+7	עו"ד	עו"ד	NOUN	NOUN	_	1	appos	_	_
 8	שמעון	שמעון	PROPN	PROPN	_	7	nmod	_	HebSource=ConvUncertainLabel
 9	בן	בן	PROPN	PROPN	_	8	flat	_	SpaceAfter=No
 10	-	-	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
@@ -10452,7 +10454,7 @@
 57	יותר	יותר	ADV	ADV	_	60	advmod	_	HebSource=ConvUncertainHead
 58-59	משתי	_	_	_	_	_	_	_	_
 58	מ	מ	ADP	ADP	_	57	fixed	_	_
-59	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	60	nummod	_	_
+59	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem	60	nummod	_	_
 60	כהונות	כהונה	NOUN	NOUN	Gender=Fem|Number=Plur	52	obl	_	_
 61	רצופות	רצוף	ADJ	ADJ	Gender=Fem|Number=Plur	60	amod	_	SpaceAfter=No
 62	.	.	PUNCT	PUNCT	_	13	punct	_	_
@@ -10519,7 +10521,7 @@
 47-48	לכהונה	_	_	_	_	_	_	_	_
 47	ל	ל	ADP	ADP	_	48	case	_	_
 48	כהונה	כהונה	NOUN	NOUN	Gender=Fem|Number=Sing	43	nmod	_	_
-49	שלישית	שלישית	ADJ	ADJ	Gender=Fem|Number=Sing	48	amod	_	_
+49	שלישית	שלישי	ADJ	ADJ	Gender=Fem|Number=Sing	48	amod	_	_
 50-51	בוועדה	_	_	_	_	_	_	_	_
 50	ב	ב	ADP	ADP	Definite=Def|PronType=Art	51	case	_	_
 51	וועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	48	nmod	_	_
@@ -10629,7 +10631,7 @@
 28	יכולת	יכולת	NOUN	NOUN	Gender=Fem|Number=Sing	27	compound	_	_
 29-30	וכישורים	_	_	_	_	_	_	_	_
 29	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
-30	כישורים	כישורים	NOUN	NOUN	Gender=Masc|Number=Plur	27	conj	_	_
+30	כישורים	כישור	NOUN	NOUN	Gender=Masc|Number=Plur	27	conj	_	_
 31	טובים	טוב	ADJ	ADJ	Gender=Masc|Number=Plur	30	amod	_	_
 32	מדירים	הדיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	15	advcl	_	_
 33-34	רגליהם	_	_	_	_	_	_	_	_
@@ -10678,7 +10680,7 @@
 5-7	והתריסולים	_	_	_	_	_	_	_	_
 5	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
 6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
-7	תריסולים	תריסולים	NOUN	NOUN	_	4	conj	_	_
+7	תריסולים	תריסול	NOUN	NOUN	Gender=Masc|Number=Plur	4	conj	_	_
 8-10	שבצפון	_	_	_	_	_	_	_	_
 8	ש	ש	SCONJ	SCONJ	_	10	case	_	_
 9	ב	ב	ADP	ADP	_	10	case	_	_
@@ -10698,7 +10700,7 @@
 21	זרות	זרות	NOUN	NOUN	Gender=Fem|Number=Sing	17	conj	_	_
 22	ה	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
 23-24	כעין	_	_	_	_	_	_	_	_
-23	כ	כעין	ADP	ADP	_	25	case	_	_
+23	כ	כ	ADP	ADP	_	25	case	_	_
 24	עין	עין	ADV	ADV	_	25	advmod	_	_
 25	קונכיה	קונכייה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
 26	גדולה	גדול	ADJ	ADJ	Gender=Fem|Number=Sing	25	amod	_	_
@@ -10845,7 +10847,7 @@
 49	עקשנות	עקשנות	NOUN	NOUN	Gender=Fem|Number=Sing	46	obl	_	_
 50-51	בשיפולי	_	_	_	_	_	_	_	_
 50	ב	ב	ADP	ADP	_	51	case	_	_
-51	שיפולי	שיפולים	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	46	obl	_	_
+51	שיפולי	שיפול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	46	obl	_	_
 52-53	הגבעה	_	_	_	_	_	_	_	SpaceAfter=No
 52	ה	ה	DET	DET	Definite=Def|PronType=Art	53	det	_	_
 53	גבעה	גבעה	NOUN	NOUN	Gender=Fem|Number=Sing	51	compound	_	_
@@ -10972,7 +10974,7 @@
 10	,	,	PUNCT	PUNCT	_	11	punct	_	_
 11	באפסיס	באפסיס	X	X	_	7	dep	_	Xtra=Junk
 12	בן	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	acl	_	_
-13	שלוש	שלוש	NUM	NUM	Gender=Fem|Number=Plur	14	nummod	_	_
+13	שלוש	שלוש	NUM	NUM	Gender=Fem	14	nummod	_	_
 14	גומחות	גומחה	NOUN	NOUN	Gender=Fem|Number=Plur	12	compound	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
@@ -11065,7 +11067,7 @@
 10	צפון	צפון	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
 11-12	בשלוש	_	_	_	_	_	_	_	_
 11	ב	ב	ADP	ADP	_	13	case	_	_
-12	שלוש	שלוש	NUM	NUM	Gender=Fem|Number=Plur	13	nummod	_	_
+12	שלוש	שלוש	NUM	NUM	Gender=Fem	13	nummod	_	_
 13	קשתות	קשת	NOUN	NOUN	Gender=Fem|Number=Plur	8	obl	_	_
 14	גבוהות	גבוה	ADJ	ADJ	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
 15	,	,	PUNCT	PUNCT	_	17	punct	_	_
@@ -11163,14 +11165,14 @@
 11	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
 12	מסרי	מסר	NOUN	NOUN	Gender=Masc|Number=Plur	14	nsubj	_	_
 13	ו	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
-14	טכסיים	טכסיים	ADJ	ADJ	_	6	acl:relcl	_	SpaceAfter=No
+14	טכסיים	טכסי	ADJ	ADJ	_	6	acl:relcl	Gender=Masc|Number=Plur	SpaceAfter=No
 15	-	-	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
 16	דתיים	דתי	ADJ	ADJ	Gender=Masc|Number=Plur	14	dep	_	_
 17-19	וחזותו	_	_	_	_	_	_	_	_
 17	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
 18	חזות	חזות	NOUN	NOUN	Gender=Fem|Number=Sing	20	nsubj	_	_
 19	ו	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
-20	סימבולית	סימבולית	ADJ	ADJ	_	14	conj	_	_
+20	סימבולית	סימבולי	ADJ	ADJ	Gender=Fem|Number=Sing	14	conj	_	_
 21-22	ורגשנית	_	_	_	_	_	_	_	SpaceAfter=No
 21	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
 22	רגשנית	רגשני	ADJ	ADJ	Gender=Fem|Number=Sing	20	conj	_	_
@@ -11241,9 +11243,9 @@
 37	רדודה	רדוד	ADJ	ADJ	Gender=Fem|Number=Sing	36	obl	_	_
 38-39	וחסרת	_	_	_	_	_	_	_	_
 38	ו	ו	CCONJ	CCONJ	_	39	cc	_	_
-39	חסרת	חסרת	NOUN	NOUN	Definite=Cons	37	conj	_	_
+39	חסרת	חסר	ADJ	ADJ	Definite=Cons|Gender=Fem|Number=Sing	37	conj	_	_
 40	הדגשים	הדגש	NOUN	NOUN	Gender=Masc|Number=Plur	39	compound	_	_
-41	אורבניים	אורבאני	ADJ	ADJ	Gender=Masc|Number=Plur	40	amod	_	SpaceAfter=No
+41	אורבניים	אורבני	ADJ	ADJ	Gender=Masc|Number=Plur	40	amod	_	SpaceAfter=No
 42	.	.	PUNCT	PUNCT	_	33	punct	_	_
 
 # sent_id = 6068
@@ -11263,11 +11265,11 @@
 10	ב	ב	ADP	ADP	_	11	case	_	_
 11	אופן	אופן	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
 12-13	שניתן	_	_	_	_	_	_	_	_
-12	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
-13	ניתן	ניתן	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	15	aux	_	_
-14	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	15	cop	_	_
+12	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+13	ניתן	ניתן	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	11	acl:relcl	_	_
+14	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	15	cop	_	_
 15-16	לראותו	_	_	_	_	_	_	_	SpaceAfter=No
-15	לראות	ראה	VERB	VERB	VerbForm=Inf	11	acl:relcl	_	_
+15	לראות	ראה	VERB	VERB	VerbForm=Inf	13	csubj	_	_
 16	ו	הוא	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
 17	,	,	PUNCT	PUNCT	_	19	punct	_	_
 18-19	בקצה	_	_	_	_	_	_	_	_
@@ -11310,12 +11312,12 @@
 17	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
 18	מ	מ	ADP	ADP	_	19	case	_	_
 19	מבנה	מבנה	NOUN	NOUN	Gender=Masc|Number=Sing	14	conj	_	_
-20	שלטוני	שלטון	ADJ	ADJ	_	19	amod	_	_
+20	שלטוני	שלטון	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
 21	או	או	CCONJ	CCONJ	_	22	cc	_	_
-22	כנסייתי	כנסייה	ADJ	ADJ	_	20	conj	_	_
+22	כנסייתי	כנסייתי	ADJ	ADJ	Gender=Masc|Number=Sing	20	conj	_	_
 23-25	שלפניו	_	_	_	_	_	_	_	_
 23	ש	ש	SCONJ	SCONJ	_	25	mark	_	_
-24	לפני	לפניו	ADP	ADP	_	25	case	_	_
+24	לפני	לפני	ADP	ADP	_	25	case	_	_
 25	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	acl:relcl	_	_
 26	כיכר	כיכר	NOUN	NOUN	Gender=Fem|Number=Sing	25	nsubj	_	_
 27-28	למבנה	_	_	_	_	_	_	_	_
@@ -11371,7 +11373,7 @@
 8-9	המושג	_	_	_	_	_	_	_	_
 8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
 9	מושג	מושג	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
-10	פוסט	פוסט	ADV	ADV	Prefix=Yes	12	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
+10	פוסט	פוסט	ADJ	ADJ	Prefix=Yes	12	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
 11	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
 12	מודרניזם	מודרניזם	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
 13	,	,	PUNCT	PUNCT	_	20	punct	_	_
@@ -11381,7 +11383,7 @@
 16	תפיסה	תפיסה	NOUN	NOUN	Gender=Fem|Number=Sing	20	nsubj	_	_
 17-18	הסימבולית	_	_	_	_	_	_	_	_
 17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
-18	סימבולית	סימבולית	ADJ	ADJ	_	16	amod	_	_
+18	סימבולית	סימבולי	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	_
 19	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	20	cop	_	_
 20	מקובלת	מקובלת	VERB	VERB	Aspect=Prog|Tense=Past|VerbForm=Part	7	conj	_	_
 21	אז	אז	ADV	ADV	_	20	advmod	_	SpaceAfter=No
@@ -11393,7 +11395,7 @@
 2-3	מחולליה	_	_	_	_	_	_	_	_
 2	מחוללי	מחולל	NOUN	NOUN	Gender=Masc|Number=Plur	4	obl	_	_
 3	ה	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
-4	היה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+4	היה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 5	לה	לה	PROPN	PROPN	_	4	nsubj	_	SpaceAfter=No
 6	-	-	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
 7	קורוואזיה	קורוואזיה	PROPN	PROPN	_	5	flat	_	SpaceAfter=No
@@ -11417,7 +11419,7 @@
 # sent_id = 6072
 # text = זאת הוותה מודל חיקוי למבני דת רבים.
 1	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
-2	הוותה	הוותה	AUX	AUX	VerbForm=Part	3	aux	_	_
+2	הוותה	היווה	AUX	AUX	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	aux	_	_
 3	מודל	מודל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
 4	חיקוי	חיקוי	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound	_	_
 5-6	למבני	_	_	_	_	_	_	_	_
@@ -11469,7 +11471,7 @@
 32	דוגמת	דוגמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	28	appos	_	_
 33-34	הוויטרזים	_	_	_	_	_	_	_	_
 33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
-34	וויטרזים	וויטרזים	NOUN	NOUN	_	32	compound	_	_
+34	וויטרזים	וויטרז	NOUN	NOUN	Gender=Masc|Number=Plur	32	compound	_	_
 35-36	הענקיים	_	_	_	_	_	_	_	_
 35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
 36	ענקיים	ענקי	ADJ	ADJ	Gender=Masc|Number=Plur	34	amod	_	_
@@ -11536,7 +11538,7 @@
 
 # sent_id = 6074
 # text = אין בו אף שמץ של תחכום, עידון ואיפוק.
-1	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
+1	אין	אין	VERB	VERB	_	0	root	_	_
 2-3	בו	_	_	_	_	_	_	_	_
 2	ב	ב	ADP	ADP	_	3	case	_	_
 3	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
@@ -11566,11 +11568,11 @@
 8-9	לעוצמה	_	_	_	_	_	_	_	_
 8	ל	ל	ADP	ADP	_	9	case	_	_
 9	עוצמה	עוצמה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
-10	ויזואלית	ויזואלית	ADJ	ADJ	_	9	amod	_	_
+10	ויזואלית	ויזואלי	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
 11	אווירה	אווירה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obj	_	_
 12	של	של	ADP	ADP	Case=Gen	13	case	_	_
 13	אמירות	אמירה	NOUN	NOUN	Gender=Fem|Number=Plur	11	nmod:poss	_	_
-14	בנאליות	בנאליות	ADJ	ADJ	_	13	amod	_	_
+14	בנאליות	בנאליות	ADJ	ADJ	Gender=Fem|Number=Plur	13	amod	_	_
 15	ביותר	ביותר	ADV	ADV	_	14	advmod	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
@@ -11580,7 +11582,7 @@
 2-4	שבכך	_	_	_	_	_	_	_	_
 2	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
 3	ב	ב	ADP	ADP	_	4	case	_	_
-4	כך	כך	PRON	PRON	Person=3|PronType=Dem	5	obl	_	_
+4	כך	כך	PRON	PRON	PronType=Dem	5	obl	_	_
 5	משתקפת	השתקף	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	1	ccomp	_	_
 6-7	הפרובלמטיקה	_	_	_	_	_	_	_	_
 6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
@@ -11627,7 +11629,7 @@
 12	מקומיים	מקומי	ADJ	ADJ	Gender=Masc|Number=Plur	10	amod	_	_
 13-14	המקובלים	_	_	_	_	_	_	_	_
 13	ה	ה	SCONJ	SCONJ	Definite=Def|PronType=Art	14	mark	_	_
-14	מקובלים	מקובלים	VERB	VERB	Tense=Pres|VerbForm=Part	10	acl:relcl	_	_
+14	מקובלים	קובל	VERB	VERB	HebBinan=PUAL|Tense=Pres|VerbForm=Part	10	acl:relcl	_	_
 15-17	בזמנם	_	_	_	_	_	_	_	SpaceAfter=No
 15	ב	ב	ADP	ADP	_	16	case	_	_
 16	זמנ	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
@@ -11651,10 +11653,10 @@
 30-32	מהצרכים	_	_	_	_	_	_	_	_
 30	מ	מ	ADP	ADP	_	32	case	_	_
 31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
-32	צרכים	צרכים	NOUN	NOUN	Gender=Masc|Number=Sing	29	obl	_	_
+32	צרכים	צורך	NOUN	NOUN	Gender=Masc|Number=Plur	29	obl	_	_
 33-34	הטכסיים	_	_	_	_	_	_	_	SpaceAfter=No
 33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
-34	טכסיים	טכסיים	ADJ	ADJ	_	32	amod	_	_
+34	טכסיים	טכסי	ADJ	ADJ	Gender=Masc|Number=Plur	32	amod	_	_
 35	,	,	PUNCT	PUNCT	_	37	punct	_	_
 36	ללא	ללא	ADP	ADP	_	37	case	_	_
 37-38	התפתחותה	_	_	_	_	_	_	_	_
@@ -11666,7 +11668,7 @@
 42-44	כבכנסייה	_	_	_	_	_	_	_	_
 42	כ	כ	ADP	ADP	_	44	case	_	_
 43	ב	ב	ADP	ADP	Definite=Def|PronType=Art	44	case	_	_
-44	כנסייה	בכנסייה	NOUN	NOUN	_	22	obl	_	_
+44	כנסייה	כנסייה	NOUN	NOUN	Gender=Fem|Number=Sing	22	obl	_	_
 45-46	הנוצרית	_	_	_	_	_	_	_	_
 45	ה	ה	DET	DET	Definite=Def|PronType=Art	46	det	_	_
 46	נוצרית	נוצרי	ADJ	ADJ	Gender=Fem|Number=Sing	44	amod	_	_
@@ -11681,7 +11683,7 @@
 1	לקחו	לקח	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
 2-3	בכך	_	_	_	_	_	_	_	_
 2	ב	ב	ADP	ADP	_	3	case	_	_
-3	כך	כך	PRON	PRON	Person=3|PronType=Dem	1	obl	_	_
+3	כך	כך	PRON	PRON	PronType=Dem	1	obl	_	_
 4	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	1	obj	_	_
 5	גזרות	גזרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	1	nsubj	_	_
 6-7	השלטון	_	_	_	_	_	_	_	_
@@ -11751,7 +11753,7 @@
 15-17	ל"מזרח	_	_	_	_	_	_	_	SpaceAfter=No
 15	ל	ל	ADP	ADP	_	17	case	_	_
 16	"	"	PUNCT	PUNCT	_	17	punct	_	_
-17	מזרח	"מזרח	NOUN	NOUN	Gender=Masc|Number=Sing	10	acl:relcl	_	_
+17	מזרח	מזרח	NOUN	NOUN	Gender=Masc|Number=Sing	10	acl:relcl	_	_
 18	"	"	PUNCT	PUNCT	_	17	punct	_	_
 19-20	המסמל	_	_	_	_	_	_	_	_
 19	ה	ה	SCONJ	SCONJ	_	20	mark	_	_
@@ -11842,7 +11844,7 @@
 33-34	וצורני	_	_	_	_	_	_	_	_
 33	ו	ו	CCONJ	CCONJ	_	34	cc	_	_
 34	צורני	צורני	ADJ	ADJ	Gender=Masc|Number=Sing	32	conj	_	_
-35	אקספרסיווי	אקספרסיווי	ADJ	ADJ	_	34	dep	_	_
+35	אקספרסיווי	אקספרסיבי	ADJ	ADJ	Gender=Masc|Number=Sing	34	dep	_	_
 36-38	למהותו	_	_	_	_	_	_	_	_
 36	ל	ל	ADP	ADP	_	37	case	_	_
 37	מהות	מהות	NOUN	NOUN	Gender=Fem|Number=Sing	31	nmod	_	_
@@ -11867,7 +11869,7 @@
 53-54	לפתרונות	_	_	_	_	_	_	_	_
 53	ל	ל	ADP	ADP	_	54	case	_	_
 54	פתרונות	פתרון	NOUN	NOUN	Gender=Masc|Number=Plur	52	nmod	_	_
-55	עיצוביים	עיצוביים	ADJ	ADJ	_	54	amod	_	_
+55	עיצוביים	עיצובי	ADJ	ADJ	Gender=Masc|Number=Plur	54	amod	_	_
 56	מפוקפקים	מפוקפק	ADJ	ADJ	Gender=Masc|Number=Plur	54	amod	_	SpaceAfter=No
 57	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
@@ -11884,7 +11886,7 @@
 # text = בייחוד כשמדובר בקנסות על עבירות מסוג ברירת משפט שאין נשקפת סכנת מאסר על אי-תשלום שלהם.
 1	בייחוד	בייחוד	ADV	ADV	_	3	advmod	_	_
 2-3	כשמדובר	_	_	_	_	_	_	_	_
-2	כש	כש	SCONJ	SCONJ	Case=Tem	3	mark	_	_
+2	כש	כש	SCONJ	SCONJ	_	3	mark	_	_
 3	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
 4-5	בקנסות	_	_	_	_	_	_	_	_
 4	ב	ב	ADP	ADP	_	5	case	_	_
@@ -11903,12 +11905,12 @@
 15	סכנת	סכנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	nsubj	_	_
 16	מאסר	מאסר	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound	_	_
 17	על	על	ADP	ADP	_	20	case	_	_
-18	אי	אי	ADV	ADV	Prefix=Yes	20	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
+18	אי	אי	ADJ	ADJ	Prefix=Yes	20	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
 19	-	-	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
 20	תשלום	תשלום	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
 21-22	שלהם	_	_	_	_	_	_	_	SpaceAfter=No
 21	של	של	ADP	ADP	Case=Gen	22	case	_	_
-22	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+22	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	nmod:poss	_	_
 23	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = 6085
@@ -12113,7 +12115,7 @@
 4	,	,	PUNCT	PUNCT	_	7	punct	_	_
 5-6	שיהיו	_	_	_	_	_	_	_	_
 5	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
-6	יהיו	יהיו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	7	cop	_	_
+6	יהיו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	7	cop	_	_
 7	ממונים	מונה	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	1	acl:relcl	_	_
 8	על	על	ADP	ADP	_	9	case	_	_
 9	גביית	גבייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	obl	_	_
@@ -12124,7 +12126,7 @@
 13	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nsubj	_	_
 14	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound	_	SpaceAfter=No
 15	,	,	PUNCT	PUNCT	_	1	punct	_	_
-16	יהיו	יהיו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	17	cop	_	_
+16	יהיו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	17	cop	_	_
 17	עובדי	עובד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	0	root	_	_
 18	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	compound	_	_
 19-20	המשפט	_	_	_	_	_	_	_	SpaceAfter=No
@@ -12157,7 +12159,7 @@
 16	ברירת	ברירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	nmod:poss	_	_
 17	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	16	compound	_	SpaceAfter=No
 18	,	,	PUNCT	PUNCT	_	4	punct	_	_
-19	יהיו	יהיו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	20	cop	_	_
+19	יהיו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	20	cop	_	_
 20	עובדי	עובד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	0	root	_	_
 21-22	הגופים	_	_	_	_	_	_	_	_
 21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
@@ -12216,7 +12218,7 @@
 3-4	הגבייה	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
 4	גבייה	גבייה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound	_	_
-5	יהיו	יהיו	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+5	יהיו	היה	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
 6	סמכויות	סמכות	NOUN	NOUN	Gender=Fem|Number=Plur	5	nsubj	_	_
 7	של	של	ADP	ADP	Case=Gen	8	case	_	_
 8	גובי	גוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	nmod:poss	_	_
@@ -12377,7 +12379,7 @@
 8	ו	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
 9-10	שיהיה	_	_	_	_	_	_	_	_
 9	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
-10	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	11	cop	_	_
+10	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	11	cop	_	_
 11	אחראי	אחראי	ADJ	ADJ	Gender=Masc|Number=Sing	5	acl:relcl	_	_
 12	על	על	ADP	ADP	_	13	case	_	_
 13	מאגר	מאגר	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
@@ -12390,7 +12392,7 @@
 1	ל	ל	ADP	ADP	_	2	case	_	_
 2	פקיד	פקיד	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
 3	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	det	_	_
-4	יהיו	יהיו	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+4	יהיו	היה	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
 5	סמכויות	סמכות	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	_
 6	לדרוש	דרש	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	5	acl	_	_
 7	מידע	מידע	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
@@ -12491,7 +12493,7 @@
 2-3	החוק	_	_	_	_	_	_	_	_
 2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
 3	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound	_	_
-4	תהיה	תהיה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	5	cop	_	_
+4	תהיה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	5	cop	_	_
 5	כרוכה	כרך	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
 6-7	במימון	_	_	_	_	_	_	_	_
 6	ב	ב	ADP	ADP	_	7	case	_	_
@@ -12553,7 +12555,7 @@
 10	קנסות	קנס	NOUN	NOUN	Gender=Masc|Number=Plur	8	obl	_	_
 11-12	במיליוני	_	_	_	_	_	_	_	_
 11	ב	ב	ADP	ADP	_	13	case	_	_
-12	מיליוני	מיליוני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	13	nummod	_	_
+12	מיליוני	מיליון	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	13	nummod	_	_
 13	שקלים	שקל	NOUN	NOUN	Gender=Masc|Number=Plur	10	nmod	_	_
 14-15	שאינם	_	_	_	_	_	_	_	_
 14	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
@@ -12570,7 +12572,7 @@
 3	הם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 4	,	,	PUNCT	PUNCT	_	2	punct	_	_
 5	לא	לא	ADV	ADV	Polarity=Neg	6	advmod	_	_
-6	יהיה	יהיה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+6	יהיה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
 7	צורך	צורך	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
 8-9	בשלב	_	_	_	_	_	_	_	_
 8	ב	ב	ADP	ADP	Definite=Def|PronType=Art	9	case	_	_
@@ -12594,7 +12596,7 @@
 22	יעסקו	עסק	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Fut|Voice=Act	6	advcl	_	_
 23-24	בכך	_	_	_	_	_	_	_	_
 23	ב	ב	ADP	ADP	_	24	case	_	_
-24	כך	כך	PRON	PRON	Person=3|PronType=Dem	22	obl	_	_
+24	כך	כך	PRON	PRON	PronType=Dem	22	obl	_	_
 25	מחלקות	מחלקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	22	nsubj	_	_
 26-27	הגבייה	_	_	_	_	_	_	_	_
 26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
@@ -12613,7 +12615,7 @@
 # sent_id = 6102
 # text = בשרית אחת.
 1	בשרית	בשרי	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	_
-2	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	1	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+2	אחת	אחת	NUM	NUM	Gender=Fem	1	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
 3	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = 6103
@@ -12654,7 +12656,7 @@
 2	סקאלופיני	סקאלופיני	NOUN	NOUN	_	26	nsubj	_	_
 3	אל	אל	PROPN	PROPN	_	2	flat	_	SpaceAfter=No
 4	-	-	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
-5	לימונה	לימון	PROPN	PROPN	_	3	flat	_	SpaceAfter=No
+5	לימונה	לימונה	PROPN	PROPN	_	3	flat	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_
 7	פרוסות	פרוסה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	2	appos	_	_
 8	עגל	עגל	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound	_	_
@@ -12706,7 +12708,7 @@
 
 # sent_id = 6105
 # text = בהתבסס על המנות הללו, שאחדות איכזבו בהחלט, יגיע החשבון לשניים ל70 ש"ח כולל בירה ואספרסו.
-1	בהתבסס	התבסס	ADP	ADP	_	4	case	_	_
+1	בהתבסס	בהתבסס	ADP	ADP	_	4	case	_	_
 2	על	על	ADP	ADP	_	1	fixed	_	_
 3-4	המנות	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
@@ -12725,7 +12727,7 @@
 14	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	12	nsubj	_	_
 15-16	לשניים	_	_	_	_	_	_	_	_
 15	ל	ל	ADP	ADP	_	16	case	_	_
-16	שניים	שתיים	NUM	NUM	Gender=Masc|Number=Plur	14	nmod	_	_
+16	שניים	שתיים	NUM	NUM	Gender=Masc	14	nmod	_	_
 17-18	ל70	_	_	_	_	_	_	_	_
 17	ל	ל	ADP	ADP	_	19	case	_	_
 18	70	70	NUM	NUM	_	19	nummod	_	_
@@ -12752,7 +12754,7 @@
 10	כדי	כדי	SCONJ	SCONJ	_	11	mark	_	_
 11	לטעום	טעם	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	8	advcl	_	_
 12	מנה	מנה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obj	_	_
-13	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	12	nummod	_	_
+13	אחת	אחת	NUM	NUM	Gender=Fem	12	nummod	_	_
 14	של	של	ADP	ADP	Case=Gen	15	case	_	_
 15	ניוקי	ניוקי	NOUN	NOUN	Gender=Masc|Number=Sing	12	nmod:poss	_	_
 16-17	וסלט	_	_	_	_	_	_	_	_
@@ -12780,7 +12782,7 @@
 
 # sent_id = 6107
 # text = שתי המנות, המספיקות לארוחה קלה לשניים, יעלו רק 30 ש"ח.
-1	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	3	nummod	_	_
+1	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem	3	nummod	_	_
 2-3	המנות	_	_	_	_	_	_	_	SpaceAfter=No
 2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
 3	מנות	מנה	NOUN	NOUN	Gender=Fem|Number=Plur	13	nsubj	_	_
@@ -12794,7 +12796,7 @@
 9	קלה	קל	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
 10-11	לשניים	_	_	_	_	_	_	_	SpaceAfter=No
 10	ל	ל	ADP	ADP	_	11	case	_	_
-11	שניים	שתיים	NUM	NUM	Gender=Masc|Number=Plur	8	nmod	_	_
+11	שניים	שתיים	NUM	NUM	Gender=Masc	8	nmod	_	_
 12	,	,	PUNCT	PUNCT	_	3	punct	_	_
 13	יעלו	עלה	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	0	root	_	_
 14	רק	רק	ADV	ADV	_	16	advmod	_	_
@@ -12856,9 +12858,9 @@
 30	ל	ל	ADP	ADP	_	31	case	_	_
 31	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	26	obl	_	_
 32-33	שאפשר	_	_	_	_	_	_	_	_
-32	ש	ש	SCONJ	SCONJ	_	34	mark	_	_
-33	אפשר	אפשר	AUX	AUX	VerbType=Mod	34	aux	_	_
-34	למצוא	מצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	31	acl:relcl	_	_
+32	ש	ש	SCONJ	SCONJ	_	33	mark	_	_
+33	אפשר	אפשר	VERB	VERB	VerbType=Mod	31	acl:relcl	_	_
+34	למצוא	מצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	33	csubj	_	_
 35-36	בהרבה	_	_	_	_	_	_	_	_
 35	ב	ב	ADP	ADP	_	37	case	_	_
 36	הרבה	הרבה	DET	DET	Definite=Cons	37	det	_	_
@@ -12907,7 +12909,7 @@
 
 # sent_id = 6111
 # text = אין שום דבר מתוחכם או מורכב במרקים הללו, אבל משום שהם עשירים, מלאים בירקות ומתובלים בצורה מושלמת, הם תמיד מהנים.
-1	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
+1	אין	אין	VERB	VERB	_	0	root	_	_
 2	שום	שום	DET	DET	Definite=Cons	3	det	_	_
 3	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	_
 4	מתוחכם	מתוחכם	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
@@ -12928,7 +12930,7 @@
 17	מלאים	מלא	ADJ	ADJ	Gender=Masc|Number=Plur	15	conj	_	_
 18-19	בירקות	_	_	_	_	_	_	_	_
 18	ב	ב	ADP	ADP	_	19	case	_	_
-19	ירקות	ירקות	NOUN	NOUN	Gender=Masc|Number=Plur	17	obl	_	_
+19	ירקות	ירק	NOUN	NOUN	Gender=Masc|Number=Plur	17	obl	_	_
 20-21	ומתובלים	_	_	_	_	_	_	_	_
 20	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
 21	מתובלים	תובל	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	15	conj	_	_
@@ -13039,7 +13041,7 @@
 12-13	הספזטינו	_	_	_	_	_	_	_	_
 12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
 13	ספזטינו	ספזטינו	NOUN	NOUN	_	6	conj	_	_
-14	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	15	cop	_	_
+14	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	15	cop	_	_
 15	בחירות	בחירה	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	_
 16	מצוינות	מצוין	ADJ	ADJ	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	15	punct	_	_
@@ -13051,7 +13053,7 @@
 2	מנה	מנה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
 3-4	הראשונה	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
-4	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+4	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
 5	טובלים	טבל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
 6	כתיתות	כתיתה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	5	obj	_	_
 7	עגל	עגל	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound	_	_
@@ -13129,7 +13131,7 @@
 2	טירמיסו	טירמיסו	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
 3-4	שלה	_	_	_	_	_	_	_	_
 3	של	של	ADP	ADP	Case=Gen	4	case	_	_
-4	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+4	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	_
 5	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	6	cop	_	_
 6	תערובת	תערובת	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 7	ערבה	ערב	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
@@ -13145,7 +13147,7 @@
 16-18	והביסקוויטה	_	_	_	_	_	_	_	_
 16	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
 17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
-18	ביסקוויטה	ביסקוויט	NOUN	NOUN	_	15	conj	_	_
+18	ביסקוויטה	ביסקוויטה	NOUN	NOUN	_	15	conj	_	_
 19	דה	דה	PROPN	PROPN	_	18	flat	_	_
 20	פיורלה	פיורלה	PROPN	PROPN	_	18	flat	_	SpaceAfter=No
 21	,	,	PUNCT	PUNCT	_	23	punct	_	_
@@ -13200,7 +13202,7 @@
 5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
 6	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound	_	_
 7	יוסיף	הוסיף	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
-8	שמונה	שמונה	NUM	NUM	Gender=Masc|Number=Plur	9	nummod	_	_
+8	שמונה	שמונה	NUM	NUM	Gender=Masc	9	nummod	_	_
 9	שקלים	שקל	NOUN	NOUN	Gender=Masc|Number=Plur	7	obj	_	_
 10-11	לחשבון	_	_	_	_	_	_	_	SpaceAfter=No
 10	ל	ל	ADP	ADP	Definite=Def|PronType=Art	11	case	_	_
@@ -13237,9 +13239,9 @@
 19	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
 20	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 21-22	שכדאי	_	_	_	_	_	_	_	_
-21	ש	ש	SCONJ	SCONJ	_	23	mark	_	_
-22	כדאי	כדאי	AUX	AUX	VerbType=Mod	23	aux	_	_
-23	לנסות	ניסה	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	20	acl:relcl	_	_
+21	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+22	כדאי	כדאי	VERB	VERB	VerbType=Mod	20	acl:relcl	_	_
+23	לנסות	ניסה	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	22	csubj	_	_
 24-25	אותו	_	_	_	_	_	_	_	_
 24	אות	את	ADP	ADP	Case=Acc	25	case	_	_
 25	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
@@ -13247,7 +13249,7 @@
 27-28	מפעם	_	_	_	_	_	_	_	_
 27	מ	מ	ADP	ADP	_	26	fixed	_	_
 28	פעם	פעם	NOUN	NOUN	Gender=Fem|Number=Sing	23	obl	_	_
-29	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	28	nummod	_	SpaceAfter=No
+29	אחת	אחת	NUM	NUM	Gender=Fem	28	nummod	_	SpaceAfter=No
 30	.	.	PUNCT	PUNCT	_	20	punct	_	_
 
 # sent_id = 6122
@@ -13272,7 +13274,7 @@
 15	מסעדה	מסעדה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
 16-17	הניו	_	_	_	_	_	_	_	_
 16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
-17	ניו	ניו	NOUN	NOUN	_	15	amod	_	_
+17	ניו	ניו	PROPN	PROPN	_	15	amod	_	_
 18	יורקית	יורקית	ADJ	ADJ	_	17	dep	_	_
 19-20	המפורסמת	_	_	_	_	_	_	_	_
 19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
@@ -13292,7 +13294,7 @@
 3	די	די	ADV	ADV	_	1	advcl	_	_
 4-5	בכך	_	_	_	_	_	_	_	_
 4	ב	ב	ADP	ADP	_	5	case	_	_
-5	כך	כך	PRON	PRON	Person=3|PronType=Dem	3	obl	_	_
+5	כך	כך	PRON	PRON	PronType=Dem	3	obl	_	_
 6	כדי	כדי	SCONJ	SCONJ	_	7	mark	_	_
 7	ללמוד	למד	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	3	advcl	_	_
 8	להכין	הכין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	7	dep	_	HebSource=ConvUncertainHead
@@ -13310,7 +13312,7 @@
 18	אין	אין	ADV	ADV	Polarity=Neg	21	advmod	_	_
 19-20	בכך	_	_	_	_	_	_	_	_
 19	ב	ב	ADP	ADP	_	20	case	_	_
-20	כך	כך	PRON	PRON	Person=3|PronType=Dem	21	obl	_	_
+20	כך	כך	PRON	PRON	PronType=Dem	21	obl	_	_
 21	די	די	ADV	ADV	_	3	conj	_	_
 22	כדי	כדי	SCONJ	SCONJ	_	23	mark	_	_
 23	לפתוח	פתח	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	21	advcl	_	_
@@ -13337,7 +13339,7 @@
 11	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	13	cop	_	_
 12	אמנם	אמנם	ADV	ADV	_	13	advmod	_	_
 13	מרק	מרק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
-14	ירקות	ירקות	NOUN	NOUN	Gender=Masc|Number=Plur	13	compound	_	_
+14	ירקות	ירק	NOUN	NOUN	Gender=Masc|Number=Plur	13	compound	_	_
 15	כבד	כבד	ADJ	ADJ	Gender=Masc|Number=Sing	13	dep	_	HebSource=ConvUncertainHead
 16-17	בסגנון	_	_	_	_	_	_	_	_
 16	ב	ב	ADP	ADP	_	17	case	_	_
@@ -13457,7 +13459,7 @@
 6	נעשתה	נעשה	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
 7	באמצעות	באמצעות	ADP	ADP	_	8	case	_	_
 8	קיפול	קיפול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
-9	איטריות	אטרייה	NOUN	NOUN	Gender=Fem|Number=Plur	8	compound	_	_
+9	איטריות	איטריה	NOUN	NOUN	Gender=Fem|Number=Plur	8	compound	_	_
 10	לזניה	לזניה	PROPN	PROPN	_	9	compound	_	_
 11	רחבות	רחב	ADJ	ADJ	Gender=Fem|Number=Plur	9	amod	_	_
 12-13	וירוקות	_	_	_	_	_	_	_	_
@@ -13562,7 +13564,7 @@
 6-7	המנה	_	_	_	_	_	_	_	_
 6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
 7	מנה	מנה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obj	_	_
-8	בלתי	בלתי	ADV	ADV	Prefix=Yes	9	compound:affix	_	_
+8	בלתי	בלתי	ADJ	ADJ	Prefix=Yes	9	compound:affix	_	_
 9	אכילה	אכילה	NOUN	NOUN	Gender=Fem|Number=Sing	4	dep	_	_
 10	לחלוטין	לחלוטין	ADV	ADV	_	9	advmod	_	_
 11	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	13	cop	_	_
@@ -13591,7 +13593,7 @@
 13	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
 14	קיבלנו	קיבל	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=1|Tense=Past|Voice=Act	12	acl:relcl	_	_
 15	לא	לא	ADV	ADV	Polarity=Neg	16	advmod	_	_
-16	היה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	3	conj	_	_
+16	היה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past	3	conj	_	_
 17	שמץ	שמץ	NOUN	NOUN	Gender=Masc|Number=Sing	16	nsubj	_	_
 18	של	של	ADP	ADP	Case=Gen	19	case	_	_
 19	שום	שום	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod:poss	_	SpaceAfter=No
@@ -13629,7 +13631,7 @@
 3	ל	ל	ADP	ADP	_	5	case	_	_
 4	כל	כול	DET	DET	Definite=Cons	5	det	_	_
 5	טבח	טבח	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
-6	יש	יש	VERB	VERB	HebExistential=Yes	1	advcl	_	_
+6	יש	יש	VERB	VERB	_	1	advcl	_	_
 7	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
 8	רע	רע	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	13	punct	_	_
@@ -13672,9 +13674,9 @@
 2	מחירים	מחיר	NOUN	NOUN	Gender=Masc|Number=Plur	4	dep	_	_
 3	כאן	כאן	ADV	ADV	_	2	advmod	_	_
 4	נמוכים	נמוך	ADJ	ADJ	Gender=Masc|Number=Plur	0	root	_	_
-5	(	(	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
-6	אפשר	אפשר	AUX	AUX	VerbType=Mod	7	aux	_	HebSource=ConvUncertainHead
-7	לקבל	קיבל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	4	dep	_	_
+5	(	(	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+6	אפשר	אפשר	VERB	VERB	VerbType=Mod	4	dep	_	HebSource=ConvUncertainHead
+7	לקבל	קיבל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	6	csubj	_	_
 8	ארוחת	ארוחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	obj	_	_
 9	ערב	ערב	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound	_	_
 10	מלאה	מלאה	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
@@ -13746,7 +13748,7 @@
 3-4	המושחמות	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
 4	מושחמות	הושחם	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Pass	2	amod	_	_
-5	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	6	cop	_	_
+5	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	6	cop	_	_
 6	בסדר	בסדר	ADV	ADV	_	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	12	punct	_	_
 8	אבל	אבל	CCONJ	CCONJ	_	12	cc	_	_
@@ -13770,7 +13772,7 @@
 3	פסטה	פסטה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound	_	_
 4-5	הראשונה	_	_	_	_	_	_	_	_
 4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
-5	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	_
+5	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	_
 6-7	שטעמנו	_	_	_	_	_	_	_	_
 6	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
 7	טעמנו	טעם	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Past|Voice=Act	1	acl:relcl	_	_
@@ -13791,7 +13793,7 @@
 6	אדמה	אדמה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound	_	_
 7	קטנות	קטן	ADJ	ADJ	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
 8	)	)	PUNCT	PUNCT	_	4	punct	_	_
-9	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	10	cop	_	_
+9	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	10	cop	_	_
 10	טעימות	טעים	ADJ	ADJ	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	14	punct	_	_
 12	אבל	אבל	CCONJ	CCONJ	_	14	cc	_	_
@@ -13810,7 +13812,7 @@
 22	ו	ו	CCONJ	CCONJ	_	26	cc	_	_
 23	על	על	ADV	ADV	_	26	advmod	_	_
 24	כן	כן	ADV	ADV	_	23	fixed	_	_
-25	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	26	cop	_	_
+25	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	26	cop	_	_
 26	רכרוכיות	רכרוכי	ADJ	ADJ	Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
 27	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
@@ -13827,7 +13829,7 @@
 8	,	,	PUNCT	PUNCT	_	1	punct	_	_
 9	נעדר	נעדר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
 10-11	ממנו	_	_	_	_	_	_	_	_
-10	ממנ	ממנו	ADP	ADP	_	11	case	_	_
+10	ממנ	מן	ADP	ADP	_	11	case	_	_
 11	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
 12-13	הטעם	_	_	_	_	_	_	_	_
 12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
@@ -13889,7 +13891,7 @@
 10	ב	ב	ADP	ADP	_	11	case	_	_
 11	גובה	גובה	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
 12	של	של	ADP	ADP	Case=Gen	14	case	_	_
-13	שמונה	שמונה	NUM	NUM	Gender=Masc|Number=Plur	14	nummod	_	_
+13	שמונה	שמונה	NUM	NUM	Gender=Masc	14	nummod	_	_
 14	סנטימטרים	סנטימטר	NOUN	NOUN	Gender=Masc|Number=Plur	11	nmod:poss	_	SpaceAfter=No
 15	,	,	PUNCT	PUNCT	_	8	punct	_	_
 16-17	המנה	_	_	_	_	_	_	_	_
@@ -13917,7 +13919,7 @@
 # text = חסרות לחלוטין היו השכבות האופייניות של רוטב בשר וגבינה העושות מנה זאת מפתה כל כך.
 1	חסרות	חסרות	VERB	VERB	Tense=Pres|VerbForm=Part	0	root	_	_
 2	לחלוטין	לחלוטין	ADV	ADV	_	1	advmod	_	_
-3	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	1	cop	_	_
+3	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	1	cop	_	_
 4-5	השכבות	_	_	_	_	_	_	_	_
 4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
 5	שכבות	שכבה	NOUN	NOUN	Gender=Fem|Number=Plur	1	nsubj	_	_
@@ -13965,7 +13967,7 @@
 18-20	ובכך	_	_	_	_	_	_	_	_
 18	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
 19	ב	ב	ADP	ADP	_	20	case	_	_
-20	כך	כך	PRON	PRON	Person=3|PronType=Dem	21	obl	_	_
+20	כך	כך	PRON	PRON	PronType=Dem	21	obl	_	_
 21	הפכו	הפך	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	9	conj	_	_
 22	את	את	ADP	ADP	Case=Acc	23	case	_	_
 23	קרום	קרום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	obj	_	_
@@ -14027,10 +14029,10 @@
 12-13	ואחר	_	_	_	_	_	_	_	_
 12	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
 13	אחר	אחר	ADP	ADP	_	14	case	_	_
-14	כך	כך	PRON	PRON	Person=3|PronType=Dem	15	obl	_	_
+14	כך	כך	PRON	PRON	PronType=Dem	15	obl	_	_
 15	נצלה	נצלה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	5	conj	_	_
 16	עם	עם	ADP	ADP	_	17	case	_	_
-17	ירקות	ירקות	NOUN	NOUN	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+17	ירקות	ירק	NOUN	NOUN	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
 18	,	,	PUNCT	PUNCT	_	19	punct	_	_
 19	טאראגון	טאראגון	PROPN	PROPN	_	17	conj	_	_
 20-21	ועשבי	_	_	_	_	_	_	_	_
@@ -14049,10 +14051,10 @@
 30	טעים	טעים	ADJ	ADJ	Gender=Masc|Number=Sing	26	conj	_	_
 31	עד	עד	ADP	ADP	_	37	case	_	_
 32	כדי	כדי	ADP	ADP	_	31	fixed	_	_
-33	כך	כך	PRON	PRON	Person=3|PronType=Dem	31	fixed	_	_
+33	כך	כך	PRON	PRON	PronType=Dem	31	fixed	_	_
 34-35	שהייתי	_	_	_	_	_	_	_	_
 34	ש	ש	SCONJ	SCONJ	_	37	mark	_	_
-35	הייתי	הייתי	AUX	AUX	Gender=Fem,Masc|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbType=Cop	37	cop	_	_
+35	הייתי	היה	AUX	AUX	Gender=Fem,Masc|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbType=Cop	37	cop	_	_
 36	מוכן	מוכן	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	37	aux	_	_
 37	להתעלם	התעלם	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	26	obl	_	_
 38-40	מהכמות	_	_	_	_	_	_	_	_
@@ -14103,7 +14105,7 @@
 8	ארוחה	ארוחה	NOUN	NOUN	Gender=Fem|Number=Sing	17	nsubj	_	_
 9-10	לשניים	_	_	_	_	_	_	_	_
 9	ל	ל	ADP	ADP	_	10	case	_	_
-10	שניים	שתיים	NUM	NUM	Gender=Masc|Number=Plur	8	nmod	_	_
+10	שניים	שתיים	NUM	NUM	Gender=Masc	8	nmod	_	_
 11-12	המבוססת	_	_	_	_	_	_	_	_
 11	ה	ה	SCONJ	SCONJ	_	12	mark	_	_
 12	מבוססת	בוסס	VERB	VERB	Gender=Fem|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	8	acl:relcl	_	_
@@ -14125,10 +14127,10 @@
 # text = במחיר זה אפשר לצפות למשהו טוב יותר.
 1-2	במחיר	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
-2	מחיר	מחיר	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+2	מחיר	מחיר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
 3	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	det	_	_
-4	אפשר	אפשר	AUX	AUX	VerbType=Mod	5	aux	_	_
-5	לצפות	ציפה	VERB	VERB	VerbForm=Inf	0	root	_	_
+4	אפשר	אפשר	VERB	VERB	VerbType=Mod	0	root	_	_
+5	לצפות	ציפה	VERB	VERB	VerbForm=Inf	4	csubj	_	_
 6-7	למשהו	_	_	_	_	_	_	_	_
 6	ל	ל	ADP	ADP	_	7	case	_	_
 7	משהו	משהו	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
@@ -14169,7 +14171,7 @@
 3	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	11	nsubj	_	_
 4-5	הראשונים	_	_	_	_	_	_	_	_
 4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
-5	ראשונים	ראשונים	ADJ	ADJ	Gender=Masc|Number=Plur	3	amod	_	_
+5	ראשונים	ראשון	ADJ	ADJ	Gender=Masc|Number=Plur	3	amod	_	_
 6-8	שהעין	_	_	_	_	_	_	_	_
 6	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
 7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
@@ -14180,7 +14182,7 @@
 12	אנטיפסטו	אנטיפסטו	PROPN	PROPN	_	11	compound	_	_
 13-15	שעליו	_	_	_	_	_	_	_	_
 13	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
-14	עלי	עליו	ADP	ADP	_	15	case	_	_
+14	עלי	על	ADP	ADP	_	15	case	_	_
 15	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	acl:relcl	_	_
 16	מגוון	מגוון	NOUN	NOUN	Gender=Masc|Number=Sing	15	nsubj	_	_
 17	של	של	ADP	ADP	Case=Gen	18	case	_	_
@@ -14191,7 +14193,7 @@
 22	סוגי	סוג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	18	conj	_	_
 23	הרינג	הרינג	NOUN	NOUN	Gender=Masc|Number=Sing	22	compound	_	SpaceAfter=No
 24	,	,	PUNCT	PUNCT	_	25	punct	_	_
-25	מתאבנים	התאבן	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	18	conj	_	_
+25	מתאבנים	מתאבן	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	18	conj	_	_
 26	קרים	קר	ADJ	ADJ	Gender=Masc|Number=Plur	25	amod	_	_
 27	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	25	amod	_	_
 28-29	ותצוגה	_	_	_	_	_	_	_	_
@@ -14204,9 +14206,9 @@
 
 # sent_id = 6153
 # text = אפשר בקלות להרכיב ארוחה מן הדברים הללו לבדם, אבל החלטנו ללכת על ארוחה קלה שכולה פסטה.
-1	אפשר	אפשר	AUX	AUX	VerbType=Mod	3	aux	_	_
-2	בקלות	בקלות	ADV	ADV	_	3	advmod	_	_
-3	להרכיב	הרכיב	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+1	אפשר	אפשר	VERB	VERB	VerbType=Mod	0	root	_	_
+2	בקלות	בקלות	ADV	ADV	_	1	advmod	_	_
+3	להרכיב	הרכיב	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	1	csubj	_	_
 4	ארוחה	ארוחה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obj	_	_
 5	מן	מן	ADP	ADP	_	7	case	_	_
 6-7	הדברים	_	_	_	_	_	_	_	_
@@ -14246,7 +14248,7 @@
 10	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
 11	עלי	על	ADP	ADP	_	12	case	_	_
 12	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	13	obl	_	_
-13	היזו	היזו	VERB	VERB	_	8	acl:relcl	_	_
+13	היזו	היזה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	8	acl:relcl	_	_
 14	יין	יין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obj	_	_
 15	שרי	שרי	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound	_	SpaceAfter=No
 16	,	,	PUNCT	PUNCT	_	2	punct	_	_
@@ -14265,7 +14267,7 @@
 27	למרות	למרות	ADP	ADP	_	29	mark	_	_
 28-29	שהיה	_	_	_	_	_	_	_	_
 28	ש	ש	SCONJ	SCONJ	_	27	fixed	_	_
-29	היה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	36	advcl	_	_
+29	היה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past	36	advcl	_	_
 30-31	בו	_	_	_	_	_	_	_	_
 30	ב	ב	ADP	ADP	_	31	case	_	_
 31	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obl	_	_
@@ -14295,7 +14297,7 @@
 11	גבינת	גבינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	conj	_	_
 12	פרמזן	פרמזן	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound	_	SpaceAfter=No
 13	,	,	PUNCT	PUNCT	_	3	punct	_	_
-14	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	15	cop	_	_
+14	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	15	cop	_	_
 15	טעימים	טעים	ADJ	ADJ	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	15	punct	_	_
 
@@ -14360,7 +14362,7 @@
 
 # sent_id = 6158
 # text = שתי המנות עמדו בהצלחה בציפיות הרעבתניות שלנו.
-1	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	3	nummod	_	_
+1	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem	3	nummod	_	_
 2-3	המנות	_	_	_	_	_	_	_	_
 2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
 3	מנות	מנה	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	_
@@ -14385,13 +14387,13 @@
 1	ב	ב	ADP	ADP	_	2	case	_	_
 2	סך	סך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
 3	הכל	הכול	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound	_	_
-4	היה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+4	היה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 5	שם	שם	ADV	ADV	_	4	advmod	_	_
 6	מזון	מזון	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
 7	מספיק	הספיק	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	acl	_	_
 8-9	לארבעה	_	_	_	_	_	_	_	_
 8	ל	ל	ADP	ADP	_	10	case	_	_
-9	ארבעה	ארבע	NUM	NUM	Gender=Masc|Number=Sing	10	nummod	_	_
+9	ארבעה	ארבע	NUM	NUM	Gender=Masc	10	nummod	_	_
 10	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	7	obl	_	_
 11-13	והחשבון	_	_	_	_	_	_	_	SpaceAfter=No
 11	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
@@ -14626,7 +14628,7 @@
 6	היטב	היטב	ADV	ADV	_	5	advmod	_	_
 7-8	בירקות	_	_	_	_	_	_	_	_
 7	ב	ב	ADP	ADP	_	8	case	_	_
-8	ירקות	ירקות	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	_
+8	ירקות	ירק	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	_
 9	מבושלים	בושל	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Pass	8	amod	_	_
 10-12	והמתובלים	_	_	_	_	_	_	_	SpaceAfter=No
 10	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
@@ -14643,7 +14645,7 @@
 5	תאווה	תאווה	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	13	punct	_	_
 7-9	כשהעור	_	_	_	_	_	_	_	_
-7	כש	כש	SCONJ	SCONJ	Case=Tem	13	mark	_	_
+7	כש	כש	SCONJ	SCONJ	_	13	mark	_	_
 8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
 9	עור	עור	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
 10	של	של	ADP	ADP	Case=Gen	12	case	_	_
@@ -14730,7 +14732,7 @@
 16	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nmod	_	_
 17-18	כאחת	_	_	_	_	_	_	_	_
 17	כ	כ	ADP	ADP	_	20	case	_	_
-18	אחת	אחת	NUM	NUM	Definite=Cons|Gender=Fem|Number=Sing	20	nummod	_	_
+18	אחת	אחת	NUM	NUM	Definite=Cons|Gender=Fem	20	nummod	_	_
 19-20	המנות	_	_	_	_	_	_	_	_
 19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
 20	מנות	מנה	NOUN	NOUN	Gender=Fem|Number=Plur	14	nmod	_	_
@@ -14780,7 +14782,7 @@
 3	,	,	PUNCT	PUNCT	_	2	punct	_	_
 4-5	באחת	_	_	_	_	_	_	_	_
 4	ב	ב	ADP	ADP	_	5	case	_	_
-5	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	12	obl	_	_
+5	אחת	אחת	NUM	NUM	Gender=Fem	12	obl	_	_
 6	אחר	אחר	ADP	ADP	_	8	case	_	_
 7-8	הצהריים	_	_	_	_	_	_	_	SpaceAfter=No
 7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
@@ -14813,18 +14815,19 @@
 28	לענות	ענה	VERB	VERB	VerbForm=Inf	27	xcomp	_	_
 29	על	על	ADP	ADP	_	31	case	_	_
 30	אף	אף	DET	DET	Definite=Cons	31	det	_	_
-31	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	28	obl	_	_
-32-33	משאלותינו	_	_	_	_	_	_	_	SpaceAfter=No
+31	אחת	אחת	NUM	NUM	Gender=Fem	28	obl	_	_
+32-34	משאלותינו	_	_	_	_	_	_	_	SpaceAfter=No
 32	מ	מ	ADP	ADP	_	33	case	_	_
-33	שאלותינו	שאלה	NOUN	NOUN	_	31	obl	_	_
-34	.	.	PUNCT	PUNCT	_	12	punct	_	_
+33	שאלותי	שאלה	NOUN	NOUN	Gender=Fem|Number=Plur	31	nmod	_	_
+34	נו	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+35	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = 6172
 # text = ארוחה לשניים, המבוססת על מנות דומות ועם קנקן של יין הבית, תגיע לכ100 ש"ח, בהחלט שווה את ההשקעה.
 1	ארוחה	ארוחה	NOUN	NOUN	Gender=Fem|Number=Sing	18	nsubj	_	_
 2-3	לשניים	_	_	_	_	_	_	_	SpaceAfter=No
 2	ל	ל	ADP	ADP	_	3	case	_	_
-3	שניים	שתיים	NUM	NUM	Gender=Masc|Number=Plur	1	nmod	_	_
+3	שניים	שתיים	NUM	NUM	Gender=Masc	1	nmod	_	_
 4	,	,	PUNCT	PUNCT	_	6	punct	_	_
 5-6	המבוססת	_	_	_	_	_	_	_	_
 5	ה	ה	SCONJ	SCONJ	_	6	mark	_	_
@@ -14907,7 +14910,7 @@
 10	תל	תל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	nmod	_	_
 11	-	-	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
 12	אביב	אביב	NOUN	NOUN	Gender=Masc|Number=Sing	10	flat	_	_
-13	יכולה	יכולה	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	15	aux	_	_
+13	יכולה	יכול	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	15	aux	_	_
 14	רק	רק	ADV	ADV	_	15	advmod	_	_
 15	לשפר	שיפר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	0	root	_	_
 16	את	את	ADP	ADP	Case=Acc	18	case	_	_
@@ -14979,9 +14982,9 @@
 16-17	האלה	_	_	_	_	_	_	_	_
 16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
 17	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	13	det	_	_
-18	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+18	יש	יש	VERB	VERB	_	0	root	_	_
 19	ידע	ידע	NOUN	NOUN	Gender=Masc|Number=Sing	18	nsubj	_	_
-20	מינימלי	מינימאלי	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+20	מינימלי	מינימלי	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
 21-22	וכבוד	_	_	_	_	_	_	_	_
 21	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
 22	כבוד	כבוד	NOUN	NOUN	Gender=Masc|Number=Sing	19	conj	_	_
@@ -15072,17 +15075,17 @@
 6	מקסימה	מקסים	ADJ	ADJ	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	9	punct	_	_
 8	אך	אך	CCONJ	CCONJ	_	9	cc	_	_
-9	יש	יש	VERB	VERB	HebExistential=Yes	3	conj	_	_
+9	יש	יש	VERB	VERB	_	3	conj	_	_
 10-11	כאלה	_	_	_	_	_	_	_	_
 10	כ	כ	ADP	ADP	Definite=Def|PronType=Art	11	case	_	_
 11	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	9	nsubj	_	_
 12-13	הסבורים	_	_	_	_	_	_	_	_
 12	ה	ה	SCONJ	SCONJ	Definite=Def|PronType=Art	13	mark	_	_
-13	סבורים	סבורים	AUX	AUX	VerbType=Mod	11	acl:relcl	_	_
+13	סבורים	סבר	VERB	VERB	VerbType=Mod	11	acl:relcl	_	_
 14-15	שזו	_	_	_	_	_	_	_	_
 14	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
 15	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	18	nsubj	_	_
-16	אחת	אחת	NUM	NUM	Definite=Cons|Gender=Fem|Number=Sing	18	nummod	_	_
+16	אחת	אחת	NUM	NUM	Definite=Cons|Gender=Fem	18	nummod	_	_
 17-18	המסעדות	_	_	_	_	_	_	_	_
 17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
 18	מסעדות	מסעדה	NOUN	NOUN	Gender=Fem|Number=Plur	13	ccomp	_	_
@@ -15106,7 +15109,7 @@
 5	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
 6	ב	ב	ADP	ADP	_	7	case	_	_
 7	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
-8	שורים	שור	VERB	VERB	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
+8	שורים	שרה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	3	acl:relcl	_	_
 9	פרוסות	פרוסה	NOUN	NOUN	Gender=Fem|Number=Plur	8	obj	_	_
 10	דקיקות	דקיק	ADJ	ADJ	Gender=Fem|Number=Plur	9	amod	_	_
 11	של	של	ADP	ADP	Case=Gen	12	case	_	_
@@ -15125,7 +15128,7 @@
 21	עם	עם	ADP	ADP	_	22	case	_	_
 22	גבינת	גבינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	18	obl	_	_
 23	פרמזן	פרמזן	NOUN	NOUN	Gender=Fem|Number=Sing	22	compound	_	_
-24	מגוררת	מגוררת	ADJ	ADJ	_	22	amod	_	SpaceAfter=No
+24	מגוררת	מגורר	ADJ	ADJ	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
 25	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = 6180
@@ -15207,14 +15210,14 @@
 18	ירוקה	ירוק	ADJ	ADJ	Gender=Fem|Number=Sing	16	conj	_	_
 19-20	וירקות	_	_	_	_	_	_	_	_
 19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
-20	ירקות	ירקות	NOUN	NOUN	Gender=Masc|Number=Plur	15	conj	_	_
+20	ירקות	ירק	NOUN	NOUN	Gender=Masc|Number=Plur	15	conj	_	_
 21	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
 22	,	,	PUNCT	PUNCT	_	25	punct	_	_
 23	הכל	הכול	NOUN	NOUN	Gender=Masc|Number=Sing	25	nsubj	_	_
 24-25	ברוטב	_	_	_	_	_	_	_	_
 24	ב	ב	ADP	ADP	_	25	case	_	_
 25	רוטב	רוטב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	parataxis	_	_
-26	וינגרט	ויניגרט	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound	_	SpaceAfter=No
+26	וינגרט	וינגרט	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound	_	SpaceAfter=No
 27	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = 6183
@@ -15240,7 +15243,7 @@
 16	ה	ה	DET	DET	Definite=Def|PronType=Art	14	fixed	_	_
 17	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	14	fixed	_	_
 18	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
-19	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	20	cop	_	_
+19	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	20	cop	_	_
 20	גבשושיים	גבשושי	ADJ	ADJ	Gender=Masc|Number=Plur	5	conj	_	_
 21-22	וחסרי	_	_	_	_	_	_	_	_
 21	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
@@ -15290,7 +15293,7 @@
 1	בחרנו	בחר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Past|Voice=Act	0	root	_	_
 2-3	בשתי	_	_	_	_	_	_	_	_
 2	ב	ב	ADP	ADP	_	4	case	_	_
-3	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	4	nummod	_	_
+3	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem	4	nummod	_	_
 4	מנות	מנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	1	obl	_	_
 5	פסטה	פסטה	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound	_	SpaceAfter=No
 6	:	:	PUNCT	PUNCT	_	7	punct	_	_
@@ -15308,11 +15311,11 @@
 
 # sent_id = 6187
 # text = שתי המנות היו טובות אבל לא מסעירות.
-1	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	3	nummod	_	_
+1	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem	3	nummod	_	_
 2-3	המנות	_	_	_	_	_	_	_	_
 2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
 3	מנות	מנה	NOUN	NOUN	Gender=Fem|Number=Plur	5	nsubj	_	_
-4	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	5	cop	_	_
+4	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	5	cop	_	_
 5	טובות	טוב	ADJ	ADJ	Gender=Fem|Number=Plur	0	root	_	_
 6	אבל	אבל	CCONJ	CCONJ	_	8	cc	_	_
 7	לא	לא	ADV	ADV	Polarity=Neg	8	advmod	_	_
@@ -15335,7 +15338,7 @@
 10	נוספת	נוסף	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
 11-12	לכך	_	_	_	_	_	_	_	_
 11	ל	ל	ADP	ADP	_	12	case	_	_
-12	כך	כך	PRON	PRON	Person=3|PronType=Dem	9	nmod	_	_
+12	כך	כך	PRON	PRON	PronType=Dem	9	nmod	_	_
 13-15	שבפרגו	_	_	_	_	_	_	_	_
 13	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
 14	ב	ב	ADP	ADP	_	15	case	_	_
@@ -15350,7 +15353,7 @@
 23-24	והיא	_	_	_	_	_	_	_	_
 23	ו	ו	CCONJ	CCONJ	_	25	cc	_	_
 24	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
-25	משתנה	משתנה	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	17	conj	_	_
+25	משתנה	השתנה	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	17	conj	_	_
 26-27	מביקור	_	_	_	_	_	_	_	_
 26	מ	מ	ADP	ADP	_	27	case	_	_
 27	ביקור	ביקור	NOUN	NOUN	Gender=Masc|Number=Sing	25	obl	_	_
@@ -15364,7 +15367,7 @@
 1-2	בהזדמנות	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
 2	הזדמנות	הזדמנות	NOUN	NOUN	Gender=Fem|Number=Sing	9	obl	_	_
-3	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	2	nummod	_	_
+3	אחת	אחת	NUM	NUM	Gender=Fem	2	nummod	_	_
 4	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	9	cop	_	_
 5-6	המנה	_	_	_	_	_	_	_	_
 5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
@@ -15392,7 +15395,7 @@
 12-13	ואחר	_	_	_	_	_	_	_	_
 12	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
 13	אחר	אחר	ADV	ADV	_	14	advmod	_	_
-14	גילגלו	גלגל	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	6	conj	_	_
+14	גילגלו	גילגל	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	6	conj	_	_
 15-16	מסביבן	_	_	_	_	_	_	_	_
 15	מ	מ	ADP	ADP	_	16	case	_	_
 16	סביבן	סביבן	NOUN	NOUN	_	14	obl	_	_
@@ -15520,7 +15523,7 @@
 13-14	מבקבוק	_	_	_	_	_	_	_	_
 13	מ	מ	ADP	ADP	_	14	case	_	_
 14	בקבוק	בקבוק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	obl	_	_
-15	ספריי	ספר	NOUN	NOUN	_	14	compound	_	SpaceAfter=No
+15	ספריי	ספריי	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = 6195
@@ -15570,7 +15573,7 @@
 20	ערב	ערב	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound	_	_
 21-22	לשניים	_	_	_	_	_	_	_	_
 21	ל	ל	ADP	ADP	_	22	case	_	_
-22	שניים	שתיים	NUM	NUM	Gender=Masc|Number=Plur	19	nmod	_	_
+22	שניים	שתיים	NUM	NUM	Gender=Masc	19	nmod	_	_
 23-25	בכ210	_	_	_	_	_	_	_	_
 23	ב	ב	ADP	ADP	_	26	case	_	_
 24	כ	כ	ADP	ADP	_	26	case	_	_
@@ -15639,7 +15642,7 @@
 12-13	והוא	_	_	_	_	_	_	_	_
 12	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
 13	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
-14	מכנה	מכנה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	conj	_	_
+14	מכנה	כינה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	conj	_	_
 15	את	את	ADP	ADP	Case=Acc	17	case	_	_
 16-17	המקום	_	_	_	_	_	_	_	_
 16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
@@ -15660,13 +15663,13 @@
 27	רחבות	רחבות	NOUN	NOUN	Gender=Fem|Number=Sing	24	conj	_	_
 28	,	,	PUNCT	PUNCT	_	30	punct	_	_
 29	"	"	PUNCT	PUNCT	_	30	punct	_	SpaceAfter=No
-30	טרטוריה	טרטור	NOUN	NOUN	_	14	dep	_	SpaceAfter=No
+30	טרטוריה	טרטוריה	NOUN	NOUN	Gender=Fem|Number=Sing	14	xcomp	_	SpaceAfter=No
 31	"	"	PUNCT	PUNCT	_	30	punct	_	SpaceAfter=No
 32	,	,	PUNCT	PUNCT	_	36	punct	_	_
 33-35	ובכך	_	_	_	_	_	_	_	_
 33	ו	ו	CCONJ	CCONJ	_	36	cc	_	_
 34	ב	ב	ADP	ADP	_	35	case	_	_
-35	כך	כך	PRON	PRON	Person=3|PronType=Dem	36	obl	_	_
+35	כך	כך	PRON	PRON	PronType=Dem	36	obl	_	_
 36	מפגין	הפגין	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	conj	_	_
 37	חוסר	חוסר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	36	obj	_	_
 38	יומרות	יומרה	NOUN	NOUN	Gender=Fem|Number=Plur	37	compound	_	_
@@ -15695,7 +15698,7 @@
 14	טיגון	טיגון	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
 15	עמוק	עמוק	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
 16	,	,	PUNCT	PUNCT	_	1	punct	_	_
-17	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	18	cop	_	_
+17	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	18	cop	_	_
 18	מבושלות	בושל	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
 19-20	בצורה	_	_	_	_	_	_	_	_
 19	ב	ב	ADP	ADP	_	20	case	_	_
@@ -15766,7 +15769,7 @@
 7-8	ברוטב	_	_	_	_	_	_	_	_
 7	ב	ב	ADP	ADP	_	8	case	_	_
 8	רוטב	רוטב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	nmod	_	_
-9	וינגרט	ויניגרט	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound	_	_
+9	וינגרט	וינגרט	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound	_	_
 10-11	ועם	_	_	_	_	_	_	_	_
 10	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
 11	עם	עם	ADP	ADP	_	13	case	_	_
@@ -15774,7 +15777,7 @@
 13	פלפל	פלפל	NOUN	NOUN	Gender=Masc|Number=Sing	8	conj	_	_
 14	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	15	cop	_	_
 15	מנה	מנה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
-16	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	15	amod	_	_
+16	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing	15	amod	_	_
 17	טובה	טוב	ADJ	ADJ	Gender=Fem|Number=Sing	15	dep	_	_
 18	יותר	יותר	ADV	ADV	_	17	advmod	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	15	punct	_	_
@@ -15812,7 +15815,7 @@
 
 # sent_id = 6204
 # text = שתי המנות לוו ברוטב לבן שהיה נעים אמנם אך סבל משימוש קמצני בפלפל.
-1	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	3	nummod	_	_
+1	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem	3	nummod	_	_
 2-3	המנות	_	_	_	_	_	_	_	_
 2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
 3	מנות	מנה	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	_
@@ -15849,7 +15852,7 @@
 6	אלה	אלה	PROPN	PROPN	_	4	flat	_	SpaceAfter=No
 7	-	-	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
 8	מרסאלה	מרסאלה	PROPN	PROPN	_	4	flat	_	_
-9	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	10	cop	_	_
+9	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	10	cop	_	_
 10	טובים	טוב	ADJ	ADJ	Gender=Masc|Number=Plur	0	root	_	_
 11	אם	אם	SCONJ	SCONJ	_	13	dep	_	_
 12	לא	לא	ADV	ADV	Polarity=Neg	13	advmod	_	_
@@ -15953,7 +15956,7 @@
 26-27	המחיר	_	_	_	_	_	_	_	_
 26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
 27	מחיר	מחיר	NOUN	NOUN	Gender=Masc|Number=Sing	31	nsubj	_	_
-28	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	31	cop	_	_
+28	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	31	cop	_	_
 29-30	כ136	_	_	_	_	_	_	_	_
 29	כ	כ	ADP	ADP	_	31	case	_	_
 30	136	136	NUM	NUM	_	31	nummod	_	_
@@ -15994,7 +15997,7 @@
 11	ב	ב	ADP	ADP	_	12	case	_	_
 12	רומא	רומא	PROPN	PROPN	_	10	obl	_	_
 13	משך	משך	ADP	ADP	_	15	case	_	_
-14	שלוש	שלוש	NUM	NUM	Gender=Fem|Number=Plur	15	nummod	_	_
+14	שלוש	שלוש	NUM	NUM	Gender=Fem	15	nummod	_	_
 15	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	10	obl	_	_
 16-17	והוא	_	_	_	_	_	_	_	_
 16	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
@@ -16016,7 +16019,7 @@
 27	ש	ש	SCONJ	SCONJ	_	28	mark	_	_
 28	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	20	acl:relcl	_	_
 29	חניכה	חניכה	NOUN	NOUN	Gender=Fem|Number=Sing	28	obj	_	_
-30	קולינארית	קולינארית	ADJ	ADJ	_	29	amod	_	_
+30	קולינארית	קולינארי	ADJ	ADJ	Gender=Fem|Number=Sing	29	amod	_	_
 31-32	באיטליה	_	_	_	_	_	_	_	SpaceAfter=No
 31	ב	ב	ADP	ADP	_	32	case	_	_
 32	איטליה	איטליה	PROPN	PROPN	_	28	obl	_	_
@@ -16024,30 +16027,31 @@
 
 # sent_id = 6209
 # text = יהיו אשר יהיו המעלות והחסרונות של האוכל במסעדה שלו, היא איטלקית לעילא.
-1	יהיו	יהיו	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+1	יהיו	היה	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
 2	אשר	אשר	SCONJ	SCONJ	_	3	mark	_	_
-3	יהיו	יהיו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	1	advcl	_	_
+3	יהיו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	1	advcl	_	_
 4-5	המעלות	_	_	_	_	_	_	_	_
 4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
 5	מעלות	מעלה	NOUN	NOUN	Gender=Fem|Number=Plur	1	nsubj	_	_
-6-7	והחסרונות	_	_	_	_	_	_	_	_
-6	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
-7	החסרונות	החסרונות	NOUN	NOUN	Gender=Masc|Number=Plur	5	conj	_	_
-8	של	של	ADP	ADP	Case=Gen	10	case	_	_
-9-10	האוכל	_	_	_	_	_	_	_	_
-9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
-10	אוכל	אוכל	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod:poss	_	_
-11-12	במסעדה	_	_	_	_	_	_	_	_
-11	ב	ב	ADP	ADP	Definite=Def|PronType=Art	12	case	_	_
-12	מסעדה	מסעדה	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod	_	_
-13-14	שלו	_	_	_	_	_	_	_	SpaceAfter=No
-13	של	של	ADP	ADP	Case=Gen	14	case	_	_
-14	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
-15	,	,	PUNCT	PUNCT	_	17	punct	_	_
-16	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
-17	איטלקית	איטלקי	ADJ	ADJ	Gender=Fem|Number=Sing	1	parataxis	_	_
-18	לעילא	לעילא	ADV	ADV	_	17	advmod	_	SpaceAfter=No
-19	.	.	PUNCT	PUNCT	_	1	punct	_	_
+6-8	והחסרונות	_	_	_	_	_	_	_	_
+6	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	חסרונות	חסרון	NOUN	NOUN	Gender=Masc|Number=Plur	5	conj	_	_
+9	של	של	ADP	ADP	Case=Gen	11	case	_	_
+10-11	האוכל	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	אוכל	אוכל	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod:poss	_	_
+12-13	במסעדה	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	Definite=Def|PronType=Art	13	case	_	_
+13	מסעדה	מסעדה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nmod	_	_
+14-15	שלו	_	_	_	_	_	_	_	SpaceAfter=No
+14	של	של	ADP	ADP	Case=Gen	15	case	_	_
+15	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	_
+16	,	,	PUNCT	PUNCT	_	18	punct	_	_
+17	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	איטלקית	איטלקי	ADJ	ADJ	Gender=Fem|Number=Sing	1	parataxis	_	_
+19	לעילא	לעילא	ADV	ADV	_	18	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = 6210
 # text = פרוסות הפרושוטו שהוגשו במנת האנטיפסטו המעורב היו בסדר, אבל החציל, שנצלה בגריל ואחר כך טוגן, היה ספוג בשמן זית שפגם בטעמו.
@@ -16067,7 +16071,7 @@
 10-11	המעורב	_	_	_	_	_	_	_	_
 10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
 11	מעורב	מעורב	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	_
-12	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	13	cop	_	_
+12	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	13	cop	_	_
 13	בסדר	בסדר	ADV	ADV	_	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	29	punct	_	_
 15	אבל	אבל	CCONJ	CCONJ	_	29	cc	_	_
@@ -16084,7 +16088,7 @@
 23-24	ואחר	_	_	_	_	_	_	_	_
 23	ו	ו	CCONJ	CCONJ	_	26	cc	_	_
 24	אחר	אחר	ADP	ADP	_	25	case	_	_
-25	כך	כך	PRON	PRON	Person=3|PronType=Dem	26	obl	_	_
+25	כך	כך	PRON	PRON	PronType=Dem	26	obl	_	_
 26	טוגן	טוגן	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	20	conj	_	SpaceAfter=No
 27	,	,	PUNCT	PUNCT	_	17	punct	_	_
 28	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	29	cop	_	_
@@ -16112,7 +16116,7 @@
 5-7	והירקות	_	_	_	_	_	_	_	_
 5	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
 6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
-7	ירקות	ירקות	NOUN	NOUN	Gender=Masc|Number=Plur	2	conj	_	_
+7	ירקות	ירק	NOUN	NOUN	Gender=Masc|Number=Plur	2	conj	_	_
 8	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	9	cop	_	_
 9	חסרת	חסר	ADJ	ADJ	Definite=Cons|Gender=Fem|Number=Sing	0	root	_	_
 10	טעם	טעם	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound	_	_
@@ -16122,8 +16126,8 @@
 13	נועז	נועז	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
 14	יותר	יותר	ADV	ADV	_	13	advmod	_	_
 15-16	בתבלינים	_	_	_	_	_	_	_	_
-15	ב	בתבלינים	ADP	ADP	_	16	case	_	_
-16	תבלינים	תבלינים	NOUN	NOUN	Gender=Masc|Number=Plur	12	nmod	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	תבלינים	תבלין	NOUN	NOUN	Gender=Masc|Number=Plur	12	nmod	_	_
 17-19	ובעשבי	_	_	_	_	_	_	_	_
 17	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
 18	ב	ב	ADP	ADP	_	19	case	_	_
