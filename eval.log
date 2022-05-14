@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Hebrew-HTB:
-commit 4434a5f093d5517593abda623c94d958c2c06cdf
+commit db81394ab18c7ed76eb016e56493b450992cc2be
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 09:23:12 2021 +0200
+Date:   Wed Nov 3 16:26:22 2021 +0100
 Size: counted 161411 of 161411 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.167907814338.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -26,10 +26,9 @@ Udapi: worst expected case (threshold) is one bug per 10 words. There are 161411
 Genres: found 1 out of 17 known.
 validate.py --lang he --max-err=10 UD_Hebrew-HTB/he_htb-ud-dev.conllu
 [Line 503 Sent 13 Node 33]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (33:מוכנים:aux --> 32:ה:mark)
-[Line 504 Sent 13 Node 33]: [L5 Morpho aux-lemma] 'מוכן' is not an auxiliary verb in language [he]
 [Line 522 Sent 14 Node 6]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (6:יש:aux --> 2:דבר_:obl)
 [Line 526 Sent 14 Node 6]: [L5 Morpho aux-lemma] 'יש' is not an auxiliary verb in language [he]
-[Line 582 Sent 15 Node 14]: [L5 Syntax cop-lemma] 'הוא' is not a copula in language [he]
+[Line 582 Sent 15 Node 14]: [L5 Morpho aux-lemma] 'הוא' is not an auxiliary verb in language [he]
 [Line 1061 Sent 27 Node 27]: [L5 Morpho aux-lemma] 'ייתכן' is not an auxiliary verb in language [he]
 [Line 1078 Sent 28 Node 15]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (15:יכול:aux --> 3:אלה:obl)
 [Line 1093 Sent 28 Node 15]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (15:יכול:aux --> 14:אני:nsubj)
@@ -37,42 +36,43 @@ validate.py --lang he --max-err=10 UD_Hebrew-HTB/he_htb-ud-dev.conllu
 [Line 1322 Sent 34 Node 34]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
 [Line 1338 Sent 35 Node 9]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 1374 Sent 36 Node 18]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (18:צריך:aux --> 15:מלכתחילה:advmod)
+[Line 1376 Sent 36 Node 18]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (18:צריך:aux --> 17:היה:cop)
 ...suppressing further errors regarding Syntax
-[Line 1377 Sent 36 Node 18]: [L5 Morpho aux-lemma] 'צריך' is not an auxiliary verb in language [he]
-[Line 1421 Sent 37 Node 16]: [L5 Morpho aux-lemma] 'אינו' is not an auxiliary verb in language [he]
-[Line 1938 Sent 54 Node 3]: [L5 Morpho aux-lemma] 'מוכן' is not an auxiliary verb in language [he]
-[Line 1998 Sent 55 Node 2]: [L5 Morpho aux-lemma] 'מוכן' is not an auxiliary verb in language [he]
-[Line 2129 Sent 57 Node 2]: [L5 Morpho aux-lemma] 'מוכן' is not an auxiliary verb in language [he]
-[Line 2533 Sent 65 Node 13]: [L5 Morpho aux-lemma] 'אינו' is not an auxiliary verb in language [he]
+[Line 1687 Sent 48 Node 25]: [L5 Morpho aux-lemma] 'הוא' is not an auxiliary verb in language [he]
+[Line 2543 Sent 65 Node 21]: [L5 Morpho aux-lemma] 'הוא' is not an auxiliary verb in language [he]
+[Line 2613 Sent 67 Node 28]: [L5 Morpho aux-lemma] 'אפשר' is not an auxiliary verb in language [he]
+[Line 2834 Sent 73 Node 14]: [L5 Morpho aux-lemma] 'הוא' is not an auxiliary verb in language [he]
+[Line 2992 Sent 79 Node 2]: [L5 Morpho aux-lemma] 'הוא' is not an auxiliary verb in language [he]
+[Line 3042 Sent 81 Node 10]: [L5 Morpho aux-lemma] 'אפשר' is not an auxiliary verb in language [he]
 ...suppressing further errors regarding Morpho
-Morpho errors: 74
-Syntax errors: 218
-*** FAILED *** with 292 errors
+Morpho errors: 54
+Syntax errors: 194
+*** FAILED *** with 248 errors
 Exit code: 1
 validate.py --lang he --max-err=10 UD_Hebrew-HTB/he_htb-ud-test.conllu
-[Line 19 Sent 5726 Node 14]: [L5 Morpho aux-lemma] 'אמור' is not an auxiliary verb in language [he]
 [Line 111 Sent 5728 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NUM'
 [Line 117 Sent 5729 Node 10]: [L3 Syntax leaf-cc] 'cc' not expected to have children (10:ו:cc --> 1:אולם:cc)
 [Line 230 Sent 5733 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NUM'
 [Line 303 Sent 5735 Node 14]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
-[Line 517 Sent 5741 Node 14]: [L5 Syntax cop-lemma] 'הוא' is not a copula in language [he]
+[Line 517 Sent 5741 Node 14]: [L5 Morpho aux-lemma] 'הוא' is not an auxiliary verb in language [he]
 [Line 568 Sent 5744 Node 1]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (1:אפשר:aux --> 2:כבר:advmod)
 [Line 567 Sent 5744 Node 1]: [L5 Morpho aux-lemma] 'אפשר' is not an auxiliary verb in language [he]
 [Line 656 Sent 5748 Node 2]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (2:יכולה:aux --> 1:ראשל"ץ:nsubj)
 [Line 660 Sent 5748 Node 2]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (2:יכולה:aux --> 5:עתה:advmod)
 [Line 662 Sent 5748 Node 2]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (2:יכולה:aux --> 7:חזק:advmod)
+[Line 665 Sent 5748 Node 2]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (2:יכולה:aux --> 9:תמונת:obl)
 ...suppressing further errors regarding Syntax
-[Line 1173 Sent 5772 Node 7]: [L5 Morpho aux-lemma] 'אמור' is not an auxiliary verb in language [he]
-[Line 1676 Sent 5789 Node 6]: [L5 Morpho aux-lemma] 'צריך' is not an auxiliary verb in language [he]
+[Line 1055 Sent 5767 Node 9]: [L5 Morpho aux-lemma] 'הוא' is not an auxiliary verb in language [he]
+[Line 1765 Sent 5792 Node 9]: [L5 Morpho aux-lemma] 'הוא' is not an auxiliary verb in language [he]
 [Line 1799 Sent 5794 Node 1]: [L5 Morpho aux-lemma] 'כדאי' is not an auxiliary verb in language [he]
 [Line 1825 Sent 5794 Node 22]: [L5 Morpho aux-lemma] 'יכול' is not an auxiliary verb in language [he]
-[Line 2356 Sent 5813 Node 14]: [L5 Morpho aux-lemma] 'אינו' is not an auxiliary verb in language [he]
+[Line 2198 Sent 5807 Node 11]: [L5 Morpho aux-lemma] 'הוא' is not an auxiliary verb in language [he]
 [Line 2407 Sent 5815 Node 7]: [L5 Morpho aux-lemma] 'סביר' is not an auxiliary verb in language [he]
 [Line 3322 Sent 5845 Node 4]: [L5 Morpho aux-lemma] 'יש' is not an auxiliary verb in language [he]
 ...suppressing further errors regarding Morpho
-Morpho errors: 63
-Syntax errors: 240
-*** FAILED *** with 303 errors
+Morpho errors: 49
+Syntax errors: 220
+*** FAILED *** with 269 errors
 Exit code: 1
 validate.py --lang he --max-err=10 UD_Hebrew-HTB/he_htb-ud-train.conllu
 [Line 287 Sent 497 Node 1]: [L5 Morpho aux-lemma] 'קשה' is not an auxiliary verb in language [he]
@@ -86,18 +86,18 @@ validate.py --lang he --max-err=10 UD_Hebrew-HTB/he_htb-ud-train.conllu
 [Line 1530 Sent 541 Node 22]: [L3 Syntax leaf-fixed] 'fixed' not expected to have children (22:שוק:fixed --> 21:ל:case)
 [Line 1534 Sent 541 Node 22]: [L3 Syntax leaf-fixed] 'fixed' not expected to have children (22:שוק:fixed --> 24:ירקות:compound)
 ...suppressing further errors regarding Syntax
-[Line 3027 Sent 588 Node 3]: [L5 Morpho aux-lemma] 'אינו' is not an auxiliary verb in language [he]
-[Line 3039 Sent 588 Node 13]: [L5 Morpho aux-lemma] 'מסוגל' is not an auxiliary verb in language [he]
-[Line 3042 Sent 588 Node 16]: [L5 Morpho aux-lemma] 'מסוגל' is not an auxiliary verb in language [he]
 [Line 3052 Sent 588 Node 25]: [L5 Morpho aux-lemma] 'חשוב' is not an auxiliary verb in language [he]
 [Line 3151 Sent 590 Node 10]: [L5 Morpho aux-lemma] 'אפשר' is not an auxiliary verb in language [he]
-[Line 3232 Sent 591 Node 23]: [L5 Morpho aux-lemma] 'צריך' is not an auxiliary verb in language [he]
-[Line 3309 Sent 595 Node 13]: [L5 Morpho aux-lemma] 'אינו' is not an auxiliary verb in language [he]
-[Line 3614 Sent 602 Node 12]: [L5 Morpho aux-lemma] 'אינו' is not an auxiliary verb in language [he]
+[Line 3207 Sent 591 Node 3]: [L5 Morpho aux-lemma] 'הוא' is not an auxiliary verb in language [he]
+[Line 3334 Sent 595 Node 36]: [L5 Morpho aux-lemma] 'הוא' is not an auxiliary verb in language [he]
+[Line 3640 Sent 603 Node 1]: [L5 Morpho aux-lemma] 'אפשר' is not an auxiliary verb in language [he]
+[Line 3803 Sent 606 Node 16]: [L5 Morpho aux-lemma] 'הוא' is not an auxiliary verb in language [he]
+[Line 3982 Sent 610 Node 32]: [L5 Morpho aux-lemma] 'אסור' is not an auxiliary verb in language [he]
+[Line 4052 Sent 613 Node 15]: [L5 Morpho aux-lemma] 'יכול' is not an auxiliary verb in language [he]
 ...suppressing further errors regarding Morpho
-Morpho errors: 910
-Syntax errors: 2929
-*** FAILED *** with 3839 errors
+Morpho errors: 734
+Syntax errors: 2586
+*** FAILED *** with 3320 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
