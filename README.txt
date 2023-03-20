@@ -61,7 +61,7 @@ The Universal Dependencies Hebrew Treebank created by:
 
 - The following people were also involved in the creation of v2:
 - Amir More (adding Lemmas, detokenization, v1->v2 conversion)
-- Yuval Pinter (documentation)
+- Yuval Pinter (documentation, v2.12 fix guidelines)
 - Shoval Sadde (documentation, v2 validation and conversion)
 - Victoria Basmov (v2 validation and conversion)
 
@@ -118,8 +118,8 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Goldberg, Yoav; Tsarfaty, Reut; More, Amir; Sadde, Shoval; Basmov, Victoria
+Contributors: Goldberg, Yoav; Tsarfaty, Reut; More, Amir; Sadde, Shoval; Basmov, Victoria; Pinter, Yuval
 Contributing: elsewhere
-Contact: yoav.goldberg@gmail.com, reut.tsarfaty@gmail.com, habeanf@gmail.com, shovatz@gmail.com, vikasaeta@gmail.com
+Contact: yoav.goldberg@gmail.com, reut.tsarfaty@gmail.com, habeanf@gmail.com, shovatz@gmail.com, vikasaeta@gmail.com, uvp@cs.bgu.ac.il
 ===============================================================================
 </pre>
