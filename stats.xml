@@ -22,10 +22,10 @@
     <tag name="CCONJ">5121</tag><!-- ו, או, אבל, אך, _, אלא, אולם, אף, אילו, מאשר -->
     <tag name="DET">17281</tag><!-- ה, כול, כמה, רוב, _, הרבה, שום, מספר, אף, שאר -->
     <tag name="INTJ">3</tag><!-- בבקשה, חלילה, נא -->
-    <tag name="NOUN">38045</tag><!-- בית, _, שנה, איש, יום, חברה, דבר, משרד, מדינה, ארץ -->
+    <tag name="NOUN">38046</tag><!-- בית, _, שנה, איש, יום, חברה, דבר, משרד, מדינה, ארץ -->
     <tag name="NUM">3288</tag><!-- אחד, שני, אחת, שתי, 1, 0, מיליון, אלף, 2, שלושה -->
     <tag name="PRON">7706</tag><!-- הוא, זה, זו, כך, אלה, זאת, עצמו, אותו, _, אלו -->
-    <tag name="PROPN">7913</tag><!-- ישראל, ירושלים, כהנא, מכבי, ארה"ב, עיראק, כנסת, צה"ל, יורק, ניו -->
+    <tag name="PROPN">7912</tag><!-- ישראל, ירושלים, כהנא, מכבי, ארה"ב, עיראק, כנסת, צה"ל, יורק, ניו -->
     <tag name="PUNCT">18099</tag><!-- ,, ., ", -, ), (, :, ;, ?, ! -->
     <tag name="SCONJ">5520</tag><!-- ש, ה, כי, אם, כאשר, כש, אשר, משום, כפי, _ -->
     <tag name="VERB">14288</tag><!-- אמר, _, יש, הגיע, אין, היה, קיבל, עשה, עלה, עבר -->
@@ -80,7 +80,7 @@
     <feat name="Voice" value="Pass" upos="VERB">1065</feat><!-- מדובר, הוחלט, הוגשה, הוטל, מדורגת, מוצע, סוכם, הוגש, הוגשו, הועברו -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="36">
+  <deps unique="37">
     <dep name="acl">613</dep>
     <dep name="acl:relcl">2969</dep>
     <dep name="advcl">1299</dep>
@@ -101,7 +101,8 @@
     <dep name="det">17693</dep>
     <dep name="discourse">2</dep>
     <dep name="dislocated">16</dep>
-    <dep name="fixed">1448</dep>
+    <dep name="fixed">1447</dep>
+    <dep name="flat">1</dep>
     <dep name="flat:name">2683</dep>
     <dep name="mark">5286</dep>
     <dep name="mark:q">41</dep>
