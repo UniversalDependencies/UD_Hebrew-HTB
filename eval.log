@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Hebrew-HTB:
-commit 31739058511c5b3c8c4365b3bd5c800f224ff58f
-Merge: 3670e3f 7a0be32
+commit defac200387c0ac7e787a004d4f584ff5b954499
+Merge: 67a0f81 47b9ee3
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 160195 of 160195 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.1527836463218.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 28 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      12709
-Udapi: found 12709 bugs.
+               TOTAL      12660
+Udapi: found 12660 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 160195 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-HTB/he_htb-ud-dev.conllu
@@ -29,6 +29,8 @@ Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-HTB/he_htb-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-HTB/he_htb-ud-train.conllu
+[Line 166933 Sent 5189 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 10] 'משא * * מתן'
+Warnings: 1
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
@@ -37,8 +39,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.734882985592525) = 0.188431534767314
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
-(weight=0.307692307692308) * (score{udapi}=0.206654389962234) = 0.0635859661422257
+(weight=0.307692307692308) * (score{udapi}=0.20971316208371) = 0.0645271267949878
 (weight=0.0769230769230769) * (score{udeprels}=0.605405405405405) = 0.0465696465696466
-(TOTAL score=0.531769651249925) * (availability=1) * (validity=1) = 0.531769651249925
+(TOTAL score=0.532710811902688) * (availability=1) * (validity=1) = 0.532710811902688
 STARS = 2.5
-UD_Hebrew-HTB	0.531769651249925	2.5
+UD_Hebrew-HTB	0.532710811902688	2.5
