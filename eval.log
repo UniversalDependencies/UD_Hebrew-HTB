@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Hebrew-HTB:
-commit defac200387c0ac7e787a004d4f584ff5b954499
-Merge: 67a0f81 47b9ee3
+commit 90cf686509da4c949a3d3c65ad4cb5794b95aebf
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 6 12:04:41 2023 +0100
 Size: counted 160195 of 160195 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.1527836463218.
 Size: maximum value 13.815511 is for 1000000 words or more.
