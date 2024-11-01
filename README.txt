@@ -6,49 +6,34 @@ A Universal Dependencies Corpus for Hebrew.
 
 # Introduction
 
-Universal Dependencies - Hebrew Dependency Treebank (v2)
-<https://github.com/UniversalDependencies/UD_Hebrew>
+Universal Dependencies - Hebrew Dependency Treebank (v2) <https://github.com/UniversalDependencies/UD_Hebrew>
 
-V1 for the the corpus was built by semi-automatic conversion of the
-Hebrew Constituency Treebank (v2).
-V2 is converted from V1, using a combination of automatic conversion when possible,
-and manual conversion and verification in other cases.
-
-
+V1 for the the corpus was built by semi-automatic conversion of the Hebrew Constituency Treebank (v2).
+V2 is converted from V1, using a combination of automatic conversion when possible, and manual conversion and verification in other cases.
 
 # Structure
 
 This directory contains a corpus of sentences annotated using Universal Dependencies annotation.
 The corpus comprises 115,535 tokens (158,855 words) and 6,216 sentences, taken from the `Ha'aretz` newspaper.
-The trees were manually annotated into phrase-structure trees, and then semi-automatically converted
-into Universal Dependencies.
+The trees were manually annotated into phrase-structure trees, and then semi-automatically converted into Universal Dependencies.
 
-This file is compatible with the CoNLL-U format defined for Universal Dependencies. See:
-http://universaldependencies.github.io/docs/format.html . However, at present the files do not
-include lemmas for words. These may be added in a later release.
+This file is compatible with the CoNLL-U format defined for Universal Dependencies. See: <http://universaldependencies.github.io/docs/format.html> . However, at present the files do not include lemmas for words. These may be added in a later release.
 
 The dependency taxonomy can be found on the Universal Dependencies web site:
+* <http://universaldependencies.github.io/docs/>
+* <http://universaldependencies.github.io/docs/#language-he>
 
-    <http://universaldependencies.github.io/docs/>
-    <http://universaldependencies.github.io/docs/#language-he>
+The Train/Dev/Test split follows previous splits of the underlying Treebank, namely: sentences 1-484 dev (10,534 tokens), 485-5725 train (127,363 tokens), 5726-6216 test (11,386 tokens).
 
-The Train/Dev/Test split follows previous splits of the underlying Treebank, namely:
-sentences 1-484 dev (10,534 tokens), 485-5725 train (127,363 tokens), 5726-6216 test (11,386 tokens).
-
-Some parts of the structure are more reliable than others. In particular, words with a "morphological feature"
-entry of HebSource=ConvUncertainHead or HebSource=ConvUncertainLabel indicate that the head (label) information
-for this token is based on unreliable information.
-
+Some parts of the structure are more reliable than others. In particular, words with a "morphological feature" entry of HebSource=ConvUncertainHead or HebSource=ConvUncertainLabel indicate that the head (label) information for this token is based on unreliable information.
 
 
 # Fixes
 
-To help improve the corpus, please alert us to any errors you find in it;
-contact Yoav Goldberg at yoav.goldberg@gmail.com or Reut Tsarfaty at reut.tsarfaty@gmail.com
+To help improve the corpus, please alert us to any errors you find in it; contact Yoav Goldberg at yoav.goldberg@gmail.com or Reut Tsarfaty at reut.tsarfaty@gmail.com
 
 # Known issues
 - Does not yet fully annotate enhanced dependencies.
-
 
 
 # Acknowledgments
@@ -65,9 +50,7 @@ The Universal Dependencies Hebrew Treebank created by:
 - Shoval Sadde (documentation, v2 validation and conversion)
 - Victoria Basmov (v2 validation and conversion)
 
-The Universal Dependencies Hebrew Treebank is based on the
-Hebrew Constituency Treebank (v2) developed by MILA, The Knowledge Center for Processing Hebrew.
-(<http://www.mila.cs.technion.ac.il/resources_treebank.html>)
+The Universal Dependencies Hebrew Treebank is based on the Hebrew Constituency Treebank (v2) developed by MILA, The Knowledge Center for Processing Hebrew (<http://www.mila.cs.technion.ac.il/resources_treebank.html>).
 
 ## References
 
@@ -89,9 +72,7 @@ You are encouraged to cite these papers if you use the Hebrew Universal Dependen
     }
 ```
 
-Note that these papers do not accurately reflect the current annotation in the Treebank. A more up-to-date publication
-is forthcoming.
-
+Note that these papers do not accurately reflect the current annotation in the Treebank. A more up-to-date publication is forthcoming.
 
 
 # Changelog
