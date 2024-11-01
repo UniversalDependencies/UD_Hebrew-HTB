@@ -7,7 +7,7 @@ A Universal Dependencies Corpus for Hebrew.
 # Introduction
 
 Universal Dependencies - Hebrew Dependency Treebank (v2)
-https://github.com/UniversalDependencies/UD_Hebrew
+<https://github.com/UniversalDependencies/UD_Hebrew>
 
 V1 for the the corpus was built by semi-automatic conversion of the
 Hebrew Constituency Treebank (v2).
@@ -29,8 +29,8 @@ include lemmas for words. These may be added in a later release.
 
 The dependency taxonomy can be found on the Universal Dependencies web site:
 
-    http://universaldependencies.github.io/docs/
-    http://universaldependencies.github.io/docs/#language-he
+    <http://universaldependencies.github.io/docs/>
+    <http://universaldependencies.github.io/docs/#language-he>
 
 The Train/Dev/Test split follows previous splits of the underlying Treebank, namely:
 sentences 1-484 dev (10,534 tokens), 485-5725 train (127,363 tokens), 5726-6216 test (11,386 tokens).
@@ -67,7 +67,7 @@ The Universal Dependencies Hebrew Treebank created by:
 
 The Universal Dependencies Hebrew Treebank is based on the
 Hebrew Constituency Treebank (v2) developed by MILA, The Knowledge Center for Processing Hebrew.
-(http://www.mila.cs.technion.ac.il/resources_treebank.html)
+(<http://www.mila.cs.technion.ac.il/resources_treebank.html>)
 
 ## References
 
@@ -93,6 +93,18 @@ is forthcoming.
 
 
 # Changelog
+
+* v2.15
+  * Construction annotations in the [UCxn](https://github.com/LeonieWeissweiler/UCxn) framework** added to MISC
+     * This release adds rule-based annotations of Interrogatives, Conditionals, Existentials, and NPN (noun-preposition-noun) constructions on the head of the respective phrase, plus construction elements.
+     * The UCxn v1 notation and categories are documented [here](https://github.com/LeonieWeissweiler/UCxn/blob/main/docs/UCxn-v1.pdf).
+
+* v2.12
+  * Removed auxiliaries and copulae with children
+  * Fixed meta-data errors
+  * Fixed projection errors
+  * Fixed discrepancies between edge types and POS tags
+  * ... And many other small fixes
 
 * v2.12
   * Removed auxiliaries and copulae with children
