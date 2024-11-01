@@ -73,6 +73,7 @@ Hebrew Constituency Treebank (v2) developed by MILA, The Knowledge Center for Pr
 
 You are encouraged to cite these papers if you use the Hebrew Universal Dependencies Treebank:
 
+```
     @inproceedings{tsarfaty2013unified,
         title={A Unified Morpho-Syntactic Scheme of Stanford Dependencies},
         author={Tsarfaty, Reut},
@@ -86,6 +87,7 @@ You are encouraged to cite these papers if you use the Hebrew Universal Dependen
         booktitle={Proc. of ACL},
         year={2013}
     }
+```
 
 Note that these papers do not accurately reflect the current annotation in the Treebank. A more up-to-date publication
 is forthcoming.
