@@ -206,7 +206,7 @@
 24	סל	סל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	obj	_	_
 25	חולון	חולון	PROPN	PROPN	_	24	compound:smixut	_	_
 26	לא	לא	ADV	ADV	Polarity=Neg	27	advmod	_	_
-27	מאויים	מאוים	ADJ	ADJ	Gender=Masc|Number=Sing	22	xcomp	_	SpaceAfter=No|HebSource=ConvUncertainLabel
+27	מאויים	מאוים	ADJ	ADJ	Gender=Masc|Number=Sing	22	xcomp	_	HebSource=ConvUncertainLabel|SpaceAfter=No
 28	,	,	PUNCT	PUNCT	_	22	punct	_	_
 29	כי	כי	SCONJ	SCONJ	_	31	mark	_	_
 30	לא	לא	ADV	ADV	Polarity=Neg	31	advmod	_	_
@@ -931,7 +931,7 @@
 # text = להתראות בעוד חודש.
 1	להתראות	_	ADV	ADV	_	0	root	_	_
 2	בעוד	בעוד	ADP	ADP	_	3	case	_	_
-3	חודש	חודש	NOUN	NOUN	Gender=Masc|Number=Sing	1	dep	_	SpaceAfter=No|HebSource=ConvUncertainHead
+3	חודש	חודש	NOUN	NOUN	Gender=Masc|Number=Sing	1	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	1	punct	_	HebSource=ConvUncertainHead
 
 # sent_id = 5762
@@ -998,8 +998,8 @@
 4-5	המאמן	_	_	_	_	_	_	_	_
 4	ה	ה	DET	DET	PronType=Art	5	det	_	_
 5	מאמן	מאמן	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
-6	כיצד	כיצד	ADV	ADV	PronType=Int	7	advmod	_	_
-7	להוציא	הוציא	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+6	כיצד	כיצד	ADV	ADV	PronType=Int	7	advmod	_	CxnElt=7:Interrogative-WHInfo-Indirect.WHWord
+7	להוציא	הוציא	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	2	xcomp	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=7:Interrogative-WHInfo-Indirect.Clause
 8	את	את	ADP	ADP	Case=Acc	10	case:acc	_	_
 9-10	הפועל	_	_	_	_	_	_	_	_
 9	ה	ה	DET	DET	PronType=Art	10	det	_	_
@@ -1602,13 +1602,13 @@
 # sent_id = 5785
 # text = אם נשיג תוצאה טובה ביוון יהיה לנו זמן לעבוד על המהירות.
 1	אם	אם	SCONJ	SCONJ	_	2	mark	_	_
-2	נשיג	השיג	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=1|Tense=Fut|Voice=Act	7	advcl	_	_
+2	נשיג	השיג	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=1|Tense=Fut|Voice=Act	7	advcl	_	CxnElt=7:Conditional-NeutralEpistemic.Protasis
 3	תוצאה	תוצאה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obj	_	_
 4	טובה	טוב	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
 5-6	ביוון	_	_	_	_	_	_	_	_
 5	ב	ב	ADP	ADP	_	6	case	_	_
 6	יוון	יוון	PROPN	PROPN	_	2	obl	_	_
-7	יהיה	_	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	0	root	_	_
+7	יהיה	_	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	0	root	_	Cxn=Conditional-NeutralEpistemic|CxnElt=7:Conditional-NeutralEpistemic.Apodosis
 8-9	לנו	_	_	_	_	_	_	_	_
 8	ל_	ל	ADP	ADP	_	9	case	_	_
 9	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	7	obl	_	_
@@ -1657,8 +1657,8 @@
 6	עזריקם	עזריקם	PROPN	PROPN	_	1	dep	_	HebSource=ConvUncertainHead
 7	מילצן	מילצן	PROPN	PROPN	_	6	flat:name	_	_
 8	שאל	שאל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
-9	מדוע	מדוע	ADV	ADV	PronType=Int	10	advmod	_	_
-10	נוצחנו	נוצח	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=1|Tense=Past|Voice=Pass	8	advcl	_	_
+9	מדוע	מדוע	ADV	ADV	PronType=Int	10	advmod	_	CxnElt=10:Interrogative-WHInfo-Indirect.WHWord
+10	נוצחנו	נוצח	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=1|Tense=Past|Voice=Pass	8	advcl	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=10:Interrogative-WHInfo-Indirect.Clause
 11-12	בהפרשים	_	_	_	_	_	_	_	_
 11	ב	ב	ADP	ADP	_	12	case	_	_
 12	הפרשים	הפרש	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	_
@@ -2067,8 +2067,8 @@
 23	ה	ה	DET	DET	PronType=Art	24	det	_	_
 24	ספסל	ספסל	NOUN	NOUN	Gender=Masc|Number=Sing	16	obl	_	_
 25	מהרהר	הרהר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	16	parataxis	_	_
-26	כיצד	כיצד	ADV	ADV	PronType=Int	27	advmod	_	_
-27	יכלו	_	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	25	dep	_	HebSource=ConvUncertainHead
+26	כיצד	כיצד	ADV	ADV	PronType=Int	27	advmod	_	CxnElt=27:Interrogative-WHInfo-Indirect.WHWord
+27	יכלו	_	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	25	dep	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=27:Interrogative-WHInfo-Indirect.Clause|HebSource=ConvUncertainHead
 28-30	חניכיו	_	_	_	_	_	_	_	_
 28	חניך_	חניך	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	27	nsubj	_	_
 29	_של_	של	ADP	ADP	_	30	case:gen	_	_
@@ -2079,8 +2079,8 @@
 33	ה	ה	DET	DET	PronType=Art	34	det	_	_
 34	אלוף	אלוף	NOUN	NOUN	Gender=Masc|Number=Sing	31	obj	_	_
 35	;	;	PUNCT	PUNCT	_	37	punct	_	_
-36	כיצד	כיצד	ADV	ADV	PronType=Int	37	advmod	_	_
-37	נשמט	נשמט	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	27	conj	_	_
+36	כיצד	כיצד	ADV	ADV	PronType=Int	37	advmod	_	CxnElt=37:Interrogative-WHInfo-Indirect.WHWord
+37	נשמט	נשמט	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	27	conj	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=37:Interrogative-WHInfo-Indirect.Clause
 38-39	הניצחון	_	_	_	_	_	_	_	_
 38	ה	ה	DET	DET	PronType=Art	39	det	_	_
 39	ניצחון	ניצחון	NOUN	NOUN	Gender=Masc|Number=Sing	37	nsubj	_	_
@@ -3276,7 +3276,7 @@
 16-17	ולחזק	_	_	_	_	_	_	_	_
 16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
 17	לחזק	חיזק	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	15	conj	_	_
-18	דו	דו	ADV	ADV	Prefix=Yes	20	compound:affix	_	SpaceAfter=No|HebSource=ConvUncertainHead
+18	דו	דו	ADV	ADV	Prefix=Yes	20	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
 19	-	-	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
 20	קיום	קיום	NOUN	NOUN	Gender=Masc|Number=Sing	15	obj	_	_
 21	בין	בין	ADP	ADP	_	22	case	_	_
@@ -4892,7 +4892,7 @@
 1-2	ואולם	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
 2	אולם	אולם	ADV	ADV	_	5	advmod	_	_
-3	לכאורה	לכאורה	ADV	ADV	_	2	advmod	_	SpaceAfter=No|HebSource=ConvUncertainHead
+3	לכאורה	לכאורה	ADV	ADV	_	2	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	5	punct	_	_
 5	אין	אין	ADV	ADV	_	0	root	_	Modal=Yes
 6	להסיק	הסיק	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	5	xcomp	_	_
@@ -5156,7 +5156,7 @@
 77-78	בתובענה	_	_	_	_	_	_	_	_
 77	ב	ב	ADP	ADP	_	78	case	_	_
 78	תובענה	תובענה	NOUN	NOUN	Gender=Fem|Number=Sing	71	dep	_	HebSource=ConvUncertainHead
-79	גופה	גופה	NOUN	NOUN	Gender=Fem|Number=Sing	78	nmod	_	SpaceAfter=No|HebSource=ConvUncertainLabel
+79	גופה	גופה	NOUN	NOUN	Gender=Fem|Number=Sing	78	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
 80	,	,	PUNCT	PUNCT	_	68	punct	_	HebSource=ConvUncertainHead
 81-83	והנתבע	_	_	_	_	_	_	_	_
 81	ו	ו	CCONJ	CCONJ	_	68	dep	_	HebSource=ConvUncertainHead
@@ -5414,7 +5414,7 @@
 14	ארבעה	ארבעה	NUM	NUM	Gender=Masc|Number=Sing	12	conj	_	_
 15	!	!	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
 16	)	)	PUNCT	PUNCT	_	12	punct	_	_
-17	עמודים	עמוד	NOUN	NOUN	Gender=Masc|Number=Plur	10	dep	_	SpaceAfter=No|HebSource=ConvUncertainHead
+17	עמודים	עמוד	NOUN	NOUN	Gender=Masc|Number=Plur	10	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	4	punct	_	HebSource=ConvUncertainHead
 
 # sent_id = 5906
@@ -5441,7 +5441,7 @@
 17	חמישה	חמישה	NUM	NUM	Gender=Masc|Number=Sing	15	conj	_	_
 18	!	!	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
 19	)	)	PUNCT	PUNCT	_	15	punct	_	_
-20	עמודים	עמוד	NOUN	NOUN	Gender=Masc|Number=Plur	13	dep	_	SpaceAfter=No|HebSource=ConvUncertainHead
+20	עמודים	עמוד	NOUN	NOUN	Gender=Masc|Number=Plur	13	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
 21	,	,	PUNCT	PUNCT	_	31	punct	_	_
 22-23	ואילו	_	_	_	_	_	_	_	_
 22	ו	ו	CCONJ	CCONJ	_	31	dep	_	HebSource=ConvUncertainHead
@@ -5474,7 +5474,7 @@
 7	עמודי	עמוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	obl	_	_
 8	סיכומים	סיכום	NOUN	NOUN	Gender=Masc|Number=Plur	7	compound:smixut	_	_
 9	לא	לא	ADV	ADV	Polarity=Neg	10	advmod	_	_
-10	חסכו	חסך	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	35	advcl	_	_
+10	חסכו	חסך	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	35	advcl	_	CxnElt=35:Conditional-NeutralEpistemic.Protasis
 11	באי	_	NOUN	NOUN	Definite=Cons	13	nmod	_	SpaceAfter=No
 12	-	-	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
 13	כוח	כוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	nsubj	_	_
@@ -5506,7 +5506,7 @@
 33-34	הטענות	_	_	_	_	_	_	_	_
 33	ה	ה	DET	DET	PronType=Art	34	det	_	_
 34	טענות	טענה	NOUN	NOUN	Gender=Fem|Number=Plur	32	compound:smixut	_	_
-35	קימצו	קימץ	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+35	קימצו	קימץ	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	Cxn=Conditional-NeutralEpistemic|CxnElt=35:Conditional-NeutralEpistemic.Apodosis
 36	באי	_	NOUN	NOUN	Definite=Cons	38	nmod	_	SpaceAfter=No
 37	-	-	PUNCT	PUNCT	_	38	punct	_	SpaceAfter=No
 38	כוח	כוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	35	nsubj	_	_
@@ -5683,7 +5683,7 @@
 
 # sent_id = 5913
 # text = גורמי הצלחת ה"הקשרים" (בכורה) לקול ולאנסמבל כלי של שטיינברג, היו סיפורו הלבבי של קאמינגס "האיש הזקן שאמר למה?
-1	גורמי	גורם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	0	root	_	_
+1	גורמי	גורם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	0	root	_	Cxn=Interrogative-Polar-Direct|CxnElt=1:Interrogative-Polar-Direct.Clause
 2	הצלחת	הצלחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound:smixut	_	_
 3-5	ה"הקשרים	_	_	_	_	_	_	_	SpaceAfter=No
 3	ה	ה	DET	DET	PronType=Art	2	compound:smixut	_	_
@@ -5898,7 +5898,7 @@
 13	ניסוח_	ניסוח	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	_
 14	_של_	של	ADP	ADP	_	15	case:gen	_	_
 15	_הן	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Plur|Person=3|PronType=Prs	13	nmod:poss	_	_
-16	כאן	כאן	ADV	ADV	_	13	advmod	_	SpaceAfter=No|HebSource=ConvUncertainHead
+16	כאן	כאן	ADV	ADV	_	13	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
 17	,	,	PUNCT	PUNCT	_	21	punct	_	_
 18	דומני	_	NOUN	NOUN	_	21	obl	_	SpaceAfter=No
 19	,	,	PUNCT	PUNCT	_	21	punct	_	_
@@ -5994,7 +5994,7 @@
 4-5	האי	_	_	_	_	_	_	_	_
 4	ה	ה	DET	DET	PronType=Art	5	det	_	_
 5	אי	אי	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	HebSource=ConvUncertainLabel
-6	נראה	נראה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Mid	3	nmod	_	SpaceAfter=No|HebSource=ConvUncertainLabel
+6	נראה	נראה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Mid	3	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
 7	"	"	PUNCT	PUNCT	_	3	punct	_	_
 8	(	(	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 9	ארבעה	ארבעה	NUM	NUM	Gender=Masc|Number=Sing	3	appos	_	_
@@ -6108,8 +6108,8 @@
 8	ב	ב	ADP	ADP	_	9	case	_	_
 9	1945	1945	NUM	NUM	_	3	nmod	_	_
 10	,	,	PUNCT	PUNCT	_	11	punct	_	_
-11	קיימת	קיים	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	_
-12	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
+11	קיימת	קיים	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	Cxn=Existential-ExistPred-FullVerb
+12	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	CxnElt=11:Existential-ExistPred-FullVerb.Pivot
 13	בלטית	_	ADJ	ADJ	_	12	amod	_	_
 14	רביעית	רביעית	NUM	NUM	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	11	punct	_	_
@@ -6429,12 +6429,12 @@
 1	עד	עד	ADP	ADP	_	2	case	_	_
 2	1941	1941	NUM	NUM	_	4	obl	_	_
 3	היתה	_	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	4	cop	_	_
-4	קיימת	קיים	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	_
+4	קיימת	קיים	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	Cxn=Existential-ExistPred-FullVerb
 5	לאורך	לאורך	ADP	ADP	_	7	case	_	_
 6-7	הוולגה	_	_	_	_	_	_	_	_
 6	ה	ה	DET	DET	PronType=Art	7	det	_	_
 7	וולגה	וולגה	PROPN	PROPN	_	4	obl	_	_
-8	רפובליקה	רפובליקה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+8	רפובליקה	רפובליקה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	CxnElt=4:Existential-ExistPred-FullVerb.Pivot
 9	גרמנית	גרמני	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
 10	-	-	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 11	סובייטית	סובייטי	ADJ	ADJ	Gender=Fem|Number=Sing	9	dep	_	_
@@ -6669,8 +6669,8 @@
 7	_של_	של	ADP	ADP	_	8	case:gen	_	_
 8	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nmod:poss	_	_
 9	היתה	_	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	11	cop	_	_
-10	היכן	היכן	ADV	ADV	PronType=Int	11	advmod	_	_
-11	למקם	מיקם	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	0	root	_	_
+10	היכן	היכן	ADV	ADV	PronType=Int	11	advmod	_	CxnElt=11:Interrogative-WHInfo-Indirect.WHWord
+11	למקם	מיקם	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	0	root	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=11:Interrogative-WHInfo-Indirect.Clause
 12-13	אותה	_	_	_	_	_	_	_	SpaceAfter=No
 12	את_	את_	ADP	ADP	Case=Acc	13	case:acc	_	_
 13	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
@@ -7287,14 +7287,14 @@
 17-18	לריבונות	_	_	_	_	_	_	_	_
 17	ל	ל	ADP	ADP	_	18	case	_	_
 18	ריבונות	ריבונות	NOUN	NOUN	Gender=Fem|Number=Sing	16	nmod	_	_
-19	יכולה	_	VERB	VERB	Gender=Fem|Number=Sing|Person=1,2,3|VerbForm=Part	0	root	_	Modal=Yes
+19	יכולה	_	VERB	VERB	Gender=Fem|Number=Sing|Person=1,2,3|VerbForm=Part	0	root	_	Cxn=Conditional-NeutralEpistemic|CxnElt=19:Conditional-NeutralEpistemic.Apodosis|Modal=Yes
 20	לעלות	עלה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	19	xcomp	_	_
 21	על	על	ADP	ADP	_	23	case	_	_
 22-23	הפרק	_	_	_	_	_	_	_	_
 22	ה	ה	DET	DET	PronType=Art	23	det	_	_
 23	פרק	פרק	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
 24	אם	אם	SCONJ	SCONJ	_	25	mark	_	_
-25	תצליח	הצליח	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	19	advcl	_	_
+25	תצליח	הצליח	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	19	advcl	_	CxnElt=19:Conditional-NeutralEpistemic.Protasis
 26	ליטא	ליטא	PROPN	PROPN	_	25	nsubj	_	_
 27	להתנתק	התנתק	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	25	xcomp	_	_
 28-29	מברית	_	_	_	_	_	_	_	SpaceAfter=No
@@ -7311,10 +7311,10 @@
 1	אם	אם	SCONJ	SCONJ	_	4	mark	_	_
 2	ליטא	ליטא	PROPN	PROPN	_	4	nsubj	_	_
 3	תהיה	_	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	4	cop	_	_
-4	עצמאית	עצמאי	ADJ	ADJ	Gender=Fem|Number=Sing	7	advcl	_	SpaceAfter=No
+4	עצמאית	עצמאי	ADJ	ADJ	Gender=Fem|Number=Sing	7	advcl	_	CxnElt=7:Conditional-NeutralEpistemic.Protasis|SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	7	punct	_	_
 6	לא	לא	ADV	ADV	Polarity=Neg	7	advmod	_	_
-7	יהיה	_	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+7	יהיה	_	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	Cxn=Conditional-NeutralEpistemic|CxnElt=7:Conditional-NeutralEpistemic.Apodosis
 8-10	לרפובליקה	_	_	_	_	_	_	_	_
 8	ל	ל	ADP	ADP	_	10	case	_	_
 9	ה_	ה	DET	DET	PronType=Art	10	det	_	_
@@ -7573,7 +7573,7 @@
 2	ריבונית	ריבוני	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	_
 3	של	של	ADP	ADP	Case=Gen	4	case:gen	_	_
 4	קניגסברג	קניגסברג	PROPN	PROPN	_	1	nmod	_	_
-5	עלולה	עלול	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|Modal=Yes
+5	עלולה	עלול	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	Modal=Yes|SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	8	punct	_	_
 7-8	בדומה	_	_	_	_	_	_	_	_
 7	ב	ב	ADP	ADP	_	8	case	_	_
@@ -7660,7 +7660,7 @@
 # text = אם אכן תוקם רפובליקה אוטונומית גרמנית שתהפוך מאוחר יותר לריבונית, יהיה העולם עד לדוגמה מעניינת של היסטוריה החוזרת על עצמה.
 1	אם	אם	SCONJ	SCONJ	_	3	mark	_	_
 2	אכן	אכן	ADV	ADV	_	3	advmod	_	_
-3	תוקם	הוקם	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	17	advcl	_	_
+3	תוקם	הוקם	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	17	advcl	_	CxnElt=17:Conditional-NeutralEpistemic.Protasis
 4	רפובליקה	רפובליקה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
 5	אוטונומית	אוטונומי	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
 6	גרמנית	גרמני	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
@@ -7677,7 +7677,7 @@
 15-16	העולם	_	_	_	_	_	_	_	_
 15	ה	ה	DET	DET	PronType=Art	16	det	_	_
 16	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj	_	_
-17	עד	עד	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+17	עד	עד	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	Cxn=Conditional-NeutralEpistemic|CxnElt=17:Conditional-NeutralEpistemic.Apodosis
 18-19	לדוגמה	_	_	_	_	_	_	_	_
 18	ל	ל	ADP	ADP	_	19	case	_	_
 19	דוגמה	דוגמה	NOUN	NOUN	Gender=Fem|Number=Sing	17	nmod	_	_
@@ -7778,7 +7778,7 @@
 35	חמור	חמור	ADJ	ADJ	Gender=Masc|Number=Sing	34	amod	_	_
 36	של	של	ADP	ADP	Case=Gen	37	case:gen	_	_
 37	עומס	עומס	NOUN	NOUN	Gender=Masc|Number=Sing	34	nmod	_	_
-38	יתר	_	ADJ	ADJ	_	37	dep	_	SpaceAfter=No|HebSource=ConvUncertainHead
+38	יתר	_	ADJ	ADJ	_	37	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
 39	"	"	PUNCT	PUNCT	_	34	punct	_	_
 40-41	בבתי	_	_	_	_	_	_	_	SpaceAfter=No
 40	ב	ב	ADP	ADP	_	44	case	_	_
@@ -7824,7 +7824,7 @@
 1	"	"	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
 2	אם	אם	SCONJ	SCONJ	_	4	mark	_	_
 3	לא	לא	ADV	ADV	Polarity=Neg	4	advmod	_	_
-4	תימצא	נמצא	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	14	advcl	_	_
+4	תימצא	נמצא	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	14	advcl	_	CxnElt=14:Conditional-NeutralEpistemic.Protasis
 5	בקרוב	בקרוב	ADV	ADV	_	4	advmod	_	_
 6	תרופה	תרופה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
 7-8	לתיקון	_	_	_	_	_	_	_	_
@@ -7836,7 +7836,7 @@
 11	,	,	PUNCT	PUNCT	_	14	punct	_	_
 12	כי	כי	SCONJ	SCONJ	_	14	mark	_	_
 13	אז	אז	ADV	ADV	_	12	fixed	_	_
-14	יש	יש	ADV	ADV	_	48	obl	_	Modal=Yes
+14	יש	יש	ADV	ADV	_	48	obl	_	Cxn=Conditional-NeutralEpistemic|CxnElt=14:Conditional-NeutralEpistemic.Apodosis|Modal=Yes
 15	לחשוש	חשש	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	14	xcomp	_	_
 16-17	שבתי	_	_	_	_	_	_	_	SpaceAfter=No
 16	ש	ש	SCONJ	SCONJ	_	21	mark	_	_
@@ -8090,7 +8090,7 @@
 44-45	השני	_	_	_	_	_	_	_	_
 44	ה	ה	DET	DET	PronType=Art	45	det	_	_
 45	שני	שני	NUM	NUM	Gender=Masc|Number=Sing	43	amod	_	_
-46	לוותר	ויתר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	40	dep	_	SpaceAfter=No|HebSource=ConvUncertainHead
+46	לוותר	ויתר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	40	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
 47	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = 5979
@@ -8878,7 +8878,7 @@
 14-15	ברשות	_	_	_	_	_	_	_	_
 14	ב	ב	ADP	ADP	_	15	case	_	_
 15	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
-16	בלבד	בלבד	ADV	ADV	_	15	advmod	_	SpaceAfter=No|HebSource=ConvUncertainHead
+16	בלבד	בלבד	ADV	ADV	_	15	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	15	punct	_	_
 
 # sent_id = 5996
@@ -9023,7 +9023,7 @@
 6-7	ברשות	_	_	_	_	_	_	_	_
 6	ב	ב	ADP	ADP	_	7	case	_	_
 7	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
-8	בלבד	בלבד	ADV	ADV	_	7	advmod	_	SpaceAfter=No|HebSource=ConvUncertainHead
+8	בלבד	בלבד	ADV	ADV	_	7	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = 6001
@@ -10026,7 +10026,7 @@
 4	משמעות_	משמעות	NOUN	NOUN	Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	_
 5	_של_	של	ADP	ADP	_	6	case:gen	_	_
 6	_הוא	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	_	_
-7	תובנה	_	NOUN	NOUN	_	1	dep	_	SpaceAfter=No|HebSource=ConvUncertainHead
+7	תובנה	_	NOUN	NOUN	_	1	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	7	punct	_	_
 9	יצירתיות	יצירתיות	NOUN	NOUN	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	7	punct	_	_
@@ -10419,18 +10419,18 @@
 33	7	7	NUM	NUM	_	32	dep	_	HebSource=ConvUncertainHead
 34	5	5	NUM	NUM	_	32	dep	_	HebSource=ConvUncertainHead
 35	3	3	NUM	NUM	_	32	dep	_	HebSource=ConvUncertainHead
-36	2	2	NUM	NUM	_	32	dep	_	SpaceAfter=No|HebSource=ConvUncertainHead
+36	2	2	NUM	NUM	_	32	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
 37	.	.	PUNCT	PUNCT	_	20	punct	_	_
 
 # sent_id = 6041
 # text = מדוע לא ייתכן שקיים מספר ראשוני גדול יותר בעל אותה תכונה?
-1	מדוע	מדוע	ADV	ADV	PronType=Int	3	advmod	_	_
+1	מדוע	מדוע	ADV	ADV	PronType=Int	3	advmod	_	CxnElt=3:Interrogative-WHInfo-Direct.WHWord
 2	לא	לא	ADV	ADV	Polarity=Neg	3	advmod	_	_
-3	ייתכן	ייתכן	ADV	ADV	_	0	root	_	Modal=Yes
+3	ייתכן	ייתכן	ADV	ADV	_	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=3:Interrogative-WHInfo-Direct.Clause|Modal=Yes
 4-5	שקיים	_	_	_	_	_	_	_	_
 4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
-5	קיים	קיים	ADJ	ADJ	Gender=Masc|Number=Sing	3	ccomp	_	_
-6	מספר	מספר	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	קיים	קיים	ADJ	ADJ	Gender=Masc|Number=Sing	3	ccomp	_	Cxn=Existential-ExistPred-FullVerb
+6	מספר	מספר	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	CxnElt=5:Existential-ExistPred-FullVerb.Pivot
 7	ראשוני	ראשוני	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
 8	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
 9	יותר	יותר	ADV	ADV	_	8	advmod	_	_
@@ -10610,7 +10610,7 @@
 20	ה	ה	DET	DET	PronType=Art	21	det	_	_
 21	טכניון	טכניון	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
 22	,	,	PUNCT	PUNCT	_	5	punct	_	_
-23	חיפה	חיפה	PROPN	PROPN	_	5	dep	_	SpaceAfter=No|HebSource=ConvUncertainHead
+23	חיפה	חיפה	PROPN	PROPN	_	5	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
 24	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = 6049
@@ -11069,7 +11069,7 @@
 27	ערבי	ערבי	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
 28	לשעבר	לשעבר	ADV	ADV	_	27	advmod	_	SpaceAfter=No
 29	,	,	PUNCT	PUNCT	_	25	punct	_	_
-30	סומייל	סומייל	PROPN	PROPN	_	25	dep	_	SpaceAfter=No|HebSource=ConvUncertainHead
+30	סומייל	סומייל	PROPN	PROPN	_	25	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
 31	,	,	PUNCT	PUNCT	_	25	punct	_	_
 32	בליל	בליל	NOUN	NOUN	Gender=Masc|Number=Sing	25	dep	_	HebSource=ConvUncertainHead
 33	של	של	ADP	ADP	Case=Gen	34	case:gen	_	_
@@ -11640,9 +11640,9 @@
 8-9	המושג	_	_	_	_	_	_	_	_
 8	ה	ה	DET	DET	PronType=Art	9	det	_	_
 9	מושג	מושג	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
-10	פוסט	פוסט	ADV	ADV	Prefix=Yes	12	compound:affix	_	SpaceAfter=No|HebSource=ConvUncertainHead
+10	פוסט	פוסט	ADV	ADV	Prefix=Yes	12	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
 11	-	-	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
-12	מודרניזם	מודרניזם	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|HebSource=ConvUncertainLabel
+12	מודרניזם	מודרניזם	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
 13	,	,	PUNCT	PUNCT	_	7	punct	_	_
 14	אך	אך	CCONJ	CCONJ	_	20	cc	_	_
 15-16	התפיסה	_	_	_	_	_	_	_	_
@@ -12189,7 +12189,7 @@
 15	סכנת	סכנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	nsubj	_	_
 16	מאסר	מאסר	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
 17	על	על	ADP	ADP	_	20	case	_	_
-18	אי	אי	ADV	ADV	Prefix=Yes	20	compound:affix	_	SpaceAfter=No|HebSource=ConvUncertainHead
+18	אי	אי	ADV	ADV	Prefix=Yes	20	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
 19	-	-	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
 20	תשלום	תשלום	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
 21-22	שלהם	_	_	_	_	_	_	_	SpaceAfter=No
@@ -12912,7 +12912,7 @@
 # sent_id = 6102
 # text = בשרית אחת.
 1	בשרית	בשרי	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	_
-2	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	1	dep	_	SpaceAfter=No|HebSource=ConvUncertainHead
+2	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	1	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
 3	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = 6103
@@ -13208,9 +13208,9 @@
 
 # sent_id = 6111
 # text = אין שום דבר מתוחכם או מורכב במרקים הללו, אבל משום שהם עשירים, מלאים בירקות ומתובלים בצורה מושלמת, הם תמיד מהנים.
-1	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
+1	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	Cxn=Existential-NotExistPred-VblPart
 2	שום	שום	DET	DET	Definite=Cons	3	det	_	_
-3	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	_
+3	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	CxnElt=1:Existential-NotExistPred-VblPart.Pivot
 4	מתוחכם	מתוחכם	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
 5	או	או	CCONJ	CCONJ	_	6	cc	_	_
 6	מורכב	מורכב	ADJ	ADJ	Gender=Masc|Number=Sing	4	conj	_	_
@@ -14137,7 +14137,7 @@
 4	ה	ה	DET	DET	PronType=Art	5	det	_	_
 5	גבינה	גבינה	NOUN	NOUN	Gender=Fem|Number=Sing	3	compound:smixut	_	_
 6	היה	_	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	7	cop	_	_
-7	טעים	טעים	ADJ	ADJ	Gender=Masc|Number=Sing	1	dep	_	SpaceAfter=No|HebSource=ConvUncertainHead
+7	טעים	טעים	ADJ	ADJ	Gender=Masc|Number=Sing	1	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	9	punct	_	_
 9	נעדר	נעדר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Mid	0	root	_	_
 10-11	ממנו	_	_	_	_	_	_	_	_
@@ -15404,11 +15404,11 @@
 6	מקסימה	מקסים	ADJ	ADJ	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	3	punct	_	_
 8	אך	אך	CCONJ	CCONJ	_	9	cc	_	_
-9	יש	יש	VERB	VERB	HebExistential=Yes	3	conj	_	_
+9	יש	יש	VERB	VERB	HebExistential=Yes	3	conj	_	Cxn=Existential-ExistPred-VblPart
 10-12	כאלה	_	_	_	_	_	_	_	_
 10	כ	כ	ADP	ADP	_	12	case	_	_
 11	ה_	ה	DET	DET	PronType=Art	12	det	_	_
-12	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	9	nsubj	_	_
+12	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	9	nsubj	_	CxnElt=9:Existential-ExistPred-VblPart.Pivot
 13-14	הסבורים	_	_	_	_	_	_	_	_
 13	ה	ה	SCONJ	SCONJ	_	14	mark	_	_
 14	סבורים	_	ADV	ADV	_	12	acl:relcl	_	Modal=Yes
@@ -15790,7 +15790,7 @@
 21	מלוח	מלוח	ADJ	ADJ	Gender=Masc|Number=Sing	4	conj	_	_
 22	הרבה	הרבה	DET	DET	Definite=Cons	21	advmod	_	_
 23	יותר	יותר	ADV	ADV	_	22	advmod	_	HebSource=ConvUncertainHead
-24	מדי	מדי	ADV	ADV	_	22	advmod	_	SpaceAfter=No|HebSource=ConvUncertainHead
+24	מדי	מדי	ADV	ADV	_	22	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
 25	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = 6193
@@ -16142,8 +16142,8 @@
 14	ה	ה	DET	DET	PronType=Art	15	det	_	_
 15	טבח	טבח	NOUN	NOUN	Gender=Masc|Number=Sing	16	nsubj	_	_
 16	יודע	ידע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	12	ccomp	_	_
-17	כיצד	כיצד	ADV	ADV	PronType=Int	18	advmod	_	_
-18	לטפל	טיפל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+17	כיצד	כיצד	ADV	ADV	PronType=Int	18	advmod	_	CxnElt=18:Interrogative-WHInfo-Indirect.WHWord
+18	לטפל	טיפל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	16	xcomp	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=18:Interrogative-WHInfo-Indirect.Clause
 19-21	בפסטה	_	_	_	_	_	_	_	SpaceAfter=No
 19	ב	ב	ADP	ADP	_	21	case	_	_
 20	ה_	ה	DET	DET	PronType=Art	21	det	_	_
@@ -16193,7 +16193,7 @@
 10	טובים	טוב	ADJ	ADJ	Gender=Masc|Number=Plur	0	root	_	_
 11	אם	אם	SCONJ	SCONJ	_	13	dep	_	_
 12	לא	לא	ADV	ADV	Polarity=Neg	13	advmod	_	_
-13	מצוינים	מצוין	ADJ	ADJ	Gender=Masc|Number=Plur	10	dep	_	SpaceAfter=No|HebSource=ConvUncertainHead
+13	מצוינים	מצוין	ADJ	ADJ	Gender=Masc|Number=Plur	10	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	10	punct	_	_
 15-16	ואף	_	_	_	_	_	_	_	_
 15	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
