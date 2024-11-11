@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Hebrew-HTB:
-commit 90cf686509da4c949a3d3c65ad4cb5794b95aebf
+commit a5f1a160eb7e588fbfc291e6ea30183a5dee86c9
+Merge: 71d0570 0073820
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 12:04:41 2023 +0100
 Size: counted 160195 of 160195 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.1527836463218.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -29,8 +29,10 @@ Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-HTB/he_htb-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-HTB/he_htb-ud-train.conllu
+[Line 3801 Sent 606 Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:זה:det --> 14:או:dep)
+[Line 3802 Sent 606 Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:זה:det --> 15:אחר:dep)
 [Line 166933 Sent 5189 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 10] 'משא * * מתן'
-Warnings: 1
+Warnings: 3
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
