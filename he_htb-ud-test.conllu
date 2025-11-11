@@ -12758,9 +12758,9 @@
 25	,	,	PUNCT	PUNCT	_	16	punct	_	_
 26	כדי	כדי	ADP	ADP	_	30	case	_	_
 27-29	לעודדם	_	_	_	_	_	_	_	_
-27	לעודדם	_	VERB	VERB	VerbForm=Inf	30	dep	_	_
+27	לעודד	עודד	VERB	VERB	VerbForm=Inf	30	dep	_	_
 28	את	את	ADP	ADP	Case=Acc	29	case	_	_
-29	_הם	הוא	PRON	PRON	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	obj	_	_
+29	_הם	הוא	PRON	PRON	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	27	obj	_	_
 30	להקים	הקים	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	16	advcl	_	_
 31	את	את	ADP	ADP	Case=Acc	32	case:acc	_	_
 32	מנגנון	מנגנון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	30	obj	_	_

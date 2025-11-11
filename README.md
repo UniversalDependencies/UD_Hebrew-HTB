@@ -113,6 +113,7 @@ Note that these papers do not accurately reflect the current annotation in the T
 Data available since: UD v1.1
 License: CC BY-NC-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news
 Lemmas: converted from manual
 UPOS: converted from manual
