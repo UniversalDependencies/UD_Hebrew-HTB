@@ -10,7 +10,7 @@
     <dev><sentences>484</sentences><tokens>8358</tokens><words>11412</words><fused>2502</fused></dev>
     <test><sentences>491</sentences><tokens>8827</tokens><words>12282</words><fused>2853</fused></test>
   </size>
-  <lemmas unique="10358" /><!-- ה, ב, ,, ., הוא, של, ל, ו, ש, את, ", מ, על, -, לא -->
+  <lemmas unique="10357" /><!-- ה, ב, ,, ., הוא, של, ל, ו, ש, את, ", מ, על, -, לא -->
   <forms unique="17797" /><!-- ה, ב, ,, ., ו, ל, ש, ה_, _של_, של, _הוא, ", את, מ, על -->
   <fusions unique="15653" /><!-- לו, שהוא, בו, המשפט, המשטרה, אותו, שלו, ביום, בבית, הפועל, בכל, הממשלה, החברה, ולא, שלא -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -34,7 +34,7 @@
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="45">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,CCONJ,NOUN,NUM,PROPN,X">994</feat><!-- ש"ח, ארה"ב, יו"ר, צה"ל, מנכ"ל, ח"כ, בית"ר, בריה"ם, ד"ר, חו"ל -->
-    <feat name="Case" value="Acc" upos="ADP,PRON">2047</feat><!-- את, את_, _הוא, _הם, _היא, _הן, אתכם, _אני, _אתה, _אתם -->
+    <feat name="Case" value="Acc" upos="ADP,PRON">2046</feat><!-- את, את_, _הוא, _הם, _היא, _הן, אתכם, _אני, _אתה, _אתם -->
     <feat name="Case" value="Gen" upos="ADP,PRON">4868</feat><!-- של, _הוא, _היא, _הם, של_, _הן, _אני, _אנחנו, _אתה, שלהם -->
     <feat name="Case" value="Tem" upos="ADP,NUM,SCONJ">144</feat><!-- כש, 20.30, מש, 20.00, 01.00, 1.2.19, 1.6.90, 13.00, 13.11, 14.3.89 -->
     <feat name="Definite" value="Cons" upos="ADJ,DET,NOUN,NUM,VERB">10801</feat><!-- כל, בית, משרד, שני, כמה, יום, שר, תל, פי, ידי -->
@@ -80,30 +80,31 @@
     <feat name="Voice" value="Pass" upos="VERB">1065</feat><!-- מדובר, הוחלט, הוגשה, הוטל, מדורגת, מוצע, סוכם, הוגש, הוגשו, הועברו -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="37">
+  <deps unique="38">
     <dep name="acl">613</dep>
     <dep name="acl:relcl">2969</dep>
     <dep name="advcl">1299</dep>
     <dep name="advmod">5389</dep>
     <dep name="amod">6955</dep>
     <dep name="appos">1236</dep>
-    <dep name="case">19483</dep>
-    <dep name="case:acc">1947</dep>
+    <dep name="case">19484</dep>
+    <dep name="case:acc">1946</dep>
     <dep name="case:gen">4812</dep>
-    <dep name="cc">4680</dep>
+    <dep name="cc">4681</dep>
     <dep name="ccomp">932</dep>
     <dep name="compound:affix">235</dep>
     <dep name="compound:smixut">8624</dep>
-    <dep name="conj">5399</dep>
+    <dep name="conj">5405</dep>
     <dep name="cop">1421</dep>
     <dep name="csubj">103</dep>
-    <dep name="dep">2479</dep>
+    <dep name="dep">2473</dep>
     <dep name="det">17693</dep>
     <dep name="discourse">2</dep>
     <dep name="dislocated">16</dep>
     <dep name="fixed">1447</dep>
     <dep name="flat">1</dep>
     <dep name="flat:name">2683</dep>
+    <dep name="iobj">4</dep>
     <dep name="mark">5286</dep>
     <dep name="mark:q">41</dep>
     <dep name="nmod">7135</dep>
@@ -112,11 +113,11 @@
     <dep name="nsubj:cop">360</dep>
     <dep name="nsubj:outer">50</dep>
     <dep name="nummod">2123</dep>
-    <dep name="obj">3916</dep>
-    <dep name="obl">12026</dep>
+    <dep name="obj">3905</dep>
+    <dep name="obl">12027</dep>
     <dep name="parataxis">294</dep>
     <dep name="punct">18097</dep>
     <dep name="root">6143</dep>
-    <dep name="xcomp">1756</dep>
+    <dep name="xcomp">1761</dep>
   </deps>
 </treebank>
