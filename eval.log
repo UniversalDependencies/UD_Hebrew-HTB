@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Hebrew-HTB:
-commit 14aa73d1469727e50765c08bc44980fa4f4c6b3e
-Merge: 28d67cb 4cdb833
+commit 7df585aa2e72b2c04994fc8047fc9fb6b4a6534e
+Merge: a6d496c 7fac1e5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'he_htb'
@@ -25,46 +25,79 @@ Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-HTB/he_htb-ud-dev.conllu
-[Line 138 Sent 4]: [L3 Warning fixed-without-extpos] Fixed expression 'פחות מ' does not have the 'ExtPos' feature
-[Line 229 Sent 6]: [L3 Warning fixed-without-extpos] Fixed expression 'מתחת ל' does not have the 'ExtPos' feature
-[Line 453 Sent 12]: [L3 Warning fixed-without-extpos] Fixed expression 'היות ו' does not have the 'ExtPos' feature
-[Line 496 Sent 13]: [L3 Warning fixed-without-extpos] Fixed expression 'על רקע' does not have the 'ExtPos' feature
-[Line 508 Sent 13]: [L3 Warning pron-det-without-prontype] The word 'כל' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 582 Sent 15]: [L3 Warning pron-det-without-prontype] The word 'היא' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 738 Sent 20]: [L3 Warning pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 770 Sent 21]: [L3 Warning pron-det-without-prontype] The word 'אף' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 840 Sent 23]: [L3 Warning pron-det-without-prontype] The word 'כל' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 909 Sent 25]: [L3 Warning fixed-without-extpos] Fixed expression 'למרות ש' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
+[Line 138 Sent 4]: [L3 WARNING fixed-without-extpos] Fixed expression 'פחות מ' does not have the 'ExtPos' feature
+[Line 229 Sent 6]: [L3 WARNING fixed-without-extpos] Fixed expression 'מתחת ל' does not have the 'ExtPos' feature
+[Line 453 Sent 12]: [L3 WARNING fixed-without-extpos] Fixed expression 'היות ו' does not have the 'ExtPos' feature
+[Line 496 Sent 13]: [L3 WARNING fixed-without-extpos] Fixed expression 'על רקע' does not have the 'ExtPos' feature
+[Line 508 Sent 13]: [L3 WARNING pron-det-without-prontype] The word 'כל' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 582 Sent 15]: [L3 WARNING pron-det-without-prontype] The word 'היא' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 738 Sent 20]: [L3 WARNING pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 770 Sent 21]: [L3 WARNING pron-det-without-prontype] The word 'אף' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 840 Sent 23]: [L3 WARNING pron-det-without-prontype] The word 'כל' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 909 Sent 25]: [L3 WARNING fixed-without-extpos] Fixed expression 'למרות ש' does not have the 'ExtPos' feature
+[Line 919 Sent 25]: [L3 WARNING fixed-without-extpos] Fixed expression 'למרות ש' does not have the 'ExtPos' feature
+[Line 928 Sent 25]: [L3 WARNING pron-det-without-prontype] The word 'כל' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1077 Sent 28]: [L3 WARNING pron-det-without-prontype] The word 'כל' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1117 Sent 28]: [L3 WARNING pron-det-without-prontype] The word 'כל' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1156 Sent 29]: [L3 WARNING fixed-without-extpos] Fixed expression 'על אף' does not have the 'ExtPos' feature
+[Line 1490 Sent 40]: [L3 WARNING pron-det-without-prontype] The word 'כל' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1513 Sent 40]: [L3 WARNING fixed-without-extpos] Fixed expression 'תוך כדי' does not have the 'ExtPos' feature
+[Line 1520 Sent 40]: [L3 WARNING fixed-without-extpos] Fixed expression 'קודם כל' does not have the 'ExtPos' feature
+[Line 1521 Sent 40]: [L3 WARNING pron-det-without-prontype] The word 'כל' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 1531 Sent 40]: [L3 WARNING fixed-without-extpos] Fixed expression 'מ מולך' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
 Warnings: 235
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-HTB/he_htb-ud-test.conllu
-[Line 36 Sent 5726]: [L3 Warning pron-det-without-prontype] The word 'מרבית' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 66 Sent 5726]: [L3 Warning pron-det-without-prontype] The word 'מרבית' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 312 Sent 5735]: [L3 Warning fixed-without-extpos] Fixed expression 'עד כדי' does not have the 'ExtPos' feature
-[Line 372 Sent 5737]: [L3 Warning fixed-without-extpos] Fixed expression 'יותר מ' does not have the 'ExtPos' feature
-[Line 375 Sent 5737]: [L3 Warning pron-det-without-prontype] The word 'כל' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 462 Sent 5740]: [L3 Warning pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 517 Sent 5741]: [L3 Warning pron-det-without-prontype] The word 'היא' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 643 Sent 5747]: [L3 Warning pron-det-without-prontype] The word 'זה' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 767 Sent 5754]: [L3 Warning pron-det-without-prontype] The word 'זה' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 1055 Sent 5767]: [L3 Warning pron-det-without-prontype] The word 'היא' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
+[Line 36 Sent 5726]: [L3 WARNING pron-det-without-prontype] The word 'מרבית' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 66 Sent 5726]: [L3 WARNING pron-det-without-prontype] The word 'מרבית' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 312 Sent 5735]: [L3 WARNING fixed-without-extpos] Fixed expression 'עד כדי' does not have the 'ExtPos' feature
+[Line 372 Sent 5737]: [L3 WARNING fixed-without-extpos] Fixed expression 'יותר מ' does not have the 'ExtPos' feature
+[Line 375 Sent 5737]: [L3 WARNING pron-det-without-prontype] The word 'כל' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 462 Sent 5740]: [L3 WARNING pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 517 Sent 5741]: [L3 WARNING pron-det-without-prontype] The word 'היא' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 643 Sent 5747]: [L3 WARNING pron-det-without-prontype] The word 'זה' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 767 Sent 5754]: [L3 WARNING pron-det-without-prontype] The word 'זה' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1055 Sent 5767]: [L3 WARNING pron-det-without-prontype] The word 'היא' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1073 Sent 5768]: [L3 WARNING fixed-without-extpos] Fixed expression 'יחד עם זאת' does not have the 'ExtPos' feature
+[Line 1080 Sent 5768]: [L3 WARNING pron-det-without-prontype] The word 'כל' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1271 Sent 5776]: [L3 WARNING pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1277 Sent 5776]: [L3 WARNING fixed-without-extpos] Fixed expression 'עד ש' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 1820 Sent 5794]: [L3 WARNING fixed-without-extpos] Fixed expression 'אחרי ש' does not have the 'ExtPos' feature
+[Line 2136 Sent 5804]: [L3 WARNING fixed-without-extpos] Fixed expression 'מ אז' does not have the 'ExtPos' feature
+[Line 2417 Sent 5815]: [L3 WARNING fixed-without-extpos] Fixed expression 'ב מהלך' does not have the 'ExtPos' feature
+[Line 2617 Sent 5825]: [L3 WARNING fixed-without-extpos] Fixed expression 'מתחת ל' does not have the 'ExtPos' feature
+[Line 2793 Sent 5831]: [L3 WARNING fixed-without-extpos] Fixed expression 'מ חוץ ל' does not have the 'ExtPos' feature
+[Line 2866 Sent 5834]: [L3 WARNING fixed-without-extpos] Fixed expression 'על רקע' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
 Warnings: 173
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-HTB/he_htb-ud-train.conllu
-[Line 7 Sent 485]: [L3 Warning fixed-without-extpos] Fixed expression 'סוף סוף' does not have the 'ExtPos' feature
-[Line 47 Sent 487]: [L3 Warning fixed-without-extpos] Fixed expression 'אך בקושי' does not have the 'ExtPos' feature
-[Line 424 Sent 504]: [L3 Warning fixed-without-extpos] Fixed expression 'ל אורך' does not have the 'ExtPos' feature
-[Line 1068 Sent 524]: [L3 Warning pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1175 Sent 529]: [L3 Warning pron-det-without-prontype] The word 'כל' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1249 Sent 532]: [L3 Warning fixed-without-extpos] Fixed expression 'על רקע' does not have the 'ExtPos' feature
-[Line 1314 Sent 535]: [L3 Warning fixed-without-extpos] Fixed expression 'מ פי' does not have the 'ExtPos' feature
-[Line 1477 Sent 540]: [L3 Warning pron-det-without-prontype] The word 'רוב' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1848 Sent 550]: [L3 Warning fixed-without-extpos] Fixed expression 'החל מ' does not have the 'ExtPos' feature
-[Line 1953 Sent 555]: [L3 Warning pron-det-without-prontype] The word 'כל' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 2332
+[Line 7 Sent 485]: [L3 WARNING fixed-without-extpos] Fixed expression 'סוף סוף' does not have the 'ExtPos' feature
+[Line 47 Sent 487]: [L3 WARNING fixed-without-extpos] Fixed expression 'אך בקושי' does not have the 'ExtPos' feature
+[Line 424 Sent 504]: [L3 WARNING fixed-without-extpos] Fixed expression 'ל אורך' does not have the 'ExtPos' feature
+[Line 1068 Sent 524]: [L3 WARNING pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1175 Sent 529]: [L3 WARNING pron-det-without-prontype] The word 'כל' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1249 Sent 532]: [L3 WARNING fixed-without-extpos] Fixed expression 'על רקע' does not have the 'ExtPos' feature
+[Line 1314 Sent 535]: [L3 WARNING fixed-without-extpos] Fixed expression 'מ פי' does not have the 'ExtPos' feature
+[Line 1477 Sent 540]: [L3 WARNING pron-det-without-prontype] The word 'רוב' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1848 Sent 550]: [L3 WARNING fixed-without-extpos] Fixed expression 'החל מ' does not have the 'ExtPos' feature
+[Line 1953 Sent 555]: [L3 WARNING pron-det-without-prontype] The word 'כל' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1967 Sent 556]: [L3 WARNING pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2167 Sent 562]: [L3 WARNING fixed-without-extpos] Fixed expression 'על ידי' does not have the 'ExtPos' feature
+[Line 2193 Sent 563]: [L3 WARNING fixed-without-extpos] Fixed expression 'ב מהלך' does not have the 'ExtPos' feature
+[Line 2557 Sent 575]: [L3 WARNING fixed-without-extpos] Fixed expression 'תוך כדי' does not have the 'ExtPos' feature
+[Line 2707 Sent 580]: [L3 WARNING pron-det-without-prontype] The word 'כל' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2823 Sent 584]: [L3 WARNING fixed-without-extpos] Fixed expression 'על ידי' does not have the 'ExtPos' feature
+[Line 2844 Sent 585]: [L3 WARNING pron-det-without-prontype] The word 'כל' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 2975 Sent 587]: [L3 WARNING pron-det-without-prontype] The word 'כל' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3051 Sent 588]: [L3 WARNING pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3168 Sent 590]: [L3 WARNING pron-det-without-prontype] The word 'שאר' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 2330
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
