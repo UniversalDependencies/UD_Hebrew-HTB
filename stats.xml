@@ -107,14 +107,14 @@
     <dep name="iobj">4</dep>
     <dep name="mark">5286</dep>
     <dep name="mark:q">41</dep>
-    <dep name="nmod">7135</dep>
+    <dep name="nmod">7137</dep>
     <dep name="nmod:poss">4071</dep>
     <dep name="nsubj">8479</dep>
     <dep name="nsubj:cop">360</dep>
     <dep name="nsubj:outer">50</dep>
     <dep name="nummod">2123</dep>
     <dep name="obj">3905</dep>
-    <dep name="obl">12027</dep>
+    <dep name="obl">12025</dep>
     <dep name="parataxis">294</dep>
     <dep name="punct">18097</dep>
     <dep name="root">6143</dep>
