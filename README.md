@@ -44,11 +44,11 @@ The Universal Dependencies Hebrew Treebank created by:
 - Yoav Goldberg
 - Reut Tsarfaty
 
-- The following people were also involved in the creation of v2:
-- Amir More (adding Lemmas, detokenization, v1->v2 conversion)
-- Yuval Pinter (documentation, v2.12 fix guidelines)
-- Shoval Sadde (documentation, v2 validation and conversion)
+The following people were also involved in the creation of v2:
 - Victoria Basmov (v2 validation and conversion)
+- Amir More (adding Lemmas, detokenization, v1->v2 conversion)
+- Yuval Pinter (documentation, fix guidelines for v2.12 onwards)
+- Shoval Sadde (documentation, v2 validation and conversion)
 
 The Universal Dependencies Hebrew Treebank is based on the Hebrew Constituency Treebank (v2) developed by MILA, The Knowledge Center for Processing Hebrew (<http://www.mila.cs.technion.ac.il/resources_treebank.html>).
 
@@ -77,6 +77,10 @@ Note that these papers do not accurately reflect the current annotation in the T
 
 # Changelog
 
+* v2.17
+  * Removed double-`obj` annotations
+  * Fixed annotation of "ze o acher"
+
 * v2.15
   * Construction annotations in the [UCxn](https://github.com/LeonieWeissweiler/UCxn) framework added to MISC
      * This release adds rule-based annotations of Interrogatives, Conditionals, Existentials, and NPN (noun-preposition-noun) constructions on the head of the respective phrase, plus construction elements.
@@ -89,20 +93,17 @@ Note that these papers do not accurately reflect the current annotation in the T
   * Fixed discrepancies between edge types and POS tags
   * ... And many other small fixes
 
-* v2.12
-  * Removed auxiliaries and copulae with children
-  * Fixed meta-data errors
-  * Fixed projection errors
-  * Fixed discrepancies between edge types and POS tags
-  * ... And many other small fixes
 * v2.8
   * Fixed validation issues with lang-spec relations and features.
   * Attribute HebSource moved from FEATS to MISC; same for undocumented Xtra=Junk.
   * HebExistential changed from True to Yes as with other boolean features in UD.
+
 * v2.2
   * Repository renamed from UD_Hebrew to UD_Hebrew-HTB.
+
 * v2.0
   * Conversion to UD v2 guidelines.
+
 * v1.2
   * Fixed a labeling bug.
 
