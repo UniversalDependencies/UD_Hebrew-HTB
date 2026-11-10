@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Hebrew-HTB:
-commit 7df585aa2e72b2c04994fc8047fc9fb6b4a6534e
-Merge: a6d496c 7fac1e5
+commit dd6d2133e6b9373e7e4888a1b33724df38e2e549
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed May 6 12:54:03 2026 +0200
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'he_htb'
 Language code (from CoNLL-U file name) = 'he'
